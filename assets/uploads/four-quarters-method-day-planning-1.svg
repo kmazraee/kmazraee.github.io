@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="روش چهار کوارتر: صبح، میان‌روز، بعدازظهر و شب، هر کدام فرصتی مستقل برای شروع دوباره">
+<rect width="800" height="338" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">روش چهار کوارتر</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="100" text-anchor="middle" font-size="18" fill="#1f2937">کوارتر ۱: صبح</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="162" text-anchor="middle" font-size="18" fill="#1f2937">کوارتر ۲: میان‌روز</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="224" text-anchor="middle" font-size="18" fill="#1f2937">کوارتر ۳: بعدازظهر</text>
+<rect x="80" y="256" width="640" height="48" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="286" text-anchor="middle" font-size="18" fill="#1f2937">کوارتر ۴: شب</text>
+</svg>

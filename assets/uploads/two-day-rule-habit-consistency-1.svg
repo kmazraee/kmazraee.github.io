@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 276" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه گام قانون دو روز: انتخاب یک یا دو عادت کوچک، ثبت روزانه‌ی پیشرفت و بازگشت سریع بعد از یک روز از دست‌رفته">
+<rect width="800" height="276" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">قانون دو روز: هرگز دو روز پیاپی جا نیندازید</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="100" text-anchor="middle" font-size="18" fill="#1f2937">۱. یک یا دو عادت کوچک انتخاب کنید</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="162" text-anchor="middle" font-size="18" fill="#1f2937">۲. هر روز انجام را علامت بزنید</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="224" text-anchor="middle" font-size="18" fill="#1f2937">۳. بعد از یک روز از دست‌رفته فوراً برگردید</text>
+</svg>
