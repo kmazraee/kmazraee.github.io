@@ -247,3 +247,10 @@ td{padding:8px;border-bottom:1px solid var(--color-divider)}
   .foot{grid-template-columns:minmax(0,1fr);gap:8px}
   .foot .end{text-align:right}
 }
+
+/* photo placeholder (until a photo is set in _config.yml → photo) */
+.photo-ph{display:flex;align-items:center;justify-content:center;width:100%;background:var(--color-surface);border:1px dashed var(--color-divider);color:var(--color-neutral-700);font-size:13px}
+.hero-photo .photo-ph{aspect-ratio:1/1}
+.about .photo-ph{aspect-ratio:4/5}
+.author .photo-ph{width:72px;height:72px}
+@media (max-width:860px){.hero-photo .photo-ph{width:56px;height:56px;flex:none}.hero-photo .photo-ph span{display:none}}
