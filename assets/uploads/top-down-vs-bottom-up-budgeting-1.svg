@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی بودجه‌بندی بالا به پایین و پایین به بالا: در روش اول مدیریت ارشد هدف کل را تعیین و بین واحدها تقسیم می‌کند و در روش دوم واحدها برآورد می‌دهند و جمع آن‌ها بودجه‌ی کل می‌شود">
+<rect width="800" height="340" fill="#ffffff"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">بودجه‌بندی بالا به پایین یا پایین به بالا؟</text>
+<g text-anchor="middle" font-size="15">
+<rect x="420" y="60" width="360" height="260" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="600" y="92" font-size="18" font-weight="700" fill="#1a365d">بالا به پایین</text>
+<rect x="490" y="108" width="220" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0"/>
+<text x="600" y="134" fill="#1f2937">مدیریت ارشد: هدف کل سال</text>
+<path d="M600 150 L600 176" stroke="#2b6cb0" stroke-width="2"/>
+<polygon points="594,174 606,174 600,184" fill="#2b6cb0"/>
+<rect x="490" y="186" width="220" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0"/>
+<text x="600" y="212" fill="#1f2937">تقسیم هدف میان واحدها</text>
+<path d="M600 228 L600 254" stroke="#2b6cb0" stroke-width="2"/>
+<polygon points="594,252 606,252 600,262" fill="#2b6cb0"/>
+<rect x="490" y="264" width="220" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0"/>
+<text x="600" y="290" fill="#1f2937">واحدها بودجه‌ی خود را می‌بندند</text>
+<rect x="20" y="60" width="380" height="260" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="210" y="92" font-size="18" font-weight="700" fill="#1c4532">پایین به بالا</text>
+<rect x="100" y="108" width="220" height="40" rx="8" fill="#ffffff" stroke="#2f855a"/>
+<text x="210" y="134" fill="#1f2937">واحدها: برآورد فروش و هزینه</text>
+<path d="M210 150 L210 176" stroke="#2f855a" stroke-width="2"/>
+<polygon points="204,174 216,174 210,184" fill="#2f855a"/>
+<rect x="100" y="186" width="220" height="40" rx="8" fill="#ffffff" stroke="#2f855a"/>
+<text x="210" y="212" fill="#1f2937">تجمیع در تیم مالی</text>
+<path d="M210 228 L210 254" stroke="#2f855a" stroke-width="2"/>
+<polygon points="204,252 216,252 210,262" fill="#2f855a"/>
+<rect x="100" y="264" width="220" height="40" rx="8" fill="#ffffff" stroke="#2f855a"/>
+<text x="210" y="290" fill="#1f2937">بازبینی و تأیید مدیریت ارشد</text>
+</g>
+</svg>
