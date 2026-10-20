@@ -9,6 +9,10 @@ phone: ""
 linkedin: ""
 telegram: ""
 lang: fa
+url: "https://kmazraee.github.io"
+baseurl: ""
+plugins:
+  - jekyll-sitemap
 permalink: /posts/:year/:month/:day/:title/
 words_per_minute: 200
 markdown: kramdown
