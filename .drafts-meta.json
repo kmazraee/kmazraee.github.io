@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-20",
+  "branch": "blog-drafts/2026-10-20-c",
+  "posts": [
+    {"n":1,"file":"_posts/2022-06-09-finance-business-partner-guide.md","threads":["18bcde0a9d74acd2"],"label":"Asif Masani","keyword":"شریک تجاری مالی"},
+    {"n":2,"file":"_posts/2022-06-14-budget-vs-actual-variance-analysis.md","threads":["18d1c6e0ff44b06a"],"label":"Asif Masani","keyword":"تحلیل بودجه در برابر عملکرد"},
+    {"n":3,"file":"_posts/2022-06-19-first-90-days-fpa-role.md","threads":["18e1374108a723cc"],"label":"Asif Masani","keyword":"۹۰ روز اول نقش مالی جدید"},
+    {"n":4,"file":"_posts/2022-06-24-forecasting-techniques-fpa.md","threads":["18e242ffea78852c","18e47bad274f8b08"],"label":"Asif Masani","keyword":"روش‌های پیش‌بینی مالی"},
+    {"n":5,"file":"_posts/2022-06-29-scenario-planning-financial-model.md","threads":["18e579eefbb39e60"],"label":"Asif Masani","keyword":"برنامه‌ریزی سناریو در مدل مالی"},
+    {"n":6,"file":"_posts/2022-07-04-sensitivity-analysis-financial-model.md","threads":["18e61ca5d5659e15"],"label":"Asif Masani","keyword":"تحلیل حساسیت مدل مالی"},
+    {"n":7,"file":"_posts/2022-07-09-fpa-myths-misconceptions.md","threads":["18e860764ef20aac"],"label":"Asif Masani","keyword":"باورهای غلط FP&A"},
+    {"n":8,"file":"_posts/2022-07-14-top-down-vs-bottom-up-budgeting.md","threads":["18ff288551f20dc0"],"label":"Asif Masani","keyword":"بودجه‌بندی بالا به پایین و پایین به بالا"}
+  ]
+}
