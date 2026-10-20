@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+  <rect width="800" height="420" fill="#faf8f3"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">تفکر معکوس: به داده‌ی غایب نگاه کنید</text>
+  <g>
+    <rect x="60" y="80" width="320" height="240" rx="14" fill="#ffffff" stroke="#d9d3c4"/>
+    <text x="220" y="112" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2a37">هواپیمای بازگشته</text>
+    <ellipse cx="220" cy="205" rx="95" ry="22" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="190,205 150,150 175,150 225,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="190,205 150,260 175,260 225,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="305,205 330,170 345,170 330,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <g fill="#c0392b">
+      <circle cx="165" cy="160" r="4"/><circle cx="170" cy="250" r="4"/><circle cx="180" cy="170" r="4"/>
+      <circle cx="195" cy="200" r="4"/><circle cx="235" cy="210" r="4"/><circle cx="260" cy="198" r="4"/>
+      <circle cx="320" cy="190" r="4"/><circle cx="330" cy="178" r="4"/><circle cx="175" cy="258" r="4"/>
+    </g>
+    <text x="220" y="300" text-anchor="middle" font-size="15" fill="#4b5563">سوراخ‌ها در بال، بدنه و دم دیده می‌شود</text>
+  </g>
+  <g>
+    <rect x="420" y="80" width="320" height="240" rx="14" fill="#ffffff" stroke="#d9d3c4"/>
+    <text x="580" y="112" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2a37">هواپیمای بازنگشته</text>
+    <ellipse cx="580" cy="205" rx="95" ry="22" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="550,205 510,150 535,150 585,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="550,205 510,260 535,260 585,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <polygon points="665,205 690,170 705,170 690,205" fill="#cfd8e3" stroke="#51627a" stroke-width="2"/>
+    <circle cx="640" cy="205" r="26" fill="none" stroke="#1d7a5f" stroke-width="3" stroke-dasharray="6 4"/>
+    <text x="640" y="210" text-anchor="middle" font-size="13" font-weight="700" fill="#1d7a5f">موتور</text>
+    <text x="580" y="300" text-anchor="middle" font-size="15" fill="#4b5563">نقطه‌ی حیاتی بدون سوراخ: همین‌جا باید زره شود</text>
+  </g>
+  <rect x="60" y="342" width="680" height="52" rx="12" fill="#eaf4ef" stroke="#b8d9cb"/>
+  <text x="400" y="374" text-anchor="middle" font-size="17" fill="#1f2a37">به‌جای «چطور موفق شوم؟» بپرسید: «چه چیزی مرا شکست می‌دهد؟»</text>
+</svg>
