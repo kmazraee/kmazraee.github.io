@@ -1,44 +1,62 @@
 ---
 layout: default
 ---
-{%- assign latest = site.posts.first -%}
+{%- assign research = site.research | sort: "date" | reverse -%}
+{%- assign tools = site.pages | where: "layout", "tool" | sort: "order" -%}
 <header class="split hero rule-b">
   <div class="hero-text">
     <div class="kicker">{{ site.role }}</div>
     <h1>درباره‌ی عددهایی می‌نویسم که پشت تصمیم‌های مدیریتی‌اند.</h1>
-    <p>بیش از هشت سال در راهبری واحدهای مالی، اداری و پشتیبانی شرکت‌های سهامی عام و خاص؛ این‌جا تجربه‌ها، اشتباه‌ها و ابزارهایم را می‌نویسم.</p>
+    <p>بیش از هشت سال در راهبری واحدهای مالی، اداری و پشتیبانی شرکت‌های سهامی عام و خاص؛ این‌جا تجربه‌ها، خوانده‌ها و ابزارهایم را می‌گذارم.</p>
   </div>
   <div class="hero-photo">
     {% include photo.html %}
     <div>{{ site.author }}</div>
   </div>
 </header>
-{% if latest %}
-<section class="split">
-  <div class="pad latest">
-    <div style="display:flex;gap:12px;align-items:center"><span class="tag tag-accent">تازه‌ترین</span><span class="small">{% include date.html date=latest.date %}، {% include minutes.html post=latest %}</span></div>
-    <h2><a class="plain" href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
-    <p>{{ latest.description | default: latest.excerpt | strip_html }}</p>
-    <a class="btn btn-primary" href="{{ latest.url | relative_url }}"><span>خواندن یادداشت</span>{% include arrow.html %}</a>
+
+<section class="cols">
+  <div class="col">
+    <div class="kicker">ستون ۱</div>
+    <h2><a href="{{ '/posts/' | relative_url }}">یادداشت‌ها</a></h2>
+    <p>تجربه‌های کاری از بودجه، حسابرسی، مالیات و تأمین مالی.</p>
+    {%- for post in site.posts limit:3 -%}
+    <a class="item" href="{{ post.url | relative_url }}"><small>{% include date.html date=post.date %}</small>{{ post.title }}</a>
+    {%- else -%}
+    <div class="soon">نخستین یادداشت به‌زودی.</div>
+    {%- endfor -%}
+    <a class="more" href="{{ '/posts/' | relative_url }}">همه‌ی یادداشت‌ها ←</a>
   </div>
-  <div class="pad">
-    <div class="side-title">موضوع‌ها</div>
-    {%- assign topics = site.posts | group_by: "category" | sort: "size" | reverse -%}
-    {%- for t in topics -%}{% if t.name != "" %}
-    <a class="topic plain" href="{{ '/posts/' | relative_url }}?topic={{ t.name | url_encode }}"><span>{{ t.name }}</span><span>{% include fa.html n=t.size %}</span></a>
-    {%- endif %}{%- endfor -%}
+  <div class="col">
+    <div class="kicker">ستون ۲</div>
+    <h2><a href="{{ '/research/' | relative_url }}">پژوهش</a></h2>
+    <p>خلاصه و برداشت از مقاله‌ها و کتاب‌های مالی؛ دفترچه‌ی مطالعه‌ی دکتری.</p>
+    {%- for doc in research limit:3 -%}
+    <a class="item" href="{{ doc.url | relative_url }}"><small>{{ doc.source | default: doc.category }}</small>{{ doc.title }}</a>
+    {%- else -%}
+    <div class="soon">نخستین خلاصه به‌زودی.</div>
+    {%- endfor -%}
+    <a class="more" href="{{ '/research/' | relative_url }}">همه‌ی خلاصه‌ها ←</a>
+  </div>
+  <div class="col">
+    <div class="kicker">ستون ۳</div>
+    <h2><a href="{{ '/tools/' | relative_url }}">ابزارها</a></h2>
+    <p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره.</p>
+    {%- for t in tools -%}
+    <a class="item" href="{{ t.url | relative_url }}">{{ t.title }}</a>
+    {%- endfor -%}
+    <a class="more" href="{{ '/tools/' | relative_url }}">همه‌ی ابزارها ←</a>
   </div>
 </section>
-<section class="rule" style="padding:0 var(--gutter) 56px">
-  <div class="section-head"><h2>نوشته‌های اخیر</h2><a href="{{ '/posts/' | relative_url }}">همه‌ی نوشته‌ها ←</a></div>
-  {%- for post in site.posts offset:1 limit:5 -%}
-  <a class="row" href="{{ post.url | relative_url }}"><span class="small">{% include date.html date=post.date %}</span><span class="row-title">{{ post.title }}</span><span class="small">{{ post.category }}</span><span class="small end">{% include minutes.html post=post %}</span></a>
-  {%- endfor -%}
+
+<section class="demo">
+  <div>
+    <div class="kicker">یک عدد</div>
+    <h2>سود ۳۰ درصدی در تورم ۴۰ درصدی، یعنی ۷٫۱ درصد ضرر.</h2>
+    <p class="muted" style="margin:0">بازده واقعی را با تقریبِ «سود منهای تورم» حساب نکنید؛ در تورم بالا خطایش زیاد است.</p>
+  </div>
+  <div class="pad" style="display:flex;flex-direction:column;justify-content:center;gap:16px">
+    <div style="font-size:72px;font-weight:800;line-height:1.2;color:var(--color-accent)" dir="ltr">−۷٫۱٪</div>
+    <a class="btn btn-primary" href="{{ '/tools/real-return/' | relative_url }}" style="align-self:flex-start"><span>با عددهای خودتان حساب کنید</span>{% include arrow.html %}</a>
+  </div>
 </section>
-{% else %}
-<section class="pad" style="padding-top:56px;padding-bottom:72px">
-  <div class="kicker">نوشته‌ها</div>
-  <h2 style="font-size:32px;line-height:1.5;margin:12px 0 0">نخستین یادداشت به‌زودی منتشر می‌شود.</h2>
-  <p class="muted" style="margin:12px 0 0">تا آن موقع می‌توانید <a href="{{ '/resume/' | relative_url }}">رزومه</a> و <a href="{{ '/projects/' | relative_url }}">پروژه‌ها</a> را ببینید.</p>
-</section>
-{% endif %}

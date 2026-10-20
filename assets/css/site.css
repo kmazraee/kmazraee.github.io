@@ -254,3 +254,57 @@ td{padding:8px;border-bottom:1px solid var(--color-divider)}
 .about .photo-ph{aspect-ratio:4/5}
 .author .photo-ph{width:72px;height:72px}
 @media (max-width:860px){.hero-photo .photo-ph{width:56px;height:56px;flex:none}.hero-photo .photo-ph span{display:none}}
+
+/* tools (دفترچه‌ی عدد — ستون ابزارها) */
+.tool{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr)}
+.tool-form{display:flex;flex-direction:column;gap:20px;padding:40px var(--gutter) 48px 40px;border-left:1px solid var(--color-divider)}
+.tool-form .num{direction:ltr;text-align:left;font-size:18px;font-variant-numeric:tabular-nums}
+.tool-out{padding:40px 40px 48px var(--gutter)}
+.tool-out>div{display:flex;align-items:baseline;gap:16px;padding:16px 0;border-bottom:1px solid var(--color-divider)}
+.tool-out>div span{font-size:15px;color:var(--color-neutral-800)}
+.tool-out>div b{margin-right:auto;font-size:24px;font-weight:800;font-variant-numeric:tabular-nums}
+.tool-out>.big{flex-direction:column;align-items:flex-start;gap:4px;border-top:2px solid var(--color-divider);border-bottom-width:2px}
+.tool-out>.big b{margin:0;font-size:64px;line-height:1.3;color:var(--color-accent)}
+.tool-out b.neg{color:var(--color-accent-700)}
+.tool-out .note{margin:20px 0 0;font-size:15px;color:var(--color-neutral-800)}
+.tool-method{padding:28px var(--gutter) 56px}
+.tool-method h2{font-size:22px;margin:0 0 12px}
+.tool-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--color-divider)}
+.tool-card{display:flex;flex-direction:column;gap:10px;padding:28px var(--gutter) 36px 24px;color:inherit;text-decoration:none;border-left:1px solid var(--color-divider)}
+.tool-card:last-child{border-left:0}
+.tool-card .n{font-size:13px;font-weight:600;color:var(--color-accent-700)}
+.tool-card b{font-size:24px;line-height:1.5}
+.tool-card span{font-size:15px;line-height:1.9;color:var(--color-neutral-800)}
+.tool-card .go{margin-top:auto;font-weight:600;color:var(--color-accent-700)}
+.tool-card:hover b{color:var(--color-accent)}
+
+/* home: three columns */
+.cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-bottom:2px solid var(--color-divider)}
+.col{padding:32px 24px 40px;border-left:1px solid var(--color-divider);display:flex;flex-direction:column}
+.col:first-child{padding-right:var(--gutter)}
+.col:last-child{border-left:0;padding-left:var(--gutter)}
+.col h2{font-size:28px;margin:6px 0 8px}
+.col h2 a{color:inherit;text-decoration:none}
+.col h2 a:hover{color:var(--color-accent)}
+.col>p{font-size:15px;line-height:1.9;color:var(--color-neutral-800);margin:0 0 16px}
+.col .item{display:block;padding:12px 0;border-top:1px solid var(--color-divider);color:inherit;text-decoration:none;font-weight:600;line-height:1.7}
+.col .item small{display:block;font-weight:400;font-size:12px;color:var(--color-neutral-700)}
+.col .item:hover{color:var(--color-accent)}
+.col .soon{padding:12px 0;border-top:1px solid var(--color-divider);font-size:14px;color:var(--color-neutral-700)}
+.col .more{margin-top:auto;padding-top:16px;font-size:14px;font-weight:600}
+.demo{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);border-bottom:2px solid var(--color-divider)}
+.demo>div:first-child{padding:40px var(--gutter) 40px 40px;border-left:1px solid var(--color-divider)}
+.demo h2{font-size:32px;line-height:1.5;margin:8px 0 12px}
+
+@media (max-width:860px){
+  .tool,.demo{grid-template-columns:minmax(0,1fr)}
+  .tool-form,.demo>div:first-child{padding:24px var(--gutter);border-left:0}
+  .tool-out{padding:8px var(--gutter) 32px}
+  .tool-out>.big b{font-size:44px}
+  .tool-out>div b{font-size:19px}
+  .tool-list,.cols{grid-template-columns:minmax(0,1fr)}
+  .tool-card,.col,.col:first-child,.col:last-child{padding:24px var(--gutter);border-left:0;border-bottom:1px solid var(--color-divider)}
+  .demo h2{font-size:24px}
+}
+.tool-method .prose>p:first-child{font-size:inherit;font-weight:400;line-height:inherit}
+@media (max-width:860px){.tool-out>.big b{font-size:34px}}

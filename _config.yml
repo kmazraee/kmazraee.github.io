@@ -1,8 +1,8 @@
 title: کمیل مزرعی
-tagline: یادداشت‌های مالی و مدیریتی
+tagline: دفترچه‌ی عدد؛ یادداشت، پژوهش و ابزار مالی
 author: کمیل مزرعی فراهانی
 role: مدیر ارشد مالی · تهران
-description: یادداشت‌های کمیل مزرعی فراهانی درباره‌ی بودجه‌بندی، حسابرسی، مالیات و تأمین مالی.
+description: دفترچه‌ی عدد کمیل مزرعی فراهانی؛ یادداشت‌های مدیریت مالی، خلاصه‌ی پژوهش‌های مالی و ابزارهای محاسبه‌ی مالی.
 photo: ""
 email: kmazraee@gmail.com
 phone: ""
@@ -13,7 +13,13 @@ permalink: /posts/:year/:month/:day/:title/
 words_per_minute: 200
 markdown: kramdown
 exclude: [README.md, .pages.yml, Gemfile, Gemfile.lock, vendor]
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
 defaults:
+  - scope: { path: "", type: research }
+    values: { layout: post }
   - scope: { path: "", type: posts }
     values: { layout: post }
   - scope: { path: "" }

@@ -1,23 +1,10 @@
 ---
 layout: default
-title: نوشته‌ها
+title: یادداشت‌ها
 ---
+<header class="page-head"><div class="kicker">ستون ۱</div><h1>یادداشت‌ها</h1><p>تجربه‌های کاری از بودجه‌بندی، حسابرسی، مالیات و تأمین مالی؛ به زبان ساده.</p></header>
 {% if site.posts.size > 0 %}
-<header class="page-head"><h1>نوشته‌ها</h1><p>{% include fa.html n=site.posts.size %} یادداشت درباره‌ی مالی، حسابرسی و اداره‌ی سازمان.</p></header>
-<div class="filters">
-  <div class="seg">
-    <button type="button" data-topic="" aria-pressed="true">همه</button>
-    {%- assign topics = site.posts | group_by: "category" | sort: "size" | reverse -%}
-    {%- for t in topics -%}{% if t.name != "" %}<button type="button" data-topic="{{ t.name }}" aria-pressed="false">{{ t.name }}</button>{% endif %}{%- endfor -%}
-  </div>
-  <input class="input" id="q" type="search" placeholder="جست‌وجو در نوشته‌ها" aria-label="جست‌وجو در نوشته‌ها">
-</div>
-<div id="post-list" style="padding-bottom:48px">
-  {%- for post in site.posts -%}
-  <a class="entry" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: '%Y-%m-%d' }}" data-topic="{{ post.category }}"><span class="small">{% include date.html date=post.date short=true %}</span><span><b>{{ post.title }}</b>{% if post.description %}<span class="ex">{{ post.description }}</span>{% endif %}</span><span class="small end">{{ post.category }}، {% include minutes.html post=post %}</span></a>
-  {%- endfor -%}
-</div>
-<p class="empty muted" id="empty">نوشته‌ای با این مشخصات پیدا نشد.</p>
+{% include entry-list.html items=site.posts %}
 {% else %}
-<header class="page-head" style="padding-bottom:80px"><h1>نوشته‌ها</h1><p>هنوز یادداشتی منتشر نشده است. نخستین یادداشت به‌زودی می‌آید.</p></header>
+<p class="muted rule" style="padding:28px var(--gutter) 80px;margin:0;font-size:17px">هنوز یادداشتی منتشر نشده است. نخستین یادداشت به‌زودی می‌آید.</p>
 {% endif %}

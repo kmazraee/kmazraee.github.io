@@ -1,0 +1,22 @@
+---
+layout: tool
+order: 3
+title: اقساط وام
+description: قسط ماهانه، کل بازپرداخت و سود واقعی یک وام بانکی با اقساط مساوی.
+method: |
+  قسط ماهانه = P × r ÷ (۱ − (۱ + r)<sup>−n</sup>)
+
+  که در آن P مبلغ وام، r نرخ سود سالانه تقسیم بر ۱۲ و n تعداد اقساط است. این همان روش اقساط مساوی است که بیشتر بانک‌های ایران استفاده می‌کنند. «نرخ مؤثر سالانه» نشان می‌دهد سود ماهانه‌ی مرکب در عمل چقدر می‌شود.
+---
+<form class="tool-form" data-tool="loan" onsubmit="return false">
+  <div class="field"><label for="p">مبلغ وام (تومان)</label><input class="input num" id="p" value="500,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="rate">نرخ سود سالانه (درصد)</label><input class="input num" id="rate" value="23" inputmode="decimal"></div>
+  <div class="field"><label for="m">تعداد اقساط (ماه)</label><input class="input num" id="m" value="36" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>قسط ماهانه</span><b id="o-pay">—</b></div>
+  <div><span>کل بازپرداخت</span><b id="o-total">—</b></div>
+  <div><span>کل سود پرداختی</span><b id="o-int">—</b></div>
+  <div><span>نرخ مؤثر سالانه</span><b id="o-eff">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>
