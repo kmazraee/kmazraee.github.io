@@ -42,7 +42,7 @@ layout: default
     <div class="kicker">ستون ۳</div>
     <h2><a href="{{ '/tools/' | relative_url }}">ابزارها</a></h2>
     <p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره.</p>
-    {%- for t in tools -%}
+    {%- for t in tools limit:4 -%}
     <a class="item" href="{{ t.url | relative_url }}">{{ t.title }}</a>
     {%- endfor -%}
     <a class="more" href="{{ '/tools/' | relative_url }}">همه‌ی ابزارها ←</a>

@@ -1,0 +1,27 @@
+---
+layout: tool
+order: 7
+group: مالی شرکتی
+title: تحلیل دوپونت بازده حقوق صاحبان سهام
+description: ROE را به سه جزء حاشیه‌ی سود، گردش دارایی و اهرم مالی بشکنید تا ببینید بازده از کجا می‌آید.
+method: |
+  ROE = حاشیه‌ی سود خالص × گردش دارایی × ضریب اهرم مالی
+
+  حاشیه‌ی سود خالص = سود خالص ÷ فروش؛ گردش دارایی = فروش ÷ جمع دارایی‌ها؛ ضریب اهرم = جمع دارایی‌ها ÷ حقوق صاحبان سهام.
+
+  دو شرکت با ROE یکسان ممکن است یکی از سودآوری و دیگری از بدهی زیاد به آن رسیده باشد؛ دوپونت همین تفاوت را نشان می‌دهد.
+---
+<form class="tool-form" data-tool="dupont" onsubmit="return false">
+  <div class="field"><label for="ni">سود خالص (میلیارد تومان)</label><input class="input num" id="ni" value="150" inputmode="decimal"></div>
+  <div class="field"><label for="sales">فروش (میلیارد تومان)</label><input class="input num" id="sales" value="1,200" inputmode="decimal"></div>
+  <div class="field"><label for="ta">جمع دارایی‌ها (میلیارد تومان)</label><input class="input num" id="ta" value="1,500" inputmode="decimal"></div>
+  <div class="field"><label for="eq">حقوق صاحبان سهام (میلیارد تومان)</label><input class="input num" id="eq" value="600" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده حقوق صاحبان سهام (ROE)</span><b id="o-roe">—</b></div>
+  <div><span>حاشیه‌ی سود خالص</span><b id="o-npm">—</b></div>
+  <div><span>گردش دارایی</span><b id="o-at">—</b></div>
+  <div><span>ضریب اهرم مالی</span><b id="o-em">—</b></div>
+  <div><span>بازده دارایی‌ها (ROA)</span><b id="o-roa">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>
