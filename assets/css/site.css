@@ -308,3 +308,9 @@ td{padding:8px;border-bottom:1px solid var(--color-divider)}
 }
 .tool-method .prose>p:first-child{font-size:inherit;font-weight:400;line-height:inherit}
 @media (max-width:860px){.tool-out>.big b{font-size:34px}}
+.tool-group>h2{font-size:22px;padding:28px var(--gutter) 12px}
+.tool-group .tool-list{border-top:2px solid var(--color-divider);border-bottom:2px solid var(--color-divider)}
+.tool-card{border-bottom:1px solid var(--color-divider)}
+.tool-card:last-child{border-left:1px solid var(--color-divider)}
+.tool-card:nth-child(3n){border-left:0}
+@media (max-width:860px){.tool-card:last-child{border-left:0}}

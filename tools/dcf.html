@@ -1,0 +1,31 @@
+---
+layout: tool
+order: 4
+group: مالی شرکتی
+title: ارزش‌گذاری به روش جریان نقد تنزیل‌شده (DCF)
+description: جریان نقد آزاد سال‌های پیش‌بینی، WACC و رشد بلندمدت را وارد کنید تا ارزش شرکت و ارزش هر سهم را ببینید.
+method: |
+  ارزش شرکت = جمع ارزش فعلی جریان‌های نقد آزاد + ارزش فعلی ارزش پایانی
+
+  ارزش پایانی (گوردون) = جریان نقد سال آخر × (۱ + رشد بلندمدت) ÷ (WACC − رشد بلندمدت)
+
+  ارزش حقوق صاحبان سهام = ارزش شرکت − بدهی خالص. رشد بلندمدت باید کمتر از WACC باشد. در اقتصاد تورمی، اگر جریان‌های نقد اسمی‌اند، WACC و رشد هم باید اسمی باشند.
+---
+<form class="tool-form" data-tool="dcf" onsubmit="return false">
+  <div class="field"><label for="fcf">جریان نقد آزاد سال‌های پیش‌بینی (میلیارد تومان؛ هر سال در یک خط، از سال ۱)</label><textarea class="input num" id="fcf" rows="5">120
+150
+185
+220
+260</textarea></div>
+  <div class="field"><label for="w">WACC (درصد)</label><input class="input num" id="w" value="32" inputmode="decimal"></div>
+  <div class="field"><label for="g">رشد بلندمدت پس از دوره‌ی پیش‌بینی (درصد)</label><input class="input num" id="g" value="20" inputmode="decimal"></div>
+  <div class="field"><label for="nd">بدهی خالص (بدهی منهای نقد؛ میلیارد تومان)</label><input class="input num" id="nd" value="300" inputmode="decimal"></div>
+  <div class="field"><label for="sh">تعداد سهام (میلیون سهم؛ اختیاری)</label><input class="input num" id="sh" value="1000" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش حقوق صاحبان سهام</span><b id="o-eq">—</b></div>
+  <div><span>ارزش شرکت</span><b id="o-ev">—</b></div>
+  <div><span>سهم ارزش پایانی از ارزش شرکت</span><b id="o-tv">—</b></div>
+  <div><span>ارزش هر سهم</span><b id="o-ps">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

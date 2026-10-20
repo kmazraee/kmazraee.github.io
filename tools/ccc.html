@@ -1,0 +1,30 @@
+---
+layout: tool
+order: 5
+group: مالی شرکتی
+title: چرخه‌ی تبدیل وجه نقد
+description: چند روز طول می‌کشد پولی که بابت مواد و کالا می‌دهید، از مشتری برگردد؟ و چقدر نقدینگی در این چرخه گیر کرده است؟
+method: |
+  دوره‌ی وصول مطالبات = مطالبات تجاری ÷ فروش سالانه × ۳۶۵
+
+  دوره‌ی گردش موجودی = موجودی کالا ÷ بهای تمام‌شده‌ی فروش سالانه × ۳۶۵
+
+  دوره‌ی پرداخت بدهی = پرداختنی‌های تجاری ÷ بهای تمام‌شده‌ی فروش سالانه × ۳۶۵
+
+  چرخه‌ی تبدیل وجه نقد = وصول + گردش موجودی − پرداخت. هر روز کوتاه‌تر شدن این چرخه، به اندازه‌ی یک روز بهای تمام‌شده نقدینگی آزاد می‌کند.
+---
+<form class="tool-form" data-tool="ccc" onsubmit="return false">
+  <div class="field"><label for="rev">فروش سالانه (میلیارد تومان)</label><input class="input num" id="rev" value="1,200" inputmode="decimal"></div>
+  <div class="field"><label for="cogs">بهای تمام‌شده‌ی فروش سالانه (میلیارد تومان)</label><input class="input num" id="cogs" value="900" inputmode="decimal"></div>
+  <div class="field"><label for="ar">مطالبات تجاری (میلیارد تومان)</label><input class="input num" id="ar" value="300" inputmode="decimal"></div>
+  <div class="field"><label for="inv">موجودی کالا (میلیارد تومان)</label><input class="input num" id="inv" value="200" inputmode="decimal"></div>
+  <div class="field"><label for="ap">پرداختنی‌های تجاری (میلیارد تومان)</label><input class="input num" id="ap" value="150" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>چرخه‌ی تبدیل وجه نقد</span><b id="o-ccc">—</b></div>
+  <div><span>دوره‌ی وصول مطالبات</span><b id="o-dso">—</b></div>
+  <div><span>دوره‌ی گردش موجودی</span><b id="o-dio">—</b></div>
+  <div><span>دوره‌ی پرداخت بدهی</span><b id="o-dpo">—</b></div>
+  <div><span>نقدینگی آزادشده با ۱۰ روز کوتاه‌تر شدن چرخه</span><b id="o-free">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

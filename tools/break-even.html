@@ -1,0 +1,27 @@
+---
+layout: tool
+order: 6
+group: مالی شرکتی
+title: نقطه‌ی سربه‌سر و اهرم عملیاتی
+description: چند واحد باید بفروشید تا زیان ندهید؟ و هر یک درصد تغییر فروش، سود عملیاتی را چند درصد تکان می‌دهد؟
+method: |
+  حاشیه‌ی مشارکت هر واحد = قیمت فروش − هزینه‌ی متغیر هر واحد
+
+  نقطه‌ی سربه‌سر (تعداد) = هزینه‌های ثابت ÷ حاشیه‌ی مشارکت هر واحد
+
+  درجه‌ی اهرم عملیاتی = حاشیه‌ی مشارکت کل ÷ سود عملیاتی. هرچه به نقطه‌ی سربه‌سر نزدیک‌تر باشید، این عدد بزرگ‌تر و سود حساس‌تر است.
+---
+<form class="tool-form" data-tool="break-even" onsubmit="return false">
+  <div class="field"><label for="fc">هزینه‌های ثابت سالانه (میلیون تومان)</label><input class="input num" id="fc" value="12,000" inputmode="decimal"></div>
+  <div class="field"><label for="price">قیمت فروش هر واحد (هزار تومان)</label><input class="input num" id="price" value="500" inputmode="decimal"></div>
+  <div class="field"><label for="vc">هزینه‌ی متغیر هر واحد (هزار تومان)</label><input class="input num" id="vc" value="320" inputmode="decimal"></div>
+  <div class="field"><label for="q">فروش فعلی یا پیش‌بینی (تعداد واحد در سال)</label><input class="input num" id="q" value="90,000" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نقطه‌ی سربه‌سر</span><b id="o-bep">—</b></div>
+  <div><span>فروش ریالی در نقطه‌ی سربه‌سر</span><b id="o-bepr">—</b></div>
+  <div><span>حاشیه‌ی ایمنی</span><b id="o-mos">—</b></div>
+  <div><span>سود عملیاتی در فروش فعلی</span><b id="o-ebit">—</b></div>
+  <div><span>درجه‌ی اهرم عملیاتی</span><b id="o-dol">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

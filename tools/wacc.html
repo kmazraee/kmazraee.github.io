@@ -1,0 +1,29 @@
+---
+layout: tool
+order: 3
+group: مالی شرکتی
+title: میانگین موزون هزینه‌ی سرمایه (WACC)
+description: هزینه‌ی حقوق صاحبان سهام را با CAPM و هزینه‌ی بدهی را بعد از مالیات حساب کنید تا نرخ تنزیل شرکت به دست آید.
+method: |
+  هزینه‌ی حقوق صاحبان سهام (CAPM) = نرخ بدون ریسک + بتا × صرف ریسک بازار
+
+  WACC = سهم حقوق صاحبان سهام × هزینه‌ی حقوق صاحبان سهام + سهم بدهی × نرخ بهره × (۱ − نرخ مالیات)
+
+  وزن‌ها بهتر است با ارزش بازار حساب شوند، نه ارزش دفتری. نرخ مالیات پیش‌فرض ۲۵ درصد، نرخ مالیات بر درآمد شرکت‌ها در ایران است.
+---
+<form class="tool-form" data-tool="wacc" onsubmit="return false">
+  <div class="field"><label for="rf">نرخ بدون ریسک (درصد؛ مثلاً بازده اوراق دولتی)</label><input class="input num" id="rf" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="beta">بتای سهم</label><input class="input num" id="beta" value="1.1" inputmode="decimal"></div>
+  <div class="field"><label for="mrp">صرف ریسک بازار (درصد)</label><input class="input num" id="mrp" value="8" inputmode="decimal"></div>
+  <div class="field"><label for="kd">نرخ بهره‌ی بدهی (درصد)</label><input class="input num" id="kd" value="28" inputmode="decimal"></div>
+  <div class="field"><label for="tax">نرخ مالیات (درصد)</label><input class="input num" id="tax" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="e">ارزش حقوق صاحبان سهام (میلیارد تومان)</label><input class="input num" id="e" value="600" inputmode="decimal"></div>
+  <div class="field"><label for="d">ارزش بدهی (میلیارد تومان)</label><input class="input num" id="d" value="400" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>WACC</span><b id="o-wacc">—</b></div>
+  <div><span>هزینه‌ی حقوق صاحبان سهام</span><b id="o-ke">—</b></div>
+  <div><span>هزینه‌ی بدهی بعد از مالیات</span><b id="o-kd">—</b></div>
+  <div><span>سهم بدهی از کل سرمایه</span><b id="o-dv">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>
