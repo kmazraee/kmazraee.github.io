@@ -25,5 +25,5 @@ layout: default
 </div>
 <footer class="post-foot">
   {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% else %}<a href="{{ '/posts/' | relative_url }}"><span class="small">→ همه‌ی نوشته‌ها</span><b>نوشته‌ها</b></a>{% endif %}
-  <div class="author"><img class="grayscale" src="{{ '/assets/komeil.jpg' | relative_url }}" alt=""><div><div style="font-weight:800">{{ site.author }}</div><div style="font-size:14px;color:var(--color-neutral-800);line-height:1.7">مدیر ارشد مالی؛ درباره‌ی بودجه، حسابرسی و تأمین مالی می‌نویسد.</div></div></div>
+  <div class="author">{% include photo.html small=true style="width:72px;height:72px;object-fit:cover" %}<div><div style="font-weight:800">{{ site.author }}</div><div style="font-size:14px;color:var(--color-neutral-800);line-height:1.7">مدیر ارشد مالی؛ درباره‌ی بودجه، حسابرسی و تأمین مالی می‌نویسد.</div></div></div>
 </footer>

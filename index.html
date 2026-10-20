@@ -9,7 +9,7 @@ layout: default
     <p>بیش از هشت سال در راهبری واحدهای مالی، اداری و پشتیبانی شرکت‌های سهامی عام و خاص؛ این‌جا تجربه‌ها، اشتباه‌ها و ابزارهایم را می‌نویسم.</p>
   </div>
   <div class="hero-photo">
-    <img class="grayscale" src="{{ '/assets/komeil.jpg' | relative_url }}" alt="{{ site.author }}">
+    {% include photo.html %}
     <div>{{ site.author }}</div>
   </div>
 </header>
@@ -34,5 +34,11 @@ layout: default
   {%- for post in site.posts offset:1 limit:5 -%}
   <a class="row" href="{{ post.url | relative_url }}"><span class="small">{% include date.html date=post.date %}</span><span class="row-title">{{ post.title }}</span><span class="small">{{ post.category }}</span><span class="small end">{% include minutes.html post=post %}</span></a>
   {%- endfor -%}
+</section>
+{% else %}
+<section class="pad" style="padding-top:56px;padding-bottom:72px">
+  <div class="kicker">نوشته‌ها</div>
+  <h2 style="font-size:32px;line-height:1.5;margin:12px 0 0">نخستین یادداشت به‌زودی منتشر می‌شود.</h2>
+  <p class="muted" style="margin:12px 0 0">تا آن موقع می‌توانید <a href="{{ '/resume/' | relative_url }}">رزومه</a> و <a href="{{ '/projects/' | relative_url }}">پروژه‌ها</a> را ببینید.</p>
 </section>
 {% endif %}

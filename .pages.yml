@@ -40,6 +40,7 @@ content:
       - { name: tagline, label: زیرعنوان, type: string }
       - { name: role, label: سمت, type: string }
       - { name: description, label: توضیح سایت برای گوگل, type: text }
+      - { name: photo, label: عکس (خالی بماند تا کادر خالی نمایش داده شود), type: image }
       - { name: email, label: ایمیل, type: string }
       - { name: phone, label: تلفن (خالی بماند تا نمایش داده نشود), type: string }
       - { name: linkedin, label: لینک لینکدین, type: string }
