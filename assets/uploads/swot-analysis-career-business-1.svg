@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="ماتریس سوات: نقاط قوت و ضعف داخلی در برابر فرصت‌ها و تهدیدهای بیرونی">
+<rect width="800" height="440" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">ماتریس سوات (SWOT)</text>
+<rect x="410" y="70" width="310" height="150" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="565" y="140" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">نقاط قوت</text>
+<text x="565" y="175" text-anchor="middle" font-size="16" fill="#1f2937">عوامل داخلی مفید</text>
+<rect x="80" y="70" width="310" height="150" rx="12" fill="#fde8e8" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="235" y="140" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">نقاط ضعف</text>
+<text x="235" y="175" text-anchor="middle" font-size="16" fill="#1f2937">عوامل داخلی محدودکننده</text>
+<rect x="410" y="240" width="310" height="150" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="565" y="310" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">فرصت‌ها</text>
+<text x="565" y="345" text-anchor="middle" font-size="16" fill="#1f2937">عوامل بیرونی قابل بهره‌گیری</text>
+<rect x="80" y="240" width="310" height="150" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="235" y="310" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">تهدیدها</text>
+<text x="235" y="345" text-anchor="middle" font-size="16" fill="#1f2937">عوامل بیرونی خطرناک</text>
+</svg>
