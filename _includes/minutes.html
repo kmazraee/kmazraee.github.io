@@ -1,0 +1,1 @@
+{%- assign w = include.post.content | strip_html | number_of_words -%}{%- assign m = w | divided_by: site.words_per_minute | plus: 1 -%}{% include fa.html n=m %} دقیقه

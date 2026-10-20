@@ -1,0 +1,21 @@
+{%- assign here = page.url | split: "/" | slice: 1 | first -%}
+<nav class="nav">
+  <a class="brand" href="{{ '/' | relative_url }}"><b>{{ site.title }}</b><span>{{ site.tagline }}</span></a>
+  <div class="nav-links">
+    {%- for item in site.data.nav -%}
+    {%- assign key = item.url | split: "/" | slice: 1 | first -%}
+    <a href="{{ item.url | relative_url }}"{% if key == here %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {%- endfor -%}
+  </div>
+  <button class="btn btn-icon menu-btn" aria-label="منو" aria-expanded="false" data-menu-open><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/></svg></button>
+</nav>
+<div class="menu" id="menu" role="dialog" aria-label="منو">
+  <div class="menu-top"><b>{{ site.title }}</b><button class="btn btn-icon" aria-label="بستن" data-menu-close><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button></div>
+  <div class="menu-links">
+    {%- for item in site.data.nav -%}
+    {%- assign key = item.url | split: "/" | slice: 1 | first -%}
+    <a href="{{ item.url | relative_url }}"{% if key == here %} aria-current="page"{% endif %}><span>{% include fa.html n=forloop.index %}</span>{{ item.title }}</a>
+    {%- endfor -%}
+  </div>
+  <a class="menu-mail" href="mailto:{{ site.email }}"><span>ایمیل</span><b dir="ltr">{{ site.email }}</b></a>
+</div>

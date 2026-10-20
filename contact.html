@@ -1,0 +1,42 @@
+---
+layout: default
+title: تماس
+permalink: /contact/
+---
+<section class="contact">
+  <div>
+    <h1>برای مشاوره، همکاری یا یک سؤال مالی.</h1>
+    <div class="rule" style="margin-top:40px">
+      <a class="channel" href="mailto:{{ site.email }}"><span>ایمیل</span><span dir="ltr">{{ site.email }}</span></a>
+      {% if site.phone != "" %}<a class="channel" href="tel:{{ site.phone | remove: '-' }}"><span>تلفن</span><span dir="ltr">{{ site.phone }}</span></a>{% endif %}
+      {% if site.linkedin != "" %}<a class="channel" href="{{ site.linkedin }}"><span>لینکدین</span><span>پروفایل ←</span></a>{% endif %}
+      {% if site.telegram != "" %}<a class="channel" href="{{ site.telegram }}"><span>تلگرام</span><span>پیام ←</span></a>{% endif %}
+    </div>
+    <p class="small" style="font-size:14px;margin:16px 0 0">تهران</p>
+  </div>
+  <form id="contact-form" data-email="{{ site.email }}">
+    <div class="field"><label for="f-name">نام</label><input class="input" id="f-name" required></div>
+    <div class="field"><label>موضوع</label><div class="seg" style="display:flex">
+      <button type="button" data-sub="مشاوره" aria-pressed="true" style="flex:1">مشاوره</button><button type="button" data-sub="همکاری" aria-pressed="false" style="flex:1">همکاری</button><button type="button" data-sub="درباره‌ی یک نوشته" aria-pressed="false" style="flex:1">درباره‌ی یک نوشته</button>
+    </div></div>
+    <div class="field"><label for="f-msg">پیام</label><textarea class="input" id="f-msg" required></textarea></div>
+    <button class="btn btn-primary" type="submit" style="width:240px"><span>ارسال پیام</span>{% include arrow.html %}</button>
+    <p class="small" style="margin:0">با زدن «ارسال پیام» برنامه‌ی ایمیل شما با متن آماده باز می‌شود.</p>
+  </form>
+</section>
+<script>
+(function () {
+  var f = document.getElementById('contact-form'), sub = 'مشاوره';
+  f.querySelectorAll('[data-sub]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      sub = b.getAttribute('data-sub');
+      f.querySelectorAll('[data-sub]').forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    });
+  });
+  f.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var name = document.getElementById('f-name').value, msg = document.getElementById('f-msg').value;
+    location.href = 'mailto:' + f.getAttribute('data-email') + '?subject=' + encodeURIComponent(sub + ' · ' + name) + '&body=' + encodeURIComponent(msg + '\n\n' + name);
+  });
+})();
+</script>
