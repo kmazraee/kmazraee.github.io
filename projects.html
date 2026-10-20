@@ -3,7 +3,8 @@ layout: default
 title: پروژه‌ها
 permalink: /projects/
 ---
-<header class="page-head"><h1>پروژه‌ها</h1><p>ارزش‌گذاری، تأمین مالی و استقرار سیستم‌های مالی.</p></header>
+<header class="page-head"><h1>پروژه‌ها</h1></header>
+{% if site.data.projects.size > 0 %}
 <section class="ptable">
   <div class="prow head"><span>شماره</span><span>پروژه</span><span>کارفرما</span><span>نوع</span><span class="end">سال</span></div>
   {%- for p in site.data.projects -%}
@@ -11,3 +12,6 @@ permalink: /projects/
   <div class="prow"><span class="n">{% include fa.html n=n %}</span><span class="t">{{ p.title }}</span><span style="font-size:15px">{{ p.client }}</span><span style="font-size:14px">{{ p.type }}</span><span class="end" style="font-size:14px">{{ p.year }}</span></div>
   {%- endfor -%}
 </section>
+{% else %}
+<section class="ptable"><p class="muted" style="padding:24px 0 72px;margin:0;font-size:17px">این بخش به‌زودی تکمیل می‌شود.</p></section>
+{% endif %}
