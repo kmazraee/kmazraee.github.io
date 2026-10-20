@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 348" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چهار گام حالت راهب: تعیین مدت، انتخاب هدف‌ها، قوانین روزانه و اطلاع‌رسانی به اطرافیان">
+<rect width="800" height="348" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">چهار گام حالت راهب</text>
+<rect x="80" y="70" width="640" height="50" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="102" text-anchor="middle" font-size="18" fill="#1f2937">۱. مدت را تعیین کنید: ۲۱ روز تا ۳ ماه</text>
+<rect x="80" y="132" width="640" height="50" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="164" text-anchor="middle" font-size="18" fill="#1f2937">۲. دو تا سه هدف انتخاب کنید</text>
+<rect x="80" y="194" width="640" height="50" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="226" text-anchor="middle" font-size="18" fill="#1f2937">۳. قوانین روزانه‌ی غیرقابل‌مذاکره بگذارید</text>
+<rect x="80" y="256" width="640" height="50" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="288" text-anchor="middle" font-size="18" fill="#1f2937">۴. به اطرافیان اطلاع دهید و ارتباط را حفظ کنید</text>
+</svg>
