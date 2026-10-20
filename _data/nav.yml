@@ -1,0 +1,6 @@
+- { title: خانه, url: / }
+- { title: نوشته‌ها, url: /posts/ }
+- { title: پروژه‌ها, url: /projects/ }
+- { title: رزومه, url: /resume/ }
+- { title: درباره, url: /about/ }
+- { title: تماس, url: /contact/ }

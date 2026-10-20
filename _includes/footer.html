@@ -1,0 +1,6 @@
+<footer class="foot">
+  <span style="font-weight:800">{{ site.author }}</span>
+  <a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>
+  <span class="links">{% if site.linkedin != "" %}<a href="{{ site.linkedin }}">لینکدین</a>{% endif %}{% if site.telegram != "" %}<a href="{{ site.telegram }}">تلگرام</a>{% endif %}<a href="{{ '/feed.xml' | relative_url }}">خوراک RSS</a></span>
+  <span class="end muted">© <span class="jyear"></span></span>
+</footer>

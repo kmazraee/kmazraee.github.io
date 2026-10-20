@@ -1,0 +1,46 @@
+# Pages CMS (https://pagescms.org) — web editor for this site
+media:
+  input: assets/uploads
+  output: /assets/uploads
+content:
+  - name: posts
+    label: نوشته‌ها
+    type: collection
+    path: _posts
+    filename: "{year}-{month}-{day}-{primary}.md"
+    view:
+      fields: [title, date, category]
+    fields:
+      - { name: title, label: عنوان, type: string, required: true }
+      - { name: date, label: تاریخ انتشار, type: date, required: true }
+      - name: category
+        label: موضوع
+        type: select
+        options:
+          creatable: true
+          values: [بودجه‌بندی, حسابرسی, مالیات و بیمه, سرمایه‌گذاری, سرمایه, گزارش مدیریتی, مدیریت]
+      - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
+      - { name: body, label: متن, type: rich-text }
+  - name: projects
+    label: پروژه‌ها
+    type: file
+    path: _data/projects.yml
+    list: true
+    fields:
+      - { name: title, label: پروژه, type: string }
+      - { name: client, label: کارفرما, type: string }
+      - { name: type, label: نوع, type: string }
+      - { name: year, label: سال یا نقش, type: string }
+  - name: settings
+    label: تنظیمات سایت
+    type: file
+    path: _config.yml
+    fields:
+      - { name: title, label: نام سایت, type: string }
+      - { name: tagline, label: زیرعنوان, type: string }
+      - { name: role, label: سمت, type: string }
+      - { name: description, label: توضیح سایت برای گوگل, type: text }
+      - { name: email, label: ایمیل, type: string }
+      - { name: phone, label: تلفن (خالی بماند تا نمایش داده نشود), type: string }
+      - { name: linkedin, label: لینک لینکدین, type: string }
+      - { name: telegram, label: لینک تلگرام, type: string }

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="progress"><div id="progress"></div></div>
+<header class="post-head">
+  <div>
+    {% if page.category %}<a class="kicker" href="{{ '/posts/' | relative_url }}?topic={{ page.category | url_encode }}" style="text-decoration:none">{{ page.category }}</a>{% endif %}
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="meta">
+    <div><span class="muted">تاریخ</span><span>{% include date.html date=page.date %}</span></div>
+    <div><span class="muted">زمان مطالعه</span><span>{% include minutes.html post=page %}</span></div>
+    <div><span class="muted">نویسنده</span><span>{{ site.title }}</span></div>
+  </div>
+</header>
+<div class="post-body">
+  <article class="prose" id="prose">{{ content }}</article>
+  <aside>
+    <nav class="toc" id="toc" hidden><div class="kicker" style="padding:12px 0">در این یادداشت</div></nav>
+    <div class="share">
+      <button class="btn btn-secondary" type="button" data-copy>کپی پیوند</button>
+      <a class="btn btn-secondary" href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener">اشتراک در تلگرام</a>
+    </div>
+  </aside>
+</div>
+<footer class="post-foot">
+  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% else %}<a href="{{ '/posts/' | relative_url }}"><span class="small">→ همه‌ی نوشته‌ها</span><b>نوشته‌ها</b></a>{% endif %}
+  <div class="author"><img class="grayscale" src="{{ '/assets/komeil.jpg' | relative_url }}" alt=""><div><div style="font-weight:800">{{ site.author }}</div><div style="font-size:14px;color:var(--color-neutral-800);line-height:1.7">مدیر ارشد مالی؛ درباره‌ی بودجه، حسابرسی و تأمین مالی می‌نویسد.</div></div></div>
+</footer>

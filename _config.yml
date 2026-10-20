@@ -1,0 +1,19 @@
+title: کمیل مزرعی
+tagline: یادداشت‌های مالی و مدیریتی
+author: کمیل مزرعی فراهانی
+role: مدیر ارشد مالی · تهران
+description: یادداشت‌های کمیل مزرعی فراهانی درباره‌ی بودجه‌بندی، حسابرسی، مالیات و تأمین مالی.
+email: kmazraee@gmail.com
+phone: ""
+linkedin: ""
+telegram: ""
+lang: fa
+permalink: /posts/:year/:month/:day/:title/
+words_per_minute: 200
+markdown: kramdown
+exclude: [README.md, .pages.yml, Gemfile, Gemfile.lock, vendor]
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: default }

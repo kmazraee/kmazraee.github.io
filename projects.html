@@ -1,0 +1,13 @@
+---
+layout: default
+title: پروژه‌ها
+permalink: /projects/
+---
+<header class="page-head"><h1>پروژه‌ها</h1><p>ارزش‌گذاری، تأمین مالی و استقرار سیستم‌های مالی.</p></header>
+<section class="ptable">
+  <div class="prow head"><span>شماره</span><span>پروژه</span><span>کارفرما</span><span>نوع</span><span class="end">سال</span></div>
+  {%- for p in site.data.projects -%}
+  {%- assign n = forloop.index | prepend: "0" | slice: -2, 2 -%}
+  <div class="prow"><span class="n">{% include fa.html n=n %}</span><span class="t">{{ p.title }}</span><span style="font-size:15px">{{ p.client }}</span><span style="font-size:14px">{{ p.type }}</span><span class="end" style="font-size:14px">{{ p.year }}</span></div>
+  {%- endfor -%}
+</section>
