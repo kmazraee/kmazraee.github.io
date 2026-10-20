@@ -1,0 +1,22 @@
+---
+layout: tool
+order: 1
+title: بازده واقعی با تورم
+description: سود ۳۰ درصدی در تورم ۴۰ درصدی یعنی ضرر. ببینید پولتان بعد از تورم واقعاً چقدر رشد می‌کند.
+method: |
+  بازده واقعی = (۱ + بازده اسمی) ÷ (۱ + تورم) − ۱
+
+  این همان «معادله‌ی فیشر» به شکل دقیق است. تقریب رایج «بازده اسمی منهای تورم» وقتی تورم بالاست، مثل ایران، خطای زیادی دارد.
+---
+<form class="tool-form" data-tool="real-return" onsubmit="return false">
+  <div class="field"><label for="n">بازده اسمی سالانه (درصد)</label><input class="input num" id="n" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="i">تورم سالانه (درصد)</label><input class="input num" id="i" value="40" inputmode="decimal"></div>
+  <div class="field"><label for="a">مبلغ سرمایه (تومان)</label><input class="input num" id="a" value="100,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="y">مدت (سال)</label><input class="input num" id="y" value="3" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده واقعی سالانه</span><b id="o-real">—</b></div>
+  <div><span>ارزش اسمی در پایان دوره</span><b id="o-nom">—</b></div>
+  <div><span>همان مبلغ به قدرت خرید امروز</span><b id="o-pp">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 2
+title: ارزش فعلی خالص و نرخ بازده داخلی
+description: جریان‌های نقدی یک پروژه یا سرمایه‌گذاری را وارد کنید تا NPV، IRR و دوره‌ی بازگشت سرمایه را ببینید.
+method: |
+  **ارزش فعلی خالص (NPV):** هر جریان نقدی سال t بر (۱ + نرخ تنزیل)<sup>t</sup> تقسیم و همه با هم جمع می‌شوند.
+
+  **نرخ بازده داخلی (IRR):** نرخی است که NPV را صفر می‌کند و با روش تنصیف پیدا می‌شود. اگر علامت جریان‌ها بیش از یک بار عوض شود، ممکن است بیش از یک IRR وجود داشته باشد.
+
+  **دوره‌ی بازگشت:** زمانی که جمع جریان‌های نقدیِ تنزیل‌نشده مثبت می‌شود.
+---
+<form class="tool-form" data-tool="npv-irr" onsubmit="return false">
+  <div class="field"><label for="r">نرخ تنزیل سالانه (درصد)</label><input class="input num" id="r" value="35" inputmode="decimal"></div>
+  <div class="field"><label for="cf">جریان‌های نقدی (هر سال در یک خط؛ سال صفر معمولاً منفی است)</label><textarea class="input num" id="cf" rows="6">-1,000
+300
+400
+500
+600</textarea></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نرخ بازده داخلی (IRR)</span><b id="o-irr">—</b></div>
+  <div><span>ارزش فعلی خالص (NPV)</span><b id="o-npv">—</b></div>
+  <div><span>دوره‌ی بازگشت سرمایه</span><b id="o-pb">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

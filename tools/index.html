@@ -1,0 +1,11 @@
+---
+layout: default
+title: ابزارها
+---
+<header class="page-head"><div class="kicker">ستون ۳</div><h1>ابزارها</h1><p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره؛ همه‌چیز در مرورگر خودتان حساب می‌شود و جایی ذخیره نمی‌شود.</p></header>
+<section class="tool-list">
+  {%- assign tools = site.pages | where: "layout", "tool" | sort: "order" -%}
+  {%- for t in tools -%}
+  <a class="tool-card" href="{{ t.url | relative_url }}"><span class="n">{% include fa.html n=forloop.index %}</span><b>{{ t.title }}</b><span>{{ t.description }}</span><span class="go">باز کردن ←</span></a>
+  {%- endfor -%}
+</section>

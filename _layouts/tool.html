@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<header class="page-head"><a class="kicker" href="{{ '/tools/' | relative_url }}" style="text-decoration:none">ابزارها</a><h1>{{ page.title }}</h1><p>{{ page.description }}</p></header>
+<div class="tool rule">
+  {{ content }}
+</div>
+{% if page.method %}
+<section class="tool-method rule">
+  <h2>چطور حساب می‌شود</h2>
+  <div class="prose" style="font-size:16px;line-height:2">{{ page.method | markdownify }}</div>
+</section>
+{% endif %}
+<script src="{{ '/assets/js/tools.js' | relative_url }}"></script>
