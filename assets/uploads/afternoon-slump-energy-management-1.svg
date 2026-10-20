@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 462" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش راهکار مقابله با خستگی بعد از ظهر: ناهار سبک، آب کافی، ایستادن و حرکت، محیط کار مناسب، تایمر تمرکز و چرت کوتاه">
+<rect width="800" height="462" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">شش راهکار مقابله با خستگی بعد از ظهر</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="100" text-anchor="middle" font-size="18" fill="#1f2937">ناهار سبک (قاعده‌ی ۸۰ درصد)</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="162" text-anchor="middle" font-size="18" fill="#1f2937">نوشیدن آب کافی</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="224" text-anchor="middle" font-size="18" fill="#1f2937">ایستادن و حرکت</text>
+<rect x="80" y="256" width="640" height="48" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="286" text-anchor="middle" font-size="18" fill="#1f2937">محیط کار مناسب</text>
+<rect x="80" y="318" width="640" height="48" rx="10" fill="#fde8e8" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="348" text-anchor="middle" font-size="18" fill="#1f2937">تایمر تمرکز ۲۵ دقیقه</text>
+<rect x="80" y="380" width="640" height="48" rx="10" fill="#e6f6f6" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="410" text-anchor="middle" font-size="18" fill="#1f2937">چرت کوتاه زیر ۳۰ دقیقه</text>
+</svg>

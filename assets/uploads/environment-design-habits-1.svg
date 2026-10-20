@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 276" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه روش طراحی محیط: پنهان کردن نشانه‌های عادت بد، دیدنی کردن نشانه‌های عادت خوب و ساختن حلقه‌ی دوستان الهام‌بخش">
+<rect width="800" height="276" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">سه روش طراحی محیط</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="100" text-anchor="middle" font-size="18" fill="#1f2937">نشانه‌های عادت بد را از دید دور کنید</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="162" text-anchor="middle" font-size="18" fill="#1f2937">نشانه‌های عادت خوب را واضح بگذارید</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="224" text-anchor="middle" font-size="18" fill="#1f2937">حلقه‌ی دوستان الهام‌بخش بسازید</text>
+</svg>
