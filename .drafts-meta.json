@@ -2,15 +2,54 @@
  "date": "2026-10-20",
  "branch": "blog-drafts/2026-10-20-b",
  "posts": [
-  {"file":"_posts/2026-10-20-fpa-analytics-modern-role.md","threads":["18a5f8f312fcb411"],"label":"A","keyword":"تحلیل داده در FP&A"},
-  {"file":"_posts/2026-10-20-break-into-fpa-without-experience.md","threads":["18a84a04fe9fbb9a"],"label":"A","keyword":"ورود به FP&A"},
-  {"file":"_posts/2026-10-20-fpa-job-titles-and-career-ladder.md","threads":["18a89cb8464863d1","18cd013161e3d0d9"],"label":"A","keyword":"عنوان‌های شغلی FP&A"},
-  {"file":"_posts/2026-10-20-fpa-career-exit-options.md","threads":["18ad4d2555e1e036"],"label":"A","keyword":"مسیرهای بعد از FP&A"},
-  {"file":"_posts/2026-10-20-financial-chart-types-fpa.md","threads":["18af48a59d1a8cb6"],"label":"A","keyword":"انواع نمودار در تحلیل مالی"},
-  {"file":"_posts/2026-10-20-management-reports-fpa-guide.md","threads":["18b37f49c6ac2f89"],"label":"A","keyword":"گزارش‌های مدیریتی FP&A"},
-  {"file":"_posts/2026-10-20-google-sheets-dropdown-menu.md","threads":["185974583ca3239c"],"label":"B","keyword":"لیست کشویی در گوگل شیت"},
-  {"file":"_posts/2026-10-20-sparkline-bullet-chart-google-sheets.md","threads":["185c078853c96ccc"],"label":"B","keyword":"نمودار گلوله‌ای SPARKLINE"},
-  {"file":"_posts/2026-10-20-spreadsheet-front-sheet-guide.md","threads":["185df5ebf492289a"],"label":"B","keyword":"برگه‌ی روکش"},
-  {"file":"_posts/2026-10-20-google-sheets-named-functions.md","threads":["1862777161aefec5"],"label":"B","keyword":"توابع نام‌دار گوگل شیت"}
+  {
+   "file": "_posts/2026-10-20-fpa-analytics-modern-role.md",
+   "threads": [
+    "18a5f8f312fcb411"
+   ],
+   "label": "A",
+   "keyword": "تحلیل داده در FP&A"
+  },
+  {
+   "file": "_posts/2026-10-20-break-into-fpa-without-experience.md",
+   "threads": [
+    "18a84a04fe9fbb9a"
+   ],
+   "label": "A",
+   "keyword": "ورود به FP&A"
+  },
+  {
+   "file": "_posts/2026-10-20-fpa-job-titles-and-career-ladder.md",
+   "threads": [
+    "18a89cb8464863d1",
+    "18cd013161e3d0d9"
+   ],
+   "label": "A",
+   "keyword": "عنوان‌های شغلی FP&A"
+  },
+  {
+   "file": "_posts/2026-10-20-fpa-career-exit-options.md",
+   "threads": [
+    "18ad4d2555e1e036"
+   ],
+   "label": "A",
+   "keyword": "مسیرهای بعد از FP&A"
+  },
+  {
+   "file": "_posts/2026-10-20-financial-chart-types-fpa.md",
+   "threads": [
+    "18af48a59d1a8cb6"
+   ],
+   "label": "A",
+   "keyword": "انواع نمودار در تحلیل مالی"
+  },
+  {
+   "file": "_posts/2026-10-20-management-reports-fpa-guide.md",
+   "threads": [
+    "18b37f49c6ac2f89"
+   ],
+   "label": "A",
+   "keyword": "گزارش‌های مدیریتی FP&A"
+  }
  ]
 }
