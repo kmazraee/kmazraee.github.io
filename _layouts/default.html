@@ -3,10 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- assign seo_url = page.url | replace: 'index.html', '' | absolute_url -%}
+{%- capture seo_desc -%}{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}{%- endcapture -%}
+{%- assign seo_article = false -%}
+{%- if page.layout == 'post' -%}{%- assign seo_article = true -%}{%- endif -%}
 <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-<meta name="description" content="{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}">
+<meta name="description" content="{{ seo_desc }}">
+<link rel="canonical" href="{{ seo_url }}">
+{% if page.url == '/404.html' %}<meta name="robots" content="noindex">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">{% endif %}
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:type" content="{% if seo_article %}article{% else %}website{% endif %}">
+<meta property="og:url" content="{{ seo_url }}">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ seo_desc }}">
+{% if seo_article %}<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% if page.category %}<meta property="article:section" content="{{ page.category }}">{% endif %}{% endif %}
 {% if site.photo != "" %}<meta property="og:image" content="{{ site.photo | absolute_url }}">{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ page.title | default: site.title }}">
+<meta name="twitter:description" content="{{ seo_desc }}">
+{% if seo_article %}
+{%- if page.collection == 'research' -%}{%- assign seo_sec_name = 'پژوهش' -%}{%- assign seo_sec_url = '/research/' | absolute_url -%}{%- else -%}{%- assign seo_sec_name = 'یادداشت‌ها' -%}{%- assign seo_sec_url = '/posts/' | absolute_url -%}{%- endif -%}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","headline":{{ page.title | jsonify }},"description":{{ seo_desc | jsonify }},"datePublished":{{ page.date | date_to_xmlschema | jsonify }},"dateModified":{{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},"inLanguage":"fa","url":{{ seo_url | jsonify }},"mainEntityOfPage":{"@type":"WebPage","@id":{{ seo_url | jsonify }}},{% if page.category %}"articleSection":{{ page.category | jsonify }},{% endif %}"author":{"@type":"Person","name":{{ site.author | jsonify }},"url":{{ '/about.html' | absolute_url | jsonify }}},"publisher":{"@type":"Person","name":{{ site.author | jsonify }},"url":{{ '/' | absolute_url | jsonify }}}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ site.title | jsonify }},"item":{{ '/' | absolute_url | jsonify }}},{"@type":"ListItem","position":2,"name":{{ seo_sec_name | jsonify }},"item":{{ seo_sec_url | jsonify }}},{"@type":"ListItem","position":3,"name":{{ page.title | jsonify }},"item":{{ seo_url | jsonify }}}]}
+</script>
+{% elsif page.url == '/' %}
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"fa","author":{"@type":"Person","name":{{ site.author | jsonify }}}}
+</script>
+{% endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Vazirmatn:wght@400;600;800&display=swap">
