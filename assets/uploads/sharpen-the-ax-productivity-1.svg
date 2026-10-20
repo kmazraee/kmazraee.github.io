@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="تیز کردن تبر در پنج حوزه‌ی زندگی: روابط، مالی، سلامت، زمان و مهارت">
+<rect width="800" height="410" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">تیز کردن تبر در پنج حوزه</text>
+<rect x="80" y="70" width="640" height="50" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="102" text-anchor="middle" font-size="18" fill="#1f2937">۱. روابط: دایره‌ی صادق و پرانرژی</text>
+<rect x="80" y="132" width="640" height="50" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="164" text-anchor="middle" font-size="18" fill="#1f2937">۲. مالی: خودکارسازی و بودجه‌ی ۵۰/۳۰/۲۰</text>
+<rect x="80" y="194" width="640" height="50" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="226" text-anchor="middle" font-size="18" fill="#1f2937">۳. سلامت: خواب، حرکت و آب</text>
+<rect x="80" y="256" width="640" height="50" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="288" text-anchor="middle" font-size="18" fill="#1f2937">۴. زمان: اصل پارتو و «نه» گفتن</text>
+<rect x="80" y="318" width="640" height="50" rx="10" fill="#fde8e8" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="350" text-anchor="middle" font-size="18" fill="#1f2937">۵. مهارت: مطالعه و تمرین عمدی</text>
+</svg>
