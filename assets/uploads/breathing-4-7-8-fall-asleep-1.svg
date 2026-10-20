@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مراحل تنفس ۴-۷-۸">
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">تنفس ۴-۷-۸</text>
+<rect x="535" y="80" width="225" height="260" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="647" y="170" text-anchor="middle" font-size="64" font-weight="700" fill="#2b6cb0">۴</text>
+<text x="647" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">دم</text>
+<text x="647" y="265" text-anchor="middle" font-size="14" fill="#374151">از بینی، ۴ ثانیه</text>
+<rect x="288" y="80" width="225" height="260" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="170" text-anchor="middle" font-size="64" font-weight="700" fill="#2b6cb0">۷</text>
+<text x="400" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">نگه‌داشتن</text>
+<text x="400" y="265" text-anchor="middle" font-size="14" fill="#374151">نفس را ۷ ثانیه نگه دارید</text>
+<rect x="41" y="80" width="225" height="260" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="153" y="170" text-anchor="middle" font-size="64" font-weight="700" fill="#2b6cb0">۸</text>
+<text x="153" y="225" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">بازدم</text>
+<text x="153" y="265" text-anchor="middle" font-size="14" fill="#374151">از دهان با صدای «هوووش»، ۸ ثانیه</text>
+<text x="400" y="372" text-anchor="middle" font-size="15" fill="#374151">این چرخه را تا چهار بار تکرار کنید</text>
+</svg>
