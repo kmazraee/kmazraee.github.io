@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه تکنیک آرام‌کردن بحث">
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">سه تکنیک آرام‌کردن بحث</text>
+<rect x="80" y="70" width="640" height="88" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="120.0" text-anchor="middle" font-size="18" fill="#1f2937">۱. طرح اگر-آنگاه: واکنش را از قبل بنویسید</text>
+<rect x="80" y="172" width="640" height="88" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="222.0" text-anchor="middle" font-size="18" fill="#1f2937">۲. وقفه‌ی بیست‌دقیقه‌ای با زمان بازگشت</text>
+<rect x="80" y="274" width="640" height="88" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="324.0" text-anchor="middle" font-size="18" fill="#1f2937">۳. کلمه‌ی رمز مشترک برای توقف بحث</text>
+</svg>

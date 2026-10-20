@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش حرکت برای گفت‌وگو">
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">شش حرکت برای گفت‌وگو</text>
+<rect x="407" y="70" width="353" height="91" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="583.5" y="121.5" text-anchor="middle" font-size="16" fill="#1f2937">۱. اول شما شروع کنید</text>
+<rect x="40" y="70" width="353" height="91" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="216.5" y="121.5" text-anchor="middle" font-size="16" fill="#1f2937">۲. زبان بدن مطمئن</text>
+<rect x="407" y="175" width="353" height="91" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="583.5" y="226.5" text-anchor="middle" font-size="16" fill="#1f2937">۳. تعریف + پرسش</text>
+<rect x="40" y="175" width="353" height="91" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="216.5" y="226.5" text-anchor="middle" font-size="16" fill="#1f2937">۴. نام طرف مقابل را بگویید</text>
+<rect x="407" y="279" width="353" height="91" rx="10" fill="#fde8e8" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="583.5" y="330.5" text-anchor="middle" font-size="16" fill="#1f2937">۵. پرسش‌های صمیمانه</text>
+<rect x="40" y="279" width="353" height="91" rx="10" fill="#e0f4f4" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="216.5" y="330.5" text-anchor="middle" font-size="16" fill="#1f2937">۶. روش فورد: خانواده، شغل، سرگرمی، رؤیا</text>
+</svg>
