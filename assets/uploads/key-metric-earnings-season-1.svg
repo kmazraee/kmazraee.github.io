@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="هر شرکت، یک صورت مالی و یک شاخص کلیدی">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">هر سهم، یک شاخص کلیدی</text>
+  <rect x="540" y="70" width="230" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="655" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#2b4a33">نرم‌افزار در بازار شلوغ</text>
+  <text x="655" y="144" text-anchor="middle" font-size="15" fill="#3d3d3d">صورت سود و زیان</text>
+  <text x="655" y="174" text-anchor="middle" font-size="15" fill="#3d3d3d">شاخص: حاشیه سود ناخالص</text>
+  <text x="655" y="204" text-anchor="middle" font-size="15" fill="#3d3d3d">نگرانی: تخفیف اجباری</text>
+  <text x="655" y="252" text-anchor="middle" font-size="15" fill="#2b4a33">اگر ثابت ماند: خوب</text>
+  <rect x="285" y="70" width="230" height="205" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="400" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#5c3c10">خرده‌فروش در دوره‌ی هزینه</text>
+  <text x="400" y="144" text-anchor="middle" font-size="15" fill="#3d3d3d">ترازنامه</text>
+  <text x="400" y="174" text-anchor="middle" font-size="15" fill="#3d3d3d">شاخص: نقدینگی و بدهی</text>
+  <text x="400" y="204" text-anchor="middle" font-size="15" fill="#3d3d3d">نگرانی: کمبود نقد</text>
+  <text x="400" y="252" text-anchor="middle" font-size="15" fill="#5c3c10">اگر کافی بود: خوب</text>
+  <rect x="30" y="70" width="230" height="205" rx="14" fill="#fbe9e7" stroke="#c0675b" stroke-width="2"/>
+  <text x="145" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#7a2a20">پلتفرم با اعتباردهی</text>
+  <text x="145" y="144" text-anchor="middle" font-size="15" fill="#3d3d3d">جریان وجوه نقد</text>
+  <text x="145" y="174" text-anchor="middle" font-size="15" fill="#3d3d3d">شاخص: ذخیره‌ی مطالبات</text>
+  <text x="145" y="204" text-anchor="middle" font-size="15" fill="#3d3d3d">نگرانی: وصول‌نشدن</text>
+  <text x="145" y="252" text-anchor="middle" font-size="15" fill="#7a2a20">اگر جهش کرد: هشدار</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">اول شاخص کلیدی؛ اگر بد شد، سراغ تحلیل کامل بروید.</text>
+</svg>
