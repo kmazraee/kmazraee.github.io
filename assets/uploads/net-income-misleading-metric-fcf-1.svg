@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی دو معیار: سود خالص تحت تأثیر ارزش‌گذاری روز سرمایه‌گذاری است و جریان نقد آزاد فقط حرکت واقعی پول را نشان می‌دهد">
+<rect width="800" height="330" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">سود خالص در برابر جریان نقد آزاد</text>
+<rect x="420" y="64" width="350" height="230" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/>
+<text x="595" y="96" text-anchor="middle" font-size="18" fill="#b5524a" font-weight="bold">سود خالص (تعهدی)</text>
+<text x="595" y="130" text-anchor="middle" font-size="14" fill="#2b2b2b">• تغییر ارزش سرمایه‌گذاری‌های فروخته‌نشده</text>
+<text x="595" y="158" text-anchor="middle" font-size="14" fill="#2b2b2b">• هزینه‌های غیرنقدی</text>
+<text x="595" y="186" text-anchor="middle" font-size="14" fill="#2b2b2b">• کاهش ارزش سرقفلی</text>
+<text x="595" y="214" text-anchor="middle" font-size="14" fill="#2b2b2b">• برآوردها و قضاوت</text>
+<text x="595" y="264" text-anchor="middle" font-size="15" fill="#b5524a" font-weight="bold">ممکن است گمراه کند</text>
+<rect x="30" y="64" width="350" height="230" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<text x="205" y="96" text-anchor="middle" font-size="18" fill="#5a9a6b" font-weight="bold">جریان نقد آزاد</text>
+<text x="205" y="130" text-anchor="middle" font-size="14" fill="#2b2b2b">• پولی که واقعاً وارد کسب‌وکار می‌شود</text>
+<text x="205" y="158" text-anchor="middle" font-size="14" fill="#2b2b2b">• پولی که واقعاً خارج می‌شود</text>
+<text x="205" y="186" text-anchor="middle" font-size="14" fill="#2b2b2b">• بی‌اثر از ارزش‌گذاری روز</text>
+<text x="205" y="214" text-anchor="middle" font-size="14" fill="#2b2b2b">• دست‌کاری سخت‌تر</text>
+<text x="205" y="264" text-anchor="middle" font-size="15" fill="#5a9a6b" font-weight="bold">تصویر واقعی‌تر</text>
+</svg>
