@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="پنج جنبه‌ی صرفه‌جویی مقیاس: مالی، بازاریابی، فناوری، مدیریتی و خرید">
+<rect width="800" height="320" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">پنج مزیت اندازه</text>
+<g font-size="16" text-anchor="middle" fill="#2b2b2b">
+<rect x="620" y="70" width="150" height="90" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/><text x="695" y="106">۱. تأمین مالی</text><text x="695" y="134" font-size="12" fill="#666">وام و اوراق ارزان‌تر</text>
+<rect x="465" y="70" width="150" height="90" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/><text x="540" y="106">۲. بازاریابی</text><text x="540" y="134" font-size="12" fill="#666">هزینه بین واحدهای بیشتر</text>
+<rect x="310" y="70" width="150" height="90" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/><text x="385" y="106">۳. فناوری</text><text x="385" y="134" font-size="12" fill="#666">منابع پژوهش بیشتر</text>
+<rect x="155" y="70" width="150" height="90" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/><text x="230" y="106">۴. مدیریت</text><text x="230" y="134" font-size="12" fill="#666">متخصصان اختصاصی</text>
+<rect x="0" y="70" width="150" height="90" rx="12" fill="#fff" stroke="#7a5aa0" stroke-width="2" transform="translate(0,0)"/><text x="75" y="106">۵. خرید</text><text x="75" y="134" font-size="12" fill="#666">حجم بالا، قیمت کمتر</text>
+</g>
+<rect x="20" y="210" width="760" height="60" rx="30" fill="#3d7a8c"/><text x="400" y="248" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">نتیجه: هزینه‌ی هر واحد کمتر از رقبای کوچک‌تر</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="هفت رویداد اثرگذار بر تعداد سهام: رویدادهای افزایش‌دهنده، کاهنده و خنثی">
+<rect width="800" height="360" fill="#faf7f0"/>
+<text x="400" y="34" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">هفت رویداد و اثرشان بر تعداد سهام</text>
+<rect x="540" y="60" width="240" height="260" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/>
+<text x="660" y="90" text-anchor="middle" font-size="17" fill="#b5524a" font-weight="bold">تعداد سهام بیشتر (رقیق‌کننده)</text>
+<text x="660" y="132" text-anchor="middle" font-size="14" fill="#2b2b2b">عرضه‌ی اولیه</text>
+<text x="660" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">عرضه‌ی ثانویه</text>
+<text x="660" y="196" text-anchor="middle" font-size="14" fill="#2b2b2b">اوراق قابل تبدیل</text>
+<text x="660" y="228" text-anchor="middle" font-size="14" fill="#2b2b2b">پاداش سهمی</text>
+<text x="660" y="260" text-anchor="middle" font-size="14" fill="#2b2b2b">ادغام و تملک با سهام</text>
+<rect x="280" y="60" width="240" height="260" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="400" y="90" text-anchor="middle" font-size="17" fill="#c98a3d" font-weight="bold">ارزش کل ثابت</text>
+<text x="400" y="150" text-anchor="middle" font-size="14" fill="#2b2b2b">تقسیم سهام</text>
+<text x="400" y="182" text-anchor="middle" font-size="14" fill="#2b2b2b">تقسیم معکوس</text>
+<text x="400" y="240" text-anchor="middle" font-size="13" fill="#666">مثل بریدن پیتزا به برش‌های بیشتر</text>
+<rect x="20" y="60" width="240" height="260" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<text x="140" y="90" text-anchor="middle" font-size="17" fill="#5a9a6b" font-weight="bold">تعداد سهام کمتر</text>
+<text x="140" y="150" text-anchor="middle" font-size="14" fill="#2b2b2b">بازخرید سهام</text>
+<text x="140" y="190" text-anchor="middle" font-size="13" fill="#666">سهم باقی‌مانده‌ها بزرگ‌تر می‌شود</text>
+<text x="140" y="240" text-anchor="middle" font-size="13" fill="#666">اگر قیمت منطقی باشد</text>
+</svg>
