@@ -18,7 +18,8 @@ content:
         type: select
         options:
           creatable: true
-          values: [بودجه‌بندی, حسابرسی, مالیات و بیمه, سرمایه‌گذاری, سرمایه, گزارش مدیریتی, مدیریت]
+          values: [بودجه‌بندی, حسابرسی, مالیات و بیمه, سرمایه‌گذاری, سرمایه, گزارش مدیریتی, مدیریت, تحلیل مالی, مدل‌سازی مالی, صورت‌های مالی, ارزش‌گذاری, مسیر شغلی, بهره‌وری و عادت‌ها, رشد فردی, تصمیم‌گیری, ارتباطات, سبک زندگی]
+      - { name: tags, label: برچسب‌ها, type: string, list: true }
       - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
       - { name: body, label: متن, type: rich-text }
   - name: research
