@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="فرمول ارزش بازار آینده از TAM، سهم بازار، حاشیه سود و ضریب P/E">
+<rect width="800" height="330" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">از بازار کل تا ارزش بازار آینده</text>
+<g font-size="15" text-anchor="middle" fill="#2b2b2b">
+<rect x="600" y="70" width="180" height="120" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="690" y="105" font-weight="bold" font-size="18">TAM</text><text x="690" y="140">مشتریان × هزینه‌ی سالانه</text><text x="690" y="165">مثال: ۱۳٫۵ میلیارد دلار</text>
+<text x="575" y="138" font-size="26">×</text>
+<rect x="400" y="70" width="150" height="120" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="475" y="105" font-weight="bold" font-size="18">سهم بازار</text><text x="475" y="140">مثال: ۵٪</text><text x="475" y="165">درآمد ۶۷۵ میلیون</text>
+<text x="380" y="138" font-size="26">×</text>
+<rect x="215" y="70" width="140" height="120" rx="12" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+<text x="285" y="105" font-weight="bold" font-size="18">حاشیه سود</text><text x="285" y="140">مثال: ۲۰٪</text><text x="285" y="165">سود ۱۳۵ میلیون</text>
+<text x="195" y="138" font-size="26">×</text>
+<rect x="20" y="70" width="150" height="120" rx="12" fill="#f3e3f7" stroke="#8a5ab5" stroke-width="2"/>
+<text x="95" y="105" font-weight="bold" font-size="18">ضریب P/E</text><text x="95" y="140">مثال: ۱۵</text><text x="95" y="165">آینده</text>
+</g>
+<rect x="150" y="225" width="500" height="60" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="253" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">ارزش بازار آینده ≈ ۲٫۰۲۵ میلیارد دلار</text>
+<text x="400" y="276" text-anchor="middle" font-size="13" fill="#555">مثال فرضی برای آموزش؛ حتماً سناریوی بدبینانه و خوش‌بینانه بسازید</text>
+</svg>

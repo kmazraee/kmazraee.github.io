@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="طیف ذهنیت ارزش‌گذاری از رشدی تا ارزشی با GARP در میانه">
+<rect width="800" height="320" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">طیف ذهنیت ارزش‌گذاری</text>
+<defs><linearGradient id="g" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#4a6fb5"/><stop offset="0.5" stop-color="#5a9a6b"/><stop offset="1" stop-color="#c98a3d"/></linearGradient></defs>
+<rect x="60" y="110" width="680" height="24" rx="12" fill="url(#g)"/>
+<g font-size="15" text-anchor="middle" fill="#2b2b2b">
+<text x="670" y="95" font-weight="bold" font-size="18">رشدی</text>
+<text x="670" y="170">تمرکز بر پتانسیل صعود</text>
+<text x="670" y="195">ابزار: تحلیل TAM</text>
+<text x="400" y="95" font-weight="bold" font-size="18">رشد با قیمت معقول (GARP)</text>
+<text x="400" y="170">تعادل رشد و قیمت</text>
+<text x="400" y="195">ابزار: ضریب‌های ارزش‌گذاری</text>
+<text x="130" y="95" font-weight="bold" font-size="18">ارزشی</text>
+<text x="130" y="170">تمرکز بر قیمت زیر ارزش ذاتی</text>
+<text x="130" y="195">ابزار: جریان نقد تنزیل‌شده</text>
+</g>
+<rect x="110" y="235" width="580" height="55" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="268" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">اول بدانید کجای طیف هستید؛ بعد ابزار را انتخاب کنید</text>
+</svg>
