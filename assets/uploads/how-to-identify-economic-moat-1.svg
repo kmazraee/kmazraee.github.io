@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه گام شناسایی سد رقابتی: پیگیری اعداد، بررسی حمله‌های گذشته و تصور جایگزینی">
+<rect width="800" height="340" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">سه گام شناسایی سد رقابتی</text>
+<rect x="555" y="70" width="225" height="210" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<circle cx="667" cy="105" r="22" fill="#3d7a8c"/><text x="667" y="113" text-anchor="middle" font-size="22" fill="#fff" font-weight="bold">۱</text>
+<text x="667" y="155" text-anchor="middle" font-size="18" fill="#2b2b2b" font-weight="bold">اعداد را دنبال کنید</text>
+<text x="667" y="190" text-anchor="middle" font-size="14" fill="#555">بازده بالا، حاشیه‌ی سود ثابت</text>
+<text x="667" y="215" text-anchor="middle" font-size="14" fill="#555">رشد درآمد در بلندمدت</text>
+<rect x="287" y="70" width="225" height="210" rx="14" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<circle cx="400" cy="105" r="22" fill="#c98a3d"/><text x="400" y="113" text-anchor="middle" font-size="22" fill="#fff" font-weight="bold">۲</text>
+<text x="400" y="155" text-anchor="middle" font-size="18" fill="#2b2b2b" font-weight="bold">حمله‌های گذشته</text>
+<text x="400" y="190" text-anchor="middle" font-size="14" fill="#555">رقیب تلاش کرده؟</text>
+<text x="400" y="215" text-anchor="middle" font-size="14" fill="#555">شکست حمله نشانه‌ی سد است</text>
+<rect x="20" y="70" width="225" height="210" rx="14" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<circle cx="133" cy="105" r="22" fill="#5a9a6b"/><text x="133" y="113" text-anchor="middle" font-size="22" fill="#fff" font-weight="bold">۳</text>
+<text x="133" y="155" text-anchor="middle" font-size="18" fill="#2b2b2b" font-weight="bold">تصور جایگزینی</text>
+<text x="133" y="190" text-anchor="middle" font-size="14" fill="#555">برکنارکردن شرکت</text>
+<text x="133" y="215" text-anchor="middle" font-size="14" fill="#555">چقدر پول می‌خواهد؟</text>
+<text x="400" y="315" text-anchor="middle" font-size="14" fill="#777">هیچ ابزاری بی‌نقص نیست؛ سه گام را کنار هم به کار ببرید</text>
+</svg>
