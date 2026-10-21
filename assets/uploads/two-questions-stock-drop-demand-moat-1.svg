@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="دو پرسش پیش از واکنش به افت ناگهانی سهم">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">سهم افت کرد؛ دو پرسش بپرسید</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">پرسش اول: تقاضا</text>
+  <text x="590" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">در ده سال آینده</text>
+  <text x="590" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">بالا می‌رود یا پایین؟</text>
+  <text x="590" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">افت موقت یا افول ساختاری؟</text>
+  <text x="590" y="252" text-anchor="middle" font-size="15" fill="#2b4a33">تعیین می‌کند: «افق»</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="210" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#5c3c10">پرسش دوم: خندق</text>
+  <text x="210" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">آیا هزینه‌ی جابه‌جایی بالاست؟</text>
+  <text x="210" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">مشتری به‌راحتی می‌رود؟</text>
+  <text x="210" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">مزیت رقابتی پایدار است؟</text>
+  <text x="210" y="252" text-anchor="middle" font-size="15" fill="#5c3c10">تعیین می‌کند: «ماندگاری»</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">هر دو پاسخ مثبت؟ افت می‌تواند موقت باشد؛ اما ارزش‌گذاری را هم بسنجید.</text>
+</svg>

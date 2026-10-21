@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مثال لیموناد: افت حاشیه سود ناخالص از ۶۰ به ۵۵٫۶ درصد">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">مثال لیموناد و حاشیه سود ناخالص</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">قیمت: ۱ دلار</text>
+  <text x="590" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">هزینه: ۰٫۴۰ دلار</text>
+  <text x="590" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">باقی‌مانده: ۰٫۶۰ دلار</text>
+  <text x="590" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">حاشیه: ۶۰٪</text>
+  <text x="590" y="252" text-anchor="middle" font-size="15" fill="#2b4a33">مشتری حساس به قیمت نیست</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#fbe9e7" stroke="#c0675b" stroke-width="2"/>
+  <text x="210" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#7a2a20">قیمت: ۰٫۹۰ دلار</text>
+  <text x="210" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">هزینه: ۰٫۴۰ دلار</text>
+  <text x="210" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">باقی‌مانده: ۰٫۵۰ دلار</text>
+  <text x="210" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">حاشیه: ۵۵٫۶٪</text>
+  <text x="210" y="252" text-anchor="middle" font-size="15" fill="#7a2a20">مشتری حساس به قیمت است</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">حاشیه‌ی ثابت یا رو به رشد، نشانه‌ی قدرت قیمت‌گذاری است.</text>
+</svg>
