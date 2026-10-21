@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+  <rect width="800" height="420" fill="#faf8f3"/>
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">سه آزادی که پول می‌خرد</text>
+  <rect x="527" y="80" width="213" height="230" rx="14" fill="#eaf4ef" stroke="#d9d3c4"/>
+  <text x="633" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">آزادی باور</text>
+  <text x="633" y="160" text-anchor="middle" font-size="15" fill="#4b5563">انتخاب کار و ارزش</text>
+  <text x="633" y="190" text-anchor="middle" font-size="15" fill="#4b5563">بدون فشار مالی</text>
+  <text x="633" y="220" text-anchor="middle" font-size="15" fill="#4b5563">معنا و باور شخصی</text>
+  <rect x="293" y="80" width="213" height="230" rx="14" fill="#eef2f9" stroke="#d9d3c4"/>
+  <text x="400" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">آزادی زمان</text>
+  <text x="400" y="160" text-anchor="middle" font-size="15" fill="#4b5563">اختیار برنامه‌ی روز</text>
+  <text x="400" y="190" text-anchor="middle" font-size="15" fill="#4b5563">یادگیری و سلامت</text>
+  <text x="400" y="220" text-anchor="middle" font-size="15" fill="#4b5563">کار دلخواه</text>
+  <rect x="60" y="80" width="213" height="230" rx="14" fill="#fbf1e3" stroke="#d9d3c4"/>
+  <text x="167" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">آزادی روابط</text>
+  <text x="167" y="160" text-anchor="middle" font-size="15" fill="#4b5563">وقت با خانواده</text>
+  <text x="167" y="190" text-anchor="middle" font-size="15" fill="#4b5563">دوستی‌های عمیق</text>
+  <text x="167" y="220" text-anchor="middle" font-size="15" fill="#4b5563">روابط مهم‌تر از دارایی</text>
+  <rect x="60" y="334" width="680" height="54" rx="12" fill="#ffffff" stroke="#b8d9cb"/>
+  <text x="400" y="368" text-anchor="middle" font-size="17" fill="#1f2a37">هدف مالی را به «زمان آزاد» ترجمه کنید</text>
+</svg>
