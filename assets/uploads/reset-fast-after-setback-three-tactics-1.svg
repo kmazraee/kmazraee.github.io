@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه تاکتیک ریست سریع: نفس‌گیری، تغییر واژه‌های منفی و استفاده از کوارتر بعدی روز">
+<rect width="800" height="280" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">سه تاکتیک ریست سریع</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="101" text-anchor="middle" font-size="18" fill="#1f2937">۱. نفس بکشید: آه فیزیولوژیک یا روش ۴-۷-۸</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="163" text-anchor="middle" font-size="18" fill="#1f2937">۲. واژه‌ها را عوض کنید: شکست ← یادگیری</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="225" text-anchor="middle" font-size="18" fill="#1f2937">۳. کوارتر بعدی را شروع کنید، نه فردا</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 404" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="پنج سطح معنا در کار از پایین به بالا: ناچاری، وظیفه، مهارت‌ورزی، خدمت به دیگران، رسالت">
+<rect width="800" height="404" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">پنج سطح معنا در کار (از بالا به پایین)</text>
+<rect x="80" y="70" width="640" height="48" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="101" text-anchor="middle" font-size="18" fill="#1f2937">۵. رسالت: هم‌راستا با ارزش‌ها</text>
+<rect x="80" y="132" width="640" height="48" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="163" text-anchor="middle" font-size="18" fill="#1f2937">۴. خدمت به دیگران: دیدن اثر کار</text>
+<rect x="80" y="194" width="640" height="48" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="225" text-anchor="middle" font-size="18" fill="#1f2937">۳. مهارت‌ورزی: بهتر شدن مداوم</text>
+<rect x="80" y="256" width="640" height="48" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="287" text-anchor="middle" font-size="18" fill="#1f2937">۲. وظیفه: این دوره چه چیزی در من می‌سازد؟</text>
+<rect x="80" y="318" width="640" height="48" rx="10" fill="#fdecec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400.0" y="349" text-anchor="middle" font-size="18" fill="#1f2937">۱. ناچاری: از «باید» به «می‌توانم»</text>
+</svg>
