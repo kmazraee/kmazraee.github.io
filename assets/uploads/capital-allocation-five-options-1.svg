@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="پنج راه تخصیص سرمایه: سرمایه‌گذاری مجدد، ادغام و تملک، تقویت ترازنامه، سود تقسیمی و بازخرید سهام">
+<rect width="880" height="360" fill="#faf7f0"/>
+<text x="440" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">سود شرکت را کجا خرج کنیم؟</text>
+<rect x="340" y="60" width="200" height="56" rx="28" fill="#3d7a8c"/><text x="440" y="95" text-anchor="middle" font-size="18" fill="#fff" font-weight="bold">سود شرکت</text>
+<line x1="440" y1="116" x2="788" y2="170" stroke="#888" stroke-width="1.5"/>
+<rect x="708" y="170" width="160" height="150" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/><text x="788" y="200" text-anchor="middle" font-size="14" fill="#2b2b2b" font-weight="bold">۱. سرمایه‌گذاری مجدد</text><text x="788" y="238" text-anchor="middle" font-size="13" fill="#2e7d4f">رشد و نوآوری</text><text x="788" y="278" text-anchor="middle" font-size="12" fill="#b5524a">خطر: بازده کم</text>
+<line x1="440" y1="116" x2="614" y2="170" stroke="#888" stroke-width="1.5"/>
+<rect x="534" y="170" width="160" height="150" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/><text x="614" y="200" text-anchor="middle" font-size="14" fill="#2b2b2b" font-weight="bold">۲. ادغام و تملک</text><text x="614" y="238" text-anchor="middle" font-size="13" fill="#2e7d4f">هم‌افزایی</text><text x="614" y="278" text-anchor="middle" font-size="12" fill="#b5524a">خطر: پرداخت اضافه</text>
+<line x1="440" y1="116" x2="440" y2="170" stroke="#888" stroke-width="1.5"/>
+<rect x="360" y="170" width="160" height="150" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/><text x="440" y="200" text-anchor="middle" font-size="14" fill="#2b2b2b" font-weight="bold">۳. تقویت ترازنامه</text><text x="440" y="238" text-anchor="middle" font-size="13" fill="#2e7d4f">امنیت و انعطاف</text><text x="440" y="278" text-anchor="middle" font-size="12" fill="#b5524a">خطر: فرصت ازدست‌رفته</text>
+<line x1="440" y1="116" x2="266" y2="170" stroke="#888" stroke-width="1.5"/>
+<rect x="186" y="170" width="160" height="150" rx="12" fill="#fff" stroke="#7a5aa0" stroke-width="2"/><text x="266" y="200" text-anchor="middle" font-size="14" fill="#2b2b2b" font-weight="bold">۴. سود تقسیمی</text><text x="266" y="238" text-anchor="middle" font-size="13" fill="#2e7d4f">بازده مستقیم</text><text x="266" y="278" text-anchor="middle" font-size="12" fill="#b5524a">خطر: کاهش انعطاف</text>
+<line x1="440" y1="116" x2="92" y2="170" stroke="#888" stroke-width="1.5"/>
+<rect x="12" y="170" width="160" height="150" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/><text x="92" y="200" text-anchor="middle" font-size="14" fill="#2b2b2b" font-weight="bold">۵. بازخرید سهام</text><text x="92" y="238" text-anchor="middle" font-size="13" fill="#2e7d4f">افزایش سود هر سهم</text><text x="92" y="278" text-anchor="middle" font-size="12" fill="#b5524a">خطر: خرید در قیمت بالا</text>
+</svg>
