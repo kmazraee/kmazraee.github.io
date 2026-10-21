@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+  <rect width="800" height="420" fill="#faf8f3"/>
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">سه گام مرور گزارش سود</text>
+  <rect x="527" y="80" width="213" height="230" rx="14" fill="#eaf4ef" stroke="#d9d3c4"/>
+  <text x="633" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۱. فرضیه</text>
+  <text x="633" y="160" text-anchor="middle" font-size="15" fill="#4b5563">چرا این شرکت را</text>
+  <text x="633" y="190" text-anchor="middle" font-size="15" fill="#4b5563">نگه داشته‌ام؟</text>
+  <text x="633" y="220" text-anchor="middle" font-size="15" fill="#4b5563">سه جمله‌ی مکتوب</text>
+  <rect x="293" y="80" width="213" height="230" rx="14" fill="#eef2f9" stroke="#d9d3c4"/>
+  <text x="400" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۲. شواهد</text>
+  <text x="400" y="160" text-anchor="middle" font-size="15" fill="#4b5563">رشد فروش و حاشیه</text>
+  <text x="400" y="190" text-anchor="middle" font-size="15" fill="#4b5563">بدهی و جریان نقدی</text>
+  <text x="400" y="220" text-anchor="middle" font-size="15" fill="#4b5563">توضیح مدیریت</text>
+  <rect x="60" y="80" width="213" height="230" rx="14" fill="#fbf1e3" stroke="#d9d3c4"/>
+  <text x="167" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۳. تصمیم</text>
+  <text x="167" y="160" text-anchor="middle" font-size="15" fill="#4b5563">فرضیه برقرار: نگه دارید</text>
+  <text x="167" y="190" text-anchor="middle" font-size="15" fill="#4b5563">فرضیه شکسته: بازنگری</text>
+  <text x="167" y="220" text-anchor="middle" font-size="15" fill="#4b5563">نامشخص: بررسی بیشتر</text>
+  <rect x="60" y="334" width="680" height="54" rx="12" fill="#ffffff" stroke="#b8d9cb"/>
+  <text x="400" y="368" text-anchor="middle" font-size="17" fill="#1f2a37">پرسش کلیدی: آیا فرضیه‌ی اولیه‌ی من هنوز سر جایش است؟</text>
+</svg>
