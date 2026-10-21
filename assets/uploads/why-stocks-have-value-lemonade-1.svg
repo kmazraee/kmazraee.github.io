@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه قیمت برای دکه لیموناد با سود سالانه هزار دلار و بازده هر قیمت">
+<rect width="800" height="360" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">سود سالانه‌ی دکه: ۱٬۰۰۰ دلار؛ قیمت منصفانه چقدر است؟</text>
+<rect x="540" y="70" width="240" height="200" rx="12" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+<text x="660" y="105" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">قیمت ۱٬۰۰۰ دلار</text>
+<text x="660" y="145" text-anchor="middle" font-size="16" fill="#3d3d3d">ضریب P/E برابر ۱</text>
+<text x="660" y="175" text-anchor="middle" font-size="16" fill="#3d3d3d">بازده خریدار ۱۰۰٪</text>
+<text x="660" y="225" text-anchor="middle" font-size="15" fill="#8a4b0f" font-weight="bold">برای خریدار عالی؛ برای فروشنده ظلم</text>
+<rect x="280" y="70" width="240" height="200" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="105" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">قیمت ۱۰٬۰۰۰ دلار</text>
+<text x="400" y="145" text-anchor="middle" font-size="16" fill="#3d3d3d">ضریب P/E برابر ۱۰</text>
+<text x="400" y="175" text-anchor="middle" font-size="16" fill="#3d3d3d">بازده خریدار ۱۰٪</text>
+<text x="400" y="225" text-anchor="middle" font-size="15" fill="#1f6b3a" font-weight="bold">قیمت منصفانه (در این مثال)</text>
+<rect x="20" y="70" width="240" height="200" rx="12" fill="#f7e3e3" stroke="#b55a5a" stroke-width="2"/>
+<text x="140" y="105" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">قیمت ۱۰۰٬۰۰۰ دلار</text>
+<text x="140" y="145" text-anchor="middle" font-size="16" fill="#3d3d3d">ضریب P/E برابر ۱۰۰</text>
+<text x="140" y="175" text-anchor="middle" font-size="16" fill="#3d3d3d">بازده خریدار ۱٪</text>
+<text x="140" y="225" text-anchor="middle" font-size="15" fill="#7a2d2d" font-weight="bold">کمتر از سپرده‌ی بانکی؛ خیلی گران</text>
+<rect x="100" y="292" width="600" height="50" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="323" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">ارزش = ادعا بر سود؛ بازده = سود ÷ قیمت</text>
+</svg>
