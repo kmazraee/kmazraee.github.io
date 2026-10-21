@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی دو دیدگاه: بازار کامل کارا یا ناکارای نسبی با فرصت برای صبور‌ها">
+<rect width="800" height="320" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">بازار کارا یا ناکارای نسبی؟</text>
+<rect x="420" y="66" width="350" height="220" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="595" y="98" text-anchor="middle" font-size="18" fill="#3d7a8c" font-weight="bold">فرضیه‌ی کارایی کامل</text>
+<text x="595" y="134" text-anchor="middle" font-size="14" fill="#2b2b2b">همه‌ی اطلاعات در قیمت است</text>
+<text x="595" y="162" text-anchor="middle" font-size="14" fill="#2b2b2b">سهم هیچ‌وقت گران یا ارزان نیست</text>
+<text x="595" y="190" text-anchor="middle" font-size="14" fill="#2b2b2b">نتیجه: فقط صندوق شاخص</text>
+<text x="595" y="244" text-anchor="middle" font-size="15" fill="#b5524a" font-weight="bold">اما نوسان‌های بزرگ چه؟</text>
+<rect x="30" y="66" width="350" height="220" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<text x="205" y="98" text-anchor="middle" font-size="18" fill="#5a9a6b" font-weight="bold">بازار با ناکارایی نسبی</text>
+<text x="205" y="134" text-anchor="middle" font-size="14" fill="#2b2b2b">قیمت گاهی از ارزش دور می‌شود</text>
+<text x="205" y="162" text-anchor="middle" font-size="14" fill="#2b2b2b">فرصت برای وقت و صبر کافی</text>
+<text x="205" y="190" text-anchor="middle" font-size="14" fill="#2b2b2b">اما شکست‌دادن بازار سخت است</text>
+<text x="205" y="244" text-anchor="middle" font-size="15" fill="#5a9a6b" font-weight="bold">زمان، علاقه، خلق‌وخو</text>
+</svg>

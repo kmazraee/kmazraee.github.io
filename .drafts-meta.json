@@ -1,0 +1,15 @@
+{
+  "branch": "blog-drafts/2026-10-22-b",
+  "posts": [
+    {"file": "2024-09-26-valuation-warning-signs-overpriced-stock.md", "threads": ["18d936749c00b94f"], "label": "Brian Feroldi", "keyword": "نشانه‌های گران‌بودن سهم"},
+    {"file": "2024-10-01-base-rates-stocks-beat-market.md", "threads": ["18da7ec1a915ce5a"], "label": "Brian Feroldi", "keyword": "نرخ پایه در سرمایه‌گذاری"},
+    {"file": "2024-10-06-efficient-market-hypothesis-explained.md", "threads": ["18db775352c53287"], "label": "Brian Feroldi", "keyword": "فرضیه‌ی بازار کارا"},
+    {"file": "2024-10-11-net-income-misleading-metric-fcf.md", "threads": ["18dcc008e7bcc44b"], "label": "Brian Feroldi", "keyword": "سود خالص و جریان نقد آزاد"},
+    {"file": "2024-10-16-shares-outstanding-dilution-buybacks.md", "threads": ["18ddb7faaf9a7fda"], "label": "Brian Feroldi", "keyword": "تعداد سهام در گردش"},
+    {"file": "2024-10-21-economic-moat-five-types.md", "threads": ["18dff8cfa35eeacb"], "label": "Brian Feroldi", "keyword": "سد رقابتی"},
+    {"file": "2024-10-26-generalist-investor-learn-outside-finance.md", "threads": ["18e141ba83a79b21"], "label": "Brian Feroldi", "keyword": "سرمایه‌گذار همه‌فن‌حریف"},
+    {"file": "2024-10-31-network-effects-economic-moat.md", "threads": ["18e2399c6eb765a7"], "label": "Brian Feroldi", "keyword": "اثر شبکه‌ای"},
+    {"file": "2024-11-05-switching-costs-economic-moat.md", "threads": ["18e476eefa83379d"], "label": "Brian Feroldi", "keyword": "هزینه‌ی جابه‌جایی"},
+    {"file": "2024-11-10-economies-of-scale-cost-advantage-moat.md", "threads": ["18e6b7b4be8196ca"], "label": "Brian Feroldi", "keyword": "صرفه‌جویی مقیاس"}
+  ]
+}

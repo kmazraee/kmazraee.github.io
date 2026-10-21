@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="پنج نوع سد رقابتی: اثر شبکه‌ای، هزینه‌ی جابه‌جایی، مزیت هزینه، دارایی ناملموس و خلاف‌آمدی">
+<rect width="800" height="340" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">پنج نوع سد رقابتی</text>
+<rect x="320" y="130" width="160" height="70" rx="35" fill="#3d7a8c"/><text x="400" y="171" text-anchor="middle" font-size="17" fill="#fff" font-weight="bold">شرکت با سد</text>
+<rect x="590" y="62" width="190" height="62" rx="10" fill="#fff" stroke="#5a9a6b" stroke-width="2"/><text x="685" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b">۱. اثر شبکه‌ای</text>
+<rect x="590" y="206" width="190" height="62" rx="10" fill="#fff" stroke="#c98a3d" stroke-width="2"/><text x="685" y="244" text-anchor="middle" font-size="16" fill="#2b2b2b">۲. هزینه‌ی جابه‌جایی</text>
+<rect x="305" y="260" width="190" height="62" rx="10" fill="#fff" stroke="#b5524a" stroke-width="2"/><text x="400" y="298" text-anchor="middle" font-size="16" fill="#2b2b2b">۳. مزیت هزینه</text>
+<rect x="20" y="206" width="190" height="62" rx="10" fill="#fff" stroke="#7a5aa0" stroke-width="2"/><text x="115" y="244" text-anchor="middle" font-size="16" fill="#2b2b2b">۴. دارایی ناملموس</text>
+<rect x="20" y="62" width="190" height="62" rx="10" fill="#fff" stroke="#3d7a8c" stroke-width="2"/><text x="115" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b">۵. خلاف‌آمدی</text>
+<line x1="590" y1="110" x2="480" y2="150" stroke="#888" stroke-width="1.5"/><line x1="590" y1="236" x2="480" y2="186" stroke="#888" stroke-width="1.5"/><line x1="400" y1="260" x2="400" y2="200" stroke="#888" stroke-width="1.5"/><line x1="210" y1="236" x2="320" y2="186" stroke="#888" stroke-width="1.5"/><line x1="210" y1="110" x2="320" y2="150" stroke="#888" stroke-width="1.5"/>
+</svg>
