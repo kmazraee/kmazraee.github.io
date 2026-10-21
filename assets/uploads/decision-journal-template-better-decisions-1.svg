@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 498" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="الگوی دفتر تصمیم">
+<rect width="800" height="498" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2937">الگوی دفتر تصمیم</text>
+<rect x="80" y="70" width="640" height="88" rx="10" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="120" text-anchor="middle" font-size="18" fill="#1f2937">۱. چه انتخابی پیش رویم است؟</text>
+<rect x="80" y="172" width="640" height="88" rx="10" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="222" text-anchor="middle" font-size="18" fill="#1f2937">۲. برای چه چیزی بهینه می‌کنم؟</text>
+<rect x="80" y="274" width="640" height="88" rx="10" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="324" text-anchor="middle" font-size="18" fill="#1f2937">۳. چه می‌دانم؟ ۴. چرا این را انتخاب می‌کنم؟</text>
+<rect x="80" y="376" width="640" height="88" rx="10" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="426" text-anchor="middle" font-size="18" fill="#1f2937">۵. چه اتفاقی انتظار دارم؟ مرور پس از ۶ تا ۱۲ ماه</text>
+</svg>
