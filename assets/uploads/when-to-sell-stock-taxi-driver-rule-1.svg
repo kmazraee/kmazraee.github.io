@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="قاعده‌ی تاکسی در فروش سهام">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">قاعده‌ی تاکسی در سرمایه‌گذاری</text>
+  <rect x="420" y="70" width="340" height="200" rx="14" fill="#fbe9e7" stroke="#c0675b" stroke-width="2"/>
+  <text x="590" y="106" text-anchor="middle" font-size="21" font-weight="bold" fill="#7a2a20">روز خلوت = فرضیه شکسته</text>
+  <text x="590" y="146" text-anchor="middle" font-size="16" fill="#3d3d3d">راننده: زودتر کار را تمام می‌کند</text>
+  <text x="590" y="182" text-anchor="middle" font-size="16" fill="#3d3d3d">سرمایه‌گذار: سهم را زود می‌فروشد</text>
+  <text x="590" y="218" text-anchor="middle" font-size="15" fill="#7a2a20">فارغ از سود یا زیان فعلی</text>
+  <rect x="40" y="70" width="340" height="200" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="210" y="106" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">روز شلوغ = شرکت موفق</text>
+  <text x="210" y="146" text-anchor="middle" font-size="16" fill="#3d3d3d">راننده: تا جای ایمن بیشتر کار می‌کند</text>
+  <text x="210" y="182" text-anchor="middle" font-size="16" fill="#3d3d3d">سرمایه‌گذار: سهم را نگه می‌دارد</text>
+  <text x="210" y="218" text-anchor="middle" font-size="15" fill="#2b4a33">تا وقتی شرکت عالی اجرا می‌کند</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">تصمیم بر اساس کیفیت فرصت، نه عدد هدف ثابت.</text>
+</svg>

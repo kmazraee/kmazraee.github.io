@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی هدف نتیجه‌محور و هدف فرایندی">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="44" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">هدف نتیجه‌محور یا هدف فرایندی؟</text>
+  <rect x="420" y="75" width="340" height="215" rx="14" fill="#fbe9e7" stroke="#c0675b" stroke-width="2"/>
+  <text x="590" y="112" text-anchor="middle" font-size="22" font-weight="bold" fill="#7a2a20">هدف نتیجه‌محور</text>
+  <text x="590" y="150" text-anchor="middle" font-size="16" fill="#3d3d3d">یک‌بار و در پایان اتفاق می‌افتد</text>
+  <text x="590" y="180" text-anchor="middle" font-size="16" fill="#3d3d3d">کنترل کامل دست شما نیست</text>
+  <text x="590" y="210" text-anchor="middle" font-size="16" fill="#3d3d3d">بعد از رسیدن، ممکن است خلأ بماند</text>
+  <text x="590" y="258" text-anchor="middle" font-size="15" fill="#7a2a20">مثال: رسیدن به یک عدد یا مدال</text>
+  <rect x="40" y="75" width="340" height="215" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="210" y="112" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b4a33">هدف فرایندی</text>
+  <text x="210" y="150" text-anchor="middle" font-size="16" fill="#3d3d3d">هر روز قابل انجام است</text>
+  <text x="210" y="180" text-anchor="middle" font-size="16" fill="#3d3d3d">کاملاً در کنترل خود شماست</text>
+  <text x="210" y="210" text-anchor="middle" font-size="16" fill="#3d3d3d">هر روز از انجامش رضایت می‌گیرید</text>
+  <text x="210" y="258" text-anchor="middle" font-size="15" fill="#2b4a33">مثال: پس‌انداز ماهانه‌ی ثابت</text>
+  <text x="400" y="322" text-anchor="middle" font-size="16" fill="#6a5a3a">نتیجه، محصول جانبی فرایند درست است.</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="دو نگاه به یک شرکت: P/E بالا اما رشد درآمد قوی">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">یک شرکت، دو تصویر متفاوت</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#fbe9e7" stroke="#c0675b" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#7a2a20">نگاه اول: فقط سود حسابداری</text>
+  <text x="590" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">هزینه‌ها: ۲۶۰٪ افزایش</text>
+  <text x="590" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">حاشیه‌ی ناخالص: کاهش</text>
+  <text x="590" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">P/E: بیش از ۲۰۰</text>
+  <text x="590" y="248" text-anchor="middle" font-size="15" fill="#7a2a20">نتیجه: «به‌شدت گران»</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="210" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">نگاه دوم: رشد و جریان نقدی</text>
+  <text x="210" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">درآمد: ۳۲۰٪ رشد</text>
+  <text x="210" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">حاشیه‌ی عملیاتی: ۱۴ واحد درصد بهتر</text>
+  <text x="210" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">قیمت به جریان نقدی آزاد: ۳۵</text>
+  <text x="210" y="248" text-anchor="middle" font-size="15" fill="#2b4a33">نتیجه: «منطقی با این رشد»</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">عدد بدون زمینه، تصویر کامل نمی‌دهد.</text>
+</svg>
