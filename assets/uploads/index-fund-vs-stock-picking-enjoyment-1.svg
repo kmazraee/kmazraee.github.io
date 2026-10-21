@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی صندوق شاخصی و انتخاب سهم">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">صندوق شاخصی یا انتخاب سهم؟</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#e6eef9" stroke="#5b83b8" stroke-width="2"/>
+  <text x="590" y="106" text-anchor="middle" font-size="21" font-weight="bold" fill="#243a5c">صندوق شاخصی</text>
+  <text x="590" y="146" text-anchor="middle" font-size="16" fill="#3d3d3d">ساده، کم‌هزینه، کم‌دردسر</text>
+  <text x="590" y="176" text-anchor="middle" font-size="16" fill="#3d3d3d">مناسب وقتی سرمایه‌گذاری</text>
+  <text x="590" y="200" text-anchor="middle" font-size="16" fill="#3d3d3d">برایتان استرس‌زاست</text>
+  <text x="590" y="248" text-anchor="middle" font-size="15" fill="#243a5c">هدف: بازده بازار با آرامش</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="210" y="106" text-anchor="middle" font-size="21" font-weight="bold" fill="#5c3c10">انتخاب سهم</text>
+  <text x="210" y="146" text-anchor="middle" font-size="16" fill="#3d3d3d">زمان و تمرکز می‌برد</text>
+  <text x="210" y="176" text-anchor="middle" font-size="16" fill="#3d3d3d">مناسب وقتی از یادگیری</text>
+  <text x="210" y="200" text-anchor="middle" font-size="16" fill="#3d3d3d">و تحلیل لذت می‌برید</text>
+  <text x="210" y="248" text-anchor="middle" font-size="15" fill="#5c3c10">هدف: رشد ذهن و ثروت</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">حالت ترکیبی: هسته در شاخص، بخش کوچک در سهم.</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چارچوب دو مرحله‌ای کیفیت و ارزش‌گذاری">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">چارچوب دو مرحله‌ای تصمیم خرید</text>
+  <rect x="440" y="70" width="320" height="190" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="600" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">مرحله‌ی ۱: کیفیت</text>
+  <text x="600" y="142" text-anchor="middle" font-size="16" fill="#3d3d3d">خندق پهن + گزینه‌پذیری</text>
+  <text x="600" y="176" text-anchor="middle" font-size="16" fill="#3d3d3d">پرسش: آیا شرکت جایی</text>
+  <text x="600" y="200" text-anchor="middle" font-size="16" fill="#3d3d3d">در سبد من دارد؟</text>
+  <text x="600" y="240" text-anchor="middle" font-size="15" fill="#2b4a33">تعیین می‌کند: «چه چیزی»</text>
+  <path d="M435 165 L395 165" stroke="#6a5a3a" stroke-width="3" fill="none"/>
+  <path d="M405 155 L392 165 L405 175" stroke="#6a5a3a" stroke-width="3" fill="none"/>
+  <rect x="40" y="70" width="320" height="190" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="200" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#5c3c10">مرحله‌ی ۲: ارزش‌گذاری</text>
+  <text x="200" y="142" text-anchor="middle" font-size="16" fill="#3d3d3d">DCF معکوس: قیمت چه</text>
+  <text x="200" y="166" text-anchor="middle" font-size="16" fill="#3d3d3d">رشدی انتظار دارد؟</text>
+  <text x="200" y="200" text-anchor="middle" font-size="16" fill="#3d3d3d">هرچه انتظار بیشتر، سهم کوچک‌تر</text>
+  <text x="200" y="240" text-anchor="middle" font-size="15" fill="#5c3c10">تعیین می‌کند: «چقدر»</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">کیفیت برای انتخاب، قیمت برای اندازه‌ی خرید.</text>
+</svg>

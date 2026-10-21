@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه سرمایه‌گذاری بلندمدت غیر از پول">
+  <rect width="800" height="360" fill="#faf7f0"/>
+  <text x="400" y="48" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">سه سرمایه‌گذاری بلندمدت در کنار پول</text>
+  <g>
+    <rect x="530" y="85" width="230" height="200" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+    <text x="645" y="145" text-anchor="middle" font-size="38">🌿</text>
+    <text x="645" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b4a33">ذهن و بدن سالم</text>
+    <text x="645" y="212" text-anchor="middle" font-size="16" fill="#3d3d3d">خواب، تحرک،</text>
+    <text x="645" y="236" text-anchor="middle" font-size="16" fill="#3d3d3d">تغذیه و آرامش</text>
+  </g>
+  <g>
+    <rect x="285" y="85" width="230" height="200" rx="14" fill="#e6eef9" stroke="#5b83b8" stroke-width="2"/>
+    <text x="400" y="145" text-anchor="middle" font-size="38">🤝</text>
+    <text x="400" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="#243a5c">رابطه‌های حمایتگر</text>
+    <text x="400" y="212" text-anchor="middle" font-size="16" fill="#3d3d3d">خانواده و دوستانی که</text>
+    <text x="400" y="236" text-anchor="middle" font-size="16" fill="#3d3d3d">دوطرفه کنارتان‌اند</text>
+  </g>
+  <g>
+    <rect x="40" y="85" width="230" height="200" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+    <text x="155" y="145" text-anchor="middle" font-size="38">🧭</text>
+    <text x="155" y="178" text-anchor="middle" font-size="22" font-weight="bold" fill="#5c3c10">حس هدف و معنا</text>
+    <text x="155" y="212" text-anchor="middle" font-size="16" fill="#3d3d3d">کاری که برایتان</text>
+    <text x="155" y="236" text-anchor="middle" font-size="16" fill="#3d3d3d">ارزش دارد</text>
+  </g>
+  <text x="400" y="326" text-anchor="middle" font-size="18" fill="#6a5a3a">استقلال مالی وسیله است؛ این سه، مقصدند.</text>
+</svg>
