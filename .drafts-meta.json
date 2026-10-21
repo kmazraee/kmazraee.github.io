@@ -1,0 +1,16 @@
+{
+  "branch": "blog-drafts/2026-10-21-h",
+  "created": "2026-10-21",
+  "posts": [
+    {"file": "_posts/2024-04-29-negativity-bias-investing.md", "thread": "1896e3eeea195c0c", "source_label": "Brian Feroldi", "keyword": "سوگیری منفی در سرمایه‌گذاری"},
+    {"file": "_posts/2024-05-04-big-questions-before-investing.md", "thread": "189da62bc7560127", "source_label": "Brian Feroldi", "keyword": "سؤال‌های بزرگ مالی"},
+    {"file": "_posts/2024-05-09-decode-earnings-call-jargon.md", "thread": "189fe6f9288522cd", "source_label": "Brian Feroldi", "keyword": "اصطلاحات مدیران در کنفرانس سود"},
+    {"file": "_posts/2024-05-14-doing-nothing-investing-strategy.md", "thread": "18a46881ab45810b", "source_label": "Brian Feroldi", "keyword": "هیچ‌کاری‌نکردن در سرمایه‌گذاری"},
+    {"file": "_posts/2024-05-19-buffett-rules-of-thumb-moat-screening.md", "thread": ["18a6a94ecee7ee17", "18a8ea3a4f778872"], "source_label": "Brian Feroldi", "keyword": "قواعد سرانگشتی بافت"},
+    {"file": "_posts/2024-05-24-three-financial-statements-intro.md", "thread": "18ac20cd650ddfb4", "source_label": "Brian Feroldi", "keyword": "صورت‌های مالی اصلی"},
+    {"file": "_posts/2024-05-29-income-statement-line-by-line.md", "thread": "18ae644afcc4bbbc", "source_label": "Brian Feroldi", "keyword": "صورت سود و زیان"},
+    {"file": "_posts/2024-06-03-balance-sheet-explained-simply.md", "thread": "18b0a48f4a25c103", "source_label": "Brian Feroldi", "keyword": "ترازنامه"},
+    {"file": "_posts/2024-06-08-cash-flow-statement-explained.md", "thread": "18b2e5876e03ee4b", "source_label": "Brian Feroldi", "keyword": "صورت جریان وجوه نقد"},
+    {"file": "_posts/2024-06-13-unprofitable-growth-companies-moat.md", "thread": ["18afac8eb0462b2e", "18b1ed46d094b312"], "source_label": "Brian Feroldi", "keyword": "شرکت‌های زیان‌ده"}
+  ]
+}
