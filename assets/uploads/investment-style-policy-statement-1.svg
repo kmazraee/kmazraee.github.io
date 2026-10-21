@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="دو سبک متفاوت سرمایه‌گذاری با نتیجه‌ی مشابه">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">دو سبک، یک مقصد</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#5c3c10">سبک نوآورانه</text>
+  <text x="590" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">تمرکز بر فرصت آینده</text>
+  <text x="590" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">ریسک و نوسان بالا</text>
+  <text x="590" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">نتیجه: حدود ۲۳٬۴۰۰ دلار</text>
+  <text x="590" y="252" text-anchor="middle" font-size="15" fill="#5c3c10">از ۱۰٬۰۰۰ دلار</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="210" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">سبک بالغ</text>
+  <text x="210" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">تمرکز بر عملکرد واقعی</text>
+  <text x="210" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">ریسک و نوسان کمتر</text>
+  <text x="210" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">نتیجه: حدود ۲۴٬۵۰۰ دلار</text>
+  <text x="210" y="252" text-anchor="middle" font-size="15" fill="#2b4a33">از ۱۰٬۰۰۰ دلار</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">سبکی را انتخاب کنید که با خودتان سازگار است و بنویسید.</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی آزادی برای و آزادی از">
+  <rect width="800" height="340" fill="#faf7f0"/>
+  <text x="400" y="42" text-anchor="middle" font-size="24" font-weight="bold" fill="#2b2b2b">آزادی برای یا آزادی از؟</text>
+  <rect x="420" y="70" width="340" height="205" rx="14" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+  <text x="590" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#5c3c10">آزادی برای</text>
+  <text x="590" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">انجام هر کاری که بخواهم</text>
+  <text x="590" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">گزینه‌های فراوان</text>
+  <text x="590" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">اشتیاق‌ها تغییر می‌کنند</text>
+  <text x="590" y="252" text-anchor="middle" font-size="15" fill="#5c3c10">جذاب، اما کم‌دوام</text>
+  <rect x="40" y="70" width="340" height="205" rx="14" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+  <text x="210" y="104" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b4a33">آزادی از</text>
+  <text x="210" y="144" text-anchor="middle" font-size="16" fill="#3d3d3d">رهایی از نگرانی پول</text>
+  <text x="210" y="174" text-anchor="middle" font-size="16" fill="#3d3d3d">رهایی از اجبار و جلسه‌ی بی‌ارزش</text>
+  <text x="210" y="204" text-anchor="middle" font-size="16" fill="#3d3d3d">رهایی از کنترل دیگران</text>
+  <text x="210" y="252" text-anchor="middle" font-size="15" fill="#2b4a33">کم‌جلوه، اما پایدار</text>
+  <text x="400" y="312" text-anchor="middle" font-size="16" fill="#6a5a3a">با گذر سال‌ها، آزادی از انگیزه‌ی ماندگارتری می‌سازد.</text>
+</svg>
