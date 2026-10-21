@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+  <rect width="800" height="420" fill="#faf8f3"/>
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">صاحب سگ و سگ: شرکت و سهم</text>
+  <rect x="527" y="80" width="213" height="230" rx="14" fill="#eaf4ef" stroke="#d9d3c4"/>
+  <text x="633" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">شرکت (صاحب)</text>
+  <text x="633" y="160" text-anchor="middle" font-size="15" fill="#4b5563">کسب‌وکار واقعی</text>
+  <text x="633" y="190" text-anchor="middle" font-size="15" fill="#4b5563">تغییر آرام و پیوسته</text>
+  <text x="633" y="220" text-anchor="middle" font-size="15" fill="#4b5563">رشد فروش، سود، نقدینگی</text>
+  <rect x="293" y="80" width="213" height="230" rx="14" fill="#eef2f9" stroke="#d9d3c4"/>
+  <text x="400" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">قلاده</text>
+  <text x="400" y="160" text-anchor="middle" font-size="15" fill="#4b5563">قیمتی که می‌پردازیم</text>
+  <text x="400" y="190" text-anchor="middle" font-size="15" fill="#4b5563">هرچه بلندتر، نوسان بیشتر</text>
+  <text x="400" y="220" text-anchor="middle" font-size="15" fill="#4b5563">همان ارزشگذاری</text>
+  <rect x="60" y="80" width="213" height="230" rx="14" fill="#fbf1e3" stroke="#d9d3c4"/>
+  <text x="167" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">سهم (سگ)</text>
+  <text x="167" y="160" text-anchor="middle" font-size="15" fill="#4b5563">نظر بازار درباره‌ی آینده</text>
+  <text x="167" y="190" text-anchor="middle" font-size="15" fill="#4b5563">نوسان سریع و تصادفی</text>
+  <text x="167" y="220" text-anchor="middle" font-size="15" fill="#4b5563">در بلندمدت دنبال شرکت</text>
+  <rect x="60" y="334" width="680" height="54" rx="12" fill="#ffffff" stroke="#b8d9cb"/>
+  <text x="400" y="368" text-anchor="middle" font-size="17" fill="#1f2a37">صاحب را تماشا کنید: کسب‌وکار را ببینید، نه فقط قیمت را</text>
+</svg>
