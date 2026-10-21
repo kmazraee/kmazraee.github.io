@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه ثبت هزینه خرید خودرو در حسابداری نقدی و تعهدی">
+<rect width="800" height="360" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">خرید خودرو ۳۳ هزار دلاری و فروش ۳ هزار دلاری پس از ده سال</text>
+<rect x="420" y="65" width="360" height="205" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="600" y="98" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">روش نقدی (جریان نقد)</text>
+<text x="600" y="140" text-anchor="middle" font-size="15" fill="#3d3d3d">سال اول: ۳۳٬۰۰۰ دلار خروج پول</text>
+<text x="600" y="170" text-anchor="middle" font-size="15" fill="#3d3d3d">سال‌های دوم تا نهم: بدون خروج بابت خودرو</text>
+<text x="600" y="200" text-anchor="middle" font-size="15" fill="#3d3d3d">سال دهم: ۳٬۰۰۰ دلار ورود پول</text>
+<text x="600" y="245" text-anchor="middle" font-size="14" fill="#555">پول را وقتی ثبت می‌کند که جابه‌جا شود</text>
+<rect x="20" y="65" width="360" height="205" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="200" y="98" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">روش تعهدی (سود و زیان)</text>
+<text x="200" y="140" text-anchor="middle" font-size="15" fill="#3d3d3d">هر سال ۳٬۰۰۰ دلار هزینه‌ی استهلاک</text>
+<text x="200" y="170" text-anchor="middle" font-size="15" fill="#3d3d3d">(۳۳٬۰۰۰ − ۳٬۰۰۰) ÷ ۱۰ سال</text>
+<text x="200" y="200" text-anchor="middle" font-size="15" fill="#3d3d3d">هزینه بین سال‌های استفاده پخش می‌شود</text>
+<text x="200" y="245" text-anchor="middle" font-size="14" fill="#555">رویداد را در دوره‌ی مربوط ثبت می‌کند</text>
+<rect x="150" y="292" width="500" height="50" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="323" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">هر دو درست‌اند؛ هر کدام جنبه‌ای از واقعیت را نشان می‌دهند</text>
+</svg>

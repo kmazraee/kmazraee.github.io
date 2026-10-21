@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش مرحله چرخه رشد کسب‌وکار و روش ارزش‌گذاری مناسب هر مرحله">
+<rect width="800" height="420" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" fill="#2b2b2b" font-weight="bold">شش مرحله‌ی رشد و ابزار ارزش‌گذاری هر مرحله</text>
+<g font-size="15" text-anchor="middle" fill="#2b2b2b">
+<rect x="560" y="60" width="220" height="150" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="670" y="90" font-weight="bold" font-size="18">۱. راه‌اندازی</text>
+<text x="670" y="125">هدف: ثبت فروش</text>
+<text x="670" y="165" fill="#1c3f7c">روش: TAM</text>
+<rect x="290" y="60" width="240" height="150" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="410" y="90" font-weight="bold" font-size="18">۲. رشد انفجاری</text>
+<text x="410" y="125">هدف: رشد سود ناخالص</text>
+<text x="410" y="165" fill="#1c3f7c">روش: TAM و P/S</text>
+<rect x="20" y="60" width="240" height="150" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="140" y="90" font-weight="bold" font-size="18">۳. خودتأمین‌کننده</text>
+<text x="140" y="125">هدف: تولید سود</text>
+<text x="140" y="165" fill="#1f6b3a">روش: Forward P/E</text>
+<text x="140" y="185" fill="#1f6b3a">و قیمت به سود ناخالص</text>
+<rect x="560" y="230" width="220" height="150" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="670" y="260" font-weight="bold" font-size="18">۴. اهرم عملیاتی</text>
+<text x="670" y="295">هدف: حداکثر سودآوری</text>
+<text x="670" y="335" fill="#1f6b3a">روش: Forward P/E،</text>
+<text x="670" y="355" fill="#1f6b3a">P/FCF، تنزیل معکوس</text>
+<rect x="290" y="230" width="240" height="150" rx="12" fill="#fbeedd" stroke="#c98a3d" stroke-width="2"/>
+<text x="410" y="260" font-weight="bold" font-size="18">۵. بازگشت سرمایه</text>
+<text x="410" y="295">هدف: پاداش سهامداران</text>
+<text x="410" y="335" fill="#8a4b0f">روش: P/E، P/FCF،</text>
+<text x="410" y="355" fill="#8a4b0f">DCF و تنزیل معکوس</text>
+<rect x="20" y="230" width="240" height="150" rx="12" fill="#f7e3e3" stroke="#b55a5a" stroke-width="2"/>
+<text x="140" y="260" font-weight="bold" font-size="18">۶. افول</text>
+<text x="140" y="295">هدف: اصلاح کسب‌وکار</text>
+<text x="140" y="335" fill="#7a2d2d">روش: تنزیل معکوس</text>
+<text x="140" y="355" fill="#7a2d2d">(مراقب تله‌ی ارزش)</text>
+</g>
+<text x="400" y="408" text-anchor="middle" font-size="13" fill="#555">مدل ذهنی؛ شرکت‌ها می‌توانند میان مراحل جلو و عقب بروند</text>
+</svg>
