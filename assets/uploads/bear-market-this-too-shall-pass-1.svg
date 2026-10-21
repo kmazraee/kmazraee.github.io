@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+  <rect width="800" height="420" fill="#faf8f3"/>
+  <text x="400" y="46" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">بازده تقریبی بلندمدت یک شاخص (تا پاییز ۲۰۲۲)</text>
+  <rect x="585" y="80" width="155" height="230" rx="14" fill="#eaf4ef" stroke="#d9d3c4"/>
+  <text x="662" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۵ ساله</text>
+  <text x="662" y="160" text-anchor="middle" font-size="15" fill="#4b5563">حدود ۶۵٪ رشد</text>
+  <text x="662" y="190" text-anchor="middle" font-size="15" fill="#4b5563">سالانه حدود ۱۰٫۵٪</text>
+  <rect x="410" y="80" width="155" height="230" rx="14" fill="#eef2f9" stroke="#d9d3c4"/>
+  <text x="488" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۱۰ ساله</text>
+  <text x="488" y="160" text-anchor="middle" font-size="15" fill="#4b5563">حدود ۲۷۰٪ رشد</text>
+  <text x="488" y="190" text-anchor="middle" font-size="15" fill="#4b5563">سالانه حدود ۱۴٪</text>
+  <rect x="235" y="80" width="155" height="230" rx="14" fill="#fbf1e3" stroke="#d9d3c4"/>
+  <text x="312" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۲۰ ساله</text>
+  <text x="312" y="160" text-anchor="middle" font-size="15" fill="#4b5563">حدود ۷۴۰٪ رشد</text>
+  <text x="312" y="190" text-anchor="middle" font-size="15" fill="#4b5563">سالانه حدود ۱۱٫۲٪</text>
+  <rect x="60" y="80" width="155" height="230" rx="14" fill="#eaf4ef" stroke="#d9d3c4"/>
+  <text x="138" y="118" text-anchor="middle" font-size="19" font-weight="700" fill="#1f2a37">۳۰ ساله</text>
+  <text x="138" y="160" text-anchor="middle" font-size="15" fill="#4b5563">حدود ۱٬۷۳۰٪ رشد</text>
+  <text x="138" y="190" text-anchor="middle" font-size="15" fill="#4b5563">سالانه حدود ۱۰٫۲٪</text>
+  <rect x="60" y="334" width="680" height="54" rx="12" fill="#ffffff" stroke="#b8d9cb"/>
+  <text x="400" y="368" text-anchor="middle" font-size="17" fill="#1f2a37">ارقام تاریخی‌اند و آینده را تضمین نمی‌کنند؛ این هم می‌گذرد</text>
+</svg>
