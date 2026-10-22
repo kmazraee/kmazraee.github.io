@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="طرح مدل ماهانه با سه بخش سالانه در سمت راست">
+<rect width="800" height="330" fill="#faf7f0"/>
+<text x="400" y="32" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">مدل ماهانه + نمای سالانه روی همان ردیف‌ها</text>
+<rect x="30" y="60" width="440" height="200" rx="10" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="250" y="92" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">ستون‌های ماهانه</text>
+<rect x="50" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="79" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 1</text>
+<rect x="120" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="149" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 2</text>
+<rect x="190" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="219" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 3</text>
+<rect x="260" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="289" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 4</text>
+<rect x="330" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="359" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 5</text>
+<rect x="400" y="110" width="58" height="130" rx="5" fill="#fff" stroke="#9fb4de"/>
+<text x="429" y="130" text-anchor="middle" font-size="12" fill="#555">ماه 6</text>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<line x1="474" y1="160" x2="496" y2="160" stroke="#555" stroke-width="2" marker-end="url(#a)"/>
+<rect x="500" y="60" width="270" height="60" rx="10" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="635" y="88" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">جمع سالانه</text>
+<text x="635" y="108" text-anchor="middle" font-size="13" fill="#555">به واحد پول</text>
+<rect x="500" y="130" width="270" height="60" rx="10" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="635" y="158" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">رشد سال‌به‌سال</text>
+<text x="635" y="178" text-anchor="middle" font-size="13" fill="#555">درصد تغییر</text>
+<rect x="500" y="200" width="270" height="60" rx="10" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="635" y="228" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">درصد از درآمد</text>
+<text x="635" y="248" text-anchor="middle" font-size="13" fill="#555">سهم هر قلم</text>
+<text x="400" y="298" text-anchor="middle" font-size="16" fill="#555">آیا این اعداد همان چیزی‌اند که انتظار داشتیم؟</text>
+</svg>
