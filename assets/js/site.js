@@ -64,14 +64,23 @@
       }
       groups[y].lastChild.appendChild(e);
     });
-    var topic = new URLSearchParams(location.search).get('topic') || '';
+    var params = new URLSearchParams(location.search);
+    var topic = params.get('topic') || '';
+    var tag = params.get('tag') || '';
     var q = document.getElementById('q');
-    var btns = document.querySelectorAll('[data-topic]');
+    var btns = document.querySelectorAll('.seg [data-topic]');
+    if (tag) {
+      document.getElementById('tag-name').textContent = tag;
+      document.getElementById('tag-filter').hidden = false;
+    }
+    var tagsOf = function (e) { return (e.getAttribute('data-tags') || '').split('|'); };
     var apply = function () {
       var term = (q.value || '').trim();
       var shown = 0;
       entries.forEach(function (e) {
-        var ok = (!topic || e.getAttribute('data-topic') === topic) && (!term || e.textContent.indexOf(term) !== -1);
+        var ok = (!topic || e.getAttribute('data-topic') === topic) &&
+          (!tag || tagsOf(e).indexOf(tag) !== -1) &&
+          (!term || e.textContent.indexOf(term) !== -1 || tagsOf(e).join(' ').indexOf(term) !== -1);
         e.hidden = !ok; if (ok) shown++;
       });
       list.querySelectorAll('.year').forEach(function (s) { s.hidden = !s.querySelector('.entry:not([hidden])'); });

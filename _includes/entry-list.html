@@ -7,9 +7,10 @@
   </div>
   <input class="input" id="q" type="search" placeholder="جست‌وجو" aria-label="جست‌وجو">
 </div>
+<p class="tag-filter" id="tag-filter" hidden>برچسب: <b id="tag-name"></b> <a href="?" id="tag-clear">× حذف فیلتر</a></p>
 <div id="post-list" style="padding-bottom:48px">
   {%- for post in include.items -%}
-  <a class="entry" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: '%Y-%m-%d' }}" data-topic="{{ post.category }}"><span class="small">{% include date.html date=post.date short=true %}</span><span><b>{{ post.title }}</b>{% if post.source %}<span class="ex">{{ post.source }}</span>{% elsif post.description %}<span class="ex">{{ post.description }}</span>{% endif %}</span><span class="small end">{{ post.category }}{% if post.category %}، {% endif %}{% include minutes.html post=post %}</span></a>
+  <a class="entry" href="{{ post.url | relative_url }}" data-date="{{ post.date | date: '%Y-%m-%d' }}" data-topic="{{ post.category }}" data-tags="{{ post.tags | join: '|' }}"><span class="small">{% include date.html date=post.date short=true %}</span><span><b>{{ post.title }}</b>{% if post.source %}<span class="ex">{{ post.source }}</span>{% elsif post.description %}<span class="ex">{{ post.description }}</span>{% endif %}</span><span class="small end">{{ post.category }}{% if post.category %}، {% endif %}{% include minutes.html post=post %}</span></a>
   {%- endfor -%}
 </div>
 <p class="empty muted" id="empty">موردی با این مشخصات پیدا نشد.</p>
