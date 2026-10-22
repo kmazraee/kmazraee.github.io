@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چهار گام کار ایمن با هوش مصنوعی در مدل مالی">
+<rect width="800" height="290" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">چرخه‌ی کار با هوش مصنوعی در مدل مالی</text>
+<rect x="596" y="75" width="174" height="140" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="683" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۱</text>
+<text x="683" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">بخش کوچک</text>
+<text x="683" y="166" text-anchor="middle" font-size="13" fill="#374151">هر بار یک بخش</text>
+<text x="683" y="185" text-anchor="middle" font-size="13" fill="#374151">نه کل مدل</text>
+<rect x="407" y="75" width="174" height="140" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="494" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۲</text>
+<text x="494" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">قضاوت خودتان</text>
+<text x="494" y="166" text-anchor="middle" font-size="13" fill="#374151">اول نظر خودتان</text>
+<text x="494" y="185" text-anchor="middle" font-size="13" fill="#374151">را بنویسید</text>
+<rect x="218" y="75" width="174" height="140" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="306" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۳</text>
+<text x="306" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">کنترل دستی</text>
+<text x="306" y="166" text-anchor="middle" font-size="13" fill="#374151">کنترل‌هایی که</text>
+<text x="306" y="185" text-anchor="middle" font-size="13" fill="#374151">با دست تأیید می‌شود</text>
+<rect x="30" y="75" width="174" height="140" rx="12" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="117" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۴</text>
+<text x="117" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">توضیح دادن</text>
+<text x="117" y="166" text-anchor="middle" font-size="13" fill="#374151">اگر نتوانید توضیح</text>
+<text x="117" y="185" text-anchor="middle" font-size="13" fill="#374151">دهید، تمام نیست</text>
+<text x="400" y="266" text-anchor="middle" font-size="15" fill="#374151">هوش مصنوعی سرعت می‌دهد؛ قضاوت با شماست</text>
+</svg>

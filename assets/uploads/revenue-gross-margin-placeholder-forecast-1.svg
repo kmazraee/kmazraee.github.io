@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه لایه‌ی پیش‌بینی: اسکلت، فرض جانشین، جزئیات">
+<rect width="800" height="290" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">سه لایه‌ی پیش‌بینی هر ردیف</text>
+<rect x="533" y="75" width="237" height="140" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="651" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۱</text>
+<text x="651" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">اسکلت</text>
+<text x="651" y="162" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">کارا</text>
+<text x="651" y="188" text-anchor="middle" font-size="13" fill="#374151">مدل بدون خطا</text>
+<text x="651" y="207" text-anchor="middle" font-size="13" fill="#374151">کار می‌کند</text>
+<rect x="281" y="75" width="237" height="140" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۲</text>
+<text x="400" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">فرض جانشین</text>
+<text x="400" y="162" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">ساده</text>
+<text x="400" y="188" text-anchor="middle" font-size="13" fill="#374151">رشد یا حاشیه</text>
+<text x="400" y="207" text-anchor="middle" font-size="13" fill="#374151">از روی گذشته</text>
+<rect x="30" y="75" width="237" height="140" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="149" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۳</text>
+<text x="149" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">جزئیات</text>
+<text x="149" y="162" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">واقعی</text>
+<text x="149" y="188" text-anchor="middle" font-size="13" fill="#374151">بعد از گفت‌وگو</text>
+<text x="149" y="207" text-anchor="middle" font-size="13" fill="#374151">با مدیران</text>
+<text x="400" y="266" text-anchor="middle" font-size="15" fill="#374151">اول اسکلت، بعد فرض ساده، در پایان جزئیات</text>
+</svg>
