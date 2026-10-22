@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 224" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="هفت گام ساخت پیش‌بینی مالی برای حسابدارها">
+<rect width="800" height="224" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">هفت گام پیش‌بینی برای حسابدارها</text>
+<rect x="678.9" y="62" width="97.1" height="138" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="727.4" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۱. شناسایی</text>
+<text x="727.4" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">واریانس‌های</text>
+<text x="727.4" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">فصل به فصل را</text>
+<text x="727.4" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">بکاوید</text>
+<rect x="569.7" y="62" width="97.1" height="138" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="618.3" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۲. فهم علت</text>
+<text x="618.3" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">علت‌های</text>
+<text x="618.3" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">گذشته را</text>
+<text x="618.3" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">بپرسید</text>
+<rect x="460.6" y="62" width="97.1" height="138" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="509.1" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۳. بازه</text>
+<text x="509.1" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">بدترین، مورد</text>
+<text x="509.1" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">انتظار و بهترین</text>
+<text x="509.1" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">برای هر محرک</text>
+<rect x="351.4" y="62" width="97.1" height="138" rx="12" fill="#f1e4f2" stroke="#9a5aa8" stroke-width="2"/>
+<text x="400.0" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۴. تجمیع</text>
+<text x="400.0" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">احتمال‌ها را</text>
+<text x="400.0" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">بگذارید و میانگین</text>
+<text x="400.0" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">وزنی بگیرید</text>
+<rect x="242.3" y="62" width="97.1" height="138" rx="12" fill="#e6eef0" stroke="#4b8a99" stroke-width="2"/>
+<text x="290.9" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۵. نظر شرکا</text>
+<text x="290.9" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">پیش‌بینی واحدها</text>
+<text x="290.9" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">را جداگانه</text>
+<text x="290.9" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">بگیرید</text>
+<rect x="133.1" y="62" width="97.1" height="138" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="181.7" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۶. مقایسه</text>
+<text x="181.7" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">مجموع آن‌ها را</text>
+<text x="181.7" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">با نسخه‌ی خودتان</text>
+<text x="181.7" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">بسنجید</text>
+<rect x="24.0" y="62" width="97.1" height="138" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="72.6" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۷. گفت‌وگو</text>
+<text x="72.6" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">درباره‌ی فاصله‌ها</text>
+<text x="72.6" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">و ریسک‌ها</text>
+<text x="72.6" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">حرف بزنید</text>
+</svg>
