@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 372" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی بازده سود تقسیمی با چهار معیار">
+<rect width="880" height="372" fill="#faf7f0"/>
+<text x="440.0" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">چهار معیار مقایسه‌ی بازده</text>
+<rect x="448" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<rect x="448" y="70" width="408" height="38" rx="12" fill="#3d7a8c"/><rect x="448" y="96" width="408" height="12" fill="#3d7a8c"/>
+<text x="652" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">تاریخچه‌ی شرکت</text>
+<text x="652" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">میانگین ده‌ساله‌ی</text>
+<text x="652" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">خود شرکت چقدر است؟</text>
+<rect x="24" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<rect x="24" y="70" width="408" height="38" rx="12" fill="#5a9a6b"/><rect x="24" y="96" width="408" height="12" fill="#5a9a6b"/>
+<text x="228" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">بازار</text>
+<text x="228" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">بازده شاخص‌های</text>
+<text x="228" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">اصلی بورس</text>
+<rect x="448" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<rect x="448" y="216" width="408" height="38" rx="12" fill="#c98a3d"/><rect x="448" y="242" width="408" height="12" fill="#c98a3d"/>
+<text x="652" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">رقبا</text>
+<text x="652" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">هم‌ردیف‌های صنعت</text>
+<text x="652" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">چه بازده‌ای دارند؟</text>
+<rect x="24" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#7a5aa0" stroke-width="2"/>
+<rect x="24" y="216" width="408" height="38" rx="12" fill="#7a5aa0"/><rect x="24" y="242" width="408" height="12" fill="#7a5aa0"/>
+<text x="228" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">جایگزین‌ها</text>
+<text x="228" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">سپرده‌ی بانکی</text>
+<text x="228" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">و اوراق قرضه</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 372" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش معیار برای قضاوت درباره‌ی هزینه‌های سرمایه‌ای شرکت">
+<rect width="880" height="372" fill="#faf7f0"/>
+<text x="440.0" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">شش معیار سنجش هزینه‌ی سرمایه‌ای</text>
+<rect x="589" y="70" width="267" height="130" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<rect x="589" y="70" width="267" height="38" rx="12" fill="#5a9a6b"/><rect x="589" y="96" width="267" height="12" fill="#5a9a6b"/>
+<text x="723" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۱. بازده نیمه‌تضمین‌شده</text>
+<text x="723" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">قرارداد بلندمدت</text>
+<text x="723" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">و درآمد قطعی</text>
+<rect x="307" y="70" width="267" height="130" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<rect x="307" y="70" width="267" height="38" rx="12" fill="#3d7a8c"/><rect x="307" y="96" width="267" height="12" fill="#3d7a8c"/>
+<text x="440" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۲. بازطراحی تولید</text>
+<text x="440" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">حاشیه‌ی سود ناخالص</text>
+<text x="440" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">پایدارتر می‌شود</text>
+<rect x="24" y="70" width="267" height="130" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<rect x="24" y="70" width="267" height="38" rx="12" fill="#c98a3d"/><rect x="24" y="96" width="267" height="12" fill="#c98a3d"/>
+<text x="157" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۳. نوسازی یا ساخت از صفر</text>
+<text x="157" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">نوسازی معمولاً ارزان‌تر</text>
+<text x="157" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">و سریع‌تر است</text>
+<rect x="589" y="216" width="267" height="130" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/>
+<rect x="589" y="216" width="267" height="38" rx="12" fill="#b5524a"/><rect x="589" y="242" width="267" height="12" fill="#b5524a"/>
+<text x="723" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۴. هزینه‌ی نگهداری</text>
+<text x="723" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">هرگز زیر سطح لازم</text>
+<text x="723" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">برای حفظ دارایی نرود</text>
+<rect x="307" y="216" width="267" height="130" rx="12" fill="#fff" stroke="#7a5aa0" stroke-width="2"/>
+<rect x="307" y="216" width="267" height="38" rx="12" fill="#7a5aa0"/><rect x="307" y="242" width="267" height="12" fill="#7a5aa0"/>
+<text x="440" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۵. رشد با بازده بالا</text>
+<text x="440" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">پرریسک؛ پیش‌بینی</text>
+<text x="440" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">باید محافظه‌کارانه باشد</text>
+<rect x="24" y="216" width="267" height="130" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<rect x="24" y="216" width="267" height="38" rx="12" fill="#3d7a8c"/><rect x="24" y="242" width="267" height="12" fill="#3d7a8c"/>
+<text x="157" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۶. هزینه‌ی ضروری</text>
+<text x="157" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">دفاعی است و</text>
+<text x="157" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">بازده مستقیم کمی دارد</text>
+</svg>
