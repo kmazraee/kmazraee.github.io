@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 232" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+<rect width="800" height="232" rx="14" fill="#f7f5ef"/>
+<text direction="rtl" x="400.0" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">پنج مرحله‌ی بهینه‌سازی فرایند</text>
+<line x1="300" y1="64" x2="500" y2="64" stroke="#b08d57" stroke-width="3"/>
+<rect x="642" y="84" width="138" height="124" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="756" cy="108" r="14" fill="#1f4e5f"/>
+<text direction="rtl" x="756" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<text direction="rtl" x="732" y="114" text-anchor="start" font-size="14" font-weight="700" fill="#1f2a37">فهم فرایند</text>
+<text direction="rtl" x="766" y="146" text-anchor="start" font-size="13" fill="#4b5563">کل مراحل را ببینید</text>
+<rect x="486" y="84" width="138" height="124" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="601" cy="108" r="14" fill="#1f4e5f"/>
+<text direction="rtl" x="601" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<text direction="rtl" x="577" y="114" text-anchor="start" font-size="14" font-weight="700" fill="#1f2a37">پرسش</text>
+<text direction="rtl" x="611" y="146" text-anchor="start" font-size="13" fill="#4b5563">گلوگاه‌ها را بپرسید</text>
+<rect x="331" y="84" width="138" height="124" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="445" cy="108" r="14" fill="#1f4e5f"/>
+<text direction="rtl" x="445" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<text direction="rtl" x="421" y="114" text-anchor="start" font-size="14" font-weight="700" fill="#1f2a37">چند گزینه</text>
+<text direction="rtl" x="455" y="146" text-anchor="start" font-size="13" fill="#4b5563">برای هر مشکل</text>
+<rect x="175" y="84" width="138" height="124" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="290" cy="108" r="14" fill="#1f4e5f"/>
+<text direction="rtl" x="290" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<text direction="rtl" x="266" y="114" text-anchor="start" font-size="14" font-weight="700" fill="#1f2a37">اجرا و سنجش</text>
+<text direction="rtl" x="300" y="146" text-anchor="start" font-size="13" fill="#4b5563">یک گزینه را بسنجید</text>
+<rect x="20" y="84" width="138" height="124" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="134" cy="108" r="14" fill="#1f4e5f"/>
+<text direction="rtl" x="134" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">5</text>
+<text direction="rtl" x="110" y="114" text-anchor="start" font-size="14" font-weight="700" fill="#1f2a37">تکرار</text>
+<text direction="rtl" x="144" y="146" text-anchor="start" font-size="13" fill="#4b5563">در دور بعد دوباره</text>
+</svg>
