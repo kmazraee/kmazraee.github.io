@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="هفت درس مدل‌سازی مالی">
+<rect width="800" height="420" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">هفت درس مدل‌سازی مالی</text>
+<g font-size="15" fill="#333">
+<rect x="40" y="60" width="720" height="40" rx="8" fill="#fff" stroke="#3d7a8c"/><text x="745" y="86" text-anchor="start">۱. به سه صورت مالی مسلط شوید</text>
+<rect x="40" y="108" width="720" height="40" rx="8" fill="#fff" stroke="#c98a3d"/><text x="745" y="134" text-anchor="start">۲. مدل ابزار تصمیم است، نه خودِ کسب‌وکار</text>
+<rect x="40" y="156" width="720" height="40" rx="8" fill="#fff" stroke="#6a8f4e"/><text x="745" y="182" text-anchor="start">۳. سرانجام باید سودآور بود</text>
+<rect x="40" y="204" width="720" height="40" rx="8" fill="#fff" stroke="#8a5a8c"/><text x="745" y="230" text-anchor="start">۴. مدل پیچیده مردم را گیج می‌کند؛ خروجی‌های کلیدی را نشان دهید</text>
+<rect x="40" y="252" width="720" height="40" rx="8" fill="#fff" stroke="#3d7a8c"/><text x="745" y="278" text-anchor="start">۵. درآمد، حاشیه‌ی ناخالص، EBITDA و نقد</text>
+<rect x="40" y="300" width="720" height="40" rx="8" fill="#fff" stroke="#c98a3d"/><text x="745" y="326" text-anchor="start">۶. به‌روزرسانی در حد نیم‌روز، نه چهار روز</text>
+<rect x="40" y="348" width="720" height="40" rx="8" fill="#fff" stroke="#6a8f4e"/><text x="745" y="374" text-anchor="start">۷. فرض‌ها را بنویسید و حساس‌ترین‌ها را آزمون کنید</text>
+</g>
+</svg>
