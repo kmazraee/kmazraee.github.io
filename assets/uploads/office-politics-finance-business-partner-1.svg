@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 278" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="ریشه و راه‌های مقابله با سیاست‌بازی سازمانی برای شریک مالی">
+<rect width="800" height="278" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">سیاست‌بازی سازمانی: ریشه و راه‌حل</text>
+<rect x="600" y="62" width="176" height="138" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="688" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">ریشه</text>
+<text x="688" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">ناهم‌راستایی</text>
+<text x="688" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">انگیزه‌ها</text>
+<rect x="408" y="62" width="176" height="138" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="496" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">راه‌حل بنیادی</text>
+<text x="496" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">هدف‌های مشترک</text>
+<text x="496" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">شاخص‌های هم‌سو</text>
+<rect x="216" y="62" width="176" height="138" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="304" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">تا آن زمان</text>
+<text x="304" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">گزارش تصویر کامل</text>
+<text x="304" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">داده، نه سلیقه</text>
+<text x="304" y="172" text-anchor="middle" font-size="13" fill="#3d3d3d">فرضیه را بنامید</text>
+<rect x="24" y="62" width="176" height="138" rx="12" fill="#f3e6f3" stroke="#9a5a9a" stroke-width="2"/>
+<text x="112" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">پایه</text>
+<text x="112" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">اعتماد</text>
+<text x="112" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">ایمنی روانی</text>
+<rect x="100" y="216" width="600" height="42" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="243" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">همه‌ی ابزارها روی اعتماد بنا می‌شوند</text>
+</svg>
