@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kmazraee.github.io/sitemap.xml
+Sitemap: https://kmazraee.ir/sitemap.xml
