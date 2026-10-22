@@ -12,7 +12,7 @@ phone: ""
 linkedin: ""
 telegram: ""
 lang: fa
-url: "https://kmazraee.github.io"
+url: "https://kmazraee.ir"
 baseurl: ""
 plugins:
   - jekyll-sitemap
