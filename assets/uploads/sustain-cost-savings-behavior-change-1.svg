@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 324" font-family="Vazirmatn, Tahoma, Arial, sans-serif">
+<rect width="800" height="324" rx="14" fill="#f7f5ef"/>
+<text x="400.0" y="48" text-anchor="middle" font-size="24" font-weight="700" fill="#1f2a37">چطور صرفه‌جویی هزینه ماندگار شود</text>
+<line x1="300" y1="64" x2="500" y2="64" stroke="#b08d57" stroke-width="3"/>
+<rect x="408" y="84" width="372" height="96" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="756" cy="108" r="14" fill="#1f4e5f"/>
+<text x="756" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">1</text>
+<text x="732" y="114" text-anchor="end" font-size="16" font-weight="700" fill="#1f2a37">شناسایی صرفه‌جویی</text>
+<text x="766" y="146" text-anchor="end" font-size="13" fill="#4b5563">بدون آسیب به فروش</text>
+<rect x="20" y="84" width="372" height="96" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="368" cy="108" r="14" fill="#1f4e5f"/>
+<text x="368" y="114" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">2</text>
+<text x="344" y="114" text-anchor="end" font-size="16" font-weight="700" fill="#1f2a37">تغییر رفتار</text>
+<text x="378" y="146" text-anchor="end" font-size="13" fill="#4b5563">بدون آن، مشکل برمی‌گردد</text>
+<rect x="408" y="196" width="372" height="96" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="756" cy="220" r="14" fill="#1f4e5f"/>
+<text x="756" y="226" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">3</text>
+<text x="732" y="226" text-anchor="end" font-size="16" font-weight="700" fill="#1f2a37">قفل در اهداف</text>
+<text x="766" y="258" text-anchor="end" font-size="13" fill="#4b5563">هدف رسمی مدیران واحدها</text>
+<rect x="20" y="196" width="372" height="96" rx="10" fill="#ffffff" stroke="#d9d2c0"/>
+<circle cx="368" cy="220" r="14" fill="#1f4e5f"/>
+<text x="368" y="226" text-anchor="middle" font-size="15" font-weight="700" fill="#fff">4</text>
+<text x="344" y="226" text-anchor="end" font-size="16" font-weight="700" fill="#1f2a37">هم‌راستایی انگیزه‌ها</text>
+<text x="378" y="258" text-anchor="end" font-size="13" fill="#4b5563">پاداش به رفتار جدید گره بخورد</text>
+</svg>
