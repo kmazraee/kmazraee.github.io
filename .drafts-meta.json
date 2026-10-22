@@ -1,0 +1,15 @@
+{
+ "branch": "blog-drafts/2026-10-22-k",
+ "posts": [
+  {"file":"2026-05-19-visualize-net-working-capital-chart.md","threads":["19224363dc86f227"],"origin_label":"Chris Reilly","keyword":"سرمایه در گردش خالص"},
+  {"file":"2026-05-24-saas-model-layout-tabs-flow.md","threads":["19519879ae6d00a5"],"origin_label":"Chris Reilly","keyword":"چیدمان مدل مالی SaaS"},
+  {"file":"2026-05-29-saas-contract-table-modeling.md","threads":["1953d83e2ae0ee81"],"origin_label":"Chris Reilly","keyword":"مدل‌سازی قرارداد SaaS"},
+  {"file":"2026-06-03-grr-vs-nrr-saas-retention.md","threads":["19585645e666ce90"],"origin_label":"Chris Reilly","keyword":"GRR و NRR"},
+  {"file":"2026-06-08-saas-net-magic-number.md","threads":["1963ab50c51fade9"],"origin_label":"Chris Reilly","keyword":"عدد جادویی خالص SaaS"},
+  {"file":"2026-06-13-private-equity-acquisition-friction.md","threads":["1965ebe69f28c643"],"origin_label":"Chris Reilly","keyword":"سرمایه‌گذاری خصوصی"},
+  {"file":"2026-06-18-dynamic-scenario-financial-model.md","threads":["196a6d7a2f3c3293"],"origin_label":"Chris Reilly","keyword":"مدل مالی سناریومحور"},
+  {"file":"2026-06-23-ai-financial-modeling-fundamentals.md","threads":["196eef280a09f06e"],"origin_label":"Chris Reilly","keyword":"هوش مصنوعی در مدل‌سازی مالی"},
+  {"file":"2026-06-28-cfo-request-model-cleanup-historical-data.md","threads":["197eb490540278ff","1980f54c0f4da0ce"],"origin_label":"Chris Reilly","keyword":"درخواست مدل‌سازی مالی"},
+  {"file":"2026-07-03-annual-summary-monthly-financial-model.md","threads":["198c392504854919"],"origin_label":"Chris Reilly","keyword":"خلاصه‌ی سالانه مدل مالی"}
+ ]
+}

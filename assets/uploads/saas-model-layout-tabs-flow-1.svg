@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="جریان اطلاعات در مدل مالی SaaS میان تب خلاصه و مفروضات و تب‌های محاسباتی">
+<rect width="800" height="480" fill="#faf7f0"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<text x="400" y="32" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">جریان اطلاعات؛ یک حلقه‌ی کنترل‌شده</text>
+<rect x="280" y="56" width="240" height="70" rx="12" fill="#fbe9c9" stroke="#c98a1f" stroke-width="2"/>
+<text x="400.0" y="88.0" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">خلاصه و مفروضات</text>
+<text x="400.0" y="110.0" text-anchor="middle" font-size="13" fill="#555">مرکز کنترل کل مدل</text>
+<rect x="40" y="190" width="230" height="70" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="155.0" y="222.0" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">نیروی انسانی</text>
+<text x="155.0" y="244.0" text-anchor="middle" font-size="13" fill="#555">حقوق، افزایش، پاداش</text>
+<rect x="530" y="190" width="230" height="70" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="645.0" y="222.0" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">ساخت SaaS</text>
+<text x="645.0" y="244.0" text-anchor="middle" font-size="13" fill="#555">قیمت، ریزش، ظرفیت فروش</text>
+<rect x="280" y="310" width="240" height="70" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400.0" y="342.0" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">مدل عملیاتی</text>
+<text x="400.0" y="364.0" text-anchor="middle" font-size="13" fill="#555">سه صورت مالی</text>
+<rect x="280" y="410" width="240" height="56" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400.0" y="435.0" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="bold">خروجی‌ها</text>
+<text x="400.0" y="457.0" text-anchor="middle" font-size="13" fill="#555">کوهورت و خلاصه‌ی اجرایی</text>
+<line x1="320" y1="126" x2="190" y2="188" stroke="#555" stroke-width="2.5"  marker-end="url(#a)"/>
+<line x1="480" y1="126" x2="610" y2="188" stroke="#555" stroke-width="2.5"  marker-end="url(#a)"/>
+<line x1="400" y1="126" x2="400" y2="306" stroke="#c98a1f" stroke-width="2.5"  marker-end="url(#a)"/>
+<line x1="190" y1="260" x2="300" y2="308" stroke="#5a9a6b" stroke-width="2.5"  marker-end="url(#a)"/>
+<line x1="610" y1="260" x2="500" y2="308" stroke="#5a9a6b" stroke-width="2.5"  marker-end="url(#a)"/>
+<line x1="400" y1="380" x2="400" y2="406" stroke="#555" stroke-width="2.5"  marker-end="url(#a)"/>
+<text x="228" y="150" text-anchor="middle" font-size="12" fill="#555">مفروضات حقوق</text>
+<text x="572" y="150" text-anchor="middle" font-size="12" fill="#555">مفروضات قرارداد</text>
+<text x="470" y="220" text-anchor="middle" font-size="12" fill="#c98a1f">مفروضات سایر هزینه‌ها</text>
+</svg>
