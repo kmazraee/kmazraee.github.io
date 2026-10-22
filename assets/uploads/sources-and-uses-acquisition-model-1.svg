@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="جدول منابع و مصارف در خرید شرکت">
+<rect width="800" height="380" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">منابع = مصارف (به میلیون)</text>
+<text x="590" y="76" text-anchor="middle" font-size="18" font-weight="bold" fill="#3d7a8c">مصارف</text>
+<text x="210" y="76" text-anchor="middle" font-size="18" font-weight="bold" fill="#c98a3d">منابع</text>
+<rect x="420" y="90" width="340" height="150" rx="10" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="745" y="125" text-anchor="start" font-size="15" fill="#444">قیمت خرید شرکت</text>
+<text x="520" y="125" text-anchor="start" font-size="15" font-weight="bold" fill="#2b2b2b">۲۰٫۰</text>
+<text x="745" y="165" text-anchor="start" font-size="15" fill="#444">هزینه‌های حرفه‌ای</text>
+<text x="520" y="165" text-anchor="start" font-size="15" font-weight="bold" fill="#2b2b2b">۰٫۲</text>
+<text x="745" y="205" text-anchor="start" font-size="15" fill="#444">نقد اولیه‌ی ترازنامه</text>
+<text x="520" y="205" text-anchor="start" font-size="15" font-weight="bold" fill="#2b2b2b">۰٫۵</text>
+<rect x="40" y="90" width="340" height="150" rx="10" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="365" y="125" text-anchor="start" font-size="15" fill="#444">وام (۳ برابر EBITDA)</text>
+<text x="150" y="125" text-anchor="start" font-size="15" font-weight="bold" fill="#2b2b2b">۸٫۴</text>
+<text x="365" y="165" text-anchor="start" font-size="15" fill="#444">سرمایه (مکمل)</text>
+<text x="150" y="165" text-anchor="start" font-size="15" font-weight="bold" fill="#2b2b2b">۱۲٫۳</text>
+<rect x="420" y="256" width="340" height="44" rx="10" fill="#3d7a8c"/>
+<text x="745" y="285" text-anchor="start" font-size="16" font-weight="bold" fill="#fff">جمع مصارف</text>
+<text x="520" y="285" text-anchor="start" font-size="16" font-weight="bold" fill="#fff">۲۰٫۷</text>
+<rect x="40" y="256" width="340" height="44" rx="10" fill="#c98a3d"/>
+<text x="365" y="285" text-anchor="start" font-size="16" font-weight="bold" fill="#fff">جمع منابع</text>
+<text x="150" y="285" text-anchor="start" font-size="16" font-weight="bold" fill="#fff">۲۰٫۷</text>
+<text x="400" y="340" text-anchor="middle" font-size="14" fill="#555">فقط سرمایه، رقم مکمل (Plug) است؛ بقیه از فرض‌ها می‌آیند</text>
+</svg>
