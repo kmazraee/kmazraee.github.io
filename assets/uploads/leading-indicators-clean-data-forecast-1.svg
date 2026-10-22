@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 198" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چهار پرسش درباره‌ی کیفیت داده و پیوند آن با شاخص‌های پیشرو">
+<rect width="800" height="198" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">داده‌ی تمیز و شاخص پیشرو</text>
+<rect x="597.0" y="62" width="179.0" height="112" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="686.5" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۱. منبع داده</text>
+<text x="686.5" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">مستقیم از</text>
+<text x="686.5" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">سیستم مبدأ</text>
+<rect x="406.0" y="62" width="179.0" height="112" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="495.5" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۲. مسئول دقت</text>
+<text x="495.5" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">نزدیک‌ترین</text>
+<text x="495.5" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">واحد به منبع</text>
+<rect x="215.0" y="62" width="179.0" height="112" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="304.5" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۳. تعریف یکسان</text>
+<text x="304.5" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">یک منبع</text>
+<text x="304.5" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">حقیقت واحد</text>
+<rect x="24.0" y="62" width="179.0" height="112" rx="12" fill="#f1e4f2" stroke="#9a5aa8" stroke-width="2"/>
+<text x="113.5" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۴. تصمیم نهایی</text>
+<text x="113.5" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">کدام تصمیم به</text>
+<text x="113.5" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">این گزارش وابسته است</text>
+</svg>
