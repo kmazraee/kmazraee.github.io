@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f7f9fc"/>
+<text x="760" y="50" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1f3a5f">پنج راه برای دیده‌شدن در سازمان</text>
+<g font-size="20" fill="#1f3a5f">
+<rect x="60" y="85" width="700" height="52" rx="8" fill="#dbe7f5"/><text x="745" y="119" text-anchor="start" direction="rtl">ارائه‌ی نتایج مالی به تیم مدیریت</text>
+<rect x="60" y="150" width="700" height="52" rx="8" fill="#e6f2e6"/><text x="745" y="184" text-anchor="start" direction="rtl">اجرای ارائه‌ی عمومی برای کل شرکت</text>
+<rect x="60" y="215" width="700" height="52" rx="8" fill="#dbe7f5"/><text x="745" y="249" text-anchor="start" direction="rtl">برگزاری رویداد یا گردهمایی تیم مالی</text>
+<rect x="60" y="280" width="700" height="52" rx="8" fill="#e6f2e6"/><text x="745" y="314" text-anchor="start" direction="rtl">حضور مؤثر در جلسه‌ی مدیر مدیرتان</text>
+<rect x="60" y="345" width="700" height="52" rx="8" fill="#dbe7f5"/><text x="745" y="379" text-anchor="start" direction="rtl">درخواست راهنمایی از یک مدیر ارشد</text>
+</g></svg>

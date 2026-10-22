@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f7f9fc"/>
+<text x="760" y="50" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1f3a5f">سنجش عملکرد تیم FP&amp;A از دو زاویه</text>
+<rect x="420" y="80" width="340" height="320" rx="10" fill="#dbe7f5"/>
+<rect x="40" y="80" width="340" height="320" rx="10" fill="#e6f2e6"/>
+<g font-size="17" font-weight="bold" fill="#1f3a5f">
+<text x="745" y="120" text-anchor="start" direction="rtl">کارایی: کار را درست انجام دادن</text>
+<text x="365" y="120" text-anchor="start" direction="rtl">اثربخشی: کار درست را انجام دادن</text></g>
+<g font-size="18" fill="#222">
+<text x="745" y="170" text-anchor="start" direction="rtl">دقت پیش‌بینی</text>
+<text x="745" y="215" text-anchor="start" direction="rtl">فاصله‌ی بستن حساب تا تحلیل</text>
+<text x="745" y="260" text-anchor="start" direction="rtl">تعداد روز تهیه‌ی پیش‌بینی</text>
+<text x="745" y="305" text-anchor="start" direction="rtl">بازده سرمایه‌گذاری‌های راهبردی</text>
+<text x="365" y="170" text-anchor="start" direction="rtl">ارزش ریسک‌های پیشگیری‌شده</text>
+<text x="365" y="215" text-anchor="start" direction="rtl">ارزش فرصت‌های محقق‌شده</text>
+<text x="365" y="260" text-anchor="start" direction="rtl">انحراف‌های دارای توصیه‌ی مشخص</text>
+<text x="365" y="305" text-anchor="start" direction="rtl">اثر سناریوسازی بر تصمیم</text></g>
+</svg>

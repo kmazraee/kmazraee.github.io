@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<text x="760" y="50" font-size="26" font-weight="bold" fill="#0f172a" text-anchor="start">سه لایه تحلیل انحراف</text>
+<rect x="120" y="85" width="640" height="85" rx="10" fill="#dbeafe"/>
+<text x="740" y="120" font-size="21" font-weight="bold" fill="#1e3a8a" text-anchor="start">۱. چه؟</text>
+<text x="740" y="150" font-size="16" fill="#1e293b" text-anchor="start">اندازه‌ی انحراف: عدد واقعی منهای بودجه یا پیش‌بینی</text>
+<rect x="120" y="190" width="640" height="85" rx="10" fill="#fef3c7"/>
+<text x="740" y="225" font-size="21" font-weight="bold" fill="#92400e" text-anchor="start">۲. چرا؟</text>
+<text x="740" y="255" font-size="16" fill="#1e293b" text-anchor="start">دلیل‌های انحراف: قیمت، حجم، زمان‌بندی، ترکیب</text>
+<rect x="120" y="295" width="640" height="85" rx="10" fill="#dcfce7"/>
+<text x="740" y="330" font-size="21" font-weight="bold" fill="#166534" text-anchor="start">۳. پس چه؟</text>
+<text x="740" y="360" font-size="16" fill="#1e293b" text-anchor="start">توصیه‌ی مشخص برای اقدام و اثر مالی مورد انتظار</text>
+<text x="740" y="418" font-size="16" fill="#475569" text-anchor="start">بخش سوم است که گزارش را تصمیم‌ساز می‌کند</text>
+</svg>

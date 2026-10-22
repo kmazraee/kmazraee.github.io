@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<text x="770" y="50" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1e293b" style="text-anchor:start">شش اصل ارائه‌ی مالی ماندگار</text>
+<g font-size="20" fill="#1e293b">
+<rect x="40" y="75" width="720" height="48" rx="8" fill="#dbeafe"/><text x="745" y="107" text-anchor="start">۱. ساده: یک پیام اصلی در تیتر هر اسلاید</text>
+<rect x="40" y="135" width="720" height="48" rx="8" fill="#dcfce7"/><text x="745" y="167" text-anchor="start">۲. غیرمنتظره: توضیح شفاهی به‌جای خواندن اسلاید</text>
+<rect x="40" y="195" width="720" height="48" rx="8" fill="#fef9c3"/><text x="745" y="227" text-anchor="start">۳. ملموس: مثال و تشبیه ساده</text>
+<rect x="40" y="255" width="720" height="48" rx="8" fill="#fee2e2"/><text x="745" y="287" text-anchor="start">۴. معتبر: حدس نزنید، منبع آماده داشته باشید</text>
+<rect x="40" y="315" width="720" height="48" rx="8" fill="#f3e8ff"/><text x="745" y="347" text-anchor="start">۵. احساسی: مقایسه با هدف و سال قبل</text>
+<rect x="40" y="375" width="720" height="48" rx="8" fill="#ffedd5"/><text x="745" y="407" text-anchor="start">۶. داستان: اتفاق، اثر، توصیه</text>
+</g></svg>

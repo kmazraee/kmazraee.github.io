@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f7f9fc"/>
+<text x="760" y="50" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1f3a5f">چطور صرفه‌جویی هزینه ماندگار می‌شود؟</text>
+<g font-size="20" fill="#1f3a5f">
+<rect x="460" y="100" width="300" height="70" rx="10" fill="#dbe7f5"/><text x="745" y="142" text-anchor="start" direction="rtl">۱. شناسایی صرفه‌جویی</text>
+<rect x="460" y="200" width="300" height="70" rx="10" fill="#dbe7f5"/><text x="745" y="242" text-anchor="start" direction="rtl">۲. تعیین مالک مشخص</text>
+<rect x="460" y="300" width="300" height="70" rx="10" fill="#dbe7f5"/><text x="745" y="342" text-anchor="start" direction="rtl">۳. ثبت در اهداف رسمی</text>
+<rect x="40" y="200" width="360" height="70" rx="10" fill="#e6f2e6"/><text x="385" y="242" text-anchor="start" direction="rtl">۴. پایش منظم در گزارش عملکرد</text>
+<rect x="40" y="300" width="360" height="70" rx="10" fill="#e6f2e6"/><text x="385" y="342" text-anchor="start" direction="rtl">۵. صرفه‌جویی پایدار</text>
+</g></svg>

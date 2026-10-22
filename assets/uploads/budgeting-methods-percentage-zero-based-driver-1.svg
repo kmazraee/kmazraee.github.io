@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#ffffff"/>
+<text x="780" y="48" font-size="26" font-weight="bold" text-anchor="start" fill="#1f2937">سه رویکرد بودجه‌ریزی</text>
+<g direction="rtl">
+<rect x="520" y="90" width="260" height="300" rx="12" fill="#fee2e2" stroke="#b91c1c"/>
+<text x="765" y="130" font-size="20" font-weight="bold" fill="#7f1d1d" text-anchor="start">کمینه: تعدیل درصدی</text>
+<text x="765" y="175" font-size="16" fill="#1f2937" text-anchor="start">سال قبل ± درصد</text>
+<text x="765" y="210" font-size="16" fill="#1f2937" text-anchor="start">ساده ولی بی‌توجه به محرک‌ها</text>
+<text x="765" y="245" font-size="16" fill="#1f2937" text-anchor="start">تشویق به خرج آخر سال</text>
+<rect x="270" y="90" width="230" height="300" rx="12" fill="#fef9c3" stroke="#a16207"/>
+<text x="485" y="130" font-size="20" font-weight="bold" fill="#713f12" text-anchor="start">بهینه: صفرپایه سبک</text>
+<text x="485" y="175" font-size="16" fill="#1f2937" text-anchor="start">شروع از هزینه‌ی پارسال</text>
+<text x="485" y="210" font-size="16" fill="#1f2937" text-anchor="start">بازبینی اقلام اصلی</text>
+<text x="485" y="245" font-size="16" fill="#1f2937" text-anchor="start">یافتن ۲۰٪ مؤثر</text>
+<rect x="20" y="90" width="230" height="300" rx="12" fill="#dcfce7" stroke="#15803d"/>
+<text x="235" y="130" font-size="20" font-weight="bold" fill="#14532d" text-anchor="start">بیشینه: محرک‌محور</text>
+<text x="235" y="175" font-size="16" fill="#1f2937" text-anchor="start">از محرک کسب‌وکار شروع</text>
+<text x="235" y="210" font-size="16" fill="#1f2937" text-anchor="start">اتصال به هزینه</text>
+<text x="235" y="245" font-size="16" fill="#1f2937" text-anchor="start">آمادگی برای شگفتی‌ها</text>
+</g>
+</svg>

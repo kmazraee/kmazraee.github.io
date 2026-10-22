@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f7f9fc"/>
+<text x="760" y="50" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1f3a5f" style="text-anchor:start">قانون ۸۰/۲۰ در پنج بخش کار تیم مالی</text>
+<g font-size="20" fill="#1f3a5f">
+<rect x="60" y="80" width="680" height="54" rx="8" fill="#dbe7f5"/><text x="725" y="114" text-anchor="start" direction="rtl">۱. تحلیل انحراف: ۲۰٪ ردیف‌ها، ۸۰٪ انحراف</text>
+<rect x="60" y="148" width="680" height="54" rx="8" fill="#e6f2e6"/><text x="725" y="182" text-anchor="start" direction="rtl">۲. گزارشگری: فقط شاخص‌هایی که داستان را می‌گویند</text>
+<rect x="60" y="216" width="680" height="54" rx="8" fill="#dbe7f5"/><text x="725" y="250" text-anchor="start" direction="rtl">۳. پیش‌بینی: مدل ساده، دقت تقریباً برابر</text>
+<rect x="60" y="284" width="680" height="54" rx="8" fill="#e6f2e6"/><text x="725" y="318" text-anchor="start" direction="rtl">۴. پیگیری: اصلاح فرایند به‌جای یادآوری مکرر</text>
+<rect x="60" y="352" width="680" height="54" rx="8" fill="#dbe7f5"/><text x="725" y="386" text-anchor="start" direction="rtl">۵. تجمیع: بیش از ۱۵ دقیقه یعنی خودکارسازی</text>
+</g></svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<g stroke="#64748b" stroke-width="2" fill="none">
+<path d="M400 90 L230 150"/><path d="M400 90 L570 150"/>
+<path d="M230 200 L130 270"/><path d="M230 200 L330 270"/>
+<path d="M130 320 L70 380"/><path d="M130 320 L190 380"/>
+</g>
+<g font-size="16" fill="#0f172a">
+<rect x="310" y="50" width="180" height="42" rx="8" fill="#dbeafe"/><text x="400" y="77" text-anchor="middle">درآمد</text>
+<rect x="140" y="150" width="180" height="50" rx="8" fill="#fef3c7"/><text x="230" y="180" text-anchor="middle">تعداد فروش</text>
+<rect x="480" y="150" width="180" height="50" rx="8" fill="#fef3c7"/><text x="570" y="180" text-anchor="middle">میانگین قیمت هر فروش</text>
+<rect x="40" y="270" width="180" height="50" rx="8" fill="#dcfce7"/><text x="130" y="300" text-anchor="middle">تعداد سرنخ</text>
+<rect x="240" y="270" width="180" height="50" rx="8" fill="#dcfce7"/><text x="330" y="300" text-anchor="middle">نرخ تبدیل</text>
+<rect x="10" y="380" width="120" height="44" rx="8" fill="#fee2e2"/><text x="70" y="407" text-anchor="middle">تبلیغات ویدیویی</text>
+<rect x="140" y="380" width="120" height="44" rx="8" fill="#e2e8f0"/><text x="200" y="407" text-anchor="middle">سایر کانال‌ها</text>
+</g>
+<text x="780" y="30" font-size="14" fill="#475569" text-anchor="start">ریشه‌ی انحراف در پایین‌ترین شاخه‌ی قابل‌اقدام پیدا می‌شود</text>
+</svg>
