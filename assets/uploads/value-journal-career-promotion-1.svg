@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 264" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چرخه‌ی دفتر ارزش‌آفرینی">
+<rect width="800" height="264" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">دفتر ارزش‌آفرینی در چهار گام</text>
+<rect x="600" y="70" width="176" height="118" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="688" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">۱. ثبت</text>
+<text x="688" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">یک هفته همه‌ی کارها</text>
+<text x="688" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">را بنویسید</text>
+<rect x="408" y="70" width="176" height="118" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="496" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">۲. سنجش</text>
+<text x="496" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">آیا کار بیشتر، شرکت را</text>
+<text x="496" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">به هدف نزدیک‌تر می‌کند؟</text>
+<rect x="216" y="70" width="176" height="118" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="304" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">۳. طبقه‌بندی</text>
+<text x="304" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">ارزش‌آفرین، لازم،</text>
+<text x="304" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">بی‌ارزش</text>
+<rect x="24" y="70" width="176" height="118" rx="12" fill="#f3e6f3" stroke="#9a5a9a" stroke-width="2"/>
+<text x="112" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">۴. بهبود</text>
+<text x="112" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">حذف، ساده‌سازی،</text>
+<text x="112" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">خودکارسازی</text>
+<rect x="100" y="204" width="600" height="44" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="232" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">نتیجه را به زبان تأثیر بگویید</text>
+</svg>
