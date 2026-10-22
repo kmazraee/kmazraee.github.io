@@ -1,85 +1,12 @@
 [
- {
-  "file": "2025-01-04-reinvesting-in-business-capex-guide.md",
-  "threadIds": [
-   "18fafec4c589d0f7",
-   "18fd3f88c477a0e2"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "سرمایه‌گذاری مجدد در کسب‌وکار"
- },
- {
-  "file": "2025-01-09-long-term-time-horizon-investor-advantage.md",
-  "threadIds": [
-   "18fe8825744b3d6c"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "افق زمانی بلندمدت"
- },
- {
-  "file": "2025-01-14-optionality-companies-many-possible-futures.md",
-  "threadIds": [
-   "18ff8052543e44d2"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "آپشن‌پذیری شرکت‌ها"
- },
- {
-  "file": "2025-01-19-balance-sheet-capital-allocation-debt-or-cash.md",
-  "threadIds": [
-   "1901c11a078991df"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "سلامت ترازنامه"
- },
- {
-  "file": "2025-01-24-mergers-acquisitions-fail-success-shareholders.md",
-  "threadIds": [
-   "190401df8b751aa5",
-   "190642a864b46c59"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "ادغام و تملک"
- },
- {
-  "file": "2025-01-29-dividends-regular-special-when-they-make-sense.md",
-  "threadIds": [
-   "1908837b5123a3ca"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "سود تقسیمی"
- },
- {
-  "file": "2025-02-03-five-wide-moat-businesses-examples.md",
-  "threadIds": [
-   "1909cbc28cc1c0e6"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "سد رقابتی پهن"
- },
- {
-  "file": "2025-02-08-stock-buybacks-when-good-idea.md",
-  "threadIds": [
-   "190ac4393e6383db"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "بازخرید سهام"
- },
- {
-  "file": "2025-02-13-when-to-sell-stock-valid-and-invalid-reasons.md",
-  "threadIds": [
-   "190d0526d717fd07",
-   "190f45cda42427d8"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "زمان فروش سهم"
- },
- {
-  "file": "2025-02-18-is-high-dividend-yield-cheap-valuation-benchmarks.md",
-  "threadIds": [
-   "190e9bde458ae09c"
-  ],
-  "sourceLabel": "Brian Feroldi",
-  "keyword": "بازده سود تقسیمی"
- }
+ {"file":"2025-04-14-investment-risk-when-calm-is-dangerous.md","threadId":"194fa0a5554a8e44","sourceLabel":"Brian Feroldi","mainKeyword":"ریسک در سرمایه‌گذاری"},
+ {"file":"2025-04-19-two-money-rules-save-early-double-cost.md","threadId":"1951e1581a765dec","sourceLabel":"Brian Feroldi","mainKeyword":"پس‌انداز زودهنگام"},
+ {"file":"2025-04-24-positive-black-swan-investing.md","threadId":"19566334b9b73782","sourceLabel":"Brian Feroldi","mainKeyword":"قوی سیاه مثبت"},
+ {"file":"2025-04-29-decision-system-under-uncertainty-investing.md","threadId":"195f5c3254110d92","sourceLabel":"Brian Feroldi","mainKeyword":"تصمیم‌گیری در عدم قطعیت"},
+ {"file":"2025-05-04-cultivate-disagreement-better-decisions.md","threadId":"196aa315a2df3b5b","sourceLabel":"Brian Feroldi","mainKeyword":"مخالفت سازنده"},
+ {"file":"2025-05-09-how-much-time-to-research-a-stock.md","threadId":"1971620502e197dd","sourceLabel":"Brian Feroldi","mainKeyword":"تحلیل سهام"},
+ {"file":"2025-05-14-circle-of-competence-swing-at-right-pitches.md","threadId":"1975e73cdf881ee2","sourceLabel":"Brian Feroldi","mainKeyword":"دایره‌ی صلاحیت"},
+ {"file":"2025-05-19-speculation-vs-investing-twain-lesson.md","threadId":"197828007c71db5e","sourceLabel":"Brian Feroldi","mainKeyword":"سفته‌بازی و سرمایه‌گذاری"},
+ {"file":"2025-05-24-why-investments-fail-tam-and-fake-moat.md","threadId":"197a68d90eccc44c","sourceLabel":"Brian Feroldi","mainKeyword":"بازار قابل دسترس و سد رقابتی کاذب"},
+ {"file":"2025-05-29-position-sizing-portfolio-allocation.md","threadId":"198c6f0ab69240aa","sourceLabel":"Brian Feroldi","mainKeyword":"اندازه‌ی موقعیت"}
 ]
