@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه پایه‌ی مدل‌سازی مالی">
+<rect width="800" height="340" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">سه پایه‌ی مدل‌سازی مالی</text>
+<rect x="540" y="70" width="220" height="200" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2.5"/>
+<text x="650" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#3d7a8c">۱. حسابداری</text>
+<text x="650" y="140" text-anchor="middle" font-size="14" fill="#444">ساخت دقیق گذشته</text>
+<text x="650" y="170" text-anchor="middle" font-size="14" fill="#444">تعهدی، اصل تطابق</text>
+<text x="650" y="200" text-anchor="middle" font-size="14" fill="#444">ثبت‌ها و افشا</text>
+<text x="650" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#3d7a8c">اهمیت: زیاد</text>
+<rect x="290" y="70" width="220" height="200" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2.5"/>
+<text x="400" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#c98a3d">۲. مالی</text>
+<text x="400" y="140" text-anchor="middle" font-size="14" fill="#444">تخمین آینده</text>
+<text x="400" y="170" text-anchor="middle" font-size="14" fill="#444">ساختار سرمایه، جریان نقد</text>
+<text x="400" y="200" text-anchor="middle" font-size="14" fill="#444">هزینه‌ی سرمایه و اهرم</text>
+<text x="400" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#c98a3d">اهمیت: زیاد</text>
+<rect x="40" y="70" width="220" height="200" rx="12" fill="#fff" stroke="#8a5a8c" stroke-width="2.5"/>
+<text x="150" y="104" text-anchor="middle" font-size="19" font-weight="bold" fill="#8a5a8c">۳. ابزار</text>
+<text x="150" y="140" text-anchor="middle" font-size="14" fill="#444">اتصال قطعه‌ها</text>
+<text x="150" y="170" text-anchor="middle" font-size="14" fill="#444">صفحه‌گسترده</text>
+<text x="150" y="200" text-anchor="middle" font-size="14" fill="#444">لازم، ولی کم‌اهمیت‌ترین</text>
+<text x="150" y="250" text-anchor="middle" font-size="13" font-weight="bold" fill="#8a5a8c">اهمیت: کمتر</text>
+<text x="400" y="312" text-anchor="middle" font-size="14" fill="#555">ابزار بدون حسابداری و مالی، فقط مجموعه‌ای از مستطیل‌هاست</text>
+</svg>
