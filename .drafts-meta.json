@@ -1,0 +1,85 @@
+{
+ "branch": "blog-drafts/2026-10-22-c",
+ "posts": [
+  {
+   "file": "2025-10-31-fpa-operating-model-structure.md",
+   "threads": [
+    "18bf24ddead77a9a"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "ساختار مدل مالی"
+  },
+  {
+   "file": "2025-11-05-monthly-financial-model-update-process.md",
+   "threads": [
+    "18c1652c24f6f983"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "به‌روزرسانی ماهانه‌ی مدل مالی"
+  },
+  {
+   "file": "2025-11-10-ebitda-schedule-pre-post-close.md",
+   "threads": [
+    "18bce4300ede7a5e"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "جدول EBITDA بعد از معامله"
+  },
+  {
+   "file": "2025-11-15-seasonality-curve-revenue-forecast.md",
+   "threads": [
+    "18c3a5fcb1b42090"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "منحنی فصلی بودن درآمد"
+  },
+  {
+   "file": "2025-11-20-headcount-schedule-financial-model.md",
+   "threads": [
+    "18c5e71a28dcba0b"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "برنامه‌ی کارکنان در مدل مالی"
+  },
+  {
+   "file": "2025-11-25-salary-raise-modeling-raise-indicator.md",
+   "threads": [
+    "18c82777da94c1a1"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "مدل‌سازی افزایش حقوق"
+  },
+  {
+   "file": "2025-11-30-pareto-80-20-financial-model-expenses.md",
+   "threads": [
+    "18ca684834b7ec88"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "قانون ۸۰/۲۰ در مدل مالی"
+  },
+  {
+   "file": "2025-12-05-capex-depreciation-schedule-model.md",
+   "threads": [
+    "18cca90f591dc04c"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "مخارج سرمایه‌ای و استهلاک"
+  },
+  {
+   "file": "2025-12-10-matching-principle-accounting-example.md",
+   "threads": [
+    "18ceea17527c761a"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "اصل تطابق در حسابداری"
+  },
+  {
+   "file": "2025-12-15-cohort-analysis-guide.md",
+   "threads": [
+    "18d12aa9b9289980"
+   ],
+   "label": "Chris Reilly",
+   "keyword": "تحلیل هم‌گروهی"
+  }
+ ]
+}

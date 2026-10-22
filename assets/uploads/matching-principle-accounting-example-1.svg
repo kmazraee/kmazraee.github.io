@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 384" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی اجاره (هم‌زمان با پرداخت) و پاداش (پرداخت با تأخیر)">
+<rect width="800" height="384" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">اصل تطابق: اجاره در برابر پاداش</text>
+<rect x="40" y="64" width="720" height="60" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<circle cx="725" cy="94" r="18" fill="#3d7a8c"/><text x="725" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۱</text>
+<text x="690" y="91" text-anchor="start" font-size="17" font-weight="bold" fill="#3d7a8c">اجاره ۱٬۰۰۰ · فروردین</text>
+<text x="690" y="112" text-anchor="start" font-size="13.5" fill="#444">هزینه و پرداخت هم‌زمان · اثری در ترازنامه نیست</text>
+<rect x="40" y="134" width="720" height="60" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<circle cx="725" cy="164" r="18" fill="#c98a3d"/><text x="725" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۲</text>
+<text x="690" y="161" text-anchor="start" font-size="17" font-weight="bold" fill="#c98a3d">پاداش ۱٬۰۰۰ · فروردین</text>
+<text x="690" y="182" text-anchor="start" font-size="13.5" fill="#444">هزینه ثبت می‌شود · بدهی پرداخت‌نشده ایجاد می‌شود</text>
+<rect x="40" y="204" width="720" height="60" rx="12" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<circle cx="725" cy="234" r="18" fill="#6a8f4e"/><text x="725" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۳</text>
+<text x="690" y="231" text-anchor="start" font-size="17" font-weight="bold" fill="#6a8f4e">جریان نقد</text>
+<text x="690" y="252" text-anchor="start" font-size="13.5" fill="#444">سود به‌طور غیرمستقیم به نقد اصلاح می‌شود</text>
+<rect x="40" y="274" width="720" height="60" rx="12" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<circle cx="725" cy="304" r="18" fill="#8a5a8c"/><text x="725" y="310" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۴</text>
+<text x="690" y="301" text-anchor="start" font-size="17" font-weight="bold" fill="#8a5a8c">پرداخت پاداش · اسفند</text>
+<text x="690" y="322" text-anchor="start" font-size="13.5" fill="#444">بدهی صفر می‌شود · نقد در زمان درست خارج می‌شود</text>
+<text x="400" y="372" text-anchor="middle" font-size="14" fill="#555">هزینه ۲٬۰۰۰ در فروردین؛ نقد: ۱٬۰۰۰ فروردین + ۱٬۰۰۰ اسفند</text>
+</svg>
