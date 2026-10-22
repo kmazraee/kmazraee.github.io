@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 446" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="ده گام ساخت ترازنامه در مدل مالی در چهار گروه: تراز کننده، سرمایه‌ی آورده، سرمایه در گردش و دارایی ثابت و بدهی">
+<rect width="800" height="446" fill="#faf7f0"/>
+<text x="400.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">ده گام ساخت ترازنامه</text>
+<rect x="409" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="584" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d7a8c">گام ۱ و ۲: تراز‌کننده</text>
+<line x1="429" y1="110" x2="740" y2="110" stroke="#ddd"/>
+<text x="584" y="136" text-anchor="middle" font-size="13.5" fill="#444">نقد = مانده‌ی جریان نقد</text>
+<text x="584" y="158" text-anchor="middle" font-size="13.5" fill="#444">سود انباشته = قبلی + سود خالص</text>
+<rect x="40" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="216" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#c98a3d">گام ۳: سرمایه‌ی آورده</text>
+<line x1="60" y1="110" x2="371" y2="110" stroke="#ddd"/>
+<text x="216" y="136" text-anchor="middle" font-size="13.5" fill="#444">معمولاً ثابت منتقل می‌شود</text>
+<text x="216" y="158" text-anchor="middle" font-size="13.5" fill="#444">یا با برنامه‌ی جذب سرمایه</text>
+<rect x="409" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<text x="584" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#6a8f4e">گام ۴ تا ۸: سرمایه در گردش</text>
+<line x1="429" y1="278" x2="740" y2="278" stroke="#ddd"/>
+<text x="584" y="304" text-anchor="middle" font-size="13.5" fill="#444">دریافتنی، موجودی، پیش‌پرداخت،</text>
+<text x="584" y="326" text-anchor="middle" font-size="13.5" fill="#444">پرداختنی و هزینه‌ی تعهدشده</text>
+<rect x="40" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<text x="216" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#8a5a8c">گام ۹ و ۱۰</text>
+<line x1="60" y1="278" x2="371" y2="278" stroke="#ddd"/>
+<text x="216" y="304" text-anchor="middle" font-size="13.5" fill="#444">دارایی ثابت = قبلی + مخارج − استهلاک</text>
+<text x="216" y="326" text-anchor="middle" font-size="13.5" fill="#444">بدهی = مانده‌ی برنامه‌ی بدهی</text>
+<text x="400" y="432" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b2b2b">پنج برنامه: سود و زیان، جریان نقد، سرمایه در گردش، استهلاک، بدهی</text>
+</svg>

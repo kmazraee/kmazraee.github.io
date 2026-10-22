@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 446" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="نمای مدل سه صورت مالی: برنامه‌های پشتیبان به سود و زیان و ترازنامه می‌رسند و جریان نقد از تفاوت آن دو ساخته می‌شود">
+<rect width="800" height="446" fill="#faf7f0"/>
+<text x="400.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">سه صورت مالی در یک مدل</text>
+<rect x="409" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="584" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d7a8c">برنامه‌های پشتیبان</text>
+<line x1="429" y1="110" x2="740" y2="110" stroke="#ddd"/>
+<text x="584" y="136" text-anchor="middle" font-size="13.5" fill="#444">درآمد، هزینه، کارکنان،</text>
+<text x="584" y="158" text-anchor="middle" font-size="13.5" fill="#444">مخارج سرمایه‌ای و بدهی</text>
+<rect x="40" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="216" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#c98a3d">صورت سود و زیان</text>
+<line x1="60" y1="110" x2="371" y2="110" stroke="#ddd"/>
+<text x="216" y="136" text-anchor="middle" font-size="13.5" fill="#444">درآمد منهای هزینه</text>
+<text x="216" y="158" text-anchor="middle" font-size="13.5" fill="#444">برابر سود خالص</text>
+<rect x="409" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<text x="584" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#6a8f4e">ترازنامه</text>
+<line x1="429" y1="278" x2="740" y2="278" stroke="#ddd"/>
+<text x="584" y="304" text-anchor="middle" font-size="13.5" fill="#444">دارایی = بدهی</text>
+<text x="584" y="326" text-anchor="middle" font-size="13.5" fill="#444">به‌علاوه‌ی حقوق صاحبان سهام</text>
+<rect x="40" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<text x="216" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#8a5a8c">صورت جریان نقد</text>
+<line x1="60" y1="278" x2="371" y2="278" stroke="#ddd"/>
+<text x="216" y="304" text-anchor="middle" font-size="13.5" fill="#444">ساخته‌شده از سود خالص و</text>
+<text x="216" y="326" text-anchor="middle" font-size="13.5" fill="#444">تغییر حساب‌های ترازنامه</text>
+<text x="400" y="432" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b2b2b">هر برنامه فقط به سود و زیان یا ترازنامه می‌رسد</text>
+</svg>

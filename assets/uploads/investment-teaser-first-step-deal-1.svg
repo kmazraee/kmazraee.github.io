@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 446" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چرخه‌ی اولیه‌ی معامله: بانک سرمایه‌گذاری معرفی‌نامه را می‌فرستد، خریدار مدل یک‌صفحه‌ای می‌سازد و در صورت علاقه به تعهد محرمانگی و یادداشت تفصیلی می‌رود">
+<rect width="800" height="446" fill="#faf7f0"/>
+<text x="400.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">از معرفی‌نامه تا یادداشت تفصیلی</text>
+<rect x="409" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="584" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d7a8c">۱. ارسال معرفی‌نامه</text>
+<line x1="429" y1="110" x2="740" y2="110" stroke="#ddd"/>
+<text x="584" y="136" text-anchor="middle" font-size="13.5" fill="#444">بانک سرمایه‌گذاری آن را</text>
+<text x="584" y="158" text-anchor="middle" font-size="13.5" fill="#444">برای سرمایه‌گذاران می‌فرستد</text>
+<rect x="40" y="64" width="351" height="150" rx="14" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="216" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#c98a3d">۲. مدل یک‌صفحه‌ای</text>
+<line x1="60" y1="110" x2="371" y2="110" stroke="#ddd"/>
+<text x="216" y="136" text-anchor="middle" font-size="13.5" fill="#444">۲۰ تا ۳۰ دقیقه،</text>
+<text x="216" y="158" text-anchor="middle" font-size="13.5" fill="#444">پیش‌بینی‌ها با کاهش و آزمون بدبینانه</text>
+<rect x="409" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<text x="584" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#6a8f4e">۳. تعدیل پیش‌بینی‌ها</text>
+<line x1="429" y1="278" x2="740" y2="278" stroke="#ddd"/>
+<text x="584" y="304" text-anchor="middle" font-size="13.5" fill="#444">سند فروشنده خوش‌بینانه است،</text>
+<text x="584" y="326" text-anchor="middle" font-size="13.5" fill="#444">پس نتیجه‌ها کاهش می‌یابد</text>
+<rect x="40" y="232" width="351" height="150" rx="14" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<text x="216" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#8a5a8c">۴. تعهد محرمانگی و CIM</text>
+<line x1="60" y1="278" x2="371" y2="278" stroke="#ddd"/>
+<text x="216" y="304" text-anchor="middle" font-size="13.5" fill="#444">در صورت علاقه،</text>
+<text x="216" y="326" text-anchor="middle" font-size="13.5" fill="#444">سند ۸۰ تا ۱۰۰ صفحه‌ای دریافت می‌شود</text>
+<text x="400" y="432" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b2b2b">هدف معرفی‌نامه جلب علاقه است، نه تحلیل کامل</text>
+</svg>
