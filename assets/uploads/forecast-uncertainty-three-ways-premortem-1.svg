@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 264" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه روش مدیریت عدم قطعیت و پیش‌مرگ">
+<rect width="800" height="264" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">عدم قطعیت پیش‌بینی: سه روش و پیش‌مرگ</text>
+<rect x="536" y="70" width="240" height="118" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="656" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">مفروضات کمتر</text>
+<text x="656" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">خطای فرض‌ها در هم ضرب می‌شود</text>
+<text x="656" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">مدل را ساده نگه دارید</text>
+<rect x="280" y="70" width="240" height="118" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">چه می‌شود اگر</text>
+<text x="400" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">ورودی‌ها را یکی‌یکی تغییر دهید</text>
+<text x="400" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">اثر هرکدام را یادداشت کنید</text>
+<rect x="24" y="70" width="240" height="118" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="144" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">نمایش بازه</text>
+<text x="144" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">به‌جای یک عدد، بازه بدهید</text>
+<text x="144" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">سناریو بسازید</text>
+<rect x="100" y="204" width="600" height="44" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="232" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">پیش‌مرگ: تصور کنید پروژه شکست خورده، علت‌ها را فهرست کنید</text>
+</svg>

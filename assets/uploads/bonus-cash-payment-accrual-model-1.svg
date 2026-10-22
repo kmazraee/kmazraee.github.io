@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 264" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="ذخیره‌ی ماهانه‌ی پاداش و پرداخت یک‌باره">
+<rect width="800" height="264" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">پاداش: هر ماه ذخیره، سالی یک بار پرداخت</text>
+<rect x="536" y="70" width="240" height="118" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="656" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">هر ماه</text>
+<text x="656" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">هزینه‌ی ۱۰۰ واحد ثبت می‌شود</text>
+<text x="656" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">پولی خارج نمی‌شود</text>
+<rect x="280" y="70" width="240" height="118" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">تا پایان سال</text>
+<text x="400" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">مانده‌ی ذخیره ۱٬۲۰۰ می‌شود</text>
+<text x="400" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">در ترازنامه بدهی است</text>
+<rect x="24" y="70" width="240" height="118" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="144" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">ماه پرداخت</text>
+<text x="144" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">کل ۱٬۲۰۰ پرداخت می‌شود</text>
+<text x="144" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">نقدینگی همان ماه کم می‌شود</text>
+<rect x="100" y="204" width="600" height="44" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="232" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">بررسی نهایی: اثر نقدی فقط در ماه پرداخت صفر نیست</text>
+</svg>

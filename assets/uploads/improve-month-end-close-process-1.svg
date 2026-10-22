@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 398" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش گام بهبود بستن ماهانه حساب‌ها">
+<rect width="800" height="398" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">بستن ماهانه حساب‌ها در شش گام</text>
+<rect x="536" y="70" width="240" height="118" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="656" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">چک‌لیست کامل</text>
+<text x="656" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">چه کسی، چه کاری،</text>
+<text x="656" y="152" text-anchor="middle" font-size="13" fill="#3d3d3d">تا چه زمانی</text>
+<rect x="280" y="70" width="240" height="118" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">پخش چک‌لیست</text>
+<text x="400" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">ایمیل + جلسه‌ی کوتاه</text>
+<rect x="24" y="70" width="240" height="118" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="144" y="100" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">دلیل هر کار</text>
+<text x="144" y="128" text-anchor="middle" font-size="13" fill="#3d3d3d">تیم بداند چرا مهم است</text>
+<rect x="536" y="204" width="240" height="118" rx="12" fill="#f3e6f3" stroke="#9a5a9a" stroke-width="2"/>
+<text x="656" y="234" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">بررسی پیش‌هنگام</text>
+<text x="656" y="262" text-anchor="middle" font-size="13" fill="#3d3d3d">یک هفته قبل از بستن</text>
+<text x="656" y="286" text-anchor="middle" font-size="13" fill="#3d3d3d">نتایج را ببینید</text>
+<rect x="280" y="204" width="240" height="118" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="400" y="234" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">گفت‌وگوی دردها</text>
+<text x="400" y="262" text-anchor="middle" font-size="13" fill="#3d3d3d">هر ماه بپرسید</text>
+<text x="400" y="286" text-anchor="middle" font-size="13" fill="#3d3d3d">چه چیزی کند است</text>
+<rect x="24" y="204" width="240" height="118" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="144" y="234" text-anchor="middle" font-size="16" fill="#2b2b2b" font-weight="bold">بهبود تدریجی</text>
+<text x="144" y="262" text-anchor="middle" font-size="13" fill="#3d3d3d">هر ماه یک تغییر کوچک</text>
+<rect x="100" y="338" width="600" height="44" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="366" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">هر ماه کمی بهتر از ماه قبل</text>
+</svg>
