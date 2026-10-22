@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 252" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="فرایند پنج‌مرحله‌ای انتخاب شاخص‌ها برای داشبورد مالی">
+<rect width="800" height="252" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">انتخاب شاخص‌های داشبورد در پنج مرحله</text>
+<rect x="638" y="62" width="138" height="112" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="707" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۱. استراتژی</text>
+<text x="707" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">امروز چه چیزی</text>
+<text x="707" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">مهم‌تر است؟</text>
+<rect x="485" y="62" width="138" height="112" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="554" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۲. پرسش‌ها</text>
+<text x="554" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">جواب می‌دهد؟</text>
+<text x="554" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">چه کسی می‌سازد؟</text>
+<rect x="331" y="62" width="138" height="112" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="400" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۳. فهرست</text>
+<text x="400" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">شاخص‌های ایده‌آل</text>
+<text x="400" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">بدون محدودیت</text>
+<rect x="178" y="62" width="138" height="112" rx="12" fill="#f3e6f3" stroke="#9a5a9a" stroke-width="2"/>
+<text x="246" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۴. طرح</text>
+<text x="246" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">منبع و روش</text>
+<text x="246" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">جمع‌آوری</text>
+<rect x="24" y="62" width="138" height="112" rx="12" fill="#e6f0f3" stroke="#3a8a9a" stroke-width="2"/>
+<text x="93" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۵. ساخت</text>
+<text x="93" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">داشبورد از</text>
+<text x="93" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">شاخص‌های نهایی</text>
+<rect x="100" y="190" width="600" height="42" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="217" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">نتیجه: داشبوردی که برای تصمیم استفاده می‌شود</text>
+</svg>

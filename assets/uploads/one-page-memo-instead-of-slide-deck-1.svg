@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 304" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی یادداشت یک‌صفحه‌ای و اسلاید در گزارش مدیریتی">
+<rect width="800" height="304" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">یادداشت یک‌صفحه‌ای یا اسلاید؟</text>
+<rect x="408" y="62" width="368" height="164" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="592" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">یادداشت یک‌صفحه‌ای</text>
+<text x="592" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">تفکر عمیق‌تر</text>
+<text x="592" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">خواندن پیش از جلسه</text>
+<text x="592" y="172" text-anchor="middle" font-size="13" fill="#3d3d3d">مراجعه آسان</text>
+<text x="592" y="198" text-anchor="middle" font-size="13" fill="#3d3d3d">تهیه سریع‌تر</text>
+<rect x="24" y="62" width="368" height="164" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="208" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">اسلاید</text>
+<text x="208" y="120" text-anchor="middle" font-size="13" fill="#3d3d3d">نمایش مسیر تحلیل</text>
+<text x="208" y="146" text-anchor="middle" font-size="13" fill="#3d3d3d">مناسب هیئت‌مدیره</text>
+<text x="208" y="172" text-anchor="middle" font-size="13" fill="#3d3d3d">مناسب آموزش</text>
+<text x="208" y="198" text-anchor="middle" font-size="13" fill="#3d3d3d">قالب‌بندی زمان‌بر</text>
+<rect x="100" y="242" width="600" height="42" rx="12" fill="#fff" stroke="#2b2b2b" stroke-width="2"/>
+<text x="400" y="269" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">تصمیم داخلی بله/خیر: یادداشت یک‌صفحه‌ای</text>
+</svg>
