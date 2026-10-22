@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="شش گام برنامه‌ی کارکنان">
+<rect width="800" height="300" fill="#ffffff"/>
+<text x="400.0" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">شش گام برنامه‌ی کارکنان</text>
+<rect x="664" y="70" width="112" height="170" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="720" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">1</text>
+<text x="720" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">چیدمان</text>
+<text x="720" y="172" text-anchor="middle" font-size="12.5" fill="#374151">فهرست پرسنل</text>
+<text x="720" y="194" text-anchor="middle" font-size="12.5" fill="#374151">هر ردیف یک نفر</text>
+<rect x="536" y="70" width="112" height="170" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="592" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">2</text>
+<text x="592" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">پاک‌سازی</text>
+<text x="592" y="172" text-anchor="middle" font-size="12.5" fill="#374151">حذف یادداشت و</text>
+<text x="592" y="194" text-anchor="middle" font-size="12.5" fill="#374151">قالب اضافی</text>
+<rect x="408" y="70" width="112" height="170" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="464" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">3</text>
+<text x="464" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">شاخص افزایش</text>
+<text x="464" y="172" text-anchor="middle" font-size="12.5" fill="#374151">سال‌های خدمت</text>
+<text x="464" y="194" text-anchor="middle" font-size="12.5" fill="#374151">هر کارمند</text>
+<rect x="280" y="70" width="112" height="170" rx="12" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="336" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">4</text>
+<text x="336" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">حقوق پایه</text>
+<text x="336" y="172" text-anchor="middle" font-size="12.5" fill="#374151">شرط تاریخ شروع</text>
+<text x="336" y="194" text-anchor="middle" font-size="12.5" fill="#374151">و پایان</text>
+<rect x="152" y="70" width="112" height="170" rx="12" fill="#fde8e8" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="208" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">5</text>
+<text x="208" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">افزایش سالانه</text>
+<text x="208" y="172" text-anchor="middle" font-size="12.5" fill="#374151">ضرب در (۱+نرخ)</text>
+<text x="208" y="194" text-anchor="middle" font-size="12.5" fill="#374151">به توان زمان</text>
+<rect x="24" y="70" width="112" height="170" rx="12" fill="#e8f6f6" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="80" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">6</text>
+<text x="80" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">جمع و اتصال</text>
+<text x="80" y="172" text-anchor="middle" font-size="12.5" fill="#374151">جمع کل به</text>
+<text x="80" y="194" text-anchor="middle" font-size="12.5" fill="#374151">حقوق و دستمزد مدل</text>
+<text x="400.0" y="274" text-anchor="middle" font-size="14" fill="#374151">برگه‌ی جزئی بسازید؛ فقط جمع‌ها را به مدل وصل کنید</text>
+</svg>
