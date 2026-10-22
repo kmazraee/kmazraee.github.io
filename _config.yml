@@ -1,8 +1,8 @@
 title: کمیل مزرعی
 tagline: دفترچه‌ی عدد؛ یادداشت، پژوهش و ابزار مالی
-author: کمیل مزرعی فراهانی
+author: کمیل مزرعی
 role: مدیر ارشد مالی · تهران
-description: دفترچه‌ی عدد کمیل مزرعی فراهانی؛ یادداشت‌های مدیریت مالی، خلاصه‌ی پژوهش‌های مالی و ابزارهای محاسبه‌ی مالی.
+description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌های مدیریت مالی، خلاصه‌ی پژوهش‌های مالی و ابزارهای محاسبه‌ی مالی.
 photo: ""
 og_image: /assets/og-default.png
 # Google Search Console: paste only the content="…" value of the HTML-tag verification here
@@ -12,7 +12,7 @@ phone: ""
 linkedin: ""
 telegram: ""
 lang: fa
-url: "https://kmazraee.github.io"
+url: "https://kmazraee.ir"
 baseurl: ""
 plugins:
   - jekyll-sitemap
