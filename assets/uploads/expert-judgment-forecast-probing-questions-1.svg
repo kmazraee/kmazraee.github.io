@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<text x="760" y="50" font-size="26" font-weight="bold" fill="#0f172a" text-anchor="start">قضاوت کارشناسی در پیش‌بینی</text>
+<rect x="120" y="85" width="640" height="75" rx="10" fill="#dbeafe"/>
+<text x="740" y="115" font-size="20" font-weight="bold" fill="#1e3a8a" text-anchor="start">۱. شرط‌ها</text>
+<text x="740" y="143" font-size="16" fill="#1e293b" text-anchor="start">داده‌ی کافی نیست و سابقه‌ی دقت خوب وجود دارد</text>
+<rect x="120" y="180" width="640" height="75" rx="10" fill="#fef3c7"/>
+<text x="740" y="210" font-size="20" font-weight="bold" fill="#92400e" text-anchor="start">۲. محک‌زدن</text>
+<text x="740" y="238" font-size="16" fill="#1e293b" text-anchor="start">مقایسه با محرک‌ها، برآورد آماری ساده و پیش‌بینی بالا به پایین</text>
+<rect x="120" y="275" width="640" height="75" rx="10" fill="#dcfce7"/>
+<text x="740" y="305" font-size="20" font-weight="bold" fill="#166534" text-anchor="start">۳. پرسش‌های کاوشگر</text>
+<text x="740" y="333" font-size="16" fill="#1e293b" text-anchor="start">اطمینان از ۱ تا ۱۰ و اطلاعات لازم برای رسیدن به ده</text>
+<text x="740" y="400" font-size="18" fill="#0f172a" text-anchor="start">نتیجه: دقت پیش‌بینی در طول زمان بهتر می‌شود</text>
+</svg>

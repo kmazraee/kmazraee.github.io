@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+  <rect width="800" height="450" fill="#f8fafc"/>
+  <text x="760" y="50" text-anchor="start" direction="rtl" font-size="24" font-weight="bold" fill="#0f172a">دو گزارش پس از بستن ماه</text>
+  <line x1="60" y1="215" x2="740" y2="215" stroke="#94a3b8" stroke-width="3"/>
+  <circle cx="720" cy="215" r="10" fill="#0f172a"/>
+  <text x="720" y="250" text-anchor="middle" font-size="15" fill="#0f172a">بستن ماه</text>
+  <rect x="440" y="95" width="230" height="95" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+  <text x="655" y="125" text-anchor="start" direction="rtl" font-size="18" font-weight="bold" fill="#1e3a8a">گزارش فلش</text>
+  <text x="655" y="152" text-anchor="start" direction="rtl" font-size="15" fill="#1e293b">یک تا سه روز بعد</text>
+  <text x="655" y="176" text-anchor="start" direction="rtl" font-size="15" fill="#1e293b">پرسش: چه شد؟</text>
+  <rect x="100" y="240" width="270" height="110" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="355" y="270" text-anchor="start" direction="rtl" font-size="18" font-weight="bold" fill="#14532d">گزارش بررسی عملکرد</text>
+  <text x="355" y="298" text-anchor="start" direction="rtl" font-size="15" fill="#1e293b">ده تا پانزده روز بعد</text>
+  <text x="355" y="322" text-anchor="start" direction="rtl" font-size="15" fill="#1e293b">پرسش: چرا؟ که چه؟</text>
+  <text x="355" y="342" text-anchor="start" direction="rtl" font-size="13" fill="#475569">ریشه و اقدام پیشنهادی</text>
+  <line x1="560" y1="190" x2="600" y2="215" stroke="#2563eb" stroke-width="2"/>
+  <line x1="240" y1="240" x2="240" y2="215" stroke="#16a34a" stroke-width="2"/>
+  <text x="760" y="410" text-anchor="start" direction="rtl" font-size="14" fill="#475569">سرعت در گزارش اول، عمق در گزارش دوم</text>
+</svg>

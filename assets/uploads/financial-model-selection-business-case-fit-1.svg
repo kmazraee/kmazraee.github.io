@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#ffffff"/>
+<text x="780" y="50" font-size="26" font-weight="bold" text-anchor="start" fill="#1f2937">پنج گام فرایند مدل‌سازی مالی</text>
+<rect x="40" y="90" width="720" height="56" rx="10" fill="#dbeafe" stroke="#1d4ed8"/>
+<text x="740" y="126" font-size="20" font-weight="bold" text-anchor="start" fill="#1e3a8a">۱. برنامه‌ریزی مدل: تطبیق مسئله با نوع مدل</text>
+<rect x="40" y="160" width="720" height="56" rx="10" fill="#f3f4f6" stroke="#6b7280"/>
+<text x="740" y="196" font-size="20" text-anchor="start" fill="#1f2937">۲. جمع‌آوری داده</text>
+<rect x="40" y="230" width="720" height="56" rx="10" fill="#f3f4f6" stroke="#6b7280"/>
+<text x="740" y="266" font-size="20" text-anchor="start" fill="#1f2937">۳. ساخت مدل در کاربرگ</text>
+<rect x="40" y="300" width="720" height="56" rx="10" fill="#f3f4f6" stroke="#6b7280"/>
+<text x="740" y="336" font-size="20" text-anchor="start" fill="#1f2937">۴. بازبینی و حساسیت‌سنجی</text>
+<rect x="40" y="370" width="720" height="56" rx="10" fill="#f3f4f6" stroke="#6b7280"/>
+<text x="740" y="406" font-size="20" text-anchor="start" fill="#1f2937">۵. ارائه و بازبینی مکرر</text>
+</svg>
