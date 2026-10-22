@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 392" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="IRR برای دو برابر شدن سرمایه در مدت‌های مختلف">
+<rect width="800" height="392" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">IRR برای دو برابر شدن سرمایه</text>
+<text x="750" y="94" text-anchor="start" font-size="16" fill="#333">۶ ماه</text>
+<rect x="230" y="74" width="430" height="28" rx="6" fill="#3d7a8c"/>
+<text x="222" y="94" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۳۰۰</text>
+<text x="750" y="142" text-anchor="start" font-size="16" fill="#333">۱ سال</text>
+<rect x="517" y="122" width="143" height="28" rx="6" fill="#c98a3d"/>
+<text x="509" y="142" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۱۰۰</text>
+<text x="750" y="190" text-anchor="start" font-size="16" fill="#333">۲ سال</text>
+<rect x="602" y="170" width="58" height="28" rx="6" fill="#6a8f4e"/>
+<text x="594" y="190" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۴۱</text>
+<text x="750" y="238" text-anchor="start" font-size="16" fill="#333">۳ سال</text>
+<rect x="623" y="218" width="37" height="28" rx="6" fill="#8a5a8c"/>
+<text x="615" y="238" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۲۶</text>
+<text x="750" y="286" text-anchor="start" font-size="16" fill="#333">۴ سال</text>
+<rect x="633" y="266" width="27" height="28" rx="6" fill="#3d7a8c"/>
+<text x="625" y="286" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۱۹</text>
+<text x="750" y="334" text-anchor="start" font-size="16" fill="#333">۵ سال</text>
+<rect x="639" y="314" width="21" height="28" rx="6" fill="#c98a3d"/>
+<text x="631" y="334" direction="ltr" text-anchor="end" font-size="15" font-weight="bold" fill="#333">٪۱۵</text>
+<text x="400" y="378" text-anchor="middle" font-size="13" fill="#666">هر چه زمان دو برابر شدن طولانی‌تر باشد، نرخ سالانه کمتر می‌شود</text>
+</svg>

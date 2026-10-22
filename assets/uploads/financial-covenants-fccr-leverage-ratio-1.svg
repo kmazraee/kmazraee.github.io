@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 354" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه دو کاونانت مالی رایج">
+<rect width="800" height="354" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">دو کاونانت مالی رایج</text>
+<rect x="40" y="64" width="720" height="60" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<circle cx="725" cy="94" r="18" fill="#3d7a8c"/><text x="725" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۱</text>
+<text x="690" y="91" text-anchor="start" font-size="17" font-weight="bold" fill="#3d7a8c">نسبت پوشش هزینه‌های ثابت (FCCR)</text>
+<text x="690" y="112" text-anchor="start" font-size="13.5" fill="#444">از EBITDA تعدیل‌شده شروع می‌شود و بر هزینه‌های ثابت تقسیم می‌شود</text>
+<rect x="40" y="134" width="720" height="60" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<circle cx="725" cy="164" r="18" fill="#c98a3d"/><text x="725" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۲</text>
+<text x="690" y="161" text-anchor="start" font-size="17" font-weight="bold" fill="#c98a3d">هزینه‌های ثابت</text>
+<text x="690" y="182" text-anchor="start" font-size="13.5" fill="#444">اصل و بهره‌ی وام، مخارج سرمایه‌ای، مالیات و برداشت‌ها طبق تعریف قرارداد</text>
+<rect x="40" y="204" width="720" height="60" rx="12" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<circle cx="725" cy="234" r="18" fill="#6a8f4e"/><text x="725" y="240" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۳</text>
+<text x="690" y="231" text-anchor="start" font-size="17" font-weight="bold" fill="#6a8f4e">نسبت اهرمی</text>
+<text x="690" y="252" text-anchor="start" font-size="13.5" fill="#444">کل بدهی تقسیم بر EBITDA؛ مثلاً ۶۰۰ ÷ ۲۰۰ = ۳ برابر</text>
+<rect x="40" y="274" width="720" height="60" rx="12" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<circle cx="725" cy="304" r="18" fill="#8a5a8c"/><text x="725" y="310" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">۴</text>
+<text x="690" y="301" text-anchor="start" font-size="17" font-weight="bold" fill="#8a5a8c">پایش ماهانه</text>
+<text x="690" y="322" text-anchor="start" font-size="13.5" fill="#444">فاصله‌ی ایمنی تا سقف قرارداد را هر ماه در مدل ببینید</text>
+</svg>
