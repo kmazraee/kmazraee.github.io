@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 446" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی روش‌های ارزش‌گذاری شرکت و بهترین کاربرد هر کدام">
+<rect width="800" height="446" fill="#faf7f0"/>
+<text x="400.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">روش‌های ارزش‌گذاری شرکت</text>
+<rect x="532" y="64" width="228" height="150" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="646" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d7a8c">ضریب EBITDA</text>
+<line x1="552" y1="110" x2="740" y2="110" stroke="#ddd"/>
+<text x="646" y="136" text-anchor="middle" font-size="13.5" fill="#444">رایج‌ترین روش</text>
+<text x="646" y="158" text-anchor="middle" font-size="13.5" fill="#444">ارزش بدون نقد و بدهی</text>
+<rect x="286" y="64" width="228" height="150" rx="14" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="400" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#c98a3d">شرکت‌های مشابه</text>
+<line x1="306" y1="110" x2="494" y2="110" stroke="#ddd"/>
+<text x="400" y="136" text-anchor="middle" font-size="13.5" fill="#444">ضریب‌های P/E و P/S</text>
+<text x="400" y="158" text-anchor="middle" font-size="13.5" fill="#444">پشتیبان روش اول</text>
+<rect x="40" y="64" width="228" height="150" rx="14" fill="#fff" stroke="#6a8f4e" stroke-width="2"/>
+<text x="154" y="98" text-anchor="middle" font-size="17" font-weight="bold" fill="#6a8f4e">معاملات گذشته</text>
+<line x1="60" y1="110" x2="248" y2="110" stroke="#ddd"/>
+<text x="154" y="136" text-anchor="middle" font-size="13.5" fill="#444">ضریب فروش‌های اخیر</text>
+<text x="154" y="158" text-anchor="middle" font-size="13.5" fill="#444">شرکت‌های همانند</text>
+<rect x="532" y="232" width="228" height="150" rx="14" fill="#fff" stroke="#8a5a8c" stroke-width="2"/>
+<text x="646" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#8a5a8c">ضریب درآمد</text>
+<line x1="552" y1="278" x2="740" y2="278" stroke="#ddd"/>
+<text x="646" y="304" text-anchor="middle" font-size="13.5" fill="#444">شرکت‌های جوان</text>
+<text x="646" y="326" text-anchor="middle" font-size="13.5" fill="#444">بدون سود پایدار</text>
+<rect x="286" y="232" width="228" height="150" rx="14" fill="#fff" stroke="#b5533c" stroke-width="2"/>
+<text x="400" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#b5533c">جریان نقد تنزیل‌شده</text>
+<line x1="306" y1="278" x2="494" y2="278" stroke="#ddd"/>
+<text x="400" y="304" text-anchor="middle" font-size="13.5" fill="#444">پروژه‌های سرمایه‌ای</text>
+<text x="400" y="326" text-anchor="middle" font-size="13.5" fill="#444">حساس به فرضیات</text>
+<rect x="40" y="232" width="228" height="150" rx="14" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="154" y="266" text-anchor="middle" font-size="17" font-weight="bold" fill="#3d7a8c">روش‌های خاص</text>
+<line x1="60" y1="278" x2="248" y2="278" stroke="#ddd"/>
+<text x="154" y="304" text-anchor="middle" font-size="13.5" fill="#444">مجموع اجزا، خالص دارایی،</text>
+<text x="154" y="326" text-anchor="middle" font-size="13.5" fill="#444">هزینه‌ی بازسازی، انحلال</text>
+<text x="400" y="432" text-anchor="middle" font-size="15" font-weight="bold" fill="#2b2b2b">ضریب EBITDA پایه است و بقیه آن را تأیید می‌کنند</text>
+</svg>
