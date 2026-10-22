@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه ساختار SDE و EBITDA تعدیل‌شده">
+<rect width="800" height="420" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">SDE در برابر EBITDA تعدیل‌شده</text>
+<rect x="410" y="64" width="350" height="330" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<text x="585" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#3d7a8c">EBITDA تعدیل‌شده</text>
+<rect x="430" y="112" width="310" height="34" rx="8" fill="#eef4f6"/><text x="585" y="134" text-anchor="middle" font-size="14" fill="#333">سود خالص</text>
+<rect x="430" y="156" width="310" height="34" rx="8" fill="#eef4f6"/><text x="585" y="178" text-anchor="middle" font-size="14" fill="#333">+ بهره، مالیات، استهلاک</text>
+<rect x="430" y="200" width="310" height="34" rx="8" fill="#eef4f6"/><text x="585" y="222" text-anchor="middle" font-size="14" fill="#333">+ اقلام اختیاری و یک‌باره</text>
+<rect x="430" y="244" width="310" height="34" rx="8" fill="#eef4f6"/><text x="585" y="266" text-anchor="middle" font-size="14" fill="#333">+ اقلام معامله و پرو‌فورما</text>
+<rect x="430" y="288" width="310" height="34" rx="8" fill="#eef4f6"/><text x="585" y="310" text-anchor="middle" font-size="14" fill="#333">بدون حقوق مالک</text>
+<rect x="40" y="64" width="350" height="330" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<text x="215" y="96" text-anchor="middle" font-size="18" font-weight="bold" fill="#c98a3d">SDE (سود اختیاری فروشنده)</text>
+<rect x="60" y="112" width="310" height="34" rx="8" fill="#eef4f6"/><text x="215" y="134" text-anchor="middle" font-size="14" fill="#333">سود خالص</text>
+<rect x="60" y="156" width="310" height="34" rx="8" fill="#eef4f6"/><text x="215" y="178" text-anchor="middle" font-size="14" fill="#333">+ بهره، مالیات، استهلاک</text>
+<rect x="60" y="200" width="310" height="34" rx="8" fill="#eef4f6"/><text x="215" y="222" text-anchor="middle" font-size="14" fill="#333">+ اقلام اختیاری و یک‌باره</text>
+<rect x="60" y="244" width="310" height="34" rx="8" fill="#fbe9d0"/><text x="215" y="266" text-anchor="middle" font-size="14" fill="#333">+ حقوق و مزایای مالک</text>
+<rect x="60" y="288" width="310" height="34" rx="8" fill="#fbe9d0"/><text x="215" y="310" text-anchor="middle" font-size="14" fill="#333">+ هزینه‌های شخصی</text>
+</svg>
