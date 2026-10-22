@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" width="820" height="340" role="img" aria-label="چهار نقش چارچوب DARE" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="340" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410.0" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">چارچوب DARE</text>
+<rect x="430" y="70" width="360" height="110" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5"/>
+<circle cx="745" cy="125.0" r="28" fill="#3b82f6"/>
+<text x="745" y="134.0" font-size="26" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">D</text>
+<text x="695" y="118" font-size="20" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">تصمیم‌گیرنده</text>
+<text x="695" y="150" font-size="15" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">تنها دارندگان رأی</text>
+<rect x="50" y="70" width="360" height="110" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+<circle cx="365" cy="125.0" r="28" fill="#f59e0b"/>
+<text x="365" y="134.0" font-size="26" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">A</text>
+<text x="315" y="118" font-size="20" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">مشاور</text>
+<text x="315" y="150" font-size="15" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">نظر می‌دهد، رأی ندارد</text>
+<rect x="430" y="200" width="360" height="110" rx="10" fill="#dcfce7" stroke="#22c55e" stroke-width="1.5"/>
+<circle cx="745" cy="255.0" r="28" fill="#22c55e"/>
+<text x="745" y="264.0" font-size="26" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">R</text>
+<text x="695" y="248" font-size="20" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">پیشنهاددهنده</text>
+<text x="695" y="280" font-size="15" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">تحلیل و پیشنهاد مسیر</text>
+<rect x="50" y="200" width="360" height="110" rx="10" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1.5"/>
+<circle cx="365" cy="255.0" r="28" fill="#8b5cf6"/>
+<text x="365" y="264.0" font-size="26" fill="#fff" font-weight="700" text-anchor="middle" font-family="Arial, sans-serif">E</text>
+<text x="315" y="248" font-size="20" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">مجری</text>
+<text x="315" y="280" font-size="15" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">در اجرا درگیر است</text>
+</svg>

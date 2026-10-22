@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" width="820" height="300" role="img" aria-label="مقایسه پیش‌بینی بالا به پایین و پایین به بالا" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="300" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410.0" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">دو پیش‌بینی، یک بازه‌ی واقع‌بینانه</text>
+<line x1="80" y1="170" x2="740" y2="170" stroke="#94a3b8" stroke-width="3"/>
+<circle cx="170" cy="170" r="16" fill="#3b82f6"/>
+<text x="170" y="125" font-size="18" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">پایین‌به‌بالا</text>
+<text x="170" y="215" font-size="15" fill="#475569" font-weight="400" text-anchor="middle" direction="rtl">محتاط</text>
+<circle cx="410" cy="170" r="16" fill="#22c55e"/>
+<text x="410" y="125" font-size="18" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">نقطه‌ی میانه</text>
+<text x="410" y="215" font-size="15" fill="#475569" font-weight="400" text-anchor="middle" direction="rtl">احتمالاً دقیق‌تر</text>
+<circle cx="650" cy="170" r="16" fill="#ef4444"/>
+<text x="650" y="125" font-size="18" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">بالا‌به‌پایین</text>
+<text x="650" y="215" font-size="15" fill="#475569" font-weight="400" text-anchor="middle" direction="rtl">خوش‌بین</text>
+<path d="M170 140 Q410 80 650 140" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="410.0" y="268" font-size="14" fill="#475569" font-weight="400" text-anchor="middle" direction="rtl">مقایسه‌ی دو عدد و بحث درباره‌ی اختلاف، هم سوگیری را کم می‌کند هم ایده می‌سازد</text>
+</svg>
