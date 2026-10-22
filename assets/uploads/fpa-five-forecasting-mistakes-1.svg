@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 224" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="پنج اشتباه رایج در پیش‌بینی مالی و راه اصلاح آن‌ها">
+<rect width="800" height="224" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">پنج اشتباه بزرگ پیش‌بینی مالی</text>
+<rect x="635.2" y="62" width="140.8" height="138" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="705.6" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۱. فقط بالا به پایین</text>
+<text x="705.6" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">ترکیب با</text>
+<text x="705.6" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">پیش‌بینی پایین</text>
+<text x="705.6" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">به بالا</text>
+<rect x="482.4" y="62" width="140.8" height="138" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="552.8" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۲. نبود پاسخ‌گویی</text>
+<text x="552.8" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">مسئول واحد</text>
+<text x="552.8" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">باید پیش‌فرض‌ها</text>
+<text x="552.8" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">را بپذیرد</text>
+<rect x="329.6" y="62" width="140.8" height="138" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="400.0" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۳. انباشت پیش‌فرض</text>
+<text x="400.0" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">هر پیش‌فرض</text>
+<text x="400.0" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">خطا را</text>
+<text x="400.0" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">ضرب می‌کند</text>
+<rect x="176.8" y="62" width="140.8" height="138" rx="12" fill="#f1e4f2" stroke="#9a5aa8" stroke-width="2"/>
+<text x="247.2" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۴. بدون حساسیت</text>
+<text x="247.2" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">اثر تغییر ورودی‌ها</text>
+<text x="247.2" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">را اندازه بگیرید</text>
+<rect x="24.0" y="62" width="140.8" height="138" rx="12" fill="#e6eef0" stroke="#4b8a99" stroke-width="2"/>
+<text x="94.4" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">۵. فقط یک عدد</text>
+<text x="94.4" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">بازه نشان‌دهنده</text>
+<text x="94.4" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">ریسک و پایه‌ی</text>
+<text x="94.4" y="176" text-anchor="middle" font-size="13" fill="#3d3d3d">سناریوست</text>
+</svg>

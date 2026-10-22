@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 198" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="نمودار ساده‌ی قاعده‌ی ۸۰/۲۰ و هزینه‌ی کمال‌گرایی">
+<rect width="800" height="198" fill="#faf7f0"/>
+<text x="400" y="38" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">کمال‌گرایی دانشگاهی در برابر قاعده‌ی ۸۰/۲۰</text>
+<rect x="533.3" y="62" width="242.7" height="112" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="654.7" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">بیست درصد ورودی</text>
+<text x="654.7" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">زمان و تلاش</text>
+<text x="654.7" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">اولیه</text>
+<rect x="278.7" y="62" width="242.7" height="112" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400.0" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">هشتاد درصد نتیجه</text>
+<text x="400.0" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">بازدهی</text>
+<text x="400.0" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">بیشتر کار</text>
+<rect x="24.0" y="62" width="242.7" height="112" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="145.3" y="92" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">بیست درصد آخر</text>
+<text x="145.3" y="124" text-anchor="middle" font-size="13" fill="#3d3d3d">چهار برابر</text>
+<text x="145.3" y="150" text-anchor="middle" font-size="13" fill="#3d3d3d">منابع می‌خواهد</text>
+</svg>
