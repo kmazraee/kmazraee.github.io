@@ -1,4 +1,6 @@
 /* Modernist design tokens, from the Claude Design handoff (site/source/_ds/.../styles.css) */
+@font-face{font-family:"Vazirmatn";src:url(../fonts/vazirmatn.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Archivo";src:url(../fonts/archivo-latin.woff2) format("woff2");font-weight:100 900;font-style:normal;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-200B,U+2010-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 :root{
   --color-bg:#f3f2f2;--color-surface:#eae9e9;--color-text:#201e1d;--color-accent:#ec3013;
   --color-divider:color-mix(in srgb,#201e1d 40%,transparent);
