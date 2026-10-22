@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="گزارش انحراف بین حالت زنده و حالت ثابت مدل">
+<rect width="800" height="290" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">گزارش انحراف: حالت زنده در برابر حالت ثابت</text>
+<rect x="533" y="75" width="237" height="140" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="651" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۱</text>
+<text x="651" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">حالت ثابت</text>
+<text x="651" y="166" text-anchor="middle" font-size="13" fill="#374151">کپی مقادیر قبلی</text>
+<text x="651" y="185" text-anchor="middle" font-size="13" fill="#374151">در ستون‌های ثابت</text>
+<rect x="281" y="75" width="237" height="140" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۲</text>
+<text x="400" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">حالت زنده</text>
+<text x="400" y="166" text-anchor="middle" font-size="13" fill="#374151">مدل جاری که</text>
+<text x="400" y="185" text-anchor="middle" font-size="13" fill="#374151">دائم تغییر می‌کند</text>
+<rect x="30" y="75" width="237" height="140" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="149" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۳</text>
+<text x="149" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">انحراف</text>
+<text x="149" y="166" text-anchor="middle" font-size="13" fill="#374151">اختلاف دو حالت؛</text>
+<text x="149" y="185" text-anchor="middle" font-size="13" fill="#374151">در آغاز صفر است</text>
+<text x="400" y="266" text-anchor="middle" font-size="15" fill="#374151">هر تغییر مدل در ستون انحراف دیده می‌شود</text>
+</svg>
