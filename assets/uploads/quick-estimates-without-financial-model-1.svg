@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 290" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه مهارت برآورد سریع بدون مدل مالی">
+<rect width="800" height="290" fill="#ffffff"/>
+<text x="400" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">سه مهارت برآورد سریع</text>
+<rect x="533" y="75" width="237" height="140" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="651" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۱</text>
+<text x="651" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">اعداد کلیدی را بدانید</text>
+<text x="651" y="166" text-anchor="middle" font-size="13" fill="#374151">درآمد روزانه</text>
+<text x="651" y="185" text-anchor="middle" font-size="13" fill="#374151">حاشیه‌ی هر محصول</text>
+<rect x="281" y="75" width="237" height="140" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="400" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۲</text>
+<text x="400" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">قاعده‌ی حساسیت</text>
+<text x="400" y="166" text-anchor="middle" font-size="13" fill="#374151">اگر درآمد ۱۰٪ کم شود</text>
+<text x="400" y="185" text-anchor="middle" font-size="13" fill="#374151">سود چقدر می‌شود؟</text>
+<rect x="30" y="75" width="237" height="140" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="149" y="108" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">۳</text>
+<text x="149" y="140" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">به شهود اعتماد کنید</text>
+<text x="149" y="166" text-anchor="middle" font-size="13" fill="#374151">بعد از آن</text>
+<text x="149" y="185" text-anchor="middle" font-size="13" fill="#374151">حتماً بررسی کنید</text>
+<text x="400" y="266" text-anchor="middle" font-size="15" fill="#374151">با سه مهارت، در چند ثانیه به برآورد قابل‌دفاع برسید</text>
+</svg>
