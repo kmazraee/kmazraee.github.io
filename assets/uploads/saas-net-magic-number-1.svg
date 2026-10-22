@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="راهنمای تفسیر عدد جادویی خالص SaaS">
+<rect width="800" height="360" fill="#faf7f0"/>
+<text x="400" y="34" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">عدد جادویی خالص SaaS را چطور بخوانیم؟</text>
+<rect x="40" y="62" width="720" height="68" rx="12" fill="#d9efdc" stroke="#5a9a6b" stroke-width="2"/>
+<text x="740" y="104" text-anchor="start" font-size="22" fill="#2b2b2b" font-weight="bold">بالاتر از ۱٫۰</text>
+<text x="560" y="102" text-anchor="start" font-size="15" fill="#3d3d3d">کارا؛ بیش از ۱ دلار درآمد جدید به ازای هر ۱ دلار</text>
+<rect x="40" y="146" width="720" height="68" rx="12" fill="#fbf0cc" stroke="#c9a21f" stroke-width="2"/>
+<text x="740" y="188" text-anchor="start" font-size="22" fill="#2b2b2b" font-weight="bold">۰٫۷۵ تا ۱٫۰</text>
+<text x="560" y="186" text-anchor="start" font-size="15" fill="#3d3d3d">متوسط؛ جای بهبود دارد</text>
+<rect x="40" y="230" width="720" height="68" rx="12" fill="#f7d9d4" stroke="#c4523f" stroke-width="2"/>
+<text x="740" y="272" text-anchor="start" font-size="22" fill="#2b2b2b" font-weight="bold">کمتر از ۰٫۷۵</text>
+<text x="560" y="270" text-anchor="start" font-size="15" fill="#3d3d3d">ضعیف؛ احتمال هزینه‌ی بیش‌ازحد</text>
+<text x="400" y="330" text-anchor="middle" font-size="15" fill="#555">مثال این نوشته: (۶۰٬۰۰۰ × ۴) ÷ ۳۰۰٬۰۰۰ = ۰٫۸</text>
+</svg>
