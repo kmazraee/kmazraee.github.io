@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 372" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="انواع سود تقسیمی و شرکت‌های مناسب پرداخت آن">
+<rect width="880" height="372" fill="#faf7f0"/>
+<text x="440.0" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">سود تقسیمی: انواع و کاربرد</text>
+<rect x="448" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<rect x="448" y="70" width="408" height="38" rx="12" fill="#3d7a8c"/><rect x="448" y="96" width="408" height="12" fill="#3d7a8c"/>
+<text x="652" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">سود منظم</text>
+<text x="652" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">مبلغ مشخص و سالانه</text>
+<text x="652" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">اغلب در چهار قسط</text>
+<rect x="24" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<rect x="24" y="70" width="408" height="38" rx="12" fill="#c98a3d"/><rect x="24" y="96" width="408" height="12" fill="#c98a3d"/>
+<text x="228" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">سود ویژه</text>
+<text x="228" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">یک‌بار پرداخت می‌شود</text>
+<text x="228" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">تکرارش تعهد نیست</text>
+<rect x="448" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<rect x="448" y="216" width="408" height="38" rx="12" fill="#5a9a6b"/><rect x="448" y="242" width="408" height="12" fill="#5a9a6b"/>
+<text x="652" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">شرکت‌های بالغ</text>
+<text x="652" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">پرداخت سود برای</text>
+<text x="652" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">بازگرداندن مازاد منطقی است</text>
+<rect x="24" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/>
+<rect x="24" y="216" width="408" height="38" rx="12" fill="#b5524a"/><rect x="24" y="242" width="408" height="12" fill="#b5524a"/>
+<text x="228" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">شرکت‌های جوان</text>
+<text x="228" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">پول برای رشد</text>
+<text x="228" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">لازم است؛ سود کمتر معنا دارد</text>
+</svg>

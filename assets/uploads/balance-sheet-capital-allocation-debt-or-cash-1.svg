@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 372" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چهار پرسش برای سنجش سلامت ترازنامه">
+<rect width="880" height="372" fill="#faf7f0"/>
+<text x="440.0" y="40" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">چهار پرسش درباره‌ی ترازنامه</text>
+<rect x="448" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#b5524a" stroke-width="2"/>
+<rect x="448" y="70" width="408" height="38" rx="12" fill="#b5524a"/><rect x="448" y="96" width="408" height="12" fill="#b5524a"/>
+<text x="652" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۱. رکود را تاب می‌آورد؟</text>
+<text x="652" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">درآمد اگر ۲۰ تا ۴۰ درصد</text>
+<text x="652" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">افت کند چه می‌شود؟</text>
+<rect x="24" y="70" width="408" height="130" rx="12" fill="#fff" stroke="#c98a3d" stroke-width="2"/>
+<rect x="24" y="70" width="408" height="38" rx="12" fill="#c98a3d"/><rect x="24" y="96" width="408" height="12" fill="#c98a3d"/>
+<text x="228" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۲. چرخه‌ای است یا باثبات؟</text>
+<text x="228" y="138" text-anchor="middle" font-size="14" fill="#2b2b2b">چرخه‌ای: بدهی کم</text>
+<text x="228" y="164" text-anchor="middle" font-size="14" fill="#2b2b2b">باثبات: اهرم بیشتر ممکن است</text>
+<rect x="448" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#3d7a8c" stroke-width="2"/>
+<rect x="448" y="216" width="408" height="38" rx="12" fill="#3d7a8c"/><rect x="448" y="242" width="408" height="12" fill="#3d7a8c"/>
+<text x="652" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۳. سلامت مالی برای مشتری مهم است؟</text>
+<text x="652" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">بیمه‌ی عمر و نرم‌افزار</text>
+<text x="652" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">به ترازنامه‌ی قوی نیاز دارند</text>
+<rect x="24" y="216" width="408" height="130" rx="12" fill="#fff" stroke="#5a9a6b" stroke-width="2"/>
+<rect x="24" y="216" width="408" height="38" rx="12" fill="#5a9a6b"/><rect x="24" y="242" width="408" height="12" fill="#5a9a6b"/>
+<text x="228" y="241" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">۴. نرخ بهره چقدر است؟</text>
+<text x="228" y="284" text-anchor="middle" font-size="14" fill="#2b2b2b">نرخ پایین: بدهی ارزان</text>
+<text x="228" y="310" text-anchor="middle" font-size="14" fill="#2b2b2b">نرخ بالا: نقد ارزشمندتر</text>
+</svg>
