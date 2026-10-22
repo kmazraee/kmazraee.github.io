@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="مقایسه‌ی DSO، DOH و DPO">
+<rect width="800" height="300" fill="#ffffff"/>
+<text x="400.0" y="42" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">مقایسه‌ی DSO، DOH و DPO</text>
+<rect x="600" y="70" width="176" height="170" rx="12" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="688" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">1</text>
+<text x="688" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">DSO</text>
+<text x="688" y="172" text-anchor="middle" font-size="12.5" fill="#374151">مطالبات ÷ درآمد</text>
+<text x="688" y="194" text-anchor="middle" font-size="12.5" fill="#374151">× روز</text>
+<rect x="408" y="70" width="176" height="170" rx="12" fill="#e6f6ec" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="496" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">2</text>
+<text x="496" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">DOH</text>
+<text x="496" y="172" text-anchor="middle" font-size="12.5" fill="#374151">موجودی ÷ بهای</text>
+<text x="496" y="194" text-anchor="middle" font-size="12.5" fill="#374151">تمام‌شده × روز</text>
+<rect x="216" y="70" width="176" height="170" rx="12" fill="#fff4e0" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="304" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">3</text>
+<text x="304" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">DPO</text>
+<text x="304" y="172" text-anchor="middle" font-size="12.5" fill="#374151">پرداختنی ÷ بهای</text>
+<text x="304" y="194" text-anchor="middle" font-size="12.5" fill="#374151">تمام‌شده × روز</text>
+<rect x="24" y="70" width="176" height="170" rx="12" fill="#f3e8fb" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="112" y="104" text-anchor="middle" font-size="20" font-weight="700" fill="#2b6cb0">4</text>
+<text x="112" y="140" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">پیش‌پرداخت و معوق</text>
+<text x="112" y="172" text-anchor="middle" font-size="12.5" fill="#374151">مانده ÷ درآمد</text>
+<text x="112" y="194" text-anchor="middle" font-size="12.5" fill="#374151">ماه جاری (درصد)</text>
+<text x="400.0" y="274" text-anchor="middle" font-size="14" fill="#374151">بهتر است DPO از DSO بزرگ‌تر باشد</text>
+</svg>
