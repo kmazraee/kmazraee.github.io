@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" direction="rtl" font-family="Tahoma, Vazirmatn, sans-serif">
+<rect width="800" height="400" fill="#fbfaf7"/>
+<text x="400" y="40" text-anchor="middle" font-size="22" fill="#1d3b34" font-weight="bold">شش دسته سؤال مصاحبه‌ی FP&amp;A</text>
+<g font-size="16" text-anchor="middle" fill="#fff">
+<rect x="50" y="70" width="220" height="130" rx="12" fill="#1d3b34"/><text x="160" y="125">۱. معرفی و پیشینه</text><text x="160" y="155" font-size="13">«درباره‌ی خودتان بگویید»</text>
+<rect x="290" y="70" width="220" height="130" rx="12" fill="#2f6f5f"/><text x="400" y="125">۲. مهارت فنی</text><text x="400" y="155" font-size="13">شناسایی ریسک و فرصت</text>
+<rect x="530" y="70" width="220" height="130" rx="12" fill="#3f7f6f"/><text x="640" y="125">۳. حل مسئله</text><text x="640" y="155" font-size="13">نتیجه‌ی غیرمنتظره‌ی مدل</text>
+<rect x="50" y="220" width="220" height="130" rx="12" fill="#5a9a87"/><text x="160" y="275">۴. مدیریت زمان</text><text x="160" y="305" font-size="13">چند کار با مهلت کم</text>
+<rect x="290" y="220" width="220" height="130" rx="12" fill="#6fa795"/><text x="400" y="275">۵. کار تیمی</text><text x="400" y="305" font-size="13">همکاری با فرد سخت‌گیر</text>
+<rect x="530" y="220" width="220" height="130" rx="12" fill="#7fb09f"/><text x="640" y="275">۶. خودارزیابی</text><text x="640" y="305" font-size="13">حوزه‌ی قابل‌بهبود</text>
+</g>
+</svg>

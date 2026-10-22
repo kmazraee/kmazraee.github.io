@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" direction="rtl" font-family="Tahoma, Vazirmatn, sans-serif">
+<rect width="800" height="420" fill="#fbfaf7"/>
+<text x="400" y="40" text-anchor="middle" font-size="22" fill="#1d3b34" font-weight="bold">پنج روش کنترل خطا در مدل مالی</text>
+<g font-size="17" text-anchor="middle">
+<rect x="60" y="70" width="680" height="52" rx="10" fill="#1d3b34"/><text x="400" y="103" fill="#fff">۱. چک‌جمع: محاسبه از دو مسیر و اختلاف صفر</text>
+<rect x="90" y="132" width="620" height="52" rx="10" fill="#2f6f5f"/><text x="400" y="165" fill="#fff">۲. مرور فرمول‌ها: الگوی منظم ارجاع‌ها</text>
+<rect x="120" y="194" width="560" height="52" rx="10" fill="#5a9a87"/><text x="400" y="227" fill="#fff">۳. بازبینی نمونه‌ای: پیگیری تا منبع اصلی</text>
+<rect x="150" y="256" width="500" height="52" rx="10" fill="#8fbfae"/><text x="400" y="289" fill="#10261f">۴. آزمون روایت: آیا داستان مدل قابل‌گفتن است؟</text>
+<rect x="180" y="318" width="440" height="52" rx="10" fill="#cfe5dc"/><text x="400" y="351" fill="#10261f">۵. تطبیق با نسخه‌ی قبل (اختیاری)</text>
+</g>
+<text x="400" y="400" text-anchor="middle" font-size="14" fill="#555">از سریع‌ترین روش تا زمان‌برترین، به ترتیب اجرا</text>
+</svg>
