@@ -16,7 +16,11 @@ layout: default
   </div>
 </header>
 <div class="post-body">
-  <article class="prose" id="prose">{{ content }}</article>
+  <article class="prose" id="prose">{{ content }}
+    {%- if page.tags.size > 0 %}
+    <div class="post-tags"><span class="muted">برچسب‌ها</span>{% for t in page.tags %}<a class="tag tag-neutral" href="{{ base | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a>{% endfor %}</div>
+    {%- endif %}
+  </article>
   <aside>
     <nav class="toc" id="toc" hidden><div class="kicker" style="padding:12px 0">در این یادداشت</div></nav>
     <div class="share">
