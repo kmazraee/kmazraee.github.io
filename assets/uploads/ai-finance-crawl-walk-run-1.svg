@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="sans-serif">
+<rect width="800" height="450" fill="#f7f9fc"/>
+<text x="760" y="55" text-anchor="start" direction="rtl" font-size="26" font-weight="bold" fill="#1f3a5f">سه مرحله‌ی شروع هوش مصنوعی در مالی</text>
+<g direction="rtl" text-anchor="start">
+<rect x="520" y="100" width="240" height="280" rx="12" fill="#dbe9f7" stroke="#2f6ea5"/>
+<text x="742" y="145" font-size="22" font-weight="bold" fill="#1f3a5f">۱. خزیدن</text>
+<text x="742" y="190" font-size="16" fill="#243b53">کارهای تکراری</text>
+<text x="742" y="220" font-size="16" fill="#243b53">دستور سه‌بخشی:</text>
+<text x="742" y="248" font-size="16" fill="#243b53">زمینه، جزئیات، دستور</text>
+<text x="742" y="290" font-size="16" fill="#243b53">پیش‌نویس نامه و متن</text>
+<rect x="270" y="100" width="240" height="280" rx="12" fill="#cfe8dc" stroke="#2e8b57"/>
+<text x="492" y="145" font-size="22" font-weight="bold" fill="#1f3a5f">۲. راه‌رفتن</text>
+<text x="492" y="190" font-size="16" fill="#243b53">تحلیل ساده</text>
+<text x="492" y="220" font-size="16" fill="#243b53">آزمون روی داده‌ی نمونه</text>
+<text x="492" y="248" font-size="16" fill="#243b53">سپس اجرا روی فایل خودتان</text>
+<text x="492" y="290" font-size="16" fill="#243b53">بدون داده‌ی حساس</text>
+<rect x="20" y="100" width="240" height="280" rx="12" fill="#fde7c8" stroke="#d98324"/>
+<text x="242" y="145" font-size="22" font-weight="bold" fill="#1f3a5f">۳. دویدن</text>
+<text x="242" y="190" font-size="16" fill="#243b53">تحلیل حجیم با کد پایتون</text>
+<text x="242" y="220" font-size="16" fill="#243b53">قابل‌اشتراک با همکاران</text>
+<text x="242" y="248" font-size="16" fill="#243b53">ردپای حسابرسی‌پذیر</text>
+<text x="242" y="290" font-size="16" fill="#243b53">بازبینی منطق محاسبه</text>
+</g>
+</svg>
