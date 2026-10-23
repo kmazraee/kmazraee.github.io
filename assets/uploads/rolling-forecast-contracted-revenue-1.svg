@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-label="درآمد قراردادی و مورد انتظار در دو سناریو" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="330" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">درآمد قراردادی و مورد انتظار در دو سناریو</text>
+<text x="780" y="85" font-size="15" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">سناریوی بهترین</text>
+<rect x="432.5874125874126" y="95" width="347.4125874125874" height="44" rx="6" fill="#60a5fa" stroke="none"/>
+<text x="606.2937062937062" y="123" font-size="14" fill="#0f172a" font-weight="700" text-anchor="middle" direction="rtl">قراردادی ۸۲۸ هزار</text>
+<rect x="180.0" y="95" width="252.5874125874126" height="44" rx="6" fill="#bfdbfe" stroke="#60a5fa"/>
+<text x="306.2937062937063" y="123" font-size="14" fill="#0f172a" font-weight="700" text-anchor="middle" direction="rtl">مورد انتظار ۶۰۲ هزار</text>
+<text x="780" y="185" font-size="15" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">سناریوی بدترین</text>
+<rect x="432.5874125874126" y="195" width="347.4125874125874" height="44" rx="6" fill="#60a5fa" stroke="none"/>
+<text x="606.2937062937062" y="223" font-size="14" fill="#0f172a" font-weight="700" text-anchor="middle" direction="rtl">قراردادی ۸۲۸ هزار</text>
+<text x="780" y="285" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">بهترین: ۱٫۴۳ میلیون درآمد، ۵۸٪ امضاشده | بدترین: ۸۲۸ هزار، ۱۰۰٪ امضاشده</text>
+</svg>
