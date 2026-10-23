@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-label="پنج پرسش برای تجمیع بودجه" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="330" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">پنج پرسش برای تجمیع بودجه</text>
+<rect x="60" y="65" width="700" height="42" rx="8" fill="#dbeafe" stroke="#64748b"/>
+<text x="740" y="92" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">فروش</text>
+<text x="610" y="92" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">چه چیزی می‌فروشیم؟ حجم، قیمت، مشتری و ترکیب</text>
+<rect x="60" y="115" width="700" height="42" rx="8" fill="#dcfce7" stroke="#64748b"/>
+<text x="740" y="142" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">عملیات</text>
+<text x="610" y="142" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">آیا می‌توانیم تولید و تحویل کنیم؟ ظرفیت و موجودی</text>
+<rect x="60" y="165" width="700" height="42" rx="8" fill="#fef3c7" stroke="#64748b"/>
+<text x="740" y="192" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">خرید</text>
+<text x="610" y="192" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">آیا مواد را تهیه می‌کنیم؟ قیمت، منبع و زمان</text>
+<rect x="60" y="215" width="700" height="42" rx="8" fill="#fee2e2" stroke="#64748b"/>
+<text x="740" y="242" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">منابع انسانی</text>
+<text x="610" y="242" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">آیا نیروی لازم را داریم؟ زمان‌بندی استخدام</text>
+<rect x="60" y="265" width="700" height="42" rx="8" fill="#ede9fe" stroke="#64748b"/>
+<text x="740" y="292" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">مالی</text>
+<text x="610" y="292" font-size="14" fill="#475569" font-weight="400" text-anchor="start" direction="rtl">وقتی همه به هم وصل شوند چه می‌شود؟ EBITDA و نقد</text>
+</svg>
