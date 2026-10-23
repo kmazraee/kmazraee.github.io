@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" width="820" height="340" role="img" aria-label="ساختار پنج‌بخشی پرامپت برای کار مالی" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="340" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410.0" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">ساختار پنج‌بخشی پرامپت برای کار مالی</text>
+<rect x="40" y="65" width="740" height="42" rx="8" fill="#dbeafe" stroke="#64748b" stroke-width="1.5"/>
+<text x="760" y="92" font-size="17" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">۱. نقش</text>
+<text x="560" y="92" font-size="14" fill="#475569" text-anchor="start" direction="rtl">تحلیلگر ارشد FP&amp;A یا حسابدار خبره</text>
+<rect x="40" y="115" width="740" height="42" rx="8" fill="#dcfce7" stroke="#64748b" stroke-width="1.5"/>
+<text x="760" y="142" font-size="17" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">۲. زمینه</text>
+<text x="560" y="142" font-size="14" fill="#475569" text-anchor="start" direction="rtl">نوع کسب‌وکار، دوره‌ی گزارش و هدف</text>
+<rect x="40" y="165" width="740" height="42" rx="8" fill="#fef3c7" stroke="#64748b" stroke-width="1.5"/>
+<text x="760" y="192" font-size="17" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">۳. وظیفه</text>
+<text x="560" y="192" font-size="14" fill="#475569" text-anchor="start" direction="rtl">خلاصه، جدول، فهرست پرسش یا پیش‌نویس</text>
+<rect x="40" y="215" width="740" height="42" rx="8" fill="#fee2e2" stroke="#64748b" stroke-width="1.5"/>
+<text x="760" y="242" font-size="17" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">۴. قالب</text>
+<text x="560" y="242" font-size="14" fill="#475569" text-anchor="start" direction="rtl">طول، لحن و ساختار خروجی</text>
+<rect x="40" y="265" width="740" height="42" rx="8" fill="#ede9fe" stroke="#64748b" stroke-width="1.5"/>
+<text x="760" y="292" font-size="17" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">۵. محدودیت</text>
+<text x="560" y="292" font-size="14" fill="#475569" text-anchor="start" direction="rtl">فقط بر پایه‌ی داده‌ی همین متن</text>
+</svg>

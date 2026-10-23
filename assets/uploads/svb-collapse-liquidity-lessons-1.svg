@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 330" width="820" height="330" role="img" aria-label="درس‌های مدیریت نقدینگی از سقوط بانک" direction="rtl" font-family="Vazirmatn, Tahoma, 'Noto Naskh Arabic', sans-serif">
+<rect width="820" height="330" rx="14" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="410" y="38" font-size="22" fill="#1e293b" font-weight="700" text-anchor="middle" direction="rtl">پنج اقدام کلیدی در برابر ریسک بانکی</text>
+<rect x="60" y="62" width="700" height="42" rx="8" fill="#dbeafe" stroke="#64748b" stroke-width="1.5"/>
+<text x="740" y="89" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">دو حساب بانکی</text>
+<text x="560" y="89" font-size="14" fill="#475569" text-anchor="start" direction="rtl">بدون نقطه‌ی شکست واحد</text>
+<rect x="60" y="112" width="700" height="42" rx="8" fill="#dcfce7" stroke="#64748b" stroke-width="1.5"/>
+<text x="740" y="139" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">ذخیره‌ی نقد</text>
+<text x="560" y="139" font-size="14" fill="#475569" text-anchor="start" direction="rtl">چند ماه هزینه‌ی جاری</text>
+<rect x="60" y="162" width="700" height="42" rx="8" fill="#fef3c7" stroke="#64748b" stroke-width="1.5"/>
+<text x="740" y="189" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">خط اعتباری آماده</text>
+<text x="560" y="189" font-size="14" fill="#475569" text-anchor="start" direction="rtl">پیش از شروع بحران بررسی شود</text>
+<rect x="60" y="212" width="700" height="42" rx="8" fill="#fee2e2" stroke="#64748b" stroke-width="1.5"/>
+<text x="740" y="239" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">واکنش به نشانه‌ها</text>
+<text x="560" y="239" font-size="14" fill="#475569" text-anchor="start" direction="rtl">دود را جدی بگیرید</text>
+<rect x="60" y="262" width="700" height="42" rx="8" fill="#ede9fe" stroke="#64748b" stroke-width="1.5"/>
+<text x="740" y="289" font-size="18" fill="#1e293b" font-weight="700" text-anchor="start" direction="rtl">منبع آرام اطلاعات</text>
+<text x="560" y="289" font-size="14" fill="#475569" text-anchor="start" direction="rtl">دوری از هیاهوی شبکه‌ها</text>
+</svg>
