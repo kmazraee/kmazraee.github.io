@@ -2,7 +2,7 @@
 layout: default
 title: ابزارها
 ---
-<header class="page-head"><div class="kicker">ستون ۳</div><h1>ابزارها</h1><p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره؛ همه‌چیز در مرورگر خودتان حساب می‌شود و جایی ذخیره نمی‌شود.</p></header>
+<header class="card page-head"><span class="kicker">ماشین‌حساب‌ها</span><h1>ابزارها</h1><p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره؛ همه‌چیز در مرورگر خودتان حساب می‌شود و جایی ذخیره نمی‌شود.</p></header>
 {%- assign all = site.pages | where: "layout", "tool" | sort: "order" -%}
 {%- assign groups = all | group_by: "group" | sort: "name" | reverse -%}
 {%- for g in groups -%}

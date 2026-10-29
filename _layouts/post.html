@@ -3,33 +3,40 @@ layout: default
 ---
 {%- assign base = '/posts/' -%}
 <div class="progress"><div id="progress"></div></div>
-<header class="post-head">
-  <div>
-    {% if page.category %}<a class="kicker" href="{{ base | relative_url }}?topic={{ page.category | url_encode }}" style="text-decoration:none">{{ page.category }}</a>{% endif %}
+<div class="post">
+  <article class="card post-main">
+    <div class="post-meta">
+      {% if page.category %}<a class="chip" href="{{ base | relative_url }}?topic={{ page.category | url_encode }}">{{ page.category }}</a>{% endif %}
+      <span>{% include date.html date=page.date %} · {% include minutes.html post=page %} مطالعه</span>
+    </div>
     <h1>{{ page.title }}</h1>
-  </div>
-  <div class="meta">
-    {% if page.source %}<div><span class="muted">منبع</span><span>{{ page.source }}</span></div>{% endif %}
-    <div><span class="muted">تاریخ</span><span>{% include date.html date=page.date %}</span></div>
-    <div><span class="muted">زمان مطالعه</span><span>{% include minutes.html post=page %}</span></div>
-    <div><span class="muted">نویسنده</span><span>{{ site.title }}</span></div>
-  </div>
-</header>
-<div class="post-body">
-  <article class="prose" id="prose">{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}
+    <div class="prose" id="prose">{{ content | replace: '<img ', '<img loading="lazy" decoding="async" ' }}</div>
     {%- if page.tags.size > 0 %}
-    <div class="post-tags"><span class="muted">برچسب‌ها</span>{% for t in page.tags %}<a class="tag tag-neutral" href="{{ base | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a>{% endfor %}</div>
+    <div class="post-tags"><span class="muted">برچسب‌ها:</span>{% for t in page.tags %}<a class="tag" href="{{ base | relative_url }}?tag={{ t | url_encode }}">{{ t }}</a>{% endfor %}</div>
     {%- endif %}
   </article>
-  <aside>
-    <nav class="toc" id="toc" hidden><div class="kicker" style="padding:12px 0">در این یادداشت</div></nav>
+  <aside class="post-side">
+    <nav class="card toc" id="toc" aria-label="فهرست مطالب" hidden><span class="toc-title">در این یادداشت</span></nav>
+    <section class="card author">
+      <b>{{ site.author }}</b>
+      <p>{{ site.role | split: " · " | first }}؛ درباره‌ی مدل‌سازی مالی، ارزش‌گذاری و سرمایه‌گذاری می‌نویسد.</p>
+    </section>
+    {%- if page.category -%}
+    {%- assign same = site.categories[page.category] | where_exp: "p", "p.url != page.url" -%}
+    {%- if same.size > 0 %}
+    <section class="card related">
+      <span class="side-title">بیشتر در {{ page.category }}</span>
+      {%- for p in same limit:3 -%}<a href="{{ p.url | relative_url }}">{{ p.title }}</a>{%- endfor -%}
+    </section>
+    {%- endif -%}
+    {%- endif %}
     <div class="share">
       <button class="btn btn-secondary" type="button" data-copy>کپی پیوند</button>
       <a class="btn btn-secondary" href="https://t.me/share/url?url={{ page.url | absolute_url | url_encode }}&text={{ page.title | url_encode }}" target="_blank" rel="noopener">اشتراک در تلگرام</a>
     </div>
   </aside>
 </div>
-<footer class="post-foot">
-  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% else %}<a href="{{ base | relative_url }}"><span class="small">→ بازگشت به فهرست</span><b>یادداشت‌ها</b></a>{% endif %}
-  <div class="author"><div><div style="font-weight:800">{{ site.author }}</div><div style="font-size:14px;color:var(--color-neutral-800);line-height:1.7">مدیر ارشد مالی؛ درباره‌ی بودجه، حسابرسی و تأمین مالی می‌نویسد.</div></div></div>
-</footer>
+<nav class="post-foot" aria-label="یادداشت‌های دیگر">
+  {% if page.previous %}<a class="card" href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% endif %}
+  {% if page.next %}<a class="card" href="{{ page.next.url | relative_url }}"><span class="small">یادداشت بعدی ←</span><b>{{ page.next.title }}</b></a>{% else %}<a class="card" href="{{ base | relative_url }}"><span class="small">همه‌ی یادداشت‌ها ←</span><b>آرشیو</b></a>{% endif %}
+</nav>

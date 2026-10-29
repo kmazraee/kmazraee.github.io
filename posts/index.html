@@ -2,9 +2,9 @@
 layout: default
 title: یادداشت‌ها
 ---
-<header class="page-head"><div class="kicker">ستون ۱</div><h1>یادداشت‌ها</h1><p>تجربه‌های کاری از بودجه‌بندی، حسابرسی، مالیات و تأمین مالی؛ به زبان ساده.</p></header>
+<header class="card page-head"><span class="kicker">آرشیو</span><h1>یادداشت‌ها</h1><p>{% include fa.html n=site.posts.size %} یادداشت درباره‌ی مدل‌سازی مالی، ارزش‌گذاری، سرمایه‌گذاری و مدیریت؛ به زبان ساده.</p></header>
 {% if site.posts.size > 0 %}
 {% include entry-list.html items=site.posts %}
 {% else %}
-<p class="muted rule" style="padding:28px var(--gutter) 80px;margin:0;font-size:17px">هنوز یادداشتی منتشر نشده است. نخستین یادداشت به‌زودی می‌آید.</p>
+<p class="card muted" style="margin:0">هنوز یادداشتی منتشر نشده است. نخستین یادداشت به‌زودی می‌آید.</p>
 {% endif %}

@@ -14,6 +14,16 @@
     el.textContent = yearF ? yearF.format(new Date()) : new Date().getFullYear();
   });
 
+  // light/dark toggle; the choice is remembered on this device
+  var themeBtn = document.querySelector('[data-theme-toggle]');
+  if (themeBtn) themeBtn.addEventListener('click', function () {
+    var root = document.documentElement;
+    var cur = root.getAttribute('data-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('theme', next); } catch (e) {}
+  });
+
   // mobile menu
   var menu = document.getElementById('menu');
   var openBtn = document.querySelector('[data-menu-open]');

@@ -2,45 +2,70 @@
 layout: default
 ---
 {%- assign tools = site.pages | where: "layout", "tool" | sort: "order" -%}
-<header class="hero rule-b">
-  <div class="hero-text">
-    <div class="kicker">{{ site.role }}</div>
-    <h1>درباره‌ی عددهایی می‌نویسم که پشت تصمیم‌های مدیریتی‌اند.</h1>
-    <p>بیش از هشت سال در راهبری واحدهای مالی، اداری و پشتیبانی شرکت‌های سهامی عام و خاص؛ این‌جا تجربه‌ها، خوانده‌ها و ابزارهایم را می‌گذارم.</p>
-  </div>
-</header>
+{%- assign topics = site.posts | group_by: "category" | sort: "size" | reverse -%}
+{%- assign latest = site.posts.first -%}
+<div class="grid">
+  <section class="card hero w2">
+    <span class="chip">دفترچه‌ی عدد</span>
+    <h1>مدیریت مالی، با عدد و به زبان ساده.</h1>
+    <p>من {{ site.author }} هستم، {{ site.role | split: " · " | first }}. این‌جا درباره‌ی مدل‌سازی مالی، ارزش‌گذاری و سرمایه‌گذاری می‌نویسم و ابزارهایی می‌سازم که هر روز به کارم می‌آیند.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="{{ '/posts/' | relative_url }}">خواندن یادداشت‌ها</a>
+      <a class="btn btn-secondary" href="{{ '/tools/' | relative_url }}">ابزارهای مالی</a>
+    </div>
+  </section>
 
-<section class="cols cols-2">
-  <div class="col">
-    <div class="kicker">ستون ۱</div>
-    <h2><a href="{{ '/posts/' | relative_url }}">یادداشت‌ها</a></h2>
-    <p>تجربه‌های کاری از بودجه، حسابرسی، مالیات و تأمین مالی.</p>
-    {%- for post in site.posts limit:3 -%}
-    <a class="item" href="{{ post.url | relative_url }}"><small>{% include date.html date=post.date %}</small>{{ post.title }}</a>
-    {%- else -%}
-    <div class="soon">نخستین یادداشت به‌زودی.</div>
-    {%- endfor -%}
-    <a class="more" href="{{ '/posts/' | relative_url }}">همه‌ی یادداشت‌ها ←</a>
-  </div>
-  <div class="col">
-    <div class="kicker">ستون ۲</div>
-    <h2><a href="{{ '/tools/' | relative_url }}">ابزارها</a></h2>
-    <p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره.</p>
-    {%- for t in tools limit:4 -%}
-    <a class="item" href="{{ t.url | relative_url }}">{{ t.title }}</a>
-    {%- endfor -%}
-    <a class="more" href="{{ '/tools/' | relative_url }}">همه‌ی ابزارها ←</a>
-  </div>
-</section>
+  <section class="card card-dark calc w1" aria-label="نمونه‌ی ماشین‌حساب">
+    <div class="calc-head">ماشین‌حساب WACC<span>نمونه با عددهای پیش‌فرض</span></div>
+    <div class="calc-rows">
+      <div><span>هزینه‌ی حقوق صاحبان سهام</span><b>۳۸٫۸٪</b></div>
+      <div><span>هزینه‌ی بدهی پس از مالیات</span><b>۲۱٪</b></div>
+      <div><span>سهم بدهی از کل سرمایه</span><b>۴۰٪</b></div>
+    </div>
+    <div class="calc-result"><span>میانگین موزون هزینه‌ی سرمایه</span><b>۳۱٫۷٪</b></div>
+    <a href="{{ '/tools/wacc/' | relative_url }}">با عددهای خودتان حساب کنید ←</a>
+  </section>
 
-<section class="demo">
-  <div>
-    <div class="kicker">یک عدد</div>
-    <h2>سود ۳۰ درصدی در تورم ۴۰ درصدی، یعنی ۷٫۱ درصد ضرر.</h2>
-    <p class="muted" style="margin:0">بازده واقعی را با تقریبِ «سود منهای تورم» حساب نکنید؛ در تورم بالا خطایش زیاد است.</p>
-  </div>
-  <div class="pad" style="display:flex;flex-direction:column;justify-content:center;gap:16px">
-    <div style="font-size:72px;font-weight:800;line-height:1.2;color:var(--color-accent)" dir="ltr">−۷٫۱٪</div>
-    <a class="btn btn-primary" href="{{ '/tools/real-return/' | relative_url }}" style="align-self:flex-start"><span>با عددهای خودتان حساب کنید</span>{% include arrow.html %}</a>
-  </div>
-</section>
+  {%- if latest %}
+  <a class="card lead w2" href="{{ latest.url | relative_url }}">
+    <span class="kicker">تازه‌ترین یادداشت{% if latest.category %} · {{ latest.category }}{% endif %}</span>
+    <span class="lead-title">{{ latest.title }}</span>
+    {% if latest.description %}<span class="lead-ex">{{ latest.description }}</span>{% endif %}
+    <span class="small">{% include date.html date=latest.date %} · {% include minutes.html post=latest %}</span>
+  </a>
+  {%- endif %}
+
+  <section class="card card-accent stats w1">
+    <span class="stats-title">در یک نگاه</span>
+    <div class="stats-grid">
+      <div><b>{% include fa.html n=site.posts.size %}</b><span>یادداشت</span></div>
+      <div><b>{% include fa.html n=tools.size %}</b><span>ابزار محاسبه</span></div>
+      <div><b>{% include fa.html n=topics.size %}</b><span>موضوع</span></div>
+      <div><b>۰</b><span>تبلیغ</span></div>
+    </div>
+  </section>
+
+  <section class="card wfull">
+    <div class="card-head"><h2>یادداشت‌های اخیر</h2><a href="{{ '/posts/' | relative_url }}">آرشیو کامل ←</a></div>
+    <div class="rows">
+      {%- for post in site.posts offset:1 limit:5 -%}
+      <a class="row" href="{{ post.url | relative_url }}"><span class="row-title">{{ post.title }}</span>{% if post.category %}<span class="pill">{{ post.category }}</span>{% endif %}<span class="row-date">{% include date.html date=post.date %}</span></a>
+      {%- endfor -%}
+    </div>
+  </section>
+
+  <section class="card w2">
+    <div class="card-head"><h2>موضوع‌ها</h2></div>
+    <div class="topics">
+      {%- for t in topics limit:10 -%}{% if t.name != "" %}
+      <a href="{{ '/posts/' | relative_url }}?topic={{ t.name | url_encode }}">{{ t.name }}<b>{% include fa.html n=t.size %}</b></a>
+      {%- endif %}{%- endfor -%}
+    </div>
+  </section>
+
+  <section class="card contact-card w1">
+    <h2>سؤال یا پیشنهاد همکاری دارید؟</h2>
+    <p>برای مشاوره، همکاری یا پرسش درباره‌ی یک نوشته پیام بدهید.</p>
+    <div class="actions"><a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">تماس</a><a class="btn btn-secondary" href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a></div>
+  </section>
+</div>
