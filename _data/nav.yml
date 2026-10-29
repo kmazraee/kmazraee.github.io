@@ -1,6 +1,4 @@
 - { title: خانه, url: / }
 - { title: یادداشت‌ها, url: /posts/ }
-- { title: پژوهش, url: /research/ }
 - { title: ابزارها, url: /tools/ }
-- { title: درباره, url: /about/ }
 - { title: تماس, url: /contact/ }

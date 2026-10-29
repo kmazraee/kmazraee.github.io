@@ -23,25 +23,6 @@ content:
       - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
       - { name: published, label: منتشر شود (خاموش = پیش‌نویس), type: boolean, default: true }
       - { name: body, label: متن, type: rich-text }
-  - name: research
-    label: پژوهش (خلاصه‌ی مقاله و کتاب)
-    type: collection
-    path: _research
-    filename: "{primary}.md"
-    view:
-      fields: [title, date, source]
-    fields:
-      - { name: title, label: عنوان, type: string, required: true }
-      - { name: date, label: تاریخ انتشار, type: date, required: true }
-      - { name: source, label: "منبع (نویسنده، سال، نام مقاله یا کتاب)", type: string }
-      - name: category
-        label: حوزه
-        type: select
-        options:
-          creatable: true
-          values: [قیمت‌گذاری دارایی, مالی شرکتی, مالی رفتاری, اقتصادسنجی مالی, بازار سرمایه‌ی ایران]
-      - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
-      - { name: body, label: متن, type: rich-text }
   - name: projects
     label: پروژه‌ها
     type: file

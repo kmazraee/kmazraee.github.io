@@ -1,8 +1,8 @@
 title: کمیل مزرعی
-tagline: دفترچه‌ی عدد؛ یادداشت، پژوهش و ابزار مالی
+tagline: دفترچه‌ی عدد؛ یادداشت و ابزار مالی
 author: کمیل مزرعی
 role: مدیر ارشد مالی · تهران
-description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌های مدیریت مالی، خلاصه‌ی پژوهش‌های مالی و ابزارهای محاسبه‌ی مالی.
+description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌های مدیریت مالی و ابزارهای محاسبه‌ی مالی.
 photo: ""
 og_image: /assets/og-default.png
 # Google Search Console: paste only the content="…" value of the HTML-tag verification here
@@ -20,13 +20,7 @@ permalink: /posts/:year/:month/:day/:title/
 words_per_minute: 200
 markdown: kramdown
 exclude: [README.md, .pages.yml, Gemfile, Gemfile.lock, vendor]
-collections:
-  research:
-    output: true
-    permalink: /research/:name/
 defaults:
-  - scope: { path: "", type: research }
-    values: { layout: post }
   - scope: { path: "", type: posts }
     values: { layout: post }
   - scope: { path: "" }

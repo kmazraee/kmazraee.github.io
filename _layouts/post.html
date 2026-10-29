@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- if page.collection == 'research' -%}{%- assign base = '/research/' -%}{%- else -%}{%- assign base = '/posts/' -%}{%- endif -%}
+{%- assign base = '/posts/' -%}
 <div class="progress"><div id="progress"></div></div>
 <header class="post-head">
   <div>
@@ -30,6 +30,6 @@ layout: default
   </aside>
 </div>
 <footer class="post-foot">
-  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% else %}<a href="{{ base | relative_url }}"><span class="small">→ بازگشت به فهرست</span><b>{% if page.collection == 'research' %}پژوهش{% else %}یادداشت‌ها{% endif %}</b></a>{% endif %}
+  {% if page.previous %}<a href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% else %}<a href="{{ base | relative_url }}"><span class="small">→ بازگشت به فهرست</span><b>یادداشت‌ها</b></a>{% endif %}
   <div class="author">{% include photo.html small=true style="width:72px;height:72px;object-fit:cover" %}<div><div style="font-weight:800">{{ site.author }}</div><div style="font-size:14px;color:var(--color-neutral-800);line-height:1.7">مدیر ارشد مالی؛ درباره‌ی بودجه، حسابرسی و تأمین مالی می‌نویسد.</div></div></div>
 </footer>

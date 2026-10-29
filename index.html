@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-{%- assign research = site.research | sort: "date" | reverse -%}
 {%- assign tools = site.pages | where: "layout", "tool" | sort: "order" -%}
 <header class="split hero rule-b">
   <div class="hero-text">
@@ -15,7 +14,7 @@ layout: default
   </div>
 </header>
 
-<section class="cols">
+<section class="cols cols-2">
   <div class="col">
     <div class="kicker">ستون ۱</div>
     <h2><a href="{{ '/posts/' | relative_url }}">یادداشت‌ها</a></h2>
@@ -29,17 +28,6 @@ layout: default
   </div>
   <div class="col">
     <div class="kicker">ستون ۲</div>
-    <h2><a href="{{ '/research/' | relative_url }}">پژوهش</a></h2>
-    <p>خلاصه و برداشت از مقاله‌ها و کتاب‌های مالی؛ دفترچه‌ی مطالعه‌ی دکتری.</p>
-    {%- for doc in research limit:3 -%}
-    <a class="item" href="{{ doc.url | relative_url }}"><small>{{ doc.source | default: doc.category }}</small>{{ doc.title }}</a>
-    {%- else -%}
-    <div class="soon">نخستین خلاصه به‌زودی.</div>
-    {%- endfor -%}
-    <a class="more" href="{{ '/research/' | relative_url }}">همه‌ی خلاصه‌ها ←</a>
-  </div>
-  <div class="col">
-    <div class="kicker">ستون ۳</div>
     <h2><a href="{{ '/tools/' | relative_url }}">ابزارها</a></h2>
     <p>ماشین‌حساب‌های کوچک برای تصمیم‌های مالی روزمره.</p>
     {%- for t in tools limit:4 -%}
