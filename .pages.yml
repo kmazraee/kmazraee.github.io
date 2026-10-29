@@ -23,16 +23,6 @@ content:
       - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
       - { name: published, label: منتشر شود (خاموش = پیش‌نویس), type: boolean, default: true }
       - { name: body, label: متن, type: rich-text }
-  - name: projects
-    label: پروژه‌ها
-    type: file
-    path: _data/projects.yml
-    list: true
-    fields:
-      - { name: title, label: پروژه, type: string }
-      - { name: client, label: کارفرما, type: string }
-      - { name: type, label: نوع, type: string }
-      - { name: year, label: سال یا نقش, type: string }
   - name: settings
     label: تنظیمات سایت
     type: file
@@ -42,7 +32,6 @@ content:
       - { name: tagline, label: زیرعنوان, type: string }
       - { name: role, label: سمت, type: string }
       - { name: description, label: توضیح سایت برای گوگل, type: text }
-      - { name: photo, label: عکس (خالی بماند تا کادر خالی نمایش داده شود), type: image }
       - { name: email, label: ایمیل, type: string }
       - { name: phone, label: تلفن (خالی بماند تا نمایش داده نشود), type: string }
       - { name: linkedin, label: لینک لینکدین, type: string }

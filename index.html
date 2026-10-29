@@ -2,15 +2,11 @@
 layout: default
 ---
 {%- assign tools = site.pages | where: "layout", "tool" | sort: "order" -%}
-<header class="split hero rule-b">
+<header class="hero rule-b">
   <div class="hero-text">
     <div class="kicker">{{ site.role }}</div>
     <h1>درباره‌ی عددهایی می‌نویسم که پشت تصمیم‌های مدیریتی‌اند.</h1>
     <p>بیش از هشت سال در راهبری واحدهای مالی، اداری و پشتیبانی شرکت‌های سهامی عام و خاص؛ این‌جا تجربه‌ها، خوانده‌ها و ابزارهایم را می‌گذارم.</p>
-  </div>
-  <div class="hero-photo">
-    {% include photo.html %}
-    <div>{{ site.author }}</div>
   </div>
 </header>
 

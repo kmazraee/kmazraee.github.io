@@ -1,1 +1,0 @@
-{%- if site.photo != "" -%}<img class="grayscale" src="{{ site.photo | relative_url }}" alt="{{ site.author }}"{% if include.style %} style="{{ include.style }}"{% endif %}>{%- else -%}<div class="photo-ph"{% if include.style %} style="{{ include.style }}"{% endif %} role="img" aria-label="جای عکس">{% unless include.small %}<span>جای عکس</span>{% endunless %}</div>{%- endif -%}
