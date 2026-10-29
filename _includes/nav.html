@@ -1,6 +1,6 @@
 {%- assign here = page.url | split: "/" | slice: 1 | first -%}
 <header class="nav">
-  <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">ک</span><span class="brand-text"><b>{{ site.title }}</b><small>{{ site.tagline }}</small></span></a>
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-text"><b>{{ site.title }}</b><small>{{ site.tagline }}</small></span></a>
   <nav class="nav-links" aria-label="منوی اصلی">
     {%- for item in site.data.nav -%}
     {%- assign key = item.url | split: "/" | slice: 1 | first -%}
