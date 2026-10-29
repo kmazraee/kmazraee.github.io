@@ -1,0 +1,20 @@
+{%- comment -%}Newsletter signup. With newsletter_action set in _config.yml the form posts to that service; without it, the reader's mail app opens a ready subscription email.{%- endcomment -%}
+<section class="card newsletter" aria-labelledby="nl-title">
+  <div class="newsletter-text">
+    <h2 id="nl-title">یادداشت تازه را با ایمیل بگیرید</h2>
+    <p>هر یادداشت تازه، در صندوق ایمیل شما. بدون تبلیغ؛ هر وقت خواستید لغوش کنید.</p>
+  </div>
+  {%- if site.newsletter_action and site.newsletter_action != "" %}
+  <form class="newsletter-form" action="{{ site.newsletter_action }}" method="post" target="_blank">
+    <label for="nl-email" class="sr">ایمیل</label>
+    <input class="input" id="nl-email" type="email" name="{{ site.newsletter_field | default: 'email' }}" placeholder="ایمیل شما" dir="ltr" required>
+    <button class="btn btn-primary" type="submit">عضویت</button>
+  </form>
+  {%- else %}
+  <form class="newsletter-form" data-newsletter="{{ site.email }}">
+    <label for="nl-email" class="sr">ایمیل</label>
+    <input class="input" id="nl-email" type="email" placeholder="ایمیل شما" dir="ltr" required>
+    <button class="btn btn-primary" type="submit">عضویت</button>
+  </form>
+  {%- endif %}
+</section>

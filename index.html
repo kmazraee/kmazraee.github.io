@@ -54,6 +54,15 @@ layout: default
     </div>
   </section>
 
+  <section class="card wfull">
+    <div class="card-head"><h2>مسیرهای خواندن</h2><a href="{{ '/paths/' | relative_url }}">همه‌ی مسیرها ←</a></div>
+    <div class="path-cards">
+      {%- for path in site.data.paths -%}
+      <a class="path-card" href="{{ '/paths/' | relative_url }}#{{ path.id }}"><b>{{ path.title }}</b><span>{{ path.intro }}</span><span class="small">{% include fa.html n=path.posts.size %} یادداشت</span></a>
+      {%- endfor -%}
+    </div>
+  </section>
+
   <section class="card w2">
     <div class="card-head"><h2>موضوع‌ها</h2></div>
     <div class="topics">

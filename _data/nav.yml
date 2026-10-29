@@ -1,4 +1,5 @@
 - { title: خانه, url: / }
 - { title: یادداشت‌ها, url: /posts/ }
 - { title: ابزارها, url: /tools/ }
+- { title: واژه‌نامه, url: /glossary/ }
 - { title: تماس, url: /contact/ }

@@ -1,0 +1,18 @@
+---
+title: کتاب‌ها و منابع
+permalink: /resources/
+description: کتاب‌ها و منابع پیشنهادی کمیل مزرعی در ارزش‌گذاری، مالی شرکتی، مدل‌سازی مالی و سرمایه‌گذاری.
+---
+<header class="card page-head"><span class="kicker">پیشنهاد من</span><h1>کتاب‌ها و منابع</h1><p>کتاب‌ها و ابزارهایی که در کار مالی به آن‌ها برمی‌گردم.</p></header>
+<div class="grid">
+{%- for g in site.data.resources -%}
+  <section class="card w1">
+    <h2 class="res-title">{{ g.group }}</h2>
+    <ul class="res-list">
+      {%- for r in g.items -%}
+      <li>{% if r.url %}<a href="{{ r.url }}" target="_blank" rel="noopener" dir="auto"><b>{{ r.title }}</b></a>{% else %}<b dir="auto">{{ r.title }}</b>{% endif %}<span class="small" dir="auto">{{ r.by }}</span><span>{{ r.note }}</span></li>
+      {%- endfor -%}
+    </ul>
+  </section>
+{%- endfor -%}
+</div>

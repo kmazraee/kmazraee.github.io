@@ -36,6 +36,7 @@ layout: default
     </div>
   </aside>
 </div>
+{% include newsletter.html %}
 <nav class="post-foot" aria-label="یادداشت‌های دیگر">
   {% if page.previous %}<a class="card" href="{{ page.previous.url | relative_url }}"><span class="small">→ یادداشت قبلی</span><b>{{ page.previous.title }}</b></a>{% endif %}
   {% if page.next %}<a class="card" href="{{ page.next.url | relative_url }}"><span class="small">یادداشت بعدی ←</span><b>{{ page.next.title }}</b></a>{% else %}<a class="card" href="{{ base | relative_url }}"><span class="small">همه‌ی یادداشت‌ها ←</span><b>آرشیو</b></a>{% endif %}

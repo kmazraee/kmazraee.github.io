@@ -1,0 +1,35 @@
+# Recommended books and resources. group: section heading; note: one line on why.
+- group: ارزش‌گذاری
+  items:
+    - title: Investment Valuation
+      by: Aswath Damodaran
+      note: مرجع کامل روش‌های ارزش‌گذاری، از DCF تا ضریب‌ها و ارزش‌گذاری شرکت‌های جوان.
+    - title: "Valuation: Measuring and Managing the Value of Companies"
+      by: McKinsey & Company
+      note: نگاه یک مشاور به ارزش‌آفرینی؛ پیوند ارزش‌گذاری با تصمیم‌های مدیریتی.
+- group: مالی شرکتی
+  items:
+    - title: Principles of Corporate Finance
+      by: Brealey, Myers & Allen
+      note: کتاب درسی پایه‌ی مالی شرکتی؛ بودجه‌بندی سرمایه‌ای، ساختار سرمایه و سیاست تقسیم سود.
+    - title: Financial Modeling
+      by: Simon Benninga
+      note: پیاده‌سازی مفاهیم مالی در اکسل، گام‌به‌گام و با مثال.
+- group: سرمایه‌گذاری
+  items:
+    - title: The Intelligent Investor
+      by: Benjamin Graham
+      note: پایه‌ی سرمایه‌گذاری ارزشی و مفهوم «حاشیه‌ی اطمینان».
+    - title: The Psychology of Money
+      by: Morgan Housel
+      note: رفتار ما با پول، مهم‌تر از فرمول‌هایی که بلدیم.
+- group: ابزار و داده
+  items:
+    - title: Damodaran Online
+      by: pages.stern.nyu.edu/~adamodar
+      url: https://pages.stern.nyu.edu/~adamodar/
+      note: داده‌های به‌روز صرف ریسک، بتای صنایع و نرخ‌های تنزیل، رایگان.
+    - title: کدال
+      by: codal.ir
+      url: https://www.codal.ir
+      note: صورت‌های مالی و گزارش‌های شرکت‌های بورسی ایران.

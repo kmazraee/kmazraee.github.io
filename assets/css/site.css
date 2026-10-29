@@ -100,10 +100,9 @@ textarea.input{min-height:160px;resize:vertical}
 .menu-mail span{font-size:13px;color:var(--muted)}
 
 /* footer */
-.foot{display:flex;flex-wrap:wrap;gap:8px 20px;padding:8px 0 40px;font-size:14px;color:var(--muted)}
-.foot .who{margin-inline-end:auto}
+.foot{display:flex;flex-direction:column;align-items:center;gap:10px;padding:16px 0 40px;font-size:14px;color:var(--muted);text-align:center}
 .foot a{color:var(--muted)}
-.foot .links{display:flex;flex-wrap:wrap;gap:8px 20px}
+.foot .links{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px}
 
 /* home */
 .hero{display:flex;flex-direction:column;gap:20px;justify-content:space-between;min-height:360px;padding:40px}
@@ -270,3 +269,47 @@ textarea.input{min-height:160px;resize:vertical}
   .nav,.menu,.foot,.post-side,.post-foot,.progress{display:none!important}
   .card{padding:0}
 }
+
+/* newsletter, reading paths, downloads, glossary, resources */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.newsletter{display:flex;flex-wrap:wrap;align-items:center;gap:16px 24px}
+.newsletter-text{flex:1 1 320px}
+.newsletter h2{font-size:20px}
+.newsletter p{margin:4px 0 0;font-size:14px;color:var(--muted)}
+.newsletter-form{flex:1 1 300px;display:flex;gap:8px}
+.newsletter-form .input{flex:1}
+.path-cards{display:flex;flex-wrap:wrap;gap:12px}
+.path-card{flex:1 1 220px;display:flex;flex-direction:column;gap:6px;padding:20px;border-radius:18px;background:var(--bg);color:var(--ink);text-decoration:none}
+.path-card:hover{color:var(--ink)}
+.path-card:hover b{color:var(--accent)}
+.path-card b{font-size:17px}
+.path-card span{font-size:14px;line-height:1.9;color:var(--ink-2)}
+.path-card .small{margin-top:auto;color:var(--muted)}
+.path h2{font-size:22px}
+.path p{margin:8px 0 12px;color:var(--ink-2)}
+.path-list{margin:0;list-style:persian;padding-inline-start:1.4em;display:flex;flex-direction:column;gap:8px}
+.path-list a{color:var(--ink);text-decoration:none;line-height:1.8}
+.path-list a:hover{color:var(--accent)}
+.path-list li::marker{color:var(--accent);font-weight:900}
+.downloads h2{font-size:22px}
+.downloads>p{margin:8px 0 16px;color:var(--ink-2)}
+.dl-list{display:flex;flex-wrap:wrap;gap:12px}
+.dl{flex:1 1 260px;display:flex;flex-direction:column;gap:6px;padding:20px;border-radius:18px;background:var(--bg);color:var(--ink);text-decoration:none}
+.dl:hover{color:var(--ink)}
+.dl:hover b{color:var(--accent)}
+.dl span{font-size:14px;line-height:1.9;color:var(--muted)}
+.dl .go{margin-top:auto;color:var(--accent);font-weight:700}
+.glossary{margin:16px 0 0}
+.term{padding:16px 0;border-top:1px solid var(--line);scroll-margin-top:16px}
+.term:target{background:var(--accent-soft);border-radius:12px;padding-inline:12px}
+.term dt{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 16px}
+.term dt a{font-size:18px;font-weight:900;color:var(--ink);text-decoration:none}
+.term dt span{font-size:14px;color:var(--muted)}
+.term dd{margin:6px 0 0;line-height:2;color:var(--ink-2)}
+.res-title{font-size:20px;margin-bottom:8px}
+.res-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.res-list li{display:flex;flex-direction:column;gap:2px;padding:14px 0;border-top:1px solid var(--line)}
+.res-list li b{font-size:16px}
+.res-list li a{color:var(--ink);text-decoration:none}
+.res-list li a:hover b{color:var(--accent)}
+.res-list li>span:last-child{font-size:14px;line-height:1.9;color:var(--ink-2)}

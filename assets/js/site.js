@@ -24,6 +24,22 @@
     try { localStorage.setItem('theme', next); } catch (e) {}
   });
 
+  // newsletter without a mail service: open a ready subscription email
+  document.querySelectorAll('[data-newsletter]').forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var mail = f.querySelector('input').value;
+      location.href = 'mailto:' + f.getAttribute('data-newsletter') + '?subject=' + encodeURIComponent('عضویت در خبرنامه') + '&body=' + encodeURIComponent('لطفاً این ایمیل را به خبرنامه اضافه کنید: ' + mail);
+    });
+  });
+
+  // glossary filter
+  var gq = document.querySelector('[data-glossary-search]');
+  if (gq) gq.addEventListener('input', function () {
+    var t = gq.value.trim().toLowerCase();
+    document.querySelectorAll('.glossary .term').forEach(function (d) { d.hidden = t && d.textContent.toLowerCase().indexOf(t) === -1; });
+  });
+
   // mobile menu
   var menu = document.getElementById('menu');
   var openBtn = document.querySelector('[data-menu-open]');

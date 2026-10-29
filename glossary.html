@@ -1,0 +1,19 @@
+---
+title: واژه‌نامه‌ی مالی
+permalink: /glossary/
+description: تعریف کوتاه و ساده‌ی اصطلاحات مالی پرکاربرد به فارسی، با معادل انگلیسی؛ از WACC و DCF تا سرمایه‌ی در گردش.
+---
+{%- assign terms = site.data.glossary | sort: "fa" -%}
+<header class="card page-head"><span class="kicker">{% include fa.html n=terms.size %} اصطلاح</span><h1>واژه‌نامه‌ی مالی</h1><p>تعریف کوتاه اصطلاحاتی که در یادداشت‌ها و ابزارها به کار می‌روند، به زبان ساده و با معادل انگلیسی.</p></header>
+<section class="card">
+  <label for="gq" class="sr">جست‌وجو در واژه‌نامه</label>
+  <input class="input" id="gq" type="search" placeholder="جست‌وجو در واژه‌نامه" data-glossary-search>
+  <dl class="glossary">
+    {%- for t in terms -%}
+    <div class="term" id="{{ t.id }}"><dt><a href="#{{ t.id }}">{{ t.fa }}</a><span dir="ltr">{{ t.en }}</span></dt><dd>{{ t.def }}</dd></div>
+    {%- endfor -%}
+  </dl>
+</section>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"DefinedTermSet","name":"واژه‌نامه‌ی مالی","inLanguage":"fa","url":{{ page.url | absolute_url | jsonify }},"hasDefinedTerm":[{% for t in terms %}{"@type":"DefinedTerm","name":{{ t.fa | jsonify }},"alternateName":{{ t.en | jsonify }},"description":{{ t.def | jsonify }},"url":{{ page.url | append: '#' | append: t.id | absolute_url | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>

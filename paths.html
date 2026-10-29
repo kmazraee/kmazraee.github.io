@@ -1,0 +1,20 @@
+---
+title: مسیرهای خواندن
+permalink: /paths/
+description: مجموعه‌های کوتاه و مرتب از یادداشت‌های کمیل مزرعی برای شروع، ارزش‌گذاری، مدل‌سازی مالی و مزیت رقابتی.
+---
+<header class="card page-head"><span class="kicker">از کجا شروع کنم؟</span><h1>مسیرهای خواندن</h1><p>هر مسیر چند یادداشت است که به ترتیب خوانده شوند و پشت هم یک موضوع را کامل کنند.</p></header>
+<div class="grid">
+{%- for path in site.data.paths -%}
+  <section class="card path w1" id="{{ path.id }}">
+    <h2>{{ path.title }}</h2>
+    <p>{{ path.intro }}</p>
+    <ol class="path-list">
+      {%- for slug in path.posts -%}
+      {%- assign p = site.posts | where: "slug", slug | first -%}
+      {%- if p %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endif -%}
+      {%- endfor -%}
+    </ol>
+  </section>
+{%- endfor -%}
+</div>

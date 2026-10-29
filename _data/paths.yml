@@ -1,0 +1,37 @@
+# Reading paths. Each item is a post slug: the file name without the date and .md
+- id: start
+  title: شروع از این‌جا
+  intro: اگر تازه با صورت‌های مالی سروکار پیدا کرده‌اید، این پنج یادداشت پایه‌ی بقیه‌ی نوشته‌هاست.
+  posts:
+    - three-financial-statements-intro
+    - income-statement-line-by-line
+    - balance-sheet-explained-simply
+    - cash-flow-statement-explained
+    - accrual-vs-cash-accounting
+- id: valuation
+  title: ارزش‌گذاری در ۵ یادداشت
+  intro: از جریان نقد تنزیل‌شده تا ضریب‌های بازار؛ چطور بفهمیم یک شرکت چقدر می‌ارزد.
+  posts:
+    - discounted-cash-flow-dcf-step-by-step
+    - discount-rate-interest-rates-valuation
+    - valuation-multiples-ps-pe-pfcf
+    - choose-right-valuation-multiple
+    - reverse-dcf-market-expectations
+- id: modeling
+  title: مدل‌سازی مالی از صفر
+  intro: ساختار، اصول و آزمون یک مدل مالی که بشود به آن اعتماد کرد.
+  posts:
+    - what-is-a-financial-model-decision-tool
+    - financial-model-core-structure-layout
+    - financial-model-best-practices-input-calculation-output
+    - three-statement-model-core-skill
+    - stress-test-financial-model
+- id: moat
+  title: مزیت رقابتی پایدار
+  intro: چرا بعضی کسب‌وکارها سال‌ها سودآور می‌مانند و چطور این مزیت را تشخیص دهیم.
+  posts:
+    - economic-moat-five-types
+    - how-to-identify-economic-moat
+    - switching-costs-economic-moat
+    - network-effects-economic-moat
+    - gross-margin-moat-indicator

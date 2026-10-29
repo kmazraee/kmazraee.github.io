@@ -1,4 +1,5 @@
 <footer class="foot">
-  <span class="who">© <span class="jyear"></span> {{ site.author }}</span>
-  <span class="links"><a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>{% if site.linkedin != "" %}<a href="{{ site.linkedin }}">لینکدین</a>{% endif %}{% if site.telegram != "" %}<a href="{{ site.telegram }}">تلگرام</a>{% endif %}<a href="{{ '/feed.xml' | relative_url }}">خوراک RSS</a></span>
+  <nav class="links" aria-label="پیوندهای پانویس"><a href="{{ '/paths/' | relative_url }}">مسیرهای خواندن</a><a href="{{ '/glossary/' | relative_url }}">واژه‌نامه</a><a href="{{ '/resources/' | relative_url }}">کتاب‌ها و منابع</a><a href="{{ '/feed.xml' | relative_url }}">خوراک RSS</a></nav>
+  <span class="links"><a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>{% if site.linkedin != "" %}<a href="{{ site.linkedin }}">لینکدین</a>{% endif %}{% if site.telegram != "" %}<a href="{{ site.telegram }}">تلگرام</a>{% endif %}</span>
+  <span class="who">© {{ site.author }}، از ۱۴۰۲ تاکنون</span>
 </footer>
