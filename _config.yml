@@ -5,6 +5,8 @@ description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌ه�
 og_image: /assets/og-default.png
 # Google Search Console: paste only the content="…" value of the HTML-tag verification here
 google_site_verification: ""
+# Cloudflare Web Analytics: paste only the token from the JS snippet here (leave empty if the site is proxied through Cloudflare and analytics is turned on there)
+cloudflare_analytics_token: ""
 email: kmazraee@gmail.com
 phone: ""
 linkedin: ""
