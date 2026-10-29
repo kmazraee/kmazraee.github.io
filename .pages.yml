@@ -30,7 +30,6 @@ content:
     fields:
       - { name: title, label: نام سایت, type: string }
       - { name: tagline, label: زیرعنوان, type: string }
-      - { name: role, label: سمت, type: string }
       - { name: description, label: توضیح سایت برای گوگل, type: text }
       - { name: email, label: ایمیل, type: string }
       - { name: phone, label: تلفن (خالی بماند تا نمایش داده نشود), type: string }

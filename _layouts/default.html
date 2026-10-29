@@ -39,7 +39,7 @@
 </script>
 {% elsif page.url == '/' %}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"fa","author":{"@type":"Person","name":{{ site.author | jsonify }},"jobTitle":"مدیر ارشد مالی","url":{{ '/' | absolute_url | jsonify }},"email":{{ site.email | prepend: 'mailto:' | jsonify }}}}
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"fa","author":{"@type":"Person","name":{{ site.author | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"email":{{ site.email | prepend: 'mailto:' | jsonify }}}}
 </script>
 {% endif %}
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">

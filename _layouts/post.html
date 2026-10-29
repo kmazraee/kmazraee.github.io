@@ -19,7 +19,7 @@ layout: default
     <nav class="card toc" id="toc" aria-label="فهرست مطالب" hidden><span class="toc-title">در این یادداشت</span></nav>
     <section class="card author">
       <b>{{ site.author }}</b>
-      <p>{{ site.role | split: " · " | first }}؛ درباره‌ی مدل‌سازی مالی، ارزش‌گذاری و سرمایه‌گذاری می‌نویسد.</p>
+      <p>درباره‌ی مدل‌سازی مالی، ارزش‌گذاری و سرمایه‌گذاری می‌نویسد.</p>
     </section>
     {%- if page.category -%}
     {%- assign same = site.categories[page.category] | where_exp: "p", "p.url != page.url" -%}
