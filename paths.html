@@ -1,7 +1,7 @@
 ---
 title: مسیرهای خواندن
 permalink: /paths/
-description: مجموعه‌های کوتاه و مرتب از یادداشت‌های کمیل مزرعی برای شروع، ارزش‌گذاری، مدل‌سازی مالی و مزیت رقابتی.
+description: مسیرهای خواندن یادداشت‌های کمیل مزرعی؛ چهار مسیر کوتاه برای شروع و فهرست کامل همه‌ی یادداشت‌ها به تفکیک موضوع.
 ---
 <header class="card page-head"><span class="kicker">از کجا شروع کنم؟</span><h1>مسیرهای خواندن</h1><p>هر مسیر چند یادداشت است که به ترتیب خوانده شوند و پشت هم یک موضوع را کامل کنند.</p></header>
 <div class="grid">
@@ -18,3 +18,17 @@ description: مجموعه‌های کوتاه و مرتب از یادداشت‌
   </section>
 {%- endfor -%}
 </div>
+<section class="card topic-paths">
+  <h2>همه‌ی یادداشت‌ها، موضوع به موضوع</h2>
+  <p>هر موضوع یک مسیر کامل است؛ یادداشت‌ها از قدیمی به جدید مرتب شده‌اند تا هر کدام بر پایه‌ی قبلی خوانده شود.</p>
+  {%- assign cats = site.categories | sort -%}
+  {%- for c in cats -%}
+  {%- assign list = c[1] | reverse -%}
+  <details class="topic-path">
+    <summary><b>{{ c[0] }}</b><span class="small">{% include fa.html n=list.size %} یادداشت</span></summary>
+    <ol class="path-list">
+      {%- for p in list %}<li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>{% endfor -%}
+    </ol>
+  </details>
+  {%- endfor -%}
+</section>

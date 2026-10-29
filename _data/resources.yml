@@ -7,6 +7,9 @@
     - title: "Valuation: Measuring and Managing the Value of Companies"
       by: McKinsey & Company
       note: نگاه یک مشاور به ارزش‌آفرینی؛ پیوند ارزش‌گذاری با تصمیم‌های مدیریتی.
+    - title: "Narrative and Numbers"
+      by: Aswath Damodaran
+      note: چطور داستان یک شرکت را به عدد و مدل تبدیل کنیم.
 - group: مالی شرکتی
   items:
     - title: Principles of Corporate Finance
@@ -15,6 +18,12 @@
     - title: Financial Modeling
       by: Simon Benninga
       note: پیاده‌سازی مفاهیم مالی در اکسل، گام‌به‌گام و با مثال.
+    - title: Corporate Finance
+      by: Berk & DeMarzo
+      note: کتاب درسی روان و به‌روز، با تأکید بر قانون یک قیمت و ارزش‌گذاری.
+    - title: Financial Shenanigans
+      by: Howard Schilit
+      note: ترفندهای دست‌کاری صورت‌های مالی و نشانه‌های هشداردهنده.
 - group: سرمایه‌گذاری
   items:
     - title: The Intelligent Investor
@@ -23,13 +32,93 @@
     - title: The Psychology of Money
       by: Morgan Housel
       note: رفتار ما با پول، مهم‌تر از فرمول‌هایی که بلدیم.
-- group: ابزار و داده
+    - title: Security Analysis
+      by: Benjamin Graham & David Dodd
+      note: متن کلاسیک تحلیل بنیادی اوراق بهادار.
+    - title: Thinking, Fast and Slow
+      by: Daniel Kahneman
+      note: سوگیری‌های ذهنی که روی تصمیم‌های مالی اثر می‌گذارند.
+- group: داده‌ی بازار و اقتصاد ایران
   items:
-    - title: Damodaran Online
-      by: pages.stern.nyu.edu/~adamodar
-      url: https://pages.stern.nyu.edu/~adamodar/
-      note: داده‌های به‌روز صرف ریسک، بتای صنایع و نرخ‌های تنزیل، رایگان.
-    - title: کدال
+    - title: "کدال"
       by: codal.ir
       url: https://www.codal.ir
-      note: صورت‌های مالی و گزارش‌های شرکت‌های بورسی ایران.
+      note: صورت‌های مالی، گزارش‌های ماهانه و اطلاعیه‌های ناشران بورسی.
+    - title: "TSETMC"
+      by: tsetmc.com
+      url: https://www.tsetmc.com
+      note: قیمت، حجم معاملات و سابقه‌ی نمادهای بورس و فرابورس.
+    - title: "فیپیران"
+      by: fipiran.ir
+      url: https://www.fipiran.ir
+      note: داده‌ها و گزارش‌های بازار سرمایه، صندوق‌ها و شاخص‌ها.
+    - title: "بانک مرکزی"
+      by: cbi.ir
+      url: https://www.cbi.ir
+      note: تورم، نقدینگی، نرخ سود و آمار اقتصادی رسمی.
+    - title: "مرکز آمار ایران"
+      by: amar.org.ir
+      url: https://www.amar.org.ir
+      note: شاخص قیمت مصرف‌کننده، تولید و آمار رسمی کشور.
+    - title: "سازمان بورس و اوراق بهادار"
+      by: seo.ir
+      url: https://www.seo.ir
+      note: قوانین، دستورالعمل‌ها و اطلاعیه‌های ناظر بازار سرمایه.
+- group: داده‌ی جهانی
+  items:
+    - title: "Damodaran Online"
+      by: pages.stern.nyu.edu/~adamodar
+      url: https://pages.stern.nyu.edu/~adamodar/
+      note: صرف ریسک کشورها، بتا و حاشیه‌ی سود صنایع؛ رایگان و سالانه به‌روز.
+    - title: "FRED"
+      by: fred.stlouisfed.org
+      url: https://fred.stlouisfed.org
+      note: هزاران سری زمانی اقتصادی، از نرخ بهره تا تورم، با نمودار و خروجی اکسل.
+    - title: "World Bank Open Data"
+      by: data.worldbank.org
+      url: https://data.worldbank.org
+      note: شاخص‌های اقتصادی و توسعه‌ای کشورها.
+    - title: "IMF Data"
+      by: data.imf.org
+      url: https://data.imf.org
+      note: داده‌های کلان، تراز پرداخت‌ها و پیش‌بینی‌های اقتصادی.
+    - title: "SEC EDGAR"
+      by: sec.gov/edgar
+      url: https://www.sec.gov/edgar/search/
+      note: گزارش‌های رسمی (10-K، 10-Q) شرکت‌های آمریکایی.
+    - title: "Our World in Data"
+      by: ourworldindata.org
+      url: https://ourworldindata.org
+      note: داده‌ی بلندمدت و نمودارهای تمیز درباره‌ی اقتصاد و جامعه.
+- group: ابزار تحلیل و نمودار
+  items:
+    - title: "TradingView"
+      by: tradingview.com
+      url: https://www.tradingview.com
+      note: نمودار قیمت و اندیکاتورها برای بازارهای جهانی.
+    - title: "Koyfin"
+      by: koyfin.com
+      url: https://www.koyfin.com
+      note: داشبورد بنیادی، مقایسه‌ی ضریب‌ها و داده‌ی مالی شرکت‌ها.
+    - title: "Macrotrends"
+      by: macrotrends.net
+      url: https://www.macrotrends.net
+      note: سابقه‌ی بلندمدت صورت‌های مالی و نسبت‌های شرکت‌های بزرگ.
+    - title: "رهاورد ۳۶۵"
+      by: rahavard365.com
+      url: https://rahavard365.com
+      note: نرم‌افزار داده و تحلیل بنیادی بازار سرمایه‌ی ایران.
+- group: یادگیری
+  items:
+    - title: "Corporate Finance Institute"
+      by: corporatefinanceinstitute.com
+      url: https://corporatefinanceinstitute.com/resources/
+      note: مقاله و قالب رایگان در مدل‌سازی، ارزش‌گذاری و حسابداری.
+    - title: "Investopedia"
+      by: investopedia.com
+      url: https://www.investopedia.com
+      note: تعریف سریع اصطلاحات مالی با مثال.
+    - title: "Musings on Markets"
+      by: aswathdamodaran.blogspot.com
+      url: https://aswathdamodaran.blogspot.com
+      note: وبلاگ دامودران؛ ارزش‌گذاری شرکت‌های واقعی و تحلیل بازار، رایگان.

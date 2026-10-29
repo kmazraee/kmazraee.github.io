@@ -313,3 +313,12 @@ textarea.input{min-height:160px;resize:vertical}
 .res-list li a{color:var(--ink);text-decoration:none}
 .res-list li a:hover b{color:var(--accent)}
 .res-list li>span:last-child{font-size:14px;line-height:1.9;color:var(--ink-2)}
+.topic-paths{margin-top:16px}
+.topic-paths>p{margin:8px 0 12px;color:var(--ink-2)}
+.topic-path{border-top:1px solid var(--line)}
+.topic-path summary{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 0;cursor:pointer;list-style:none}
+.topic-path summary::-webkit-details-marker{display:none}
+.topic-path summary::after{content:"+";font-weight:700;color:var(--accent)}
+.topic-path[open] summary::after{content:"−"}
+.topic-path summary .small{margin-inline-start:auto;color:var(--muted)}
+.topic-path .path-list{padding-bottom:16px}
