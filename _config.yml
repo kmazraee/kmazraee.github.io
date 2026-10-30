@@ -9,8 +9,8 @@ google_site_verification: ""
 cloudflare_analytics_token: ""
 # Kit (kit.com) newsletter form ID: the number in the form's embed code
 kit_form_id: ""
-# Newsletter form endpoint (follow.it: free, emails each new post from feed.xml)
-newsletter_action: "https://api.follow.it/subscribe"
+# Newsletter form endpoint (empty: the box opens a ready email to site.email)
+newsletter_action: ""
 newsletter_field: "email"
 email: kmazraee@gmail.com
 phone: ""
