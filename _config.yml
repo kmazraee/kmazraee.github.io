@@ -7,6 +7,8 @@ og_image: /assets/og-default.png
 google_site_verification: ""
 # Cloudflare Web Analytics: paste only the token from the JS snippet here (leave empty if the site is proxied through Cloudflare and analytics is turned on there)
 cloudflare_analytics_token: ""
+# Kit (kit.com) newsletter form ID: the number in the form's embed code
+kit_form_id: ""
 email: kmazraee@gmail.com
 phone: ""
 linkedin: ""
