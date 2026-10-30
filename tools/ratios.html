@@ -1,0 +1,38 @@
+---
+layout: tool
+order: 11
+group: مالی شرکتی
+title: نسبت‌های نقدینگی و اهرم
+description: نسبت جاری، آنی، بدهی به حقوق صاحبان سهام، پوشش بهره و پوشش خدمت بدهی را از چند عدد ترازنامه و صورت سود و زیان بگیرید.
+method: |
+  نسبت جاری = دارایی جاری ÷ بدهی جاری
+
+  نسبت آنی = (دارایی جاری − موجودی کالا) ÷ بدهی جاری
+
+  پوشش بهره = EBIT ÷ هزینه‌ی بهره؛ بدهی خالص به EBITDA = (بدهی − نقد) ÷ EBITDA
+
+  DSCR = جریان نقد در دسترس برای بدهی ÷ (اصل + بهره‌ی سررسیدشده). مرز مناسب بسته به صنعت و قرارداد وام فرق می‌کند؛ این ابزار فقط نسبت‌ها را حساب می‌کند.
+---
+<form class="tool-form" data-tool="ratios" onsubmit="return false">
+  <div class="field"><label for="ca">دارایی‌های جاری</label><input class="input num" id="ca" value="450" inputmode="decimal"></div>
+  <div class="field"><label for="inv">موجودی کالا</label><input class="input num" id="inv" value="150" inputmode="decimal"></div>
+  <div class="field"><label for="cash">وجه نقد</label><input class="input num" id="cash" value="80" inputmode="decimal"></div>
+  <div class="field"><label for="cl">بدهی‌های جاری</label><input class="input num" id="cl" value="300" inputmode="decimal"></div>
+  <div class="field"><label for="debt">کل بدهی بهره‌دار</label><input class="input num" id="debt" value="500" inputmode="decimal"></div>
+  <div class="field"><label for="eq">حقوق صاحبان سهام</label><input class="input num" id="eq" value="700" inputmode="decimal"></div>
+  <div class="field"><label for="ebit">سود قبل از بهره و مالیات (EBIT)</label><input class="input num" id="ebit" value="170" inputmode="decimal"></div>
+  <div class="field"><label for="int">هزینه‌ی بهره</label><input class="input num" id="int" value="60" inputmode="decimal"></div>
+  <div class="field"><label for="ebitda">EBITDA</label><input class="input num" id="ebitda" value="210" inputmode="decimal"></div>
+  <div class="field"><label for="cfads">جریان نقد در دسترس برای خدمت بدهی</label><input class="input num" id="cfads" value="160" inputmode="decimal"></div>
+  <div class="field"><label for="ds">اصل و بهره‌ی سررسیدشده‌ی سال</label><input class="input num" id="ds" value="130" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نسبت جاری</span><b id="o-cr">—</b></div>
+  <div><span>نسبت آنی</span><b id="o-qr">—</b></div>
+  <div><span>نسبت نقدی</span><b id="o-cash">—</b></div>
+  <div><span>بدهی به حقوق صاحبان سهام</span><b id="o-de">—</b></div>
+  <div><span>پوشش بهره (بار)</span><b id="o-ic">—</b></div>
+  <div><span>بدهی خالص به EBITDA</span><b id="o-nde">—</b></div>
+  <div><span>DSCR</span><b id="o-dscr">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

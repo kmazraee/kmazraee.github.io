@@ -1,0 +1,27 @@
+---
+layout: tool
+order: 2
+group: سرمایه‌گذاری
+title: ارزش‌گذاری با ضریب EV/EBITDA
+description: با ضریب شرکت‌های مشابه، از ارزش بنگاه به ارزش حقوق صاحبان سهام و قیمت هر سهم برسید.
+method: |
+  ارزش بنگاه = EBITDA × ضریب
+
+  ارزش حقوق صاحبان سهام = ارزش بنگاه − بدهی خالص
+
+  قیمت هر سهم = ارزش حقوق صاحبان سهام ÷ تعداد سهام. نسبت قیمت به سود هم از تقسیم ارزش حقوق صاحبان سهام بر سود خالص به دست می‌آید. ضریب را از شرکت‌های قابل‌مقایسه بگیرید.
+---
+<form class="tool-form" data-tool="multiples" onsubmit="return false">
+  <div class="field"><label for="e">EBITDA (میلیارد تومان)</label><input class="input num" id="e" value="210" inputmode="decimal"></div>
+  <div class="field"><label for="m">ضریب EV/EBITDA</label><input class="input num" id="m" value="6.5" inputmode="decimal"></div>
+  <div class="field"><label for="nd">بدهی خالص (میلیارد تومان)</label><input class="input num" id="nd" value="420" inputmode="decimal"></div>
+  <div class="field"><label for="sh">تعداد سهام (میلیون سهم؛ اختیاری)</label><input class="input num" id="sh" value="500" inputmode="decimal"></div>
+  <div class="field"><label for="ni">سود خالص (میلیارد تومان؛ اختیاری)</label><input class="input num" id="ni" value="95" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش بنگاه</span><b id="o-ev">—</b></div>
+  <div><span>ارزش حقوق صاحبان سهام</span><b id="o-eq">—</b></div>
+  <div><span>قیمت هر سهم</span><b id="o-ps">—</b></div>
+  <div><span>نسبت قیمت به سود ضمنی</span><b id="o-pe">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

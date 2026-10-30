@@ -1,0 +1,24 @@
+---
+layout: tool
+order: 13
+group: مالی شرکتی
+title: اندازه‌ی اقتصادی سفارش (EOQ)
+description: مقدار بهینه‌ی هر سفارش خرید و نقطه‌ی سفارش مجدد را از تقاضا، هزینه‌ی سفارش و هزینه‌ی نگهداری حساب کنید.
+method: |
+  EOQ = √(۲ × D × S ÷ H)
+
+  D تقاضای سالانه، S هزینه‌ی هر بار سفارش و H هزینه‌ی نگهداری یک واحد در سال است. هزینه‌ی کل = (D ÷ Q) × S + (Q ÷ ۲) × H. نقطه‌ی سفارش مجدد = تقاضای روزانه × زمان تحویل. فرض مدل: تقاضا ثابت و بدون موجودی احتیاطی.
+---
+<form class="tool-form" data-tool="eoq" onsubmit="return false">
+  <div class="field"><label for="d">تقاضای سالانه (واحد)</label><input class="input num" id="d" value="12,000" inputmode="decimal"></div>
+  <div class="field"><label for="s">هزینه‌ی هر بار سفارش (تومان)</label><input class="input num" id="s" value="2,500,000" inputmode="decimal"></div>
+  <div class="field"><label for="h">هزینه‌ی نگهداری هر واحد در سال (تومان)</label><input class="input num" id="h" value="180,000" inputmode="decimal"></div>
+  <div class="field"><label for="lt">زمان تحویل (روز؛ اختیاری)</label><input class="input num" id="lt" value="12" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>اندازه‌ی بهینه‌ی سفارش</span><b id="o-q">—</b></div>
+  <div><span>تعداد سفارش در سال</span><b id="o-n">—</b></div>
+  <div><span>کل هزینه‌ی سفارش و نگهداری</span><b id="o-tc">—</b></div>
+  <div><span>نقطه‌ی سفارش مجدد</span><b id="o-rop">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

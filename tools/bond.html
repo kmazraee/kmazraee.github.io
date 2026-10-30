@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 3
+group: سرمایه‌گذاری
+title: قیمت و دیرش اوراق بدهی
+description: قیمت اوراق با کوپن ثابت را از بازده تا سررسید حساب کنید و حساسیتش به نرخ بهره (دیرش) را ببینید.
+method: |
+  قیمت = جمع ارزش فعلی کوپن‌ها و ارزش اسمی در سررسید، با نرخ تنزیل برابر بازده تا سررسید
+
+  دیرش مکالی = میانگین موزون زمان دریافت جریان‌ها با وزن ارزش فعلی؛ دیرش اصلاح‌شده = دیرش مکالی ÷ (۱ + بازده دوره‌ای). تغییر تقریبی قیمت به درصد ≈ −دیرش اصلاح‌شده × تغییر بازده.
+---
+<form class="tool-form" data-tool="bond" onsubmit="return false">
+  <div class="field"><label for="f">ارزش اسمی</label><input class="input num" id="f" value="1,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="c">نرخ کوپن سالانه (درصد)</label><input class="input num" id="c" value="23" inputmode="decimal"></div>
+  <div class="field"><label for="y">بازده تا سررسید (درصد)</label><input class="input num" id="y" value="28" inputmode="decimal"></div>
+  <div class="field"><label for="n">سال تا سررسید</label><input class="input num" id="n" value="4" inputmode="decimal"></div>
+  <div class="field"><label for="k">تعداد پرداخت کوپن در سال (۱ یا ۲ یا ۴ یا ۱۲)</label><input class="input num" id="k" value="2" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>قیمت اوراق</span><b id="o-p">—</b></div>
+  <div><span>بازده جاری</span><b id="o-cy">—</b></div>
+  <div><span>دیرش مکالی</span><b id="o-mac">—</b></div>
+  <div><span>دیرش اصلاح‌شده</span><b id="o-mod">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

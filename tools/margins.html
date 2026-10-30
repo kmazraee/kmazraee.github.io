@@ -1,0 +1,31 @@
+---
+layout: tool
+order: 10
+group: مالی شرکتی
+title: حاشیه‌های سود و EBITDA
+description: از فروش تا سود خالص: حاشیه‌ی ناخالص، EBITDA، سود عملیاتی و حاشیه‌ی سود خالص را یک‌جا ببینید.
+method: |
+  حاشیه‌ی ناخالص = (فروش − بهای تمام‌شده) ÷ فروش
+
+  EBITDA = سود ناخالص − هزینه‌های عملیاتی (بدون استهلاک)
+
+  EBIT = EBITDA − استهلاک؛ سود قبل از مالیات = EBIT − بهره؛ سود خالص = سود قبل از مالیات − مالیات
+
+  مالیات فقط روی سود مثبت حساب می‌شود. نرخ پیش‌فرض ۲۵ درصد است.
+---
+<form class="tool-form" data-tool="margins" onsubmit="return false">
+  <div class="field"><label for="sales">فروش (میلیارد تومان)</label><input class="input num" id="sales" value="1000" inputmode="decimal"></div>
+  <div class="field"><label for="cogs">بهای تمام‌شده‌ی کالای فروش‌رفته (میلیارد تومان)</label><input class="input num" id="cogs" value="620" inputmode="decimal"></div>
+  <div class="field"><label for="opex">هزینه‌های عملیاتی بدون استهلاک (میلیارد تومان)</label><input class="input num" id="opex" value="210" inputmode="decimal"></div>
+  <div class="field"><label for="da">استهلاک (میلیارد تومان)</label><input class="input num" id="da" value="40" inputmode="decimal"></div>
+  <div class="field"><label for="int">هزینه‌ی بهره (میلیارد تومان)</label><input class="input num" id="int" value="35" inputmode="decimal"></div>
+  <div class="field"><label for="tax">نرخ مالیات (درصد)</label><input class="input num" id="tax" value="25" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>حاشیه‌ی ناخالص</span><b id="o-gm">—</b></div>
+  <div><span>EBITDA</span><b id="o-ebitda">—</b></div>
+  <div><span>سود عملیاتی (EBIT)</span><b id="o-ebit">—</b></div>
+  <div><span>سود خالص</span><b id="o-ni">—</b></div>
+  <div><span>حاشیه‌ی سود خالص</span><b id="o-nm">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

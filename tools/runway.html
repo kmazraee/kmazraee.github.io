@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 12
+group: مالی شرکتی
+title: افق بقای نقد (Runway)
+description: با موجودی نقد، هزینه و درآمد ماهانه ببینید شرکت چند ماه می‌تواند بدون جذب سرمایه ادامه دهد.
+method: |
+  سوزاندن خالص ماهانه = هزینه‌ی نقدی ماهانه − درآمد نقدی ماهانه
+
+  افق بقا = موجودی نقد ÷ سوزاندن خالص. روزهای نقد در دسترس = موجودی نقد ÷ (هزینه‌ی نقدی ماهانه ÷ ۳۰).
+
+  در سناریوی رشد، درآمد هر ماه به نرخ داده‌شده بیشتر می‌شود و هزینه ثابت می‌ماند؛ شمارش تا تمام‌شدن نقد یا رسیدن به سربه‌سر ادامه دارد.
+---
+<form class="tool-form" data-tool="runway" onsubmit="return false">
+  <div class="field"><label for="cash">موجودی نقد (میلیون تومان)</label><input class="input num" id="cash" value="4,800" inputmode="decimal"></div>
+  <div class="field"><label for="exp">هزینه‌ی نقدی ماهانه (میلیون تومان)</label><input class="input num" id="exp" value="900" inputmode="decimal"></div>
+  <div class="field"><label for="rev">درآمد نقدی ماهانه (میلیون تومان)</label><input class="input num" id="rev" value="500" inputmode="decimal"></div>
+  <div class="field"><label for="g">رشد ماهانه‌ی درآمد (درصد)</label><input class="input num" id="g" value="4" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>افق بقا با روند فعلی</span><b id="o-run">—</b></div>
+  <div><span>سوزاندن خالص ماهانه</span><b id="o-burn">—</b></div>
+  <div><span>روزهای نقد در دسترس</span><b id="o-days">—</b></div>
+  <div><span>تمام‌شدن نقد با رشد درآمد</span><b id="o-zero">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

@@ -1,0 +1,23 @@
+---
+layout: tool
+order: 1
+group: سرمایه‌گذاری
+title: ارزش سهم با مدل رشد گوردون (DDM)
+description: از آخرین سود نقدی، رشد و بازده مورد انتظار، ارزش ذاتی یک سهم و بازده ضمنی قیمت بازار را برآورد کنید.
+method: |
+  ارزش سهم = D<sub>۱</sub> ÷ (r − g)، با D<sub>۱</sub> = D<sub>۰</sub> × (۱ + g)
+
+  D<sub>۰</sub> سود نقدی هر سهم در سال گذشته، g رشد دائمی سود نقدی و r بازده مورد انتظار سهامدار (مثلاً هزینه‌ی حقوق صاحبان سهام) است. r باید از g بیشتر باشد. «بازده ضمنی» نرخ بازدهی است که با پرداخت قیمت بازار انتظار دارید: D<sub>۱</sub> ÷ قیمت + g. مدل برای شرکت‌هایی با سود نقدی پایدار مناسب است.
+---
+<form class="tool-form" data-tool="ddm" onsubmit="return false">
+  <div class="field"><label for="d">سود نقدی هر سهم سال گذشته (تومان)</label><input class="input num" id="d" value="800" inputmode="decimal"></div>
+  <div class="field"><label for="g">رشد سالانه‌ی سود نقدی (درصد)</label><input class="input num" id="g" value="18" inputmode="decimal"></div>
+  <div class="field"><label for="r">بازده مورد انتظار (درصد)</label><input class="input num" id="r" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="price">قیمت فعلی بازار (تومان؛ اختیاری)</label><input class="input num" id="price" value="5,000" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش ذاتی هر سهم</span><b id="o-v">—</b></div>
+  <div><span>بازده سود نقدی نسبت به ارزش ذاتی</span><b id="o-y">—</b></div>
+  <div><span>بازده ضمنی با قیمت بازار</span><b id="o-imp">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

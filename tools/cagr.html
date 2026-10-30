@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 3
+group: مالی شخصی
+title: نرخ رشد مرکب سالانه (CAGR)
+description: از ارزش اولیه و پایانی، نرخ رشد مرکب سالانه و زمان دوبرابرشدن را حساب کنید.
+method: |
+  CAGR = (ارزش پایانی ÷ ارزش اولیه)<sup>۱ ÷ سال</sup> − ۱
+
+  زمان دوبرابرشدن دقیق = ln ۲ ÷ ln (۱ + CAGR). قاعده‌ی ۷۲ آن را با ۷۲ ÷ (CAGR به درصد) تقریب می‌زند.
+
+  CAGR نرخ هموارشده است و نوسان سال‌های میانی را نشان نمی‌دهد.
+---
+<form class="tool-form" data-tool="cagr" onsubmit="return false">
+  <div class="field"><label for="a">ارزش اولیه</label><input class="input num" id="a" value="100,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="b">ارزش پایانی</label><input class="input num" id="b" value="260,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="y">تعداد سال</label><input class="input num" id="y" value="5" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نرخ رشد مرکب سالانه</span><b id="o-cagr">—</b></div>
+  <div><span>بازده کل دوره</span><b id="o-tot">—</b></div>
+  <div><span>زمان دوبرابرشدن (دقیق)</span><b id="o-dbl">—</b></div>
+  <div><span>طبق قاعده‌ی ۷۲</span><b id="o-r72">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

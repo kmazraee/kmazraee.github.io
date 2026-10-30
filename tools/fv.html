@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 4
+group: مالی شخصی
+title: ارزش آینده با پس‌انداز ماهانه
+description: با مبلغ اولیه، پس‌انداز ماهانه و نرخ سود، ببینید در پایان دوره چقدر پول دارید و سهم بهره‌ی مرکب چقدر است.
+method: |
+  ارزش آینده = P × (۱ + i)<sup>n</sup> + M × ((۱ + i)<sup>n</sup> − ۱) ÷ i
+
+  P مبلغ اولیه، M واریز ماهانه (در پایان هر ماه)، i نرخ ماهانه (نرخ سالانه ÷ ۱۲) و n تعداد ماه‌هاست. «به قیمت امروز» ارزش آینده را با نرخ تورم به قدرت خرید امروز برمی‌گرداند.
+---
+<form class="tool-form" data-tool="fv" onsubmit="return false">
+  <div class="field"><label for="p">مبلغ اولیه (تومان)</label><input class="input num" id="p" value="50,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="m">پس‌انداز ماهانه (تومان)</label><input class="input num" id="m" value="10,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="r">نرخ سود سالانه (درصد)</label><input class="input num" id="r" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="y">مدت (سال)</label><input class="input num" id="y" value="10" inputmode="decimal"></div>
+  <div class="field"><label for="inf">نرخ تورم سالانه (درصد)</label><input class="input num" id="inf" value="30" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش آینده</span><b id="o-fv">—</b></div>
+  <div><span>کل واریزی‌ها</span><b id="o-in">—</b></div>
+  <div><span>سود حاصل</span><b id="o-int">—</b></div>
+  <div><span>ارزش به قیمت امروز</span><b id="o-real">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

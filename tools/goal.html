@@ -1,0 +1,23 @@
+---
+layout: tool
+order: 5
+group: مالی شخصی
+title: پس‌انداز لازم برای رسیدن به هدف
+description: برای رسیدن به مبلغ هدف تا چند سال دیگر، هر ماه چقدر باید پس‌انداز کنید؟
+method: |
+  پس‌انداز ماهانه = (هدف − P × (۱ + i)<sup>n</sup>) × i ÷ ((۱ + i)<sup>n</sup> − ۱)
+
+  P موجودی فعلی، i نرخ ماهانه و n تعداد ماه‌هاست. واریز را در پایان هر ماه و بازده را ثابت فرض می‌کند.
+---
+<form class="tool-form" data-tool="goal" onsubmit="return false">
+  <div class="field"><label for="g">مبلغ هدف (تومان)</label><input class="input num" id="g" value="2,000,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="p">موجودی فعلی (تومان)</label><input class="input num" id="p" value="100,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="r">بازده سالانه (درصد)</label><input class="input num" id="r" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="y">مدت (سال)</label><input class="input num" id="y" value="8" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>پس‌انداز ماهانه</span><b id="o-m">—</b></div>
+  <div><span>کل پولی که خودتان می‌گذارید</span><b id="o-tot">—</b></div>
+  <div><span>سود برآوردی</span><b id="o-gain">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

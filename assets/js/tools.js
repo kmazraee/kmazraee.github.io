@@ -114,6 +114,117 @@
       set('o-pay', money(pay)); set('o-total', money(pay * n)); set('o-int', money(pay * n - p));
       set('o-eff', pct(Math.pow(1 + r, 12) - 1));
       $('o-note').textContent = 'سود کل ' + fa((pay * n - p) / p * 100) + ' درصدِ اصل وام است.';
+    },
+    'margins': function () {
+      var s = num($('sales').value), c = num($('cogs').value), o = num($('opex').value), da = num($('da').value), i = num($('int').value), t = num($('tax').value) / 100;
+      var ids = ['o-gm', 'o-ebitda', 'o-ebit', 'o-ni', 'o-nm'];
+      if ([s, c, o, da, i].some(isNaN) || s <= 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      if (isNaN(t) || t < 0) t = 0;
+      var gp = s - c, ebitda = gp - o, ebit = ebitda - da, ebt = ebit - i, ni = ebt - Math.max(ebt, 0) * t;
+      var b = ' میلیارد تومان';
+      set('o-gm', pct(gp / s), gp < 0); set('o-ebitda', fa(ebitda, 1) + b + ' (' + pct(ebitda / s) + ')', ebitda < 0);
+      set('o-ebit', fa(ebit, 1) + b + ' (' + pct(ebit / s) + ')', ebit < 0);
+      set('o-ni', fa(ni, 1) + b, ni < 0); set('o-nm', pct(ni / s), ni < 0);
+      $('o-note').textContent = ebit > 0 && i > 0 ? 'بهره ' + fa(ebit / i, 1) + ' بار از سود عملیاتی پوشش داده می‌شود.' : (ebit <= 0 ? 'سود عملیاتی صفر یا منفی است.' : '');
+    },
+    'ratios': function () {
+      var ca = num($('ca').value), inv = num($('inv').value), cash = num($('cash').value), cl = num($('cl').value),
+          debt = num($('debt').value), eq = num($('eq').value), ebit = num($('ebit').value), int = num($('int').value),
+          ebitda = num($('ebitda').value), cf = num($('cfads').value), ds = num($('ds').value);
+      var ratio = function (a, b, d) { return isNaN(a) || isNaN(b) || b === 0 ? '—' : fa(a / b, d == null ? 2 : d); };
+      set('o-cr', ratio(ca, cl)); set('o-qr', ratio(ca - inv, cl)); set('o-cash', ratio(cash, cl));
+      set('o-de', ratio(debt, eq)); set('o-ic', ratio(ebit, int, 1)); set('o-nde', ratio(debt - cash, ebitda, 1));
+      set('o-dscr', ratio(cf, ds));
+      var cr = ca / cl, dscr = cf / ds, msg = [];
+      if (cr < 1) msg.push('نسبت جاری کمتر از یک است؛ فشار نقدینگی کوتاه‌مدت.');
+      if (dscr < 1.2) msg.push('پوشش خدمت بدهی کمتر از ۱٫۲ است؛ بیشتر وام‌دهندگان حاشیه‌ی بیشتری می‌خواهند.');
+      $('o-note').textContent = msg.join(' ');
+    },
+    'cagr': function () {
+      var a = num($('a').value), b = num($('b').value), y = num($('y').value);
+      var ids = ['o-cagr', 'o-tot', 'o-dbl', 'o-r72'];
+      if ([a, b, y].some(isNaN) || a <= 0 || b <= 0 || y <= 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var g = Math.pow(b / a, 1 / y) - 1;
+      set('o-cagr', pct(g), g < 0); set('o-tot', pct(b / a - 1), b < a);
+      if (g > 0) { set('o-dbl', fa(Math.log(2) / Math.log(1 + g), 1) + ' سال'); set('o-r72', fa(72 / (g * 100), 1) + ' سال'); }
+      else { set('o-dbl', '—'); set('o-r72', '—'); }
+      $('o-note').textContent = 'اگر رشد هر سال دقیقاً ' + pct(g) + ' بود، از ' + fa(a) + ' به ' + fa(b) + ' می‌رسیدید. رشد واقعی سال‌به‌سال نوسان دارد.';
+    },
+    'fv': function () {
+      var p = num($('p').value), m = num($('m').value), r = num($('r').value) / 100, y = num($('y').value);
+      var ids = ['o-fv', 'o-in', 'o-int', 'o-real'];
+      if ([p, m, r, y].some(isNaN) || y <= 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var i = r / 12, n = Math.round(y * 12);
+      var fv = i === 0 ? p + m * n : p * Math.pow(1 + i, n) + m * (Math.pow(1 + i, n) - 1) / i;
+      var paid = p + m * n;
+      set('o-fv', money(fv)); set('o-in', money(paid)); set('o-int', money(fv - paid));
+      var inf = num($('inf').value) / 100;
+      set('o-real', isNaN(inf) ? '—' : money(fv / Math.pow(1 + inf, y)));
+      $('o-note').textContent = 'سود ' + fa((fv - paid) / fv * 100) + ' درصد مبلغ نهایی را می‌سازد؛ هرچه افق بلندتر، سهم سود بیشتر.';
+    },
+    'goal': function () {
+      var g = num($('g').value), p = num($('p').value), r = num($('r').value) / 100, y = num($('y').value);
+      if ([g, p, r, y].some(isNaN) || y <= 0) { ['o-m', 'o-tot', 'o-gain'].forEach(function (id) { set(id, '—'); }); return; }
+      var i = r / 12, n = Math.round(y * 12);
+      var need = g - p * Math.pow(1 + i, n);
+      var m = need <= 0 ? 0 : (i === 0 ? need / n : need * i / (Math.pow(1 + i, n) - 1));
+      set('o-m', money(m)); set('o-tot', money(m * n + p));
+      set('o-gain', money(g - m * n - p), g - m * n - p < 0);
+      $('o-note').textContent = need <= 0 ? 'موجودی فعلی با همین بازده به تنهایی به هدف می‌رسد.' : 'فرض بر واریز در پایان هر ماه و بازده ثابت است.';
+    },
+    'ddm': function () {
+      var d = num($('d').value), g = num($('g').value) / 100, r = num($('r').value) / 100, p = num($('price').value);
+      var ids = ['o-v', 'o-y', 'o-imp'];
+      if ([d, g, r].some(isNaN)) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      if (r <= g) { ids.forEach(function (id) { set(id, '—'); }); $('o-note').textContent = 'بازده مورد انتظار باید از رشد سود نقدی بیشتر باشد.'; return; }
+      var d1 = d * (1 + g), v = d1 / (r - g);
+      set('o-v', fa(v) + ' تومان'); set('o-y', pct(d1 / v));
+      if (!isNaN(p) && p > 0) { set('o-imp', pct(d1 / p + g)); $('o-note').textContent = p < v ? 'قیمت بازار کمتر از ارزش ذاتی این مدل است (با فرض‌های ورودی).' : 'قیمت بازار بیشتر از ارزش ذاتی این مدل است (با فرض‌های ورودی).'; }
+      else { set('o-imp', '—'); $('o-note').textContent = ''; }
+    },
+    'multiples': function () {
+      var e = num($('e').value), m = num($('m').value), nd = num($('nd').value), sh = num($('sh').value), ni = num($('ni').value);
+      var ids = ['o-ev', 'o-eq', 'o-ps', 'o-pe'];
+      if ([e, m].some(isNaN)) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var ev = e * m, eq = ev - (isNaN(nd) ? 0 : nd);
+      set('o-ev', fa(ev, 1) + ' میلیارد تومان'); set('o-eq', fa(eq, 1) + ' میلیارد تومان', eq < 0);
+      set('o-ps', isNaN(sh) || sh <= 0 ? '—' : fa(eq * 1000 / sh) + ' تومان', eq < 0);
+      set('o-pe', isNaN(ni) || ni <= 0 ? '—' : fa(eq / ni, 1));
+      $('o-note').textContent = 'ضریب باید از شرکت‌های قابل‌مقایسه از نظر صنعت، رشد و اندازه گرفته شود.';
+    },
+    'bond': function () {
+      var f = num($('f').value), c = num($('c').value) / 100, y = num($('y').value) / 100, n = num($('n').value), k = Math.round(num($('k').value));
+      var ids = ['o-p', 'o-cy', 'o-mac', 'o-mod'];
+      if ([f, c, y, n].some(isNaN) || !(k > 0) || n <= 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var N = Math.round(n * k), cp = f * c / k, r = y / k, pv = 0, w = 0;
+      for (var t = 1; t <= N; t++) { var cf = cp + (t === N ? f : 0), d = cf / Math.pow(1 + r, t); pv += d; w += (t / k) * d; }
+      var mac = w / pv, mod = mac / (1 + r);
+      set('o-p', fa(pv, 2)); set('o-cy', pct(f * c / pv)); set('o-mac', fa(mac, 2) + ' سال'); set('o-mod', fa(mod, 2));
+      $('o-note').textContent = 'با دیرش اصلاح‌شده‌ی ' + fa(mod, 2) + '، یک درصد افزایش نرخ بازده قیمت را حدود ' + fa(mod, 1) + ' درصد کم می‌کند. ' + (pv > f ? 'اوراق با صرف معامله می‌شود.' : pv < f ? 'اوراق با تخفیف معامله می‌شود.' : '');
+    },
+    'runway': function () {
+      var cash = num($('cash').value), exp = num($('exp').value), rev = num($('rev').value), g = num($('g').value) / 100;
+      var ids = ['o-burn', 'o-run', 'o-days', 'o-zero'];
+      if ([cash, exp, rev].some(isNaN) || cash < 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var burn = exp - rev;
+      set('o-days', exp > 0 ? fa(cash / (exp / 30)) + ' روز' : '—');
+      if (burn <= 0) { set('o-burn', 'مثبت (بدون سوزاندن)'); set('o-run', 'نامحدود'); set('o-zero', '—'); $('o-note').textContent = 'درآمد ماهانه از هزینه بیشتر است.'; return; }
+      set('o-burn', fa(burn, 1) + ' میلیون تومان در ماه', true);
+      set('o-run', fa(cash / burn, 1) + ' ماه', cash / burn < 6);
+      var left = cash, m = 0, r = rev;
+      if (isNaN(g)) g = 0;
+      while (left > 0 && m < 120) { left -= exp - r; r *= 1 + g; m++; if (exp - r <= 0) { m = -1; break; } }
+      set('o-zero', m < 0 ? 'با این رشد درآمد، به سربه‌سر می‌رسید' : (m >= 120 ? '—' : fa(m) + ' ماه'), m >= 0 && m < 6);
+      $('o-note').textContent = 'سناریوی دوم درآمد را هر ماه ' + fa(g * 100, 1) + ' درصد رشد می‌دهد و هزینه را ثابت می‌گیرد.';
+    },
+    'eoq': function () {
+      var d = num($('d').value), s = num($('s').value), h = num($('h').value), lt = num($('lt').value);
+      var ids = ['o-q', 'o-n', 'o-tc', 'o-rop'];
+      if ([d, s, h].some(isNaN) || d <= 0 || s <= 0 || h <= 0) { ids.forEach(function (id) { set(id, '—'); }); return; }
+      var q = Math.sqrt(2 * d * s / h), n = d / q, tc = n * s + q / 2 * h;
+      set('o-q', fa(q) + ' واحد'); set('o-n', fa(n, 1) + ' بار در سال'); set('o-tc', money(tc));
+      set('o-rop', isNaN(lt) ? '—' : fa(d / 365 * lt) + ' واحد');
+      $('o-note').textContent = 'در EOQ هزینه‌ی سفارش‌دهی و نگهداری سالانه تقریباً برابرند (هرکدام حدود ' + money(tc / 2) + ').';
     }
   };
 
