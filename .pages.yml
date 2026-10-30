@@ -21,6 +21,13 @@ content:
           values: [بودجه‌بندی, حسابرسی, مالیات و بیمه, سرمایه‌گذاری, سرمایه, گزارش مدیریتی, مدیریت, تحلیل مالی, مدل‌سازی مالی, صورت‌های مالی, ارزش‌گذاری, مسیر شغلی, بهره‌وری و عادت‌ها, رشد فردی, تصمیم‌گیری, ارتباطات, سبک زندگی]
       - { name: tags, label: برچسب‌ها, type: string, list: true }
       - { name: description, label: خلاصه‌ی یک‌خطی, type: text }
+      - name: faq
+        label: پرسش‌های متداول (برای داده‌ی ساختاریافته)
+        type: object
+        list: true
+        fields:
+          - { name: q, label: پرسش, type: string }
+          - { name: a, label: پاسخ, type: text }
       - { name: published, label: منتشر شود (خاموش = پیش‌نویس), type: boolean, default: true }
       - { name: body, label: متن, type: rich-text }
   - name: settings
