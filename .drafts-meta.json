@@ -1,69 +1,62 @@
 [
  {
-  "file": "2024-04-11-ai-model-audit.md",
-  "thread": "1a189092e7fdbf9e",
-  "label": "Chris Reilly",
-  "title": "حسابرسی مدل مالی با هوش مصنوعی؛ راهنمای عملی بازبینی",
-  "category": "مدل‌سازی مالی"
- },
- {
-  "file": "2024-04-13-free-cash-flow-maintenance-capex.md",
+  "file": "2024-04-11-free-cash-flow-maintenance-capex.md",
   "thread": "1880b828d43f7b23",
   "label": "Kurtis Hanni",
   "title": "جریان نقد آزاد و جریان نقد نگهداری؛ سود واقعی چقدر است؟",
   "category": "تحلیل مالی"
  },
  {
-  "file": "2024-04-15-maintenance-capex-equipment-replacement.md",
+  "file": "2024-04-13-maintenance-capex-equipment-replacement.md",
   "thread": "1882f8e08e353177",
   "label": "Kurtis Hanni",
   "title": "مخارج سرمایه‌ای نگهداری؛ چه زمانی تجهیزات را عوض کنیم؟",
   "category": "بودجه‌بندی"
  },
  {
-  "file": "2024-04-17-owner-draw-cash-allocation-method.md",
+  "file": "2024-04-15-owner-draw-cash-allocation-method.md",
   "thread": "18877a73f44f8fd0",
   "label": "Kurtis Hanni",
   "title": "برداشت صاحب کسب‌وکار از سود؛ روش سه‌سهمی نقدی",
   "category": "سرمایه"
  },
  {
-  "file": "2024-04-19-choose-right-kpis-seven-steps.md",
+  "file": "2024-04-17-choose-right-kpis-seven-steps.md",
   "thread": "188e3cd6ba0c6be7",
   "label": "Kurtis Hanni",
   "title": "انتخاب شاخص‌های کلیدی عملکرد (KPI)؛ هفت گام عملی",
   "category": "گزارش مدیریتی"
  },
  {
-  "file": "2024-04-21-business-cash-cycle-three-stages.md",
+  "file": "2024-04-19-business-cash-cycle-three-stages.md",
   "thread": "18907d96fe3790aa",
   "label": "Kurtis Hanni",
   "title": "چرخه نقدینگی کسب‌وکار؛ سه مرحله آماده‌سازی تا برداشت",
   "category": "مدیریت"
  },
  {
-  "file": "2024-04-23-seasonal-business-risk-management.md",
+  "file": "2024-04-21-seasonal-business-risk-management.md",
   "thread": "1892be6448ad9887",
   "label": "Kurtis Hanni",
   "title": "ریسک کسب‌وکار فصلی؛ ۵ راه کنترل نقدینگی و موجودی",
   "category": "مدیریت"
  },
  {
-  "file": "2024-04-25-fake-wins-financial-decisions.md",
+  "file": "2024-04-23-fake-wins-financial-decisions.md",
   "thread": "18973ff917a50032",
   "label": "Kurtis Hanni",
   "title": "برد کاذب در تصمیم مالی؛ ۷ دام سود و رشد",
   "category": "تحلیل مالی"
  },
  {
-  "file": "2024-04-27-why-understand-financial-statements.md",
+  "file": "2024-04-25-why-understand-financial-statements.md",
   "thread": "189e026cb09505d0",
   "label": "Kurtis Hanni",
   "title": "چرا باید صورت‌های مالی را بفهمید؟ ۵ دلیل کاربردی",
   "category": "صورت‌های مالی"
  },
  {
-  "file": "2024-04-29-procurement-process-problems-solutions.md",
+  "file": "2024-04-27-procurement-process-problems-solutions.md",
   "thread": "18a0430d5260853c",
   "label": "Kurtis Hanni",
   "title": "فرآیند خرید سازمانی؛ ۴ مشکل رایج و راه‌حل",
