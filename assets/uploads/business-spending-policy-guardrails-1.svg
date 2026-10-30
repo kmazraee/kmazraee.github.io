@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="سه لایه کنترل هزینه‌کرد: بودجه، سیاست مکتوب و راهنمای تصمیم">
+<rect width="800" height="450" fill="#faf7f0"/>
+<text x="400" y="50" text-anchor="middle" font-size="26" font-weight="bold" fill="#2b2b2b">سه لایه کنترل هزینه‌کرد</text>
+<rect x="100" y="90" width="600" height="90" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="400" y="127" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">۱. بودجه</text>
+<text x="400" y="158" text-anchor="middle" font-size="17" fill="#3d3d3d">تأیید از پیش برای هزینه‌های برنامه‌ریزی‌شده</text>
+<rect x="100" y="200" width="600" height="90" rx="12" fill="#e6f3e6" stroke="#4f9a4f" stroke-width="2"/>
+<text x="400" y="237" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">۲. سیاست مکتوب</text>
+<text x="400" y="268" text-anchor="middle" font-size="17" fill="#3d3d3d">سقف‌ها، گردش تأیید، بازپرداخت و مهلت گزارش</text>
+<rect x="100" y="310" width="600" height="90" rx="12" fill="#fbebd9" stroke="#c9822f" stroke-width="2"/>
+<text x="400" y="347" text-anchor="middle" font-size="22" font-weight="bold" fill="#2b2b2b">۳. راهنمای تصمیم</text>
+<text x="400" y="378" text-anchor="middle" font-size="17" fill="#3d3d3d">پرسش‌های کوتاه برای موارد خاکستری</text>
+</svg>

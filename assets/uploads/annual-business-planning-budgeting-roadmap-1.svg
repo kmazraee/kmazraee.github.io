@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="Tahoma, Arial, sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<text x="400" y="50" text-anchor="middle" font-size="26" font-weight="bold" fill="#0f172a">پنج گام برنامه‌ریزی و بودجه سالانه</text>
+<rect x="60" y="80" width="680" height="54" rx="10" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="720" y="114" text-anchor="start" font-size="21" font-weight="bold" fill="#2563eb">۱. استراتژی</text>
+<text x="480" y="114" text-anchor="start" font-size="17" fill="#334155">چشم‌انداز ۳، ۵ و ۱۰ ساله</text>
+<rect x="60" y="146" width="680" height="54" rx="10" fill="#fff" stroke="#0891b2" stroke-width="3"/>
+<text x="720" y="180" text-anchor="start" font-size="21" font-weight="bold" fill="#0891b2">۲. بودجه</text>
+<text x="480" y="180" text-anchor="start" font-size="17" fill="#334155">عملیاتی و سرمایه‌ای</text>
+<rect x="60" y="212" width="680" height="54" rx="10" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+<text x="720" y="246" text-anchor="start" font-size="21" font-weight="bold" fill="#7c3aed">۳. پیش‌بینی</text>
+<text x="480" y="246" text-anchor="start" font-size="17" fill="#334155">درآمد سال آینده</text>
+<rect x="60" y="278" width="680" height="54" rx="10" fill="#fff" stroke="#ea580c" stroke-width="3"/>
+<text x="720" y="312" text-anchor="start" font-size="21" font-weight="bold" fill="#ea580c">۴. برنامه نهایی</text>
+<text x="480" y="312" text-anchor="start" font-size="17" fill="#334155">انتخاب و حذف ابتکارها</text>
+<rect x="60" y="344" width="680" height="54" rx="10" fill="#fff" stroke="#16a34a" stroke-width="3"/>
+<text x="720" y="378" text-anchor="start" font-size="21" font-weight="bold" fill="#16a34a">۵. اهداف و شاخص‌ها</text>
+<text x="480" y="378" text-anchor="start" font-size="17" fill="#334155">ریتم مرور منظم</text>
+</svg>
