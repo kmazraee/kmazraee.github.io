@@ -33,6 +33,17 @@
     });
   });
 
+  // newsletter with a form service: submit in the background and thank the reader in place
+  document.querySelectorAll('[data-newsletter-post]').forEach(function (f) {
+    f.addEventListener('submit', function (e) {
+      e.preventDefault();
+      fetch(f.action, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(new FormData(f)) }).then(function () {
+        f.querySelector('input').value = '';
+        f.querySelector('.newsletter-done').hidden = false;
+      }, function () { f.submit(); });
+    });
+  });
+
   // glossary filter
   var gq = document.querySelector('[data-glossary-search]');
   if (gq) gq.addEventListener('input', function () {

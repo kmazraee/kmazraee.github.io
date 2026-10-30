@@ -277,6 +277,8 @@ textarea.input{min-height:160px;resize:vertical}
 .newsletter h2{font-size:20px}
 .newsletter p{margin:4px 0 0;font-size:14px;color:var(--muted)}
 .newsletter-form{flex:1 1 300px;display:flex;gap:8px}
+.newsletter-form{flex-wrap:wrap}
+.newsletter-done{flex-basis:100%;margin:4px 0 0;color:var(--accent);font-size:14px}
 .newsletter-form .input{flex:1}
 .path-cards{display:flex;flex-wrap:wrap;gap:12px}
 .path-card{flex:1 1 220px;display:flex;flex-direction:column;gap:6px;padding:20px;border-radius:18px;background:var(--bg);color:var(--ink);text-decoration:none}
