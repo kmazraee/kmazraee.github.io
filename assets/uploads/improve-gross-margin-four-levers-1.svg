@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" direction="rtl" font-family="Tahoma, Arial, sans-serif">
+<rect width="800" height="450" fill="#f8fafc"/>
+<text x="400" y="50" text-anchor="middle" font-size="26" font-weight="bold" fill="#0f172a">چهار اهرم افزایش حاشیه سود ناخالص</text>
+<rect x="410" y="90" width="360" height="140" rx="12" fill="#fff" stroke="#2563eb" stroke-width="3"/>
+<text x="750" y="140" text-anchor="start" font-size="22" font-weight="bold" fill="#2563eb">۱. کاهش بهای تمام‌شده</text>
+<text x="750" y="180" text-anchor="start" font-size="17" fill="#334155">خرید بهتر، کاهش ضایعات</text>
+<rect x="30" y="90" width="360" height="140" rx="12" fill="#fff" stroke="#0891b2" stroke-width="3"/>
+<text x="370" y="140" text-anchor="start" font-size="22" font-weight="bold" fill="#0891b2">۲. سبد محصول پلکانی</text>
+<text x="370" y="180" text-anchor="start" font-size="17" fill="#334155">مدل ارزان و مدل گران</text>
+<rect x="410" y="250" width="360" height="140" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="3"/>
+<text x="750" y="300" text-anchor="start" font-size="22" font-weight="bold" fill="#7c3aed">۳. محصول جانبی</text>
+<text x="750" y="340" text-anchor="start" font-size="17" fill="#334155">فروش بیشتر به مشتری فعلی</text>
+<rect x="30" y="250" width="360" height="140" rx="12" fill="#fff" stroke="#ea580c" stroke-width="3"/>
+<text x="370" y="300" text-anchor="start" font-size="22" font-weight="bold" fill="#ea580c">۴. خدمات پرحاشیه</text>
+<text x="370" y="340" text-anchor="start" font-size="17" fill="#334155">تغییر ترکیب درآمد</text>
+<text x="400" y="420" text-anchor="middle" font-size="16" fill="#475569">حاشیه سود ناخالص = (فروش − بهای تمام‌شده) ÷ فروش</text></svg>

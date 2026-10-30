@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="چهار اهرم اصلی افزایش سودآوری">
+<rect width="800" height="450" fill="#faf7f0"/>
+<text x="400" y="50" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="bold">چهار اهرم افزایش سودآوری</text>
+<rect x="605" y="90" width="175" height="200" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="692.5" y="130" text-anchor="middle" font-size="17" fill="#3d3d3d" font-weight="bold">۱. محصول و قیمت</text>
+<text x="692.5" y="175" text-anchor="middle" font-size="15" fill="#3d3d3d">کیفیت، برند و تنوع</text>
+<text x="692.5" y="209" text-anchor="middle" font-size="15" fill="#3d3d3d">قیمت هم‌خوان با ارزش</text>
+<rect x="415" y="90" width="175" height="200" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="502.5" y="130" text-anchor="middle" font-size="17" fill="#3d3d3d" font-weight="bold">۲. مدیریت هزینه</text>
+<text x="502.5" y="175" text-anchor="middle" font-size="15" fill="#3d3d3d">صرفه‌جویی عملیاتی</text>
+<text x="502.5" y="209" text-anchor="middle" font-size="15" fill="#3d3d3d">بهینه‌سازی COGS</text>
+<rect x="225" y="90" width="175" height="200" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="312.5" y="130" text-anchor="middle" font-size="17" fill="#3d3d3d" font-weight="bold">۳. بازاریابی</text>
+<text x="312.5" y="175" text-anchor="middle" font-size="15" fill="#3d3d3d">کاهش هزینه‌ی جذب</text>
+<text x="312.5" y="209" text-anchor="middle" font-size="15" fill="#3d3d3d">افزایش ارزش مشتری</text>
+<rect x="35" y="90" width="175" height="200" rx="12" fill="#f1e4f2" stroke="#9a5aa8" stroke-width="2"/>
+<text x="122.5" y="130" text-anchor="middle" font-size="17" fill="#3d3d3d" font-weight="bold">۴. ساختار مالی</text>
+<text x="122.5" y="175" text-anchor="middle" font-size="15" fill="#3d3d3d">کاهش بار بدهی</text>
+<text x="122.5" y="209" text-anchor="middle" font-size="15" fill="#3d3d3d">پوشش بهره بالاتر</text>
+<rect x="40" y="320" width="720" height="90" rx="12" fill="#fff" stroke="#bbb" stroke-width="1.5"/>
+<text x="400" y="355" text-anchor="middle" font-size="15" fill="#3d3d3d">مثال: درآمد ۱ میلیارد و حاشیه‌ی سود خالص ۱۵٪ = ۱۵۰ میلیون سود</text>
+<text x="400" y="388" text-anchor="middle" font-size="15" fill="#3d3d3d" font-weight="bold">یک درصد بهبود حاشیه‌ی ناخالص = ۱۶۰ میلیون سود (حدود ۶٫۷٪ رشد)</text>
+</svg>

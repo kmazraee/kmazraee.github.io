@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="محرک‌های سود و جریان نقدی و شاخص‌های پیشرو و پسرو">
+<rect width="800" height="450" fill="#faf7f0"/>
+<text x="400" y="48" text-anchor="middle" font-size="26" font-weight="bold" fill="#2b2b2b">از محرک تا شاخص</text>
+<rect x="430" y="85" width="340" height="150" rx="12" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="600" y="120" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b2b2b">محرک‌های سود</text>
+<text x="600" y="157" text-anchor="middle" font-size="16" fill="#3d3d3d">قیمت‌گذاری، بهای تمام‌شده</text>
+<text x="600" y="185" text-anchor="middle" font-size="16" fill="#3d3d3d">جذب و نگهداشت مشتری</text>
+<text x="600" y="213" text-anchor="middle" font-size="16" fill="#3d3d3d">اهرم مالی</text>
+<rect x="30" y="85" width="340" height="150" rx="12" fill="#e6f3e6" stroke="#4f9a4f" stroke-width="2"/>
+<text x="200" y="120" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b2b2b">محرک‌های جریان نقدی</text>
+<text x="200" y="157" text-anchor="middle" font-size="16" fill="#3d3d3d">موجودی، چرخه تبدیل نقدینگی</text>
+<text x="200" y="185" text-anchor="middle" font-size="16" fill="#3d3d3d">مخارج سرمایه‌ای</text>
+<text x="200" y="213" text-anchor="middle" font-size="16" fill="#3d3d3d">ظرفیت استقراض و بازپرداخت</text>
+<text x="400" y="278" text-anchor="middle" font-size="26" fill="#2b2b2b">↓</text>
+<rect x="430" y="300" width="340" height="110" rx="12" fill="#fbebd9" stroke="#c9822f" stroke-width="2"/>
+<text x="600" y="335" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b2b2b">شاخص پیشرو</text>
+<text x="600" y="372" text-anchor="middle" font-size="16" fill="#3d3d3d">اولین اقدام زنجیره، پیش‌بینی‌کننده</text>
+<rect x="30" y="300" width="340" height="110" rx="12" fill="#f3e3ee" stroke="#a04a85" stroke-width="2"/>
+<text x="200" y="335" text-anchor="middle" font-size="21" font-weight="bold" fill="#2b2b2b">شاخص پسرو</text>
+<text x="200" y="372" text-anchor="middle" font-size="16" fill="#3d3d3d">نتیجه نهایی مطلوب</text>
+</svg>
