@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 532" direction="rtl" font-family="Vazirmatn, Tahoma, sans-serif" role="img" aria-label="خط لوله‌ی ایده‌آل هوش مصنوعی در حسابداری با کنترل انسانی">
+<rect width="800" height="532" fill="#faf7f0"/>
+<text x="400" y="36" text-anchor="middle" font-size="21" fill="#2b2b2b" font-weight="bold">مسیر ایده‌آل: حسابداری به‌صورت خط لوله‌ی زنده</text>
+<rect x="150" y="62" width="500" height="50" rx="10" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="400" y="84" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">تراکنش‌ها</text>
+<text x="400" y="104" text-anchor="middle" font-size="12.5" fill="#3d3d3d">بانک، کارت، حقوق و دستمزد، صدور فاکتور</text>
+<path d="M400 112 L400 126 M394 119 L400 126 L406 119" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="128" width="500" height="50" rx="10" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="150" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">دریافت و یکدست‌سازی</text>
+<text x="400" y="170" text-anchor="middle" font-size="12.5" fill="#3d3d3d">ورودی تمیز با فیلدهای هماهنگ</text>
+<path d="M400 178 L400 192 M394 185 L400 192 L406 185" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="194" width="500" height="50" rx="10" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="400" y="216" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">سیاست و زمینه</text>
+<text x="400" y="236" text-anchor="middle" font-size="12.5" fill="#3d3d3d">سرفصل حساب‌ها، تأییدها، سابقه‌ی تأمین‌کننده، مستندات</text>
+<path d="M400 244 L400 258 M394 251 L400 258 L406 251" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="260" width="500" height="50" rx="10" fill="#f1e4f2" stroke="#9a5aa8" stroke-width="2"/>
+<text x="400" y="282" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">خودکارسازی</text>
+<text x="400" y="302" text-anchor="middle" font-size="12.5" fill="#3d3d3d">تطبیق، پیشنهاد کدگذاری، پیش‌نویس سند</text>
+<path d="M400 310 L400 324 M394 317 L400 324 L406 317" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="326" width="500" height="50" rx="10" fill="#e6eef0" stroke="#4b8a99" stroke-width="2"/>
+<text x="400" y="348" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">کنترل با انسان در حلقه</text>
+<text x="400" y="368" text-anchor="middle" font-size="12.5" fill="#3d3d3d">استثناها، تأیید، ردپای حسابرسی</text>
+<path d="M400 376 L400 390 M394 383 L400 390 L406 383" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="392" width="500" height="50" rx="10" fill="#e3eaf7" stroke="#4a6fb5" stroke-width="2"/>
+<text x="400" y="414" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">دفتر اصلی</text>
+<text x="400" y="434" text-anchor="middle" font-size="12.5" fill="#3d3d3d">ثبت نهایی در نرم‌افزار حسابداری</text>
+<path d="M400 442 L400 456 M394 449 L400 456 L406 449" stroke="#777" stroke-width="2" fill="none"/>
+<rect x="150" y="458" width="500" height="50" rx="10" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="400" y="480" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="bold">بستن ماه و نتیجه</text>
+<text x="400" y="500" text-anchor="middle" font-size="12.5" fill="#3d3d3d">بستن سریع‌تر، سود و نقد بهتر، تصمیم بهتر</text>
+</svg>
