@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" direction="rtl" font-family="Tahoma, sans-serif">
+<rect width="640" height="300" fill="#ffffff"/>
+<text x="610" y="34" text-anchor="start" font-size="20" font-weight="bold" fill="#1f2d3d">سه نگاه به یک عدد مالی</text>
+<g>
+<rect x="400" y="60" width="210" height="150" rx="10" fill="#e8f0f8" stroke="#9db4cc"/>
+<rect x="215" y="60" width="170" height="150" rx="10" fill="#fdf0e6" stroke="#e0a76b"/>
+<rect x="30" y="60" width="170" height="150" rx="10" fill="#e9f5ec" stroke="#7fbf8f"/>
+</g>
+<g font-size="18" font-weight="bold" fill="#1f2d3d">
+<text x="590" y="94" text-anchor="start">درصد</text>
+<text x="365" y="94" text-anchor="start">مبلغ</text>
+<text x="180" y="94" text-anchor="start">نسبت</text>
+</g>
+<g font-size="14" fill="#1f2d3d">
+<text x="590" y="128" text-anchor="start">برای مقایسه</text>
+<text x="590" y="152" text-anchor="start">آیا کارایی بهتر شد؟</text>
+<text x="590" y="180" text-anchor="start" font-size="12">۱۸٪ ← ۲۰٪ درآمد</text>
+<text x="365" y="128" text-anchor="start">برای تصمیم</text>
+<text x="365" y="152" text-anchor="start">چقدر سود یا زیان؟</text>
+<text x="365" y="180" text-anchor="start" font-size="12">۵۰٬۰۰۰ دلار در ماه</text>
+<text x="180" y="128" text-anchor="start">برای ظرفیت</text>
+<text x="180" y="152" text-anchor="start">از پسش برمی‌آییم؟</text>
+<text x="180" y="180" text-anchor="start" font-size="12">۵۰۰ ÷ ۷۰۰ ≈ ۰٫۷۱</text>
+</g>
+<text x="610" y="250" text-anchor="start" font-size="15" fill="#c0392b" font-weight="bold">بعد: زمینه را اضافه کنید (مقایسه با چه؟ چه دوره‌ای؟ تکرارشونده؟)</text>
+<text x="610" y="276" text-anchor="start" font-size="14" fill="#1f2d3d">۵۰٬۰۰۰ × ۱۲ = ۶۰۰٬۰۰۰ دلار در سال</text>
+</svg>

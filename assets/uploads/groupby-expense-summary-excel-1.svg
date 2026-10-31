@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" direction="rtl" font-family="Tahoma, sans-serif" role="img" aria-label="تبدیل هشت ردیف هزینه به چهار ردیف خلاصه بر اساس دپارتمان">
+<rect width="800" height="300" fill="#faf7f0"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">از هشت ردیف خام به چهار ردیف خلاصه</text>
+<!-- raw table (right) -->
+<text x="770" y="68" text-anchor="start" font-size="15" fill="#4a6fb5" font-weight="bold">داده‌ی خام</text>
+<rect x="520" y="78" width="250" height="26" fill="#e3eaf7" stroke="#4a6fb5"/>
+<text x="760" y="96" text-anchor="start" font-size="13" fill="#2b2b2b" font-weight="bold">دپارتمان</text>
+<text x="580" y="96" text-anchor="start" font-size="13" fill="#2b2b2b" font-weight="bold">مبلغ</text>
+<g font-size="13" fill="#3d3d3d">
+<rect x="520" y="104" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="120" text-anchor="start">بازاریابی</text><text x="580" y="120" text-anchor="start">۱۲٬۰۰۰</text>
+<rect x="520" y="126" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="142" text-anchor="start">فروش</text><text x="580" y="142" text-anchor="start">۹٬۵۰۰</text>
+<rect x="520" y="148" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="164" text-anchor="start">فناوری اطلاعات</text><text x="580" y="164" text-anchor="start">۷٬۲۰۰</text>
+<rect x="520" y="170" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="186" text-anchor="start">بازاریابی</text><text x="580" y="186" text-anchor="start">۸٬۰۰۰</text>
+<rect x="520" y="192" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="208" text-anchor="start">فروش</text><text x="580" y="208" text-anchor="start">۱۱٬۰۰۰</text>
+<rect x="520" y="214" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="230" text-anchor="start">فناوری اطلاعات</text><text x="580" y="230" text-anchor="start">۳٬۳۰۰</text>
+<rect x="520" y="236" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="252" text-anchor="start">منابع انسانی</text><text x="580" y="252" text-anchor="start">۴٬۵۰۰</text>
+<rect x="520" y="258" width="250" height="22" fill="#fff" stroke="#c9c3b5"/><text x="760" y="274" text-anchor="start">بازاریابی</text><text x="580" y="274" text-anchor="start">۶٬۵۰۰</text>
+</g>
+<!-- arrow -->
+<line x1="505" y1="180" x2="345" y2="180" stroke="#c98a3a" stroke-width="3"/>
+<polygon points="335,180 351,172 351,188" fill="#c98a3a"/>
+<text x="420" y="165" text-anchor="middle" font-size="14" fill="#c98a3a" font-weight="bold">GROUPBY</text>
+<!-- summary (left) -->
+<text x="320" y="68" text-anchor="start" font-size="15" fill="#5a9a6b" font-weight="bold">جدول خلاصه</text>
+<rect x="40" y="78" width="280" height="26" fill="#e3f0e6" stroke="#5a9a6b"/>
+<text x="310" y="96" text-anchor="start" font-size="13" fill="#2b2b2b" font-weight="bold">دپارتمان</text>
+<text x="200" y="96" text-anchor="start" font-size="13" fill="#2b2b2b" font-weight="bold">جمع</text>
+<text x="110" y="96" text-anchor="start" font-size="13" fill="#2b2b2b" font-weight="bold">سهم</text>
+<g font-size="13" fill="#3d3d3d">
+<rect x="40" y="104" width="280" height="28" fill="#fff" stroke="#c9c3b5"/><text x="310" y="123" text-anchor="start">بازاریابی</text><text x="200" y="123" text-anchor="start">۲۶٬۵۰۰</text><text x="110" y="123" text-anchor="start">۴۲٫۷٪</text>
+<rect x="40" y="132" width="280" height="28" fill="#fff" stroke="#c9c3b5"/><text x="310" y="151" text-anchor="start">فروش</text><text x="200" y="151" text-anchor="start">۲۰٬۵۰۰</text><text x="110" y="151" text-anchor="start">۳۳٫۱٪</text>
+<rect x="40" y="160" width="280" height="28" fill="#fff" stroke="#c9c3b5"/><text x="310" y="179" text-anchor="start">فناوری اطلاعات</text><text x="200" y="179" text-anchor="start">۱۰٬۵۰۰</text><text x="110" y="179" text-anchor="start">۱۶٫۹٪</text>
+<rect x="40" y="188" width="280" height="28" fill="#fff" stroke="#c9c3b5"/><text x="310" y="207" text-anchor="start">منابع انسانی</text><text x="200" y="207" text-anchor="start">۴٬۵۰۰</text><text x="110" y="207" text-anchor="start">۷٫۳٪</text>
+<rect x="40" y="216" width="280" height="30" fill="#e3f0e6" stroke="#5a9a6b"/><text x="310" y="236" text-anchor="start" font-weight="bold">جمع کل</text><text x="200" y="236" text-anchor="start" font-weight="bold">۶۲٬۰۰۰</text><text x="110" y="236" text-anchor="start" font-weight="bold">۱۰۰٪</text>
+</g>
+<text x="310" y="272" text-anchor="start" font-size="12" fill="#6b6b6b">جمع جدول خلاصه باید با جمع ستون خام برابر باشد</text>
+</svg>

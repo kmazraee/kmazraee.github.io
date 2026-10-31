@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 300" width="700" height="300" direction="rtl" font-family="Tahoma, sans-serif">
+<rect width="700" height="300" fill="#ffffff"/>
+<text x="670" y="36" text-anchor="start" font-size="20" font-weight="bold" fill="#1f2937">گزارش سن مطالبات: مثال یک میلیون واحدی</text>
+<g text-anchor="middle" font-size="14" fill="#ffffff">
+<rect x="270" y="70" width="400" height="60" fill="#2f855a"/><text x="470" y="106">۰ تا ۳۰ روز: ۴۰۰ هزار</text>
+</g>
+<rect x="20" y="70" width="250" height="60" fill="#d69e2e"/>
+<g text-anchor="middle" font-size="14" fill="#1f2937"><text x="145" y="106">۳۱ تا ۶۰ روز: ۲۵۰ هزار</text></g>
+<text x="670" y="170" text-anchor="start" font-size="14" fill="#1f2937">گروه‌های پرخطر:</text>
+<rect x="470" y="185" width="200" height="50" fill="#dd6b20"/>
+<text x="570" y="216" text-anchor="middle" font-size="14" fill="#ffffff">۶۱ تا ۹۰ روز: ۲۰۰ هزار</text>
+<rect x="320" y="185" width="150" height="50" fill="#c53030"/>
+<text x="395" y="216" text-anchor="middle" font-size="14" fill="#ffffff">بیش از ۹۰: ۱۵۰ هزار</text>
+<text x="670" y="272" text-anchor="start" font-size="14" fill="#1f2937">سهم بیش از ۶۰ روز: ۳۵ درصد کل مطالبات</text>
+</svg>

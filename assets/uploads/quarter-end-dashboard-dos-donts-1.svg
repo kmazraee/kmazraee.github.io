@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" direction="rtl" font-family="Tahoma, sans-serif" role="img" aria-label="ده باید و نباید داشبورد پایان فصل">
+<rect width="800" height="330" fill="#faf7f0"/>
+<text x="400" y="34" text-anchor="middle" font-size="20" fill="#2b2b2b" font-weight="bold">داشبورد پایان فصل: باید و نباید</text>
+<rect x="410" y="54" width="366" height="258" rx="12" fill="#e3f0e6" stroke="#5a9a6b" stroke-width="2"/>
+<text x="760" y="84" text-anchor="start" font-size="17" fill="#3c7a4c" font-weight="bold">بایدها</text>
+<g font-size="14" fill="#2b2b2b">
+<text x="760" y="118" text-anchor="start">۱. شاخص‌ها را کم نگه دارید</text>
+<text x="760" y="150" text-anchor="start">۲. هر عدد را با مبنا بسنجید</text>
+<text x="760" y="182" text-anchor="start">۳. تعریف و دوره را بنویسید</text>
+<text x="760" y="214" text-anchor="start">۴. استثناها را برجسته کنید</text>
+<text x="760" y="246" text-anchor="start">۵. یادداشت تحلیلی بگذارید</text>
+</g>
+<rect x="24" y="54" width="366" height="258" rx="12" fill="#fbeee0" stroke="#c98a3a" stroke-width="2"/>
+<text x="374" y="84" text-anchor="start" font-size="17" fill="#a06a1f" font-weight="bold">نبایدها</text>
+<g font-size="14" fill="#2b2b2b">
+<text x="374" y="118" text-anchor="start">۶. نمودار تزئینی نسازید</text>
+<text x="374" y="150" text-anchor="start">۷. محور را برش ندهید</text>
+<text x="374" y="182" text-anchor="start">۸. دوره‌ها را قاطی نکنید</text>
+<text x="374" y="214" text-anchor="start">۹. منبع و تاریخ را پنهان نکنید</text>
+<text x="374" y="246" text-anchor="start">۱۰. داشبورد را رها نکنید</text>
+</g>
+<text x="400" y="300" text-anchor="middle" font-size="12" fill="#6b6b6b"></text>
+</svg>
