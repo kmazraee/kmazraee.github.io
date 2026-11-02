@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="sans-serif">
+<rect width="800" height="400" fill="#ffffff"/>
+<text x="400" y="40" font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle" direction="rtl">FP&amp;A در برابر کنترلر</text>
+<rect x="420" y="65" width="340" height="270" rx="12" fill="#dbeafe"/>
+<text x="740" y="100" font-size="18" font-weight="bold" fill="#1d4ed8" text-anchor="start" direction="rtl">FP&amp;A: نگاه به آینده</text>
+<circle cx="738" cy="135" r="4" fill="#1d4ed8"/>
+<text x="725" y="140" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">بودجه‌بندی و پیش‌بینی</text>
+<circle cx="738" cy="167" r="4" fill="#1d4ed8"/>
+<text x="725" y="172" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">مدل‌سازی سناریو</text>
+<circle cx="738" cy="199" r="4" fill="#1d4ed8"/>
+<text x="725" y="204" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">تحلیل سودآوری و عملکرد</text>
+<circle cx="738" cy="231" r="4" fill="#1d4ed8"/>
+<text x="725" y="236" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">گزارش مدیریتی</text>
+<circle cx="738" cy="263" r="4" fill="#1d4ed8"/>
+<text x="725" y="268" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">شراکت با واحدها</text>
+<circle cx="738" cy="295" r="4" fill="#1d4ed8"/>
+<text x="725" y="300" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">روایت مالی برای تصمیم</text>
+<rect x="40" y="65" width="340" height="270" rx="12" fill="#dcfce7"/>
+<text x="360" y="100" font-size="18" font-weight="bold" fill="#15803d" text-anchor="start" direction="rtl">کنترلر: درستی اعداد گذشته</text>
+<circle cx="358" cy="135" r="4" fill="#15803d"/>
+<text x="345" y="140" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">نظارت بر تراکنش‌ها</text>
+<circle cx="358" cy="167" r="4" fill="#15803d"/>
+<text x="345" y="172" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">سرپرستی حسابداری</text>
+<circle cx="358" cy="199" r="4" fill="#15803d"/>
+<text x="345" y="204" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">صورت‌های مالی استاندارد</text>
+<circle cx="358" cy="231" r="4" fill="#15803d"/>
+<text x="345" y="236" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">کنترل هزینه‌ها</text>
+<circle cx="358" cy="263" r="4" fill="#15803d"/>
+<text x="345" y="268" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">کنترل‌های داخلی</text>
+<circle cx="358" cy="295" r="4" fill="#15803d"/>
+<text x="345" y="300" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">بهبود فرایندها و ابزارها</text>
+<text x="400" y="372" font-size="15" font-weight="normal" fill="#4b5563" text-anchor="middle" direction="rtl">داده‌ی واقعی کنترلر، ورودی پیش‌بینی بعدی FP&amp;A است</text>
+</svg>

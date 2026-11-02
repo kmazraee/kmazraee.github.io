@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420" font-family="Vazirmatn, Tahoma, sans-serif">
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="40" text-anchor="middle" direction="rtl" font-size="22" font-weight="bold" fill="#1f2937">تحلیل دوپان: سه محرک بازده حقوق صاحبان سهام</text>
+  <!-- Top node -->
+  <rect x="270" y="70" width="260" height="70" rx="10" fill="#1e3a8a"/>
+  <text x="400" y="100" text-anchor="middle" direction="rtl" font-size="18" font-weight="bold" fill="#ffffff">بازده حقوق صاحبان سهام</text>
+  <text x="400" y="126" text-anchor="middle" direction="rtl" font-size="14" fill="#dbeafe">سود خالص ÷ حقوق صاحبان سهام</text>
+  <!-- connectors -->
+  <line x1="400" y1="140" x2="400" y2="180" stroke="#64748b" stroke-width="2"/>
+  <line x1="135" y1="180" x2="665" y2="180" stroke="#64748b" stroke-width="2"/>
+  <line x1="135" y1="180" x2="135" y2="215" stroke="#64748b" stroke-width="2"/>
+  <line x1="400" y1="180" x2="400" y2="215" stroke="#64748b" stroke-width="2"/>
+  <line x1="665" y1="180" x2="665" y2="215" stroke="#64748b" stroke-width="2"/>
+  <!-- Right: margin -->
+  <rect x="545" y="215" width="240" height="110" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="665" y="248" text-anchor="middle" direction="rtl" font-size="17" font-weight="bold" fill="#14532d">حاشیه سود خالص</text>
+  <text x="665" y="276" text-anchor="middle" direction="rtl" font-size="14" fill="#1f2937">سود خالص ÷ فروش</text>
+  <text x="665" y="304" text-anchor="middle" direction="rtl" font-size="14" fill="#166534">سودآوری</text>
+  <!-- multiply signs -->
+  <text x="525" y="278" text-anchor="middle" font-size="26" font-weight="bold" fill="#475569">×</text>
+  <text x="275" y="278" text-anchor="middle" font-size="26" font-weight="bold" fill="#475569">×</text>
+  <!-- Middle: turnover -->
+  <rect x="295" y="215" width="210" height="110" rx="10" fill="#fef9c3" stroke="#ca8a04" stroke-width="2"/>
+  <text x="400" y="248" text-anchor="middle" direction="rtl" font-size="17" font-weight="bold" fill="#713f12">گردش دارایی</text>
+  <text x="400" y="276" text-anchor="middle" direction="rtl" font-size="14" fill="#1f2937">فروش ÷ میانگین دارایی‌ها</text>
+  <text x="400" y="304" text-anchor="middle" direction="rtl" font-size="14" fill="#854d0e">کارایی</text>
+  <!-- Left: leverage -->
+  <rect x="15" y="215" width="240" height="110" rx="10" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="135" y="248" text-anchor="middle" direction="rtl" font-size="17" font-weight="bold" fill="#7f1d1d">ضریب اهرم مالی</text>
+  <text x="135" y="272" text-anchor="middle" direction="rtl" font-size="14" fill="#1f2937">میانگین دارایی‌ها ÷</text>
+  <text x="135" y="292" text-anchor="middle" direction="rtl" font-size="14" fill="#1f2937">میانگین حقوق صاحبان سهام</text>
+  <text x="135" y="314" text-anchor="middle" direction="rtl" font-size="14" fill="#991b1b">اتکا به بدهی</text>
+  <!-- footer example -->
+  <text x="580" y="365" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">شرکت الف: ۱۰ درصد × ۱٫۰ × ۱٫۵ = ۱۵ درصد</text>
+  <text x="220" y="365" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">شرکت ب: ۳ درصد × ۲٫۵ × ۲٫۰ = ۱۵ درصد</text>
+  <text x="400" y="398" text-anchor="middle" direction="rtl" font-size="13" fill="#6b7280">ROE یکسان، مدل کسب‌وکار و ریسک متفاوت</text>
+</svg>

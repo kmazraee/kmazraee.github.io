@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="440" viewBox="0 0 800 440" font-family="sans-serif">
+  <rect width="800" height="440" fill="#ffffff"/>
+  <text x="400" y="38" text-anchor="middle" direction="rtl" font-size="20" font-weight="bold" fill="#1f2937">از جریان نقد عملیاتی تا نقد واقعاً آزاد (میلیارد ریال)</text>
+  <line x1="60" y1="360" x2="760" y2="360" stroke="#9ca3af" stroke-width="1"/>
+  <!-- scale: 100 units = 250px ; base y=360 -->
+  <!-- Bars from right to left (RTL reading) -->
+  <!-- OCF 100 -->
+  <rect x="630" y="110" width="100" height="250" fill="#2563eb" rx="3"/>
+  <text x="680" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">۱۰۰</text>
+  <text x="680" y="385" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">جریان نقد</text>
+  <text x="680" y="405" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">عملیاتی</text>
+  <!-- CapEx -40 -->
+  <rect x="490" y="110" width="100" height="100" fill="#dc2626" rx="3"/>
+  <line x1="590" y1="110" x2="630" y2="110" stroke="#9ca3af" stroke-dasharray="4 3"/>
+  <text x="540" y="100" text-anchor="middle" font-size="18" font-weight="bold" fill="#dc2626">−۴۰</text>
+  <text x="540" y="385" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">مخارج</text>
+  <text x="540" y="405" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">سرمایه‌ای</text>
+  <!-- FCF 60 -->
+  <rect x="350" y="210" width="100" height="150" fill="#f59e0b" rx="3"/>
+  <line x1="450" y1="210" x2="490" y2="210" stroke="#9ca3af" stroke-dasharray="4 3"/>
+  <text x="400" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">۶۰</text>
+  <text x="400" y="385" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">جریان نقد آزاد</text>
+  <text x="400" y="405" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">(هنوز بدهکار)</text>
+  <!-- Debt -30 -->
+  <rect x="210" y="210" width="100" height="75" fill="#dc2626" rx="3"/>
+  <line x1="310" y1="210" x2="350" y2="210" stroke="#9ca3af" stroke-dasharray="4 3"/>
+  <text x="260" y="200" text-anchor="middle" font-size="18" font-weight="bold" fill="#dc2626">−۳۰</text>
+  <text x="260" y="385" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">بازپرداخت</text>
+  <text x="260" y="405" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">اصل وام</text>
+  <!-- FCFE 30 -->
+  <rect x="70" y="285" width="100" height="75" fill="#16a34a" rx="3"/>
+  <line x1="170" y1="285" x2="210" y2="285" stroke="#9ca3af" stroke-dasharray="4 3"/>
+  <text x="120" y="275" text-anchor="middle" font-size="18" font-weight="bold" fill="#16a34a">۳۰</text>
+  <text x="120" y="385" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">نقد آزاد</text>
+  <text x="120" y="405" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">سهام‌داران (FCFE)</text>
+</svg>

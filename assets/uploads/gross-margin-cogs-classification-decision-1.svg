@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="38" text-anchor="middle" direction="rtl" font-size="22" font-weight="bold" fill="#1f2937">یک شرکت، سه حاشیه سود ناخالص</text>
+  <text x="400" y="66" text-anchor="middle" direction="rtl" font-size="14" fill="#6b7280">درآمد ۵۰ میلیون دلار؛ EBITDA در هر سه حالت ۶ میلیون دلار</text>
+  <line x1="80" y1="310" x2="740" y2="310" stroke="#9ca3af"/>
+  <!-- scale: 100% = 220px from y=310 -->
+  <rect x="560" y="116.4" width="140" height="193.6" fill="#3b82f6"/>
+  <text x="630" y="106" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">۸۸٪</text>
+  <text x="630" y="335" text-anchor="middle" direction="rtl" font-size="15" fill="#1f2937">مرز تهاجمی</text>
+  <text x="630" y="357" text-anchor="middle" direction="rtl" font-size="13" fill="#6b7280">بهای تمام‌شده: ۶</text>
+  <rect x="330" y="134" width="140" height="176" fill="#22c55e"/>
+  <text x="400" y="124" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">۸۰٪</text>
+  <text x="400" y="335" text-anchor="middle" direction="rtl" font-size="15" fill="#1f2937">مرز مستند</text>
+  <text x="400" y="357" text-anchor="middle" direction="rtl" font-size="13" fill="#6b7280">بهای تمام‌شده: ۱۰</text>
+  <rect x="100" y="147.2" width="140" height="162.8" fill="#f59e0b"/>
+  <text x="170" y="137" text-anchor="middle" font-size="20" font-weight="bold" fill="#1f2937">۷۴٪</text>
+  <text x="170" y="335" text-anchor="middle" direction="rtl" font-size="15" fill="#1f2937">مرز محافظه‌کارانه</text>
+  <text x="170" y="357" text-anchor="middle" direction="rtl" font-size="13" fill="#6b7280">بهای تمام‌شده: ۱۳</text>
+</svg>
