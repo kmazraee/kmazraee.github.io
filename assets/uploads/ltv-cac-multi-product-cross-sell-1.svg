@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="sans-serif">
+  <rect width="800" height="460" fill="#ffffff"/>
+  <text x="400" y="38" font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle" direction="rtl">هزینه جذب جمعی، ارزش طول عمر ضربی</text>
+  <text x="400" y="64" font-size="14" fill="#6b7280" text-anchor="middle" direction="rtl">مثال فرضی: با افزایش تعداد محصول برای یک مشتری</text>
+  <!-- axes: plot area x 110..690, y 100..380; value 0..1200 -> 380..100 -->
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="110" y1="380" x2="645" y2="380"/>
+    <line x1="110" y1="310" x2="645" y2="310"/>
+    <line x1="110" y1="240" x2="645" y2="240"/>
+    <line x1="110" y1="170" x2="645" y2="170"/>
+    <line x1="110" y1="100" x2="645" y2="100"/>
+  </g>
+  <g font-size="13" fill="#6b7280" text-anchor="end">
+    <text x="100" y="384">۰</text><text x="100" y="314">۳۰۰</text><text x="100" y="244">۶۰۰</text><text x="100" y="174">۹۰۰</text><text x="100" y="104">۱۲۰۰</text>
+  </g>
+  <g font-size="14" fill="#374151" text-anchor="middle" direction="rtl">
+    <text x="190" y="404">یک محصول</text><text x="400" y="404">دو محصول</text><text x="610" y="404">سه محصول</text>
+  </g>
+  <!-- LTV: 300,650,1100 -> y=310,228.3,123.3 -->
+  <polyline points="190,310 400,228.3 610,123.3" fill="none" stroke="#2563eb" stroke-width="4"/>
+  <g fill="#2563eb"><circle cx="190" cy="310" r="6"/><circle cx="400" cy="228.3" r="6"/><circle cx="610" cy="123.3" r="6"/></g>
+  <g font-size="14" fill="#1d4ed8" text-anchor="middle" font-weight="bold">
+    <text x="190" y="296">۳۰۰</text><text x="400" y="214">۶۵۰</text><text x="610" y="111">۱۱۰۰</text>
+  </g>
+  <!-- CAC: 100,120,140 -> y=356.7,352,347.3 -->
+  <polyline points="190,356.7 400,352 610,347.3" fill="none" stroke="#dc2626" stroke-width="4"/>
+  <g fill="#dc2626"><circle cx="190" cy="356.7" r="6"/><circle cx="400" cy="352" r="6"/><circle cx="610" cy="347.3" r="6"/></g>
+  <g font-size="14" fill="#b91c1c" text-anchor="middle" font-weight="bold">
+    <text x="190" y="342">۱۰۰</text><text x="400" y="338">۱۲۰</text><text x="610" y="333">۱۴۰</text>
+  </g>
+  <!-- ratio badges -->
+  <g font-size="13" fill="#374151" text-anchor="middle" direction="rtl">
+    <text x="190" y="430">نسبت ۳٫۰</text><text x="400" y="430">نسبت ۵٫۴</text><text x="610" y="430">نسبت ۷٫۹</text>
+  </g>
+  <!-- legend (right side) -->
+  <g font-size="14" fill="#374151" text-anchor="start" direction="rtl">
+    <rect x="770" y="120" width="16" height="16" fill="#2563eb"/>
+    <text x="760" y="133">ارزش طول عمر</text>
+    <rect x="770" y="150" width="16" height="16" fill="#dc2626"/>
+    <text x="760" y="163">هزینه جذب</text>
+    <text x="760" y="185">تجمعی</text>
+  </g>
+</svg>

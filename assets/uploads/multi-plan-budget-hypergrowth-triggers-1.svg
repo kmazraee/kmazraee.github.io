@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" font-family="sans-serif">
+  <rect width="800" height="450" fill="#ffffff"/>
+  <text x="400" y="34" direction="rtl" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">سه مسیر بودجه و محرک‌های آزادسازی هزینه</text>
+  <line x1="80" y1="380" x2="620" y2="380" stroke="#9ca3af" stroke-width="1.5"/>
+  <line x1="80" y1="380" x2="80" y2="60" stroke="#9ca3af" stroke-width="1.5"/>
+  <text x="70" y="70" direction="rtl" text-anchor="end" font-size="14" fill="#4b5563" transform="rotate(-90 70 70)">ARR</text>
+  <text x="80" y="402" text-anchor="middle" font-size="14" fill="#4b5563">شروع</text>
+  <text x="215" y="402" direction="rtl" text-anchor="middle" font-size="14" fill="#4b5563">فصل ۱</text>
+  <text x="350" y="402" direction="rtl" text-anchor="middle" font-size="14" fill="#4b5563">فصل ۲</text>
+  <text x="485" y="402" direction="rtl" text-anchor="middle" font-size="14" fill="#4b5563">فصل ۳</text>
+  <text x="620" y="402" direction="rtl" text-anchor="middle" font-size="14" fill="#4b5563">فصل ۴</text>
+  <!-- rails -->
+  <path d="M80 330 L620 90" stroke="#16a34a" stroke-width="3" fill="none"/>
+  <path d="M80 330 L620 170" stroke="#2563eb" stroke-width="3" fill="none"/>
+  <path d="M80 330 L620 250" stroke="#64748b" stroke-width="3" fill="none"/>
+  <!-- actual -->
+  <path d="M80 330 L130 320 L170 302 L215 300 L260 280 L300 262 L350 255 L390 240 L430 205 L485 190" stroke="#f59e0b" stroke-width="3" stroke-dasharray="7 5" fill="none"/>
+  <!-- triggers -->
+  <circle cx="215" cy="300" r="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <circle cx="350" cy="255" r="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="215" y="330" direction="rtl" text-anchor="middle" font-size="13" fill="#1f2937">محرک ۱</text>
+  <text x="345" y="238" direction="rtl" text-anchor="middle" font-size="13" fill="#1f2937">محرک ۲</text>
+  <!-- legend -->
+  <text x="775" y="95" direction="rtl" text-anchor="start" font-size="16" fill="#16a34a" font-weight="bold">برنامه‌ی بالا</text>
+  <text x="775" y="117" direction="rtl" text-anchor="start" font-size="13" fill="#374151">آزاد با محرک ۲</text>
+  <text x="775" y="175" direction="rtl" text-anchor="start" font-size="16" fill="#2563eb" font-weight="bold">برنامه‌ی میانه</text>
+  <text x="775" y="197" direction="rtl" text-anchor="start" font-size="13" fill="#374151">آزاد با محرک ۱</text>
+  <text x="775" y="255" direction="rtl" text-anchor="start" font-size="16" fill="#64748b" font-weight="bold">برنامه‌ی پایه</text>
+  <text x="775" y="277" direction="rtl" text-anchor="start" font-size="13" fill="#374151">نقطه‌ی شروع سال</text>
+  <text x="775" y="335" direction="rtl" text-anchor="start" font-size="16" fill="#d97706" font-weight="bold">مسیر واقعی</text>
+  <text x="775" y="357" direction="rtl" text-anchor="start" font-size="13" fill="#374151">هر ماه جانمایی می‌شود</text>
+  <text x="400" y="435" direction="rtl" text-anchor="middle" font-size="15" fill="#4b5563">با عبور از هر محرک، بودجه‌ی ازپیش‌تصویب‌شده‌ی مسیر بالاتر آزاد می‌شود</text>
+</svg>
