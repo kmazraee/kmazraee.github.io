@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+<rect width="800" height="380" fill="#ffffff"/>
+<text x="400" y="40" font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle" direction="rtl">کارهای بستن پایان سال را جلو بیندازید</text>
+<rect x="560" y="70" width="220" height="250" rx="12" fill="#e0e7ff"/>
+<text x="670" y="104" font-size="18" font-weight="bold" fill="#3730a3" text-anchor="middle" direction="rtl">طول سال</text>
+<circle cx="760" cy="145" r="4" fill="#3730a3"/>
+<text x="748" y="150" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">مرور بستن سال قبل</text>
+<circle cx="760" cy="185" r="4" fill="#3730a3"/>
+<text x="748" y="190" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">تطبیق ماهانه حساب‌ها</text>
+<circle cx="760" cy="225" r="4" fill="#3730a3"/>
+<text x="748" y="230" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">مرور ماهانه‌ی برآوردها</text>
+<circle cx="760" cy="265" r="4" fill="#3730a3"/>
+<text x="748" y="270" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">پایش کاهش ارزش</text>
+<rect x="300" y="70" width="220" height="250" rx="12" fill="#fef3c7"/>
+<text x="410" y="104" font-size="18" font-weight="bold" fill="#92400e" text-anchor="middle" direction="rtl">ماه یکی مانده به آخر</text>
+<circle cx="500" cy="145" r="4" fill="#92400e"/>
+<text x="488" y="150" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">محاسبه‌ی ذخایر</text>
+<circle cx="500" cy="185" r="4" fill="#92400e"/>
+<text x="488" y="190" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">برآورد اقلام تعهدی</text>
+<circle cx="500" cy="225" r="4" fill="#92400e"/>
+<text x="488" y="230" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">آزمون کاهش ارزش</text>
+<circle cx="500" cy="265" r="4" fill="#92400e"/>
+<text x="488" y="270" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">مستندسازی برای حسابرس</text>
+<rect x="40" y="70" width="220" height="250" rx="12" fill="#dcfce7"/>
+<text x="150" y="104" font-size="18" font-weight="bold" fill="#166534" text-anchor="middle" direction="rtl">ماه آخر</text>
+<circle cx="240" cy="145" r="4" fill="#166534"/>
+<text x="228" y="150" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">تعدیل‌های جزئی</text>
+<circle cx="240" cy="185" r="4" fill="#166534"/>
+<text x="228" y="190" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">بازبینی تراکنش‌های بزرگ</text>
+<circle cx="240" cy="225" r="4" fill="#166534"/>
+<text x="228" y="230" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">تکمیل تطبیق‌ها</text>
+<circle cx="240" cy="265" r="4" fill="#166534"/>
+<text x="228" y="270" font-size="15" font-weight="normal" fill="#1f2937" text-anchor="start" direction="rtl">بستن و گزارش</text>
+<polygon points="278,195 288,187 288,203" fill="#6b7280"/>
+<polygon points="538,195 548,187 548,203" fill="#6b7280"/>
+<text x="400" y="355" font-size="15" font-weight="normal" fill="#4b5563" text-anchor="middle" direction="rtl">هرچه کار بیشتری پیش از ماه آخر انجام شود، بستن آرام‌تر است</text>
+</svg>

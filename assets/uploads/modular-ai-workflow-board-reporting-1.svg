@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="586" viewBox="0 0 800 586" font-family="sans-serif">
+<rect width="800" height="586" fill="#ffffff"/>
+<text x="400" y="45" font-size="24" font-weight="bold" text-anchor="middle" direction="rtl" fill="#1f2937">نقشه‌ی گردش کار گزارش هیئت‌مدیره</text>
+<rect x="40" y="80" width="720" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="730" cy="103" r="15" fill="#2563eb"/><text x="730" y="109" font-size="16" fill="#fff" text-anchor="middle">۱</text>
+<text x="700" y="109" font-size="18" text-anchor="start" direction="rtl" fill="#111827">استخراج داده از سیستم‌ها</text>
+<text x="60" y="109" font-size="14" text-anchor="end" direction="rtl" fill="#2563eb">قطعی: قفل با فرمول، کد یا اتوماسیون</text>
+<rect x="40" y="138" width="720" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="730" cy="161" r="15" fill="#2563eb"/><text x="730" y="167" font-size="16" fill="#fff" text-anchor="middle">۲</text>
+<text x="700" y="167" font-size="18" text-anchor="start" direction="rtl" fill="#111827">بررسی بسته‌شدن ماه و تطبیق حساب‌ها</text>
+<text x="60" y="167" font-size="14" text-anchor="end" direction="rtl" fill="#2563eb">قطعی: قفل با فرمول، کد یا اتوماسیون</text>
+<rect x="40" y="196" width="720" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="730" cy="219" r="15" fill="#2563eb"/><text x="730" y="225" font-size="16" fill="#fff" text-anchor="middle">۳</text>
+<text x="700" y="225" font-size="18" text-anchor="start" direction="rtl" fill="#111827">مقایسه‌ی واقعی با بودجه</text>
+<text x="60" y="225" font-size="14" text-anchor="end" direction="rtl" fill="#2563eb">قطعی: قفل با فرمول، کد یا اتوماسیون</text>
+<rect x="40" y="254" width="720" height="46" rx="10" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+<circle cx="730" cy="277" r="15" fill="#d97706"/><text x="730" y="283" font-size="16" fill="#fff" text-anchor="middle">۴</text>
+<text x="700" y="283" font-size="18" text-anchor="start" direction="rtl" fill="#111827">نوشتن تفسیر انحراف‌ها</text>
+<text x="60" y="283" font-size="14" text-anchor="end" direction="rtl" fill="#d97706">قضاوتی: قواعد فکر کردن به مدل</text>
+<rect x="40" y="312" width="720" height="46" rx="10" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+<circle cx="730" cy="335" r="15" fill="#d97706"/><text x="730" y="341" font-size="16" fill="#fff" text-anchor="middle">۵</text>
+<text x="700" y="341" font-size="18" text-anchor="start" direction="rtl" fill="#111827">یافتن صورت‌جلسه‌ها و ایمیل‌های مرتبط</text>
+<text x="60" y="341" font-size="14" text-anchor="end" direction="rtl" fill="#d97706">قضاوتی: قواعد فکر کردن به مدل</text>
+<rect x="40" y="370" width="720" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="730" cy="393" r="15" fill="#2563eb"/><text x="730" y="399" font-size="16" fill="#fff" text-anchor="middle">۶</text>
+<text x="700" y="399" font-size="18" text-anchor="start" direction="rtl" fill="#111827">ساخت اسلاید با قالب سازمانی</text>
+<text x="60" y="399" font-size="14" text-anchor="end" direction="rtl" fill="#2563eb">قطعی: قفل با فرمول، کد یا اتوماسیون</text>
+<rect x="40" y="428" width="720" height="46" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<circle cx="730" cy="451" r="15" fill="#2563eb"/><text x="730" y="457" font-size="16" fill="#fff" text-anchor="middle">۷</text>
+<text x="700" y="457" font-size="18" text-anchor="start" direction="rtl" fill="#111827">تطبیق اعداد اسلاید با سیستم</text>
+<text x="60" y="457" font-size="14" text-anchor="end" direction="rtl" fill="#2563eb">قطعی: قفل با فرمول، کد یا اتوماسیون</text>
+<rect x="560" y="496" width="22" height="22" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="550" y="513" font-size="16" text-anchor="start" direction="rtl" fill="#1f2937">۵ مرحله‌ی قطعی</text>
+<rect x="300" y="496" width="22" height="22" fill="#fde68a" stroke="#d97706" stroke-width="2"/><text x="290" y="513" font-size="16" text-anchor="start" direction="rtl" fill="#1f2937">۲ مرحله‌ی قضاوتی</text>
+</svg>

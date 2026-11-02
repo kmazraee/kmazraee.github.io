@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="380" viewBox="0 0 800 380" font-family="sans-serif">
+<rect width="800" height="380" fill="#ffffff"/>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<text x="400.0" y="40" font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle" direction="rtl">هشت لایه‌ی فرایند Quote to Cash</text>
+<rect x="610" y="90" width="160" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="690.0" y="118" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۱</text>
+<text x="690.0" y="142" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">قیمت‌گذاری و بسته‌بندی</text>
+<line x1="608" y1="125.0" x2="581" y2="125.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="417" y="90" width="160" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="497.0" y="118" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۲</text>
+<text x="497.0" y="142" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">پیش‌فاکتور</text>
+<line x1="415" y1="125.0" x2="388" y2="125.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="224" y="90" width="160" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="304.0" y="118" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۳</text>
+<text x="304.0" y="142" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">قرارداد</text>
+<line x1="222" y1="125.0" x2="195" y2="125.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="31" y="90" width="160" height="70" rx="10" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/>
+<text x="111.0" y="118" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۴</text>
+<text x="111.0" y="142" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">دسترسی و مجوزها</text>
+<rect x="610" y="230" width="160" height="70" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+<text x="690.0" y="258" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۵</text>
+<text x="690.0" y="282" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">صدور صورتحساب</text>
+<line x1="608" y1="265.0" x2="581" y2="265.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="417" y="230" width="160" height="70" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+<text x="497.0" y="258" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۶</text>
+<text x="497.0" y="282" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">مالیات</text>
+<line x1="415" y1="265.0" x2="388" y2="265.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="224" y="230" width="160" height="70" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+<text x="304.0" y="258" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۷</text>
+<text x="304.0" y="282" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">وصول مطالبات</text>
+<line x1="222" y1="265.0" x2="195" y2="265.0" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<rect x="31" y="230" width="160" height="70" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-width="2"/>
+<text x="111.0" y="258" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">۸</text>
+<text x="111.0" y="282" font-size="14" fill="#111827" text-anchor="middle" direction="rtl">شناسایی درآمد</text>
+<path d="M111.0,162 V190 H690.0 V224" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+<text x="400.0" y="345" font-size="15" fill="#2563eb" text-anchor="middle" direction="rtl">لایه‌های آبی: موضوع این نوشته (بالادست فرایند)</text>
+</svg>

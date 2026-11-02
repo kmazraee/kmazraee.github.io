@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" font-family="sans-serif">
+<rect width="800" height="560" fill="#ffffff"/>
+<text x="400.0" y="40" font-size="22" font-weight="bold" fill="#1f2937" text-anchor="middle" direction="rtl">رشد، سود و ضریبی که بازار به کار می‌برد</text>
+<rect x="439.0" y="84" width="317.0" height="187.0" rx="10" fill="#dcfce7"/>
+<text x="597.5" y="169.5" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle" direction="rtl">رشد بالا + سود بالا</text>
+<text x="597.5" y="199.5" font-size="15" fill="#374151" text-anchor="middle" direction="rtl">بهترین حالت؛ هر دو ضریب بالا</text>
+<rect x="114" y="84" width="317.0" height="187.0" rx="10" fill="#dbeafe"/>
+<text x="272.5" y="169.5" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle" direction="rtl">رشد ۳۰٪ به بالا + زیان</text>
+<text x="272.5" y="199.5" font-size="15" fill="#374151" text-anchor="middle" direction="rtl">ضریب درآمد؛ مسیر رشد خریده می‌شود</text>
+<rect x="439.0" y="279.0" width="317.0" height="187.0" rx="10" fill="#fef3c7"/>
+<text x="597.5" y="364.5" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle" direction="rtl">رشد کند + سود</text>
+<text x="597.5" y="394.5" font-size="15" fill="#374151" text-anchor="middle" direction="rtl">ضریب EBITDA؛ نقد امروز خریده می‌شود</text>
+<rect x="114" y="279.0" width="317.0" height="187.0" rx="10" fill="#fee2e2"/>
+<text x="272.5" y="364.5" font-size="18" font-weight="bold" fill="#111827" text-anchor="middle" direction="rtl">رشد کند + زیان</text>
+<text x="272.5" y="394.5" font-size="15" fill="#374151" text-anchor="middle" direction="rtl">۱ تا ۲ برابر درآمد؛ ارزش دارایی</text>
+<rect x="365.0" y="249.0" width="140" height="52" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="435.0" y="271.0" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle" direction="rtl">منطقه‌ی دشوار</text>
+<text x="435.0" y="291.0" font-size="12" fill="#dc2626" text-anchor="middle" direction="rtl">رشد ۲۰–۳۰٪، سود ناچیز</text>
+<line x1="110" y1="482" x2="760" y2="482" stroke="#6b7280" stroke-width="2"/>
+<text x="760" y="510" font-size="14" fill="#374151" text-anchor="end">سود بیشتر</text>
+<text x="110" y="510" font-size="14" fill="#374151" text-anchor="start">زیان</text>
+<text x="435.0" y="510" font-size="15" font-weight="bold" fill="#374151" text-anchor="middle" direction="rtl">حاشیه‌ی سود EBITDA</text>
+<line x1="96" y1="80" x2="96" y2="470" stroke="#6b7280" stroke-width="2"/>
+<text transform="translate(80,275.0) rotate(-90)" font-size="15" font-weight="bold" fill="#374151" text-anchor="middle" direction="rtl">نرخ رشد درآمد</text>
+<text x="70" y="94" font-size="13" fill="#374151" text-anchor="middle">بالا</text>
+<text x="70" y="470" font-size="13" fill="#374151" text-anchor="middle">کند</text>
+</svg>

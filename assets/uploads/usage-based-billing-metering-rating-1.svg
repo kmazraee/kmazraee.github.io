@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="sans-serif">
+  <rect width="800" height="300" fill="#ffffff"/>
+  <text x="400" y="38" text-anchor="middle" direction="rtl" font-size="22" font-weight="bold" fill="#1f2937">زنجیره‌ی صورتحساب مبتنی بر مصرف</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <g font-size="17" fill="#1f2937">
+    <rect x="650" y="90" width="130" height="80" rx="10" fill="#dbeafe" stroke="#3b82f6"/>
+    <text x="715" y="125" text-anchor="middle" direction="rtl" font-weight="bold">۱. رویداد محصول</text>
+    <text x="715" y="152" text-anchor="middle" direction="rtl" font-size="13">کار قابل شمارش</text>
+    <rect x="495" y="90" width="130" height="80" rx="10" fill="#dcfce7" stroke="#22c55e"/>
+    <text x="560" y="125" text-anchor="middle" direction="rtl" font-weight="bold">۲. اندازه‌گیری</text>
+    <text x="560" y="152" text-anchor="middle" direction="rtl" font-size="13">رکورد مصرف</text>
+    <rect x="340" y="90" width="130" height="80" rx="10" fill="#fef9c3" stroke="#eab308"/>
+    <text x="405" y="125" text-anchor="middle" direction="rtl" font-weight="bold">۳. نرخ‌گذاری</text>
+    <text x="405" y="152" text-anchor="middle" direction="rtl" font-size="13">تبدیل به مبلغ</text>
+    <rect x="185" y="90" width="130" height="80" rx="10" fill="#fde68a" stroke="#d97706"/>
+    <text x="250" y="125" text-anchor="middle" direction="rtl" font-weight="bold">۴. فاکتور</text>
+    <text x="250" y="152" text-anchor="middle" direction="rtl" font-size="13">صدور صورتحساب</text>
+    <rect x="30" y="90" width="130" height="80" rx="10" fill="#ede9fe" stroke="#8b5cf6"/>
+    <text x="95" y="125" text-anchor="middle" direction="rtl" font-weight="bold">۵. سیستم مالی</text>
+    <text x="95" y="152" text-anchor="middle" direction="rtl" font-size="13">ثبت و تطبیق</text>
+  </g>
+  <g stroke="#6b7280" stroke-width="2" marker-end="url(#a)">
+    <line x1="648" y1="130" x2="629" y2="130"/>
+    <line x1="493" y1="130" x2="474" y2="130"/>
+    <line x1="338" y1="130" x2="319" y2="130"/>
+    <line x1="183" y1="130" x2="164" y2="130"/>
+  </g>
+  <rect x="340" y="210" width="440" height="56" rx="10" fill="#f3f4f6" stroke="#9ca3af" stroke-dasharray="6 4"/>
+  <text x="560" y="244" text-anchor="middle" direction="rtl" font-size="15" fill="#374151">دسترسی‌ها: چه کسی به کدام بخش محصول دسترسی دارد</text>
+  <text x="170" y="244" text-anchor="middle" direction="rtl" font-size="14" fill="#6b7280">ساختن یا خریدن: حلقه‌های ۲ و ۳</text>
+</svg>
