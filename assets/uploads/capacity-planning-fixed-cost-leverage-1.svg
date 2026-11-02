@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="460" viewBox="0 0 800 460" font-family="sans-serif">
+  <rect width="800" height="460" fill="#ffffff"/>
+  <text x="400" y="40" direction="rtl" text-anchor="middle" font-size="22" font-weight="bold" fill="#1f2937">اهرم هزینه ثابت: هزینه ثابت هر دستگاه</text>
+  <text x="400" y="68" direction="rtl" text-anchor="middle" font-size="15" fill="#6b7280">مثال فرضی؛ افزودن محصول جدید به همان کارخانه</text>
+  <line x1="120" y1="380" x2="680" y2="380" stroke="#9ca3af" stroke-width="2"/>
+  <!-- bar 1 (right in RTL reading order) -->
+  <rect x="460" y="90" width="160" height="290" fill="#9ca3af" rx="4"/>
+  <text x="540" y="122" direction="rtl" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">۱۵٬۰۰۰ دلار</text>
+  <text x="540" y="406" direction="rtl" text-anchor="middle" font-size="16" fill="#1f2937">پیش از محصول جدید</text>
+  <text x="540" y="430" direction="rtl" text-anchor="middle" font-size="14" fill="#6b7280">۸۰ هزار دستگاه، ۱٬۲۰۰ میلیون دلار</text>
+  <!-- bar 2 -->
+  <rect x="180" y="245" width="160" height="135" fill="#2563eb" rx="4"/>
+  <text x="260" y="280" direction="rtl" text-anchor="middle" font-size="20" font-weight="bold" fill="#ffffff">۷٬۰۰۰ دلار</text>
+  <text x="260" y="406" direction="rtl" text-anchor="middle" font-size="16" fill="#1f2937">پس از محصول جدید</text>
+  <text x="260" y="430" direction="rtl" text-anchor="middle" font-size="14" fill="#6b7280">۲۰۰ هزار دستگاه، ۱٬۴۰۰ میلیون دلار</text>
+  <text x="395" y="185" direction="rtl" text-anchor="middle" font-size="15" fill="#16a34a" font-weight="bold">کاهش بیش از ۵۰٪</text>
+  <path d="M 445 205 L 355 235" stroke="#16a34a" stroke-width="2.5" fill="none"/>
+  <path d="M 355 235 L 370 224 M 355 235 L 371 238" stroke="#16a34a" stroke-width="2.5" fill="none"/>
+</svg>
