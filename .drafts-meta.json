@@ -132,10 +132,15 @@
     "keyword": "واحد مالی آشفته"
   },
   {
-    "file": "_posts/2026-07-02-standard-cost-governance-three-buckets.md",
+    "file": "_posts/2026-07-02-commodity-standard-cost-governance-surcharge.md",
     "thread_id": "1a0810daabca0380",
+    "thread_ids": [
+      "1a0810daabca0380",
+      "1a0ed339562403ee",
+      "1a1354c84a6622be"
+    ],
     "source_label": "Secret CFO",
-    "keyword": "حاکمیت هزینه استاندارد"
+    "keyword": "هزینه استاندارد کالای پرنوسان"
   },
   {
     "file": "_posts/2026-07-04-finance-repair-mode-five-part-model.md",
@@ -144,31 +149,19 @@
     "keyword": "حالت ترمیم واحد مالی"
   },
   {
-    "file": "_posts/2026-07-06-copper-standard-cost-commodity-variance.md",
-    "thread_id": "1a0ed339562403ee",
-    "source_label": "Secret CFO",
-    "keyword": "هزینه استاندارد کالای پرنوسان"
-  },
-  {
-    "file": "_posts/2026-07-08-cfo-four-operating-modes-4e.md",
+    "file": "_posts/2026-07-06-cfo-four-operating-modes-4e.md",
     "thread_id": "1a125d97048bd35a",
     "source_label": "Secret CFO",
     "keyword": "چهار حالت کاری مدیر مالی"
   },
   {
-    "file": "_posts/2026-07-10-commodity-surcharge-gross-profit-dilution.md",
-    "thread_id": "1a1354c84a6622be",
-    "source_label": "Secret CFO",
-    "keyword": "سورچارژ مواد اولیه"
-  },
-  {
-    "file": "_posts/2026-07-12-cfo-operating-rhythm-five-steps.md",
+    "file": "_posts/2026-07-08-cfo-operating-rhythm-five-steps.md",
     "thread_id": "1a149e5af5d03d90",
     "source_label": "Secret CFO",
     "keyword": "ریتم عملیاتی مدیر مالی"
   },
   {
-    "file": "_posts/2026-07-14-ai-tech-spend-metering-framework.md",
+    "file": "_posts/2026-07-10-ai-tech-spend-metering-framework.md",
     "thread_id": "1a159595d9a5a838",
     "source_label": "Secret CFO",
     "keyword": "هزینه‌ی فناوری و هوش مصنوعی"
