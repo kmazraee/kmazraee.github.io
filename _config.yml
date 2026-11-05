@@ -30,3 +30,6 @@ defaults:
     values: { layout: post }
   - scope: { path: "" }
     values: { layout: default }
+
+# Publish posts dated in the future (scheduled series)
+future: true
