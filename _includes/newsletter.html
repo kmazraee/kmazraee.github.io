@@ -1,4 +1,5 @@
 {%- comment -%}Newsletter signup. With kit_form_id set in _config.yml the form posts to Kit; with newsletter_action set it posts to that service; without either, the reader's mail app opens a ready subscription email.{%- endcomment -%}
+{%- if site.kit_form_id != "" or site.newsletter_action != "" or site.email != "" %}
 <section class="card newsletter" aria-labelledby="nl-title">
   <div class="newsletter-text">
     <h2 id="nl-title">یادداشت تازه را با ایمیل بگیرید</h2>
@@ -25,3 +26,4 @@
   </form>
   {%- endif %}
 </section>
+{%- endif %}

@@ -18,5 +18,5 @@
     <a href="{{ item.url | relative_url }}"{% if key == here %} aria-current="page"{% endif %}><span>{% include fa.html n=forloop.index %}</span>{{ item.title }}</a>
     {%- endfor -%}
   </div>
-  <a class="menu-mail" href="mailto:{{ site.email }}"><span>ایمیل</span><b dir="ltr">{{ site.email }}</b></a>
+  {% if site.email != "" %}<a class="menu-mail" href="mailto:{{ site.email }}"><span>ایمیل</span><b dir="ltr">{{ site.email }}</b></a>{% endif %}
 </div>

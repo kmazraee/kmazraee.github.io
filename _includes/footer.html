@@ -1,4 +1,4 @@
 <footer class="foot">
-  <span class="links"><a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>{% if site.linkedin != "" %}<a href="{{ site.linkedin }}">لینکدین</a>{% endif %}{% if site.telegram != "" %}<a href="{{ site.telegram }}">تلگرام</a>{% endif %}</span>
+  <span class="links">{% if site.email != "" %}<a href="mailto:{{ site.email }}" dir="ltr">{{ site.email }}</a>{% endif %}{% if site.linkedin != "" %}<a href="{{ site.linkedin }}">لینکدین</a>{% endif %}{% if site.telegram != "" %}<a href="{{ site.telegram }}">تلگرام</a>{% endif %}</span>
   <span class="who">© {{ site.author }}، از ۱۴۰۲ تاکنون</span>
 </footer>

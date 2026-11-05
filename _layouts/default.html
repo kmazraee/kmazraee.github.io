@@ -52,7 +52,7 @@
 </script>
 {% elsif page.url == '/' %}
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"fa","author":{"@type":"Person","name":{{ site.author | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"email":{{ site.email | prepend: 'mailto:' | jsonify }}}}
+{"@context":"https://schema.org","@type":"WebSite","name":{{ site.title | jsonify }},"description":{{ site.description | jsonify }},"url":{{ '/' | absolute_url | jsonify }},"inLanguage":"fa","author":{"@type":"Person","name":{{ site.author | jsonify }},"url":{{ '/' | absolute_url | jsonify }}{% if site.email != "" %},"email":{{ site.email | prepend: 'mailto:' | jsonify }}{% endif %}}}
 </script>
 {% endif %}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f3a5f'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23fff' font-family='sans-serif' font-weight='700'%3E%D8%B9%3C/text%3E%3C/svg%3E">

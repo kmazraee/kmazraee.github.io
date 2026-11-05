@@ -142,9 +142,6 @@ textarea.input{min-height:160px;resize:vertical}
 .topics a{padding:8px 14px;border-radius:12px;background:var(--bg);color:var(--ink);font-size:14px;text-decoration:none}
 .topics a:hover{color:var(--accent)}
 .topics b{margin-inline-start:4px}
-.contact-card{display:flex;flex-direction:column;gap:12px}
-.contact-card h2{font-size:18px}
-.contact-card p{margin:0;font-size:14px;color:var(--muted)}
 
 /* page heads and lists */
 .page-head{display:flex;flex-direction:column;gap:8px}
@@ -246,7 +243,6 @@ textarea.input{min-height:160px;resize:vertical}
 .contact h1{font-size:36px;line-height:1.6}
 .channel{display:flex;justify-content:space-between;gap:12px;padding:16px 0;border-top:1px solid var(--line);color:var(--ink);text-decoration:none}
 .channel:hover{color:var(--accent)}
-#contact-form{display:flex;flex-direction:column;gap:20px}
 
 @media (max-width:860px){
   .card{padding:24px}
