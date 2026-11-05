@@ -58,7 +58,7 @@ description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌ه�
   <section class="card wfull">
     <div class="card-head"><h2>مسیرهای خواندن</h2><a href="{{ '/paths/' | relative_url }}">همه‌ی مسیرها ←</a></div>
     <div class="path-cards">
-      {%- for path in site.data.paths -%}
+      {%- for path in site.data.paths limit:6 -%}
       <a class="path-card" href="{{ '/paths/' | relative_url }}#{{ path.id }}"><b>{{ path.title }}</b><span>{{ path.intro }}</span><span class="small">{% include fa.html n=path.posts.size %} یادداشت</span></a>
       {%- endfor -%}
     </div>

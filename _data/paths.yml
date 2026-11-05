@@ -35,3 +35,77 @@
     - switching-costs-economic-moat
     - network-effects-economic-moat
     - gross-margin-moat-indicator
+
+- id: dashboards
+  title: داشبورد و گزارش مدیریتی
+  intro: از طراحی داشبورد تا گزارش بودجه در برابر عملکرد؛ چطور اعداد را برای مدیران قابل‌استفاده کنیم.
+  posts:
+    - ten-financial-dashboards-any-business
+    - financial-dashboard-design-principles
+    - budget-vs-actual-report-formats
+    - kpi-health-status-threshold-dashboard
+    - financial-reporting-pyramid-four-layers
+    - dynamic-financial-dashboard-excel-formulas
+- id: forecasting
+  title: پیش‌بینی مالی عملی
+  intro: از سطح جزئیات تا کنترل خطا؛ پیش‌بینی‌ای که بشود بر آن تصمیم گرفت.
+  posts:
+    - four-levels-financial-forecasting
+    - detailed-vs-summary-forecast-balance
+    - driver-based-pl-forecast-switch
+    - revenue-forecast-arsr-framework
+    - forecast-receivables-collection-waterfall
+    - term-loan-interest-only-forecast
+    - forecast-sanity-check-first-month
+- id: accounting
+  title: حسابداری برای مدیر مالی
+  intro: ثبت‌ها، تطبیق‌ها و گزارش‌های پایه‌ای که پایان هر ماه به آن‌ها نیاز دارید.
+  posts:
+    - twenty-journal-entry-examples
+    - adjusting-entries-workpapers-guide
+    - bank-reconciliation-step-by-step
+    - balance-sheet-reconciliation-workpapers
+    - twelve-core-accounting-reports
+    - chart-of-accounts-structure-five-tips
+    - accrued-expenses-vs-accounts-payable
+- id: saas
+  title: مالی شرکت‌های نرم‌افزاری
+  intro: درآمد تکرارشونده، ریزش مشتری و اقتصاد واحد در کسب‌وکارهای اشتراکی.
+  posts:
+    - saas-forecast-arr-waterfall
+    - renewal-churn-mod-saas-model
+    - services-revenue-mix-saas
+    - saas-forecast-metrics-cac-payback
+    - saas-vs-consumer-goods-forecasting
+    - headcount-forecast-daily-proration
+- id: career
+  title: مسیر شغلی در مالی
+  intro: تفاوت نقش‌ها، مسیرهای ورود و مهارت‌هایی که در دو سال اول اثبات می‌شوند.
+  posts:
+    - accounting-vs-finance-eight-differences
+    - accounting-vs-fpa-differences
+    - accountant-specializations-career-paths
+    - finance-accounting-roles-map
+    - big-four-accounting-career-pros-cons
+    - cpa-exam-roadmap-worth-it
+    - vp-finance-three-pillars-two-years
+- id: statements
+  title: خواندن و پیوند صورت‌های مالی
+  intro: وقتی سه صورت مالی را می‌شناسید، این یادداشت‌ها نشان می‌دهند چطور آن‌ها را کنار هم بخوانید.
+  posts:
+    - balance-sheet-income-statement-links
+    - horizontal-vertical-financial-analysis
+    - balance-sheet-only-analysis
+    - financial-ratios-four-families-map
+    - trial-balance-financial-statements
+    - summarized-financial-statements-mapping
+- id: excel
+  title: اکسل در کار مالی
+  intro: ساختار فایل، گزارش خودکار و سناریوسازی؛ اکسل به‌عنوان ابزار مدل‌سازی.
+  posts:
+    - excel-sip-data-formats
+    - three-protective-tabs-financial-model
+    - power-query-monthly-reporting-refresh
+    - scenario-planning-excel-data-table
+    - custom-number-format-financial-reports
+    - audit-inherited-financial-model-excel
