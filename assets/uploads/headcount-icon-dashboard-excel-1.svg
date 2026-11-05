@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300" font-family="sans-serif">
+<rect width="800" height="300" fill="#ffffff"/>
+<text x="400" y="36" font-size="20" font-weight="bold" text-anchor="middle" direction="rtl" fill="#1f2937">تعداد کارکنان هر واحد با آیکون</text>
+<g direction="rtl" font-size="16" fill="#1f2937">
+<text x="770" y="110" text-anchor="start" direction="rtl">فنی (۷ نفر)</text>
+<text x="770" y="170" text-anchor="start" direction="rtl">فروش (۴ نفر)</text>
+<text x="770" y="230" text-anchor="start" direction="rtl">مالی (۲ نفر)</text>
+</g>
+<circle cx="600" cy="87" r="7" fill="#1d4ed8"/><path d="M588 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="550" cy="87" r="7" fill="#1d4ed8"/><path d="M538 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="500" cy="87" r="7" fill="#1d4ed8"/><path d="M488 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="450" cy="87" r="7" fill="#1d4ed8"/><path d="M438 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="400" cy="87" r="7" fill="#1d4ed8"/><path d="M388 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="350" cy="87" r="7" fill="#1d4ed8"/><path d="M338 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="300" cy="87" r="7" fill="#1d4ed8"/><path d="M288 111 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="250" cy="87" r="7" fill="#d1d5db"/><path d="M238 111 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="200" cy="87" r="7" fill="#d1d5db"/><path d="M188 111 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="150" cy="87" r="7" fill="#d1d5db"/><path d="M138 111 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="600" cy="147" r="7" fill="#1d4ed8"/><path d="M588 171 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="550" cy="147" r="7" fill="#1d4ed8"/><path d="M538 171 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="500" cy="147" r="7" fill="#1d4ed8"/><path d="M488 171 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="450" cy="147" r="7" fill="#1d4ed8"/><path d="M438 171 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="400" cy="147" r="7" fill="#d1d5db"/><path d="M388 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="350" cy="147" r="7" fill="#d1d5db"/><path d="M338 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="300" cy="147" r="7" fill="#d1d5db"/><path d="M288 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="250" cy="147" r="7" fill="#d1d5db"/><path d="M238 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="200" cy="147" r="7" fill="#d1d5db"/><path d="M188 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="150" cy="147" r="7" fill="#d1d5db"/><path d="M138 171 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="600" cy="207" r="7" fill="#1d4ed8"/><path d="M588 231 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="550" cy="207" r="7" fill="#1d4ed8"/><path d="M538 231 a12 12 0 0 1 24 0 z" fill="#1d4ed8"/>
+<circle cx="500" cy="207" r="7" fill="#d1d5db"/><path d="M488 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="450" cy="207" r="7" fill="#d1d5db"/><path d="M438 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="400" cy="207" r="7" fill="#d1d5db"/><path d="M388 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="350" cy="207" r="7" fill="#d1d5db"/><path d="M338 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="300" cy="207" r="7" fill="#d1d5db"/><path d="M288 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="250" cy="207" r="7" fill="#d1d5db"/><path d="M238 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="200" cy="207" r="7" fill="#d1d5db"/><path d="M188 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+<circle cx="150" cy="207" r="7" fill="#d1d5db"/><path d="M138 231 a12 12 0 0 1 24 0 z" fill="#d1d5db"/>
+
+<text x="400" y="280" font-size="14" text-anchor="middle" direction="rtl" fill="#6b7280">آیکون پررنگ: پُر، آیکون خاکستری: خالی (۱۰ ستون)</text>
+</svg>
