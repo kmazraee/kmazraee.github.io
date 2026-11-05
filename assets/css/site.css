@@ -324,3 +324,8 @@ textarea.input{min-height:160px;resize:vertical}
 .topic-path[open] summary::after{content:"−"}
 .topic-path summary .small{margin-inline-start:auto;color:var(--muted)}
 .topic-path .path-list{padding-bottom:16px}
+.cat-nav{display:flex;flex-direction:column;gap:12px}
+.cat-nav-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.cat-nav-head a{font-size:14px}
+.cat-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.page-head .kicker a{color:inherit}

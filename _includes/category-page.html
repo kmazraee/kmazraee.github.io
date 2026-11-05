@@ -1,0 +1,13 @@
+{%- assign cat = site.data.categories | where: "name", page.topic | first -%}
+{%- assign items = site.categories[page.topic] -%}
+<header class="card page-head"><span class="kicker"><a href="{{ '/posts/category/' | relative_url }}">دسته‌بندی</a></span><h1>{{ page.topic }}</h1><p>{{ cat.intro }} · {% include fa.html n=items.size %} یادداشت</p></header>
+<div class="card"><div class="cat-list">
+{%- for post in items -%}
+<a class="entry" href="{{ post.url | relative_url }}"><span class="small">{% include date.html date=post.date short=true %}</span><span><b>{{ post.title }}</b>{% if post.description %}<span class="ex">{{ post.description }}</span>{% endif %}</span><span class="small end">{% include minutes.html post=post %}</span></a>
+{%- endfor -%}
+</div></div>
+<nav class="card" aria-label="دسته‌های دیگر"><span class="side-title">دسته‌های دیگر</span><div class="topics">
+{%- for c in site.data.categories -%}{%- assign cn = site.categories[c.name].size | default: 0 -%}{%- if c.name != page.topic and cn > 0 -%}
+<a href="{{ '/posts/category/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}<b>{% include fa.html n=cn %}</b></a>
+{%- endif -%}{%- endfor -%}
+</div></nav>

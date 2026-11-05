@@ -65,10 +65,11 @@ description: دفترچه‌ی عدد کمیل مزرعی؛ یادداشت‌ه�
   </section>
 
   <section class="card w2">
-    <div class="card-head"><h2>موضوع‌ها</h2></div>
+    <div class="card-head"><h2>موضوع‌ها</h2><a href="{{ '/posts/category/' | relative_url }}">همه‌ی دسته‌ها ←</a></div>
     <div class="topics">
       {%- for t in topics limit:10 -%}{% if t.name != "" %}
-      <a href="{{ '/posts/' | relative_url }}?topic={{ t.name | url_encode }}">{{ t.name }}<b>{% include fa.html n=t.size %}</b></a>
+      {%- assign tcat = site.data.categories | where: "name", t.name | first -%}
+      <a href="{% if tcat %}{{ '/posts/category/' | append: tcat.slug | append: '/' | relative_url }}{% else %}{{ '/posts/' | relative_url }}?topic={{ t.name | url_encode }}{% endif %}">{{ t.name }}<b>{% include fa.html n=t.size %}</b></a>
       {%- endif %}{%- endfor -%}
     </div>
   </section>

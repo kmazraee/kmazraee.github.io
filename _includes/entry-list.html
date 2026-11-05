@@ -1,11 +1,13 @@
 {%- comment -%}Filterable, year-grouped list. include.items = docs, include.noun = «یادداشت» or «خلاصه»{%- endcomment -%}
-<div class="card filters">
-  <div class="seg">
-    <button type="button" data-topic="" aria-pressed="true">همه</button>
+<nav class="card cat-nav" aria-label="دسته‌بندی‌ها">
+  <div class="cat-nav-head"><b>دسته‌بندی</b><a href="{{ '/posts/category/' | relative_url }}">همه‌ی دسته‌ها ←</a></div>
+  <div class="topics">
     {%- assign topics = include.items | group_by: "category" | sort: "size" | reverse -%}
-    {%- for t in topics -%}{% if t.name != "" %}<button type="button" data-topic="{{ t.name }}" aria-pressed="false">{{ t.name }}</button>{% endif %}{%- endfor -%}
+    {%- for t in topics -%}{% if t.name != "" %}{%- assign tcat = site.data.categories | where: "name", t.name | first -%}{% if tcat %}<a href="{{ '/posts/category/' | append: tcat.slug | append: '/' | relative_url }}">{{ t.name }}<b>{% include fa.html n=t.size %}</b></a>{% endif %}{% endif %}{%- endfor -%}
   </div>
-  <input class="input" id="q" type="search" placeholder="جست‌وجو" aria-label="جست‌وجو">
+</nav>
+<div class="card filters">
+  <input class="input" id="q" type="search" placeholder="جست‌وجو در همه‌ی یادداشت‌ها" aria-label="جست‌وجو">
 </div>
 <p class="card tag-filter" id="tag-filter" hidden>برچسب: <b id="tag-name"></b> <a href="?" id="tag-clear">× حذف فیلتر</a></p>
 <div class="card"><div id="post-list">

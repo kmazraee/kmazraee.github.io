@@ -6,7 +6,7 @@ layout: default
 <div class="post">
   <article class="card post-main">
     <div class="post-meta">
-      {% if page.category %}<a class="chip" href="{{ base | relative_url }}?topic={{ page.category | url_encode }}">{{ page.category }}</a>{% endif %}
+      {% if page.category %}{%- assign pcat = site.data.categories | where: "name", page.category | first -%}<a class="chip" href="{% if pcat %}{{ '/posts/category/' | append: pcat.slug | append: '/' | relative_url }}{% else %}{{ base | relative_url }}?topic={{ page.category | url_encode }}{% endif %}">{{ page.category }}</a>{% endif %}
       <span>{% include date.html date=page.date %} · {% include minutes.html post=page %} مطالعه</span>
     </div>
     <h1>{{ page.title }}</h1>

@@ -1,0 +1,16 @@
+---
+layout: default
+title: دسته‌بندی یادداشت‌ها
+description: همه‌ی دسته‌بندی‌های دفترچه‌ی عدد؛ مدل‌سازی مالی، تحلیل مالی، ارزش‌گذاری، بودجه‌بندی، سرمایه‌گذاری و بیشتر.
+permalink: /posts/category/
+---
+{%- assign cats = site.data.categories -%}
+<header class="card page-head"><span class="kicker">دسته‌بندی</span><h1>دسته‌بندی یادداشت‌ها</h1><p>هر دسته صفحه‌ی خودش را دارد؛ یادداشت‌های هر موضوع را یک‌جا بخوانید.</p></header>
+<div class="card"><div class="path-cards cat-cards">
+{%- for c in cats -%}
+{%- assign n = site.categories[c.name].size | default: 0 -%}
+{%- if n > 0 -%}
+<a class="path-card" href="{{ '/posts/category/' | append: c.slug | append: '/' | relative_url }}"><b>{{ c.name }}</b><span>{{ c.intro }}</span><span class="small">{% include fa.html n=n %} یادداشت</span></a>
+{%- endif -%}
+{%- endfor -%}
+</div></div>
