@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 6
+group: مالی شخصی
+title: "سود مرکب با دوره‌ی ترکیب"
+description: "یک مبلغ با سود مرکب روزانه، ماهانه یا سالانه چقدر می‌شود؟ نرخ مؤثر سالانه و مقایسه با سود ساده را ببینید."
+method: |
+  ارزش آینده = مبلغ اولیه × (۱ + نرخ ÷ k)^(k × سال)
+
+  k تعداد دفعات ترکیب در سال است (۱۲ برای ماهانه، ۳۶۵ برای روزانه).
+
+  نرخ مؤثر سالانه = (۱ + نرخ ÷ k)^k − ۱؛ هرچه ترکیب مکررتر باشد، نرخ مؤثر کمی بالاتر از نرخ اعلام‌شده است.
+---
+<form class="tool-form" data-tool="compound" onsubmit="return false">
+  <div class="field"><label for="p">مبلغ اولیه (تومان)</label><input class="input num" id="p" value="100,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="r">نرخ سود سالانه (درصد)</label><input class="input num" id="r" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="y">مدت (سال)</label><input class="input num" id="y" value="5" inputmode="decimal"></div>
+  <div class="field"><label for="k">دفعات ترکیب در سال</label><input class="input num" id="k" value="12" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش آینده</span><b id="o-fv">—</b></div>
+  <div><span>سود کل</span><b id="o-int">—</b></div>
+  <div><span>نرخ مؤثر سالانه</span><b id="o-eff">—</b></div>
+  <div><span>ارزش آینده با سود ساده</span><b id="o-simple">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

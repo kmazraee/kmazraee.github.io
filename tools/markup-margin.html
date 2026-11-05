@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 18
+group: مالی شرکتی
+title: "مارک‌آپ و حاشیه سود"
+description: "بین مارک‌آپ و حاشیه سود تبدیل کنید و از حاشیه‌ی هدف، قیمت فروش لازم را بگیرید."
+method: |
+  قیمت = بها × (۱ + مارک‌آپ)
+
+  حاشیه‌ی سود = (قیمت − بها) ÷ قیمت = مارک‌آپ ÷ (۱ + مارک‌آپ)
+
+  مارک‌آپ لازم برای حاشیه‌ی هدف m: m ÷ (۱ − m). مارک‌آپ ۵۰ درصد معادل حاشیه‌ی ۳۳٫۳ درصد است، نه ۵۰ درصد.
+---
+<form class="tool-form" data-tool="markup-margin" onsubmit="return false">
+  <div class="field"><label for="cost">بهای تمام‌شده‌ی هر واحد (تومان)</label><input class="input num" id="cost" value="600,000" inputmode="decimal"></div>
+  <div class="field"><label for="mk">مارک‌آپ (درصد)</label><input class="input num" id="mk" value="40" inputmode="decimal"></div>
+  <div class="field"><label for="tm">حاشیه‌ی سود هدف (درصد)</label><input class="input num" id="tm" value="35" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>قیمت فروش با این مارک‌آپ</span><b id="o-price">—</b></div>
+  <div><span>حاشیه‌ی سود معادل</span><b id="o-m">—</b></div>
+  <div><span>مارک‌آپ لازم برای حاشیه‌ی هدف</span><b id="o-req">—</b></div>
+  <div><span>قیمت لازم برای حاشیه‌ی هدف</span><b id="o-tp">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 17
+group: مالی شرکتی
+title: "استهلاک: خط مستقیم و روش‌های شتابان"
+description: "استهلاک سال مشخص و ارزش دفتری را با روش خط مستقیم، نزولی مضاعف و مجموع سنوات مقایسه کنید."
+method: |
+  خط مستقیم = (بهای تمام‌شده − ارزش اسقاط) ÷ عمر مفید
+
+  نزولی مضاعف = ارزش دفتری ابتدای سال × (۲ ÷ عمر مفید)، بدون رفتن زیر ارزش اسقاط
+
+  مجموع سنوات = (بهای تمام‌شده − ارزش اسقاط) × (عمر باقی‌مانده ÷ مجموع اعداد ۱ تا عمر مفید)
+---
+<form class="tool-form" data-tool="depreciation" onsubmit="return false">
+  <div class="field"><label for="cost">بهای تمام‌شده (میلیون تومان)</label><input class="input num" id="cost" value="1,000" inputmode="decimal"></div>
+  <div class="field"><label for="sal">ارزش اسقاط (میلیون تومان)</label><input class="input num" id="sal" value="100" inputmode="decimal"></div>
+  <div class="field"><label for="n">عمر مفید (سال)</label><input class="input num" id="n" value="5" inputmode="decimal"></div>
+  <div class="field"><label for="y">سال مورد نظر</label><input class="input num" id="y" value="2" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>استهلاک خط مستقیم</span><b id="o-sl">—</b></div>
+  <div><span>استهلاک نزولی مضاعف</span><b id="o-ddb">—</b></div>
+  <div><span>استهلاک مجموع سنوات</span><b id="o-syd">—</b></div>
+  <div><span>ارزش دفتری پایان سال (خط مستقیم / نزولی)</span><b id="o-bv">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

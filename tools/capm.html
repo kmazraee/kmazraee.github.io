@@ -1,0 +1,24 @@
+---
+layout: tool
+order: 6
+group: سرمایه‌گذاری
+title: "بازده مورد انتظار با CAPM"
+description: "بازده لازم یک دارایی را از بتا و صرف ریسک بازار حساب کنید و با بازده پیش‌بینی خودتان مقایسه کنید."
+method: |
+  بازده لازم = نرخ بدون ریسک + بتا × صرف ریسک بازار
+
+  آلفا = بازده مورد انتظار شما − بازده لازم. آلفای مثبت یعنی دارایی بیش از جبران ریسک خودش بازده می‌دهد.
+
+  CAPM یک مدل ساده است؛ بتا و صرف ریسک تخمینی‌اند.
+---
+<form class="tool-form" data-tool="capm" onsubmit="return false">
+  <div class="field"><label for="rf">نرخ بدون ریسک (درصد)</label><input class="input num" id="rf" value="23" inputmode="decimal"></div>
+  <div class="field"><label for="beta">بتا</label><input class="input num" id="beta" value="1.2" inputmode="decimal"></div>
+  <div class="field"><label for="mrp">صرف ریسک بازار (درصد)</label><input class="input num" id="mrp" value="10" inputmode="decimal"></div>
+  <div class="field"><label for="er">بازده مورد انتظار شما (درصد)</label><input class="input num" id="er" value="38" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده لازم (CAPM)</span><b id="o-req">—</b></div>
+  <div><span>آلفا</span><b id="o-alpha">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

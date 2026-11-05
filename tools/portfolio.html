@@ -1,0 +1,28 @@
+---
+layout: tool
+order: 5
+group: سرمایه‌گذاری
+title: "ریسک و بازده سبد دو دارایی"
+description: "بازده مورد انتظار و نوسان سبدی از دو دارایی را با توجه به همبستگی آن‌ها حساب کنید و اثر تنوع را ببینید."
+method: |
+  بازده سبد = w₁r₁ + w₂r₂
+
+  انحراف معیار سبد = √(w₁²σ₁² + w₂²σ₂² + ۲w₁w₂ρσ₁σ₂)
+
+  هرچه همبستگی ρ کمتر باشد، ریسک سبد از میانگین وزنی ریسک دو دارایی پایین‌تر می‌آید؛ این فایده‌ی تنوع‌بخشی است.
+---
+<form class="tool-form" data-tool="portfolio" onsubmit="return false">
+  <div class="field"><label for="w1">وزن دارایی اول (درصد)</label><input class="input num" id="w1" value="60" inputmode="decimal"></div>
+  <div class="field"><label for="r1">بازده دارایی اول (درصد)</label><input class="input num" id="r1" value="35" inputmode="decimal"></div>
+  <div class="field"><label for="s1">انحراف معیار دارایی اول (درصد)</label><input class="input num" id="s1" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="r2">بازده دارایی دوم (درصد)</label><input class="input num" id="r2" value="24" inputmode="decimal"></div>
+  <div class="field"><label for="s2">انحراف معیار دارایی دوم (درصد)</label><input class="input num" id="s2" value="8" inputmode="decimal"></div>
+  <div class="field"><label for="c">همبستگی (بین ۱- و ۱)</label><input class="input num" id="c" value="0.2" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده سبد</span><b id="o-r">—</b></div>
+  <div><span>انحراف معیار سبد</span><b id="o-sd">—</b></div>
+  <div><span>میانگین وزنی انحراف معیار</span><b id="o-avg">—</b></div>
+  <div><span>کاهش ریسک ناشی از تنوع</span><b id="o-div">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

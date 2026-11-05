@@ -1,0 +1,24 @@
+---
+layout: tool
+order: 21
+group: مالی شرکتی
+title: "ارزش افزوده‌ی اقتصادی (EVA)"
+description: "آیا سود عملیاتی بعد از مالیات، هزینه‌ی سرمایه‌ی به‌کاررفته را جبران می‌کند؟"
+method: |
+  EVA = NOPAT − WACC × سرمایه‌ی سرمایه‌گذاری‌شده
+
+  ROIC = NOPAT ÷ سرمایه‌ی سرمایه‌گذاری‌شده؛ اختلاف ROIC و WACC را «اسپرد» می‌گویند.
+
+  EVA مثبت یعنی شرکت بیش از هزینه‌ی سرمایه‌اش ارزش ساخته است.
+---
+<form class="tool-form" data-tool="eva" onsubmit="return false">
+  <div class="field"><label for="nopat">سود عملیاتی پس از مالیات، NOPAT (میلیارد تومان)</label><input class="input num" id="nopat" value="180" inputmode="decimal"></div>
+  <div class="field"><label for="ic">سرمایه‌ی سرمایه‌گذاری‌شده (میلیارد تومان)</label><input class="input num" id="ic" value="600" inputmode="decimal"></div>
+  <div class="field"><label for="w">WACC (درصد)</label><input class="input num" id="w" value="28" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش افزوده‌ی اقتصادی</span><b id="o-eva">—</b></div>
+  <div><span>ROIC</span><b id="o-roic">—</b></div>
+  <div><span>اسپرد ROIC − WACC</span><b id="o-sp">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

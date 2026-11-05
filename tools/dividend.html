@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 7
+group: سرمایه‌گذاری
+title: "سود تقسیمی، P/E و نسبت پرداخت"
+description: "بازده سود نقدی، نسبت قیمت به سود، بازده سود و درصد تقسیم سود را از سه عدد بگیرید."
+method: |
+  بازده سود نقدی = سود نقدی هر سهم ÷ قیمت سهم
+
+  P/E = قیمت ÷ سود هر سهم (EPS)؛ بازده سود = EPS ÷ قیمت
+
+  نسبت پرداخت = سود نقدی ÷ EPS؛ باقی‌مانده سود انباشته می‌شود و رشد آینده را تأمین می‌کند.
+---
+<form class="tool-form" data-tool="dividend" onsubmit="return false">
+  <div class="field"><label for="price">قیمت سهم (تومان)</label><input class="input num" id="price" value="8,000" inputmode="decimal"></div>
+  <div class="field"><label for="dps">سود نقدی هر سهم (تومان)</label><input class="input num" id="dps" value="800" inputmode="decimal"></div>
+  <div class="field"><label for="eps">سود هر سهم، EPS (تومان)</label><input class="input num" id="eps" value="1,400" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده سود نقدی</span><b id="o-y">—</b></div>
+  <div><span>نسبت P/E</span><b id="o-pe">—</b></div>
+  <div><span>بازده سود (EPS÷قیمت)</span><b id="o-ey">—</b></div>
+  <div><span>نسبت پرداخت</span><b id="o-po">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

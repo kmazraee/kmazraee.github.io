@@ -1,0 +1,28 @@
+---
+layout: tool
+order: 20
+group: مالی شرکتی
+title: "نگهداشت درآمد: NRR و GRR"
+description: "از تغییرات درآمد تکرارشونده‌ی ماهانه، نرخ نگهداشت خالص و ناخالص و ARR را حساب کنید."
+method: |
+  NRR = (MRR ابتدا + توسعه − کاهش − ریزش) ÷ MRR ابتدا
+
+  GRR = (MRR ابتدا − کاهش − ریزش) ÷ MRR ابتدا؛ سقف آن ۱۰۰ درصد است.
+
+  MRR پایان = MRR ابتدا + جدید + توسعه − کاهش − ریزش؛ ARR = ۱۲ × MRR پایان.
+---
+<form class="tool-form" data-tool="saas-metrics" onsubmit="return false">
+  <div class="field"><label for="m0">MRR ابتدای دوره (میلیون تومان)</label><input class="input num" id="m0" value="1,000" inputmode="decimal"></div>
+  <div class="field"><label for="nw">MRR مشتریان جدید</label><input class="input num" id="nw" value="120" inputmode="decimal"></div>
+  <div class="field"><label for="ex">MRR توسعه‌ی مشتریان فعلی</label><input class="input num" id="ex" value="60" inputmode="decimal"></div>
+  <div class="field"><label for="co">MRR کاهش (تنزل پلن)</label><input class="input num" id="co" value="20" inputmode="decimal"></div>
+  <div class="field"><label for="chn">MRR ریزش (لغو اشتراک)</label><input class="input num" id="chn" value="50" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نرخ نگهداشت خالص (NRR)</span><b id="o-nrr">—</b></div>
+  <div><span>نرخ نگهداشت ناخالص (GRR)</span><b id="o-grr">—</b></div>
+  <div><span>MRR پایان دوره</span><b id="o-end">—</b></div>
+  <div><span>ARR</span><b id="o-arr">—</b></div>
+  <div><span>رشد MRR</span><b id="o-g">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

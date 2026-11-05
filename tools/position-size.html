@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 8
+group: سرمایه‌گذاری
+title: "اندازه‌ی معامله و ریسک هر معامله"
+description: "با تعیین درصد ریسک از سرمایه و حد ضرر، تعداد سهم یا واحد مناسب را حساب کنید."
+method: |
+  مبلغ ریسک = سرمایه × درصد ریسک
+
+  ضرر هر واحد = |قیمت ورود − قیمت حد ضرر|
+
+  تعداد = مبلغ ریسک ÷ ضرر هر واحد؛ اگر قیمت به حد ضرر برسد، ضرر کل برابر مبلغ ریسک می‌شود.
+---
+<form class="tool-form" data-tool="position-size" onsubmit="return false">
+  <div class="field"><label for="cap">سرمایه‌ی کل (تومان)</label><input class="input num" id="cap" value="500,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="risk">ریسک هر معامله (درصد از سرمایه)</label><input class="input num" id="risk" value="1" inputmode="decimal"></div>
+  <div class="field"><label for="entry">قیمت ورود (تومان)</label><input class="input num" id="entry" value="10,000" inputmode="decimal"></div>
+  <div class="field"><label for="stop">قیمت حد ضرر (تومان)</label><input class="input num" id="stop" value="9,200" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>تعداد مناسب</span><b id="o-q">—</b></div>
+  <div><span>ارزش معامله</span><b id="o-val">—</b></div>
+  <div><span>سهم از سرمایه</span><b id="o-pct">—</b></div>
+  <div><span>ضرر در صورت فعال‌شدن حد ضرر</span><b id="o-loss">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

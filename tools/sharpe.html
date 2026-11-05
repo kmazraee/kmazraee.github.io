@@ -1,0 +1,23 @@
+---
+layout: tool
+order: 4
+group: سرمایه‌گذاری
+title: "نسبت شارپ"
+description: "بازده تعدیل‌شده بر اساس ریسک: به ازای هر واحد نوسان چقدر بازده بیشتر از نرخ بدون ریسک گرفته‌اید؟"
+method: |
+  نسبت شارپ = (بازده سبد − نرخ بدون ریسک) ÷ انحراف معیار بازده سبد
+
+  هرچه بالاتر، بازده به ازای ریسک بیشتر است. معمولاً کمتر از ۱ ضعیف، ۱ تا ۲ خوب و بیش از ۲ عالی تفسیر می‌شود.
+
+  دو سبد با بازده برابر اما نوسان متفاوت را با همین نسبت می‌توان مقایسه کرد.
+---
+<form class="tool-form" data-tool="sharpe" onsubmit="return false">
+  <div class="field"><label for="r">بازده سالانه‌ی سبد (درصد)</label><input class="input num" id="r" value="32" inputmode="decimal"></div>
+  <div class="field"><label for="rf">نرخ بدون ریسک (درصد)</label><input class="input num" id="rf" value="23" inputmode="decimal"></div>
+  <div class="field"><label for="sd">انحراف معیار سالانه (درصد)</label><input class="input num" id="sd" value="15" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نسبت شارپ</span><b id="o-s">—</b></div>
+  <div><span>بازده مازاد</span><b id="o-ex">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

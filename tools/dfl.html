@@ -1,0 +1,25 @@
+---
+layout: tool
+order: 15
+group: مالی شرکتی
+title: "اهرم مالی (DFL)"
+description: "نوسان سود هر سهم نسبت به نوسان سود عملیاتی را از میزان بدهی و بهره حساب کنید."
+method: |
+  درجه‌ی اهرم مالی = EBIT ÷ (EBIT − بهره − سود سهام ممتاز ÷ (۱ − نرخ مالیات))
+
+  اگر DFL برابر ۲ باشد، ۱۰ درصد تغییر EBIT حدود ۲۰ درصد EPS را تغییر می‌دهد.
+
+  هرچه بهره بیشتر باشد، سود سهامداران نسبت به سود عملیاتی نوسانی‌تر است.
+---
+<form class="tool-form" data-tool="dfl" onsubmit="return false">
+  <div class="field"><label for="ebit">سود عملیاتی EBIT (میلیارد تومان)</label><input class="input num" id="ebit" value="300" inputmode="decimal"></div>
+  <div class="field"><label for="int">هزینه‌ی بهره (میلیارد تومان)</label><input class="input num" id="int" value="100" inputmode="decimal"></div>
+  <div class="field"><label for="pref">سود سهام ممتاز (میلیارد تومان)</label><input class="input num" id="pref" value="0" inputmode="decimal"></div>
+  <div class="field"><label for="t">نرخ مالیات (درصد)</label><input class="input num" id="t" value="25" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>درجه‌ی اهرم مالی</span><b id="o-dfl">—</b></div>
+  <div><span>تغییر EPS با ۱۰٪ تغییر EBIT</span><b id="o-chg">—</b></div>
+  <div><span>پوشش بهره</span><b id="o-cov">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

@@ -1,0 +1,27 @@
+---
+layout: tool
+order: 14
+group: مالی شرکتی
+title: "دوره‌ی بازگشت تنزیل‌شده"
+description: "زمان برگشت سرمایه را با در نظر گرفتن ارزش زمانی پول، کنار دوره‌ی بازگشت ساده و NPV ببینید."
+method: |
+  هر جریان نقدی با نرخ تنزیل به ارزش امروز برده می‌شود و جمع تجمعی آن‌ها دنبال می‌شود.
+
+  دوره‌ی بازگشت تنزیل‌شده زمانی است که جمع تجمعی تنزیل‌شده مثبت شود؛ همیشه از دوره‌ی بازگشت ساده بلندتر است.
+
+  سال صفر سرمایه‌گذاری اولیه (منفی) است.
+---
+<form class="tool-form" data-tool="discounted-payback" onsubmit="return false">
+  <div class="field"><label for="r">نرخ تنزیل سالانه (درصد)</label><input class="input num" id="r" value="20" inputmode="decimal"></div>
+  <div class="field"><label for="cf">جریان‌های نقدی (هر سال در یک خط)</label><textarea class="input num" id="cf" rows="6">-1000
+300
+400
+500
+600</textarea></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>دوره‌ی بازگشت تنزیل‌شده</span><b id="o-dpb">—</b></div>
+  <div><span>دوره‌ی بازگشت ساده</span><b id="o-pb">—</b></div>
+  <div><span>ارزش فعلی خالص</span><b id="o-npv">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

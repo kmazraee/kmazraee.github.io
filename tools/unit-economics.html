@@ -1,0 +1,28 @@
+---
+layout: tool
+order: 19
+group: مالی شرکتی
+title: "اقتصاد واحد: LTV و CAC"
+description: "برای یک کسب‌وکار اشتراکی، ارزش طول عمر مشتری، نسبت LTV به CAC و دوره‌ی بازگشت هزینه‌ی جذب را حساب کنید."
+method: |
+  عمر مشتری (ماه) = ۱ ÷ نرخ ریزش ماهانه
+
+  LTV = درآمد ماهانه‌ی هر مشتری × حاشیه‌ی ناخالص × عمر مشتری
+
+  دوره‌ی بازگشت CAC = CAC ÷ (درآمد ماهانه × حاشیه‌ی ناخالص)
+
+  نسبت LTV به CAC حدود ۳ یا بیشتر و بازگشت زیر ۱۲ ماه معمولاً سالم تلقی می‌شود.
+---
+<form class="tool-form" data-tool="unit-economics" onsubmit="return false">
+  <div class="field"><label for="arpu">درآمد ماهانه‌ی هر مشتری (تومان)</label><input class="input num" id="arpu" value="500,000" inputmode="decimal"></div>
+  <div class="field"><label for="gm">حاشیه‌ی ناخالص (درصد)</label><input class="input num" id="gm" value="75" inputmode="decimal"></div>
+  <div class="field"><label for="cac">هزینه‌ی جذب هر مشتری، CAC (تومان)</label><input class="input num" id="cac" value="3,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="ch">ریزش ماهانه (درصد)</label><input class="input num" id="ch" value="4" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>ارزش طول عمر مشتری (LTV)</span><b id="o-ltv">—</b></div>
+  <div><span>LTV ÷ CAC</span><b id="o-ratio">—</b></div>
+  <div><span>بازگشت CAC</span><b id="o-pb">—</b></div>
+  <div><span>عمر مشتری</span><b id="o-life">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

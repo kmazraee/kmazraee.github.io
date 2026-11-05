@@ -1,0 +1,28 @@
+---
+layout: tool
+order: 9
+group: سرمایه‌گذاری
+title: "میانگین قیمت خرید پله‌ای"
+description: "خریدهای پله‌ای را وارد کنید تا میانگین هزینه‌ی هر واحد، تعداد کل و سود یا زیان نسبت به قیمت فعلی را ببینید."
+method: |
+  هر خط: «قیمت واحد» و «مبلغ خرید». تعداد واحد = مبلغ ÷ قیمت.
+
+  میانگین هزینه = جمع مبلغ‌ها ÷ جمع واحدها (میانگین موزون، نه میانگین ساده‌ی قیمت‌ها).
+
+  وقتی هر بار مبلغ ثابت می‌خرید، قیمت‌های پایین واحد بیشتری می‌دهند و میانگین هزینه از میانگین ساده‌ی قیمت‌ها کمتر می‌شود.
+---
+<form class="tool-form" data-tool="dca" onsubmit="return false">
+  <div class="field"><label for="lines">هر خرید در یک خط: قیمت واحد و مبلغ (تومان)</label><textarea class="input num" id="lines" rows="6">10000 10000000
+8000 10000000
+12500 10000000
+9000 10000000</textarea></div>
+  <div class="field"><label for="cp">قیمت فعلی هر واحد (تومان)</label><input class="input num" id="cp" value="11,000" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>میانگین هزینه‌ی هر واحد</span><b id="o-avg">—</b></div>
+  <div><span>تعداد کل واحد</span><b id="o-u">—</b></div>
+  <div><span>مبلغ کل خرید</span><b id="o-inv">—</b></div>
+  <div><span>سود یا زیان نسبت به قیمت فعلی</span><b id="o-pl">—</b></div>
+  <div><span>میانگین ساده‌ی قیمت‌ها</span><b id="o-simple">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 7
+group: مالی شخصی
+title: "چند سال تا استقلال مالی"
+description: "با نرخ پس‌انداز و بازده واقعی، چند سال طول می‌کشد تا درآمد سرمایه‌گذاری هزینه‌های زندگی را پوشش دهد؟"
+method: |
+  سرمایه‌ی هدف = هزینه‌ی سالانه ÷ نرخ برداشت امن (مثلاً ۴ درصد یعنی ۲۵ برابر هزینه‌ی سالانه).
+
+  پس‌انداز ماهانه = درآمد − هزینه. زمان با حل معادله‌ی ارزش آینده‌ی پس‌انداز ماهانه و موجودی فعلی تا رسیدن به سرمایه‌ی هدف به دست می‌آید.
+
+  همه‌چیز به پول امروز و بازده واقعی (بعد از تورم) حساب می‌شود.
+---
+<form class="tool-form" data-tool="fire" onsubmit="return false">
+  <div class="field"><label for="inc">درآمد ماهانه (میلیون تومان)</label><input class="input num" id="inc" value="60" inputmode="decimal"></div>
+  <div class="field"><label for="ex">هزینه‌ی ماهانه (میلیون تومان)</label><input class="input num" id="ex" value="35" inputmode="decimal"></div>
+  <div class="field"><label for="cur">پس‌انداز فعلی (میلیون تومان)</label><input class="input num" id="cur" value="200" inputmode="decimal"></div>
+  <div class="field"><label for="r">بازده واقعی سالانه (درصد)</label><input class="input num" id="r" value="5" inputmode="decimal"></div>
+  <div class="field"><label for="w">نرخ برداشت امن (درصد)</label><input class="input num" id="w" value="4" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>سرمایه‌ی هدف</span><b id="o-target">—</b></div>
+  <div><span>نرخ پس‌انداز</span><b id="o-sr">—</b></div>
+  <div><span>زمان تا استقلال مالی</span><b id="o-yrs">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

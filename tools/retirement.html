@@ -1,0 +1,29 @@
+---
+layout: tool
+order: 10
+group: مالی شخصی
+title: "پس‌انداز لازم برای بازنشستگی"
+description: "با هزینه‌ی امروز و تورم، در روز بازنشستگی چقدر سرمایه لازم دارید و هر ماه چقدر باید کنار بگذارید؟"
+method: |
+  هزینه‌ی ماهانه در بازنشستگی = هزینه‌ی امروز × (۱ + تورم)^(سال تا بازنشستگی)
+
+  سرمایه‌ی لازم = ارزش فعلی برداشت‌های سالانه در سال‌های بازنشستگی با بازده واقعی (بعد از تورم).
+
+  پس‌انداز ماهانه = بخشی از سرمایه‌ی لازم که موجودی فعلی با بازده دوران پس‌انداز نمی‌پوشاند.
+---
+<form class="tool-form" data-tool="retirement" onsubmit="return false">
+  <div class="field"><label for="age">سن فعلی</label><input class="input num" id="age" value="35" inputmode="decimal"></div>
+  <div class="field"><label for="ra">سن بازنشستگی</label><input class="input num" id="ra" value="60" inputmode="decimal"></div>
+  <div class="field"><label for="life">سن پایان برنامه</label><input class="input num" id="life" value="90" inputmode="decimal"></div>
+  <div class="field"><label for="exp">هزینه‌ی ماهانه‌ی امروز (میلیون تومان)</label><input class="input num" id="exp" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="inf">تورم سالانه (درصد)</label><input class="input num" id="inf" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="r">بازده سالانه تا بازنشستگی (درصد)</label><input class="input num" id="r" value="30" inputmode="decimal"></div>
+  <div class="field"><label for="rr">بازده سالانه بعد از بازنشستگی (درصد)</label><input class="input num" id="rr" value="28" inputmode="decimal"></div>
+  <div class="field"><label for="cs">موجودی فعلی (میلیون تومان)</label><input class="input num" id="cs" value="300" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div><span>هزینه‌ی ماهانه در بازنشستگی</span><b id="o-exp">—</b></div>
+  <div class="big"><span>سرمایه‌ی لازم در روز بازنشستگی</span><b id="o-corpus">—</b></div>
+  <div><span>پس‌انداز ماهانه‌ی لازم</span><b id="o-m">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

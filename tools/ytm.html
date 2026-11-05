@@ -1,0 +1,24 @@
+---
+layout: tool
+order: 10
+group: سرمایه‌گذاری
+title: "بازده تا سررسید اوراق (YTM)"
+description: "با قیمت بازار، نرخ کوپن و سررسید، بازده تا سررسید اوراق بدهی را پیدا کنید."
+method: |
+  بازده تا سررسید نرخی است که ارزش فعلی همه‌ی کوپن‌ها و اصل اوراق را برابر قیمت بازار می‌کند.
+
+  حل با روش تنصیف انجام می‌شود. اگر قیمت کمتر از ارزش اسمی باشد، بازده تا سررسید از نرخ کوپن بیشتر است و برعکس.
+---
+<form class="tool-form" data-tool="ytm" onsubmit="return false">
+  <div class="field"><label for="price">قیمت بازار (به ازای ۱۰۰ واحد ارزش اسمی)</label><input class="input num" id="price" value="92" inputmode="decimal"></div>
+  <div class="field"><label for="f">ارزش اسمی</label><input class="input num" id="f" value="100" inputmode="decimal"></div>
+  <div class="field"><label for="c">نرخ کوپن سالانه (درصد)</label><input class="input num" id="c" value="18" inputmode="decimal"></div>
+  <div class="field"><label for="n">سال تا سررسید</label><input class="input num" id="n" value="4" inputmode="decimal"></div>
+  <div class="field"><label for="k">دفعات پرداخت کوپن در سال</label><input class="input num" id="k" value="2" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>بازده تا سررسید</span><b id="o-ytm">—</b></div>
+  <div><span>بازده جاری</span><b id="o-cy">—</b></div>
+  <div><span>سود سرمایه‌ای تا سررسید</span><b id="o-gain">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

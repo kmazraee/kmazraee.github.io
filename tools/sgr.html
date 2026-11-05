@@ -1,0 +1,21 @@
+---
+layout: tool
+order: 16
+group: مالی شرکتی
+title: "نرخ رشد پایدار (SGR)"
+description: "شرکت بدون افزایش سرمایه و بدون تغییر اهرم تا چند درصد در سال می‌تواند رشد کند؟"
+method: |
+  نرخ رشد پایدار = ROE × b ÷ (۱ − ROE × b)
+
+  b نسبت سود انباشته‌شده است (۱ منهای نسبت تقسیم سود). با ROE ثابت و بدون سهام جدید، رشد فروش بیش از این نرخ به بدهی بیشتر یا کاهش تقسیم سود نیاز دارد.
+---
+<form class="tool-form" data-tool="sgr" onsubmit="return false">
+  <div class="field"><label for="roe">بازده حقوق صاحبان سهام ROE (درصد)</label><input class="input num" id="roe" value="24" inputmode="decimal"></div>
+  <div class="field"><label for="po">نسبت تقسیم سود (درصد)</label><input class="input num" id="po" value="30" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>نرخ رشد پایدار</span><b id="o-sgr">—</b></div>
+  <div><span>نسبت سود انباشته</span><b id="o-b">—</b></div>
+  <div><span>رشد با ROE × b</span><b id="o-simple">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

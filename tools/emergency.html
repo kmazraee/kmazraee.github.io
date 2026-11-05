@@ -1,0 +1,26 @@
+---
+layout: tool
+order: 8
+group: مالی شخصی
+title: "صندوق اضطراری"
+description: "برای چند ماه هزینه‌ی ضروری پس‌انداز نقدی لازم دارید و با پس‌انداز فعلی چقدر مانده تا هدف؟"
+method: |
+  مبلغ هدف = هزینه‌ی ماهانه‌ی ضروری × تعداد ماه هدف
+
+  کمبود = هدف − موجودی فعلی؛ زمان تکمیل = کمبود ÷ پس‌انداز ماهانه.
+
+  برای درآمد ثابت معمولاً ۳ تا ۶ ماه و برای درآمد نوسانی ۶ تا ۱۲ ماه هزینه‌ی ضروری توصیه می‌شود.
+---
+<form class="tool-form" data-tool="emergency" onsubmit="return false">
+  <div class="field"><label for="ex">هزینه‌ی ضروری ماهانه (میلیون تومان)</label><input class="input num" id="ex" value="25" inputmode="decimal"></div>
+  <div class="field"><label for="m">ماه‌های هدف</label><input class="input num" id="m" value="6" inputmode="decimal"></div>
+  <div class="field"><label for="cur">موجودی فعلی صندوق (میلیون تومان)</label><input class="input num" id="cur" value="40" inputmode="decimal"></div>
+  <div class="field"><label for="s">پس‌انداز ماهانه برای صندوق (میلیون تومان)</label><input class="input num" id="s" value="5" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>مبلغ هدف</span><b id="o-t">—</b></div>
+  <div><span>کمبود تا هدف</span><b id="o-gap">—</b></div>
+  <div><span>پوشش فعلی</span><b id="o-cov">—</b></div>
+  <div><span>زمان تکمیل</span><b id="o-time">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>

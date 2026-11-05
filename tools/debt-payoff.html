@@ -1,0 +1,27 @@
+---
+layout: tool
+order: 9
+group: مالی شخصی
+title: "زمان تسویه‌ی بدهی"
+description: "با یک قسط ماهانه‌ی مشخص، بدهی کی تمام می‌شود و چقدر سود می‌پردازید؟ اثر پرداخت اضافی را ببینید."
+method: |
+  ماه‌های لازم = −ln(۱ − بدهی × i ÷ قسط) ÷ ln(۱ + i)، با i نرخ ماهانه.
+
+  اگر قسط از سود ماهانه‌ی بدهی (بدهی × i) کمتر یا برابر باشد، بدهی هرگز تمام نمی‌شود.
+
+  با افزودن مبلغ اضافی به قسط، زمان و سود کل را دوباره حساب می‌کند.
+---
+<form class="tool-form" data-tool="debt-payoff" onsubmit="return false">
+  <div class="field"><label for="bal">مانده‌ی بدهی (تومان)</label><input class="input num" id="bal" value="200,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="rate">نرخ سود سالانه (درصد)</label><input class="input num" id="rate" value="36" inputmode="decimal"></div>
+  <div class="field"><label for="pay">قسط ماهانه (تومان)</label><input class="input num" id="pay" value="9,000,000" inputmode="decimal"></div>
+  <div class="field"><label for="extra">پرداخت اضافی ماهانه (تومان)</label><input class="input num" id="extra" value="3,000,000" inputmode="decimal"></div>
+</form>
+<div class="tool-out" aria-live="polite">
+  <div class="big"><span>زمان تسویه</span><b id="o-n">—</b></div>
+  <div><span>سود کل</span><b id="o-int">—</b></div>
+  <div><span>حداقل قسط برای کم‌شدن بدهی</span><b id="o-min">—</b></div>
+  <div><span>زمان با پرداخت اضافی</span><b id="o-n2">—</b></div>
+  <div><span>صرفه‌جویی در سود</span><b id="o-save">—</b></div>
+  <p class="note" id="o-note"></p>
+</div>
