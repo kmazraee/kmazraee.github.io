@@ -109,3 +109,62 @@
     - scenario-planning-excel-data-table
     - custom-number-format-financial-reports
     - audit-inherited-financial-model-excel
+
+- id: market-basics
+  title: اصول سرمایه‌گذاری در بازار
+  intro: قیمت و بازده اوراق، تنوع‌بخشی، حباب و سود تقسیمی؛ مفاهیمی که هر سرمایه‌گذار باید بداند.
+  posts:
+    - bond-price-yield-relationship
+    - lost-decade-stock-market-diversification
+    - index-fund-concentration-risk
+    - stock-market-bubble-signals-cape
+    - market-concentration-leverage-crash-signs
+    - yen-carry-trade-explained
+    - earnings-yield-price-quality-investing
+    - dividends-total-return-control
+- id: retirement
+  title: بازنشستگی و استقلال مالی
+  intro: از عدد استقلال مالی تا منبع درآمد بازنشستگی؛ برنامه‌ای که با عدد و محافظه‌کاری ساخته شود.
+  posts:
+    - spending-cut-fi-number-multiplier
+    - retirement-savings-median-vs-average
+    - intentional-conservatism-retirement-plan
+    - annuity-vs-flexible-retirement-income
+    - rule-72t-early-retirement-access
+    - tax-planning-levers-after-fi
+    - quarterly-net-worth-tracking-habit
+    - paid-off-home-opportunity-cost
+- id: investor-tax
+  title: مالیات برای سرمایه‌گذار
+  intro: برداشت زیان، سود سرمایه‌ای و تورم، مالیات هدیه و بخشودگی جریمه.
+  posts:
+    - tax-loss-harvesting-basics
+    - capital-gains-inflation-indexing
+    - gift-tax-annual-exclusion-myth
+    - tax-penalty-abatement-request
+- id: saas-metrics
+  title: شاخص‌های SaaS برای تحلیلگر
+  intro: ARR، NDR، LTV به CAC و حاشیه؛ تعریف‌ها، تفاوت‌ها و تفسیر درست.
+  posts:
+    - arr-definitions-saas-comparison
+    - ndr-definitions-public-saas
+    - ltv-cac-valuation-multiple-investors
+    - saas-benchmark-metrics-operators
+    - figma-s1-saas-rule-of-40-valuation
+    - revenue-leakage-causes-saas
+    - discounting-margin-impact-saas
+    - customer-success-ratio-ndr
+    - saas-margins-accounting-fiction
+    - software-pricing-six-waves
+- id: private-markets
+  title: جذب سرمایه و بازار خصوصی
+  intro: سرمایه‌گذار خطرپذیر، رقیق‌شدن، فروش ثانویه و معامله با سهام.
+  posts:
+    - using-investor-feedback-cfo
+    - know-your-vc-fund-strategies
+    - employee-tender-offer-secondary-sale
+    - sbc-dilution-talent-war
+    - valuation-not-a-scorecard
+    - all-stock-acquisition-currency
+    - public-vs-private-markets-liquidity
+    - investing-at-100x-arr-math
