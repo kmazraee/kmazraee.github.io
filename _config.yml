@@ -31,5 +31,5 @@ defaults:
   - scope: { path: "" }
     values: { layout: default }
 
-# Publish posts dated in the future (scheduled series)
-future: true
+# Posts dated in the future stay hidden until their date; the daily workflow rebuilds the site so they appear on time
+future: false

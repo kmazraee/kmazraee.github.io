@@ -1,0 +1,21 @@
+# Rebuilds the GitHub Pages site every day so posts with a future date
+# appear automatically once their date arrives.
+name: Daily site rebuild
+
+on:
+  schedule:
+    - cron: "17 0 * * *"   # 00:17 UTC (03:47 Tehran)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request a Pages build
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
