@@ -6,10 +6,11 @@
     <p>هر یادداشت تازه، در صندوق ایمیل شما. بدون تبلیغ؛ هر وقت خواستید لغوش کنید.</p>
   </div>
   {%- if site.kit_form_id and site.kit_form_id != "" %}
-  <form class="newsletter-form" action="https://app.kit.com/forms/{{ site.kit_form_id }}/subscriptions" method="post" target="_blank">
+  <form class="newsletter-form" action="https://app.kit.com/forms/{{ site.kit_form_id }}/subscriptions" method="post" target="_blank" data-newsletter-post>
     <label for="nl-email" class="sr">ایمیل</label>
     <input class="input" id="nl-email" type="email" name="email_address" placeholder="ایمیل شما" dir="ltr" required>
     <button class="btn btn-primary" type="submit">عضویت</button>
+    <p class="newsletter-done" role="status" hidden>تقریباً تمام شد؛ ایمیل تأیید را در صندوقتان باز کنید.</p>
   </form>
   {%- elsif site.newsletter_action and site.newsletter_action != "" %}
   <form class="newsletter-form" action="{{ site.newsletter_action }}" method="post" target="_blank" data-newsletter-post>
