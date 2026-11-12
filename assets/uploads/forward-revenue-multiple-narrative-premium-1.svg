@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="محاسبه EV به درآمد آتی در مثال عددی">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="56" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">از ارزش بازار تا ضریب درآمد آتی</text>
+<line x1="270" y1="74" x2="530" y2="74" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="590" y="120" width="150" height="110" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="665" y="165" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">ارزش بازار</text>
+<text x="665" y="200" text-anchor="middle" font-size="24" font-weight="700" fill="#2b6cb0">۱۰۰</text>
+<text x="570" y="185" text-anchor="middle" font-size="28" font-weight="700" fill="#718096">+</text>
+<rect x="400" y="120" width="150" height="110" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/>
+<text x="475" y="165" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">بدهی</text>
+<text x="475" y="200" text-anchor="middle" font-size="24" font-weight="700" fill="#c27803">۲۰</text>
+<text x="380" y="185" text-anchor="middle" font-size="28" font-weight="700" fill="#718096">−</text>
+<rect x="210" y="120" width="150" height="110" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="285" y="165" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">وجه نقد</text>
+<text x="285" y="200" text-anchor="middle" font-size="24" font-weight="700" fill="#2f855a">۳۰</text>
+<text x="190" y="185" text-anchor="middle" font-size="28" font-weight="700" fill="#718096">=</text>
+<rect x="30" y="120" width="140" height="110" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="100" y="165" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">EV</text>
+<text x="100" y="200" text-anchor="middle" font-size="24" font-weight="700" fill="#c53030">۹۰</text>
+<text x="400" y="285" text-anchor="middle" font-size="18" fill="#3d566e">تقسیم بر درآمد ۱۲ ماه آینده (۹)</text>
+<rect x="290" y="310" width="220" height="64" rx="14" fill="#16324f"/>
+<text x="400" y="352" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">ضریب ۱۰ برابر</text>
+</svg>

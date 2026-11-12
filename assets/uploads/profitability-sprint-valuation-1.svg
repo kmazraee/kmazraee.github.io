@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="حاشیه جریان نقد آزاد: منفی ۱۰، مثبت ۳ و هدف ۲۵ درصد">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="46" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">حاشیه جریان نقد آزاد؛ از زیان تا هدف</text>
+<line x1="260" y1="62" x2="540" y2="62" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<line x1="60" y1="240" x2="740" y2="240" stroke="#718096" stroke-width="2"/>
+<text x="90" y="262" text-anchor="middle" font-size="13" fill="#718096">خط صفر</text>
+<rect x="560" y="240" width="120" height="50" rx="6" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="620" y="318" text-anchor="middle" font-size="22" font-weight="700" fill="#c53030">منفی ۱۰٪</text>
+<text x="620" y="345" text-anchor="middle" font-size="15" fill="#3d566e">قبل از تلاش</text>
+<rect x="340" y="220" width="120" height="20" rx="6" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="400" y="200" text-anchor="middle" font-size="22" font-weight="700" fill="#2f855a">مثبت ۳٪</text>
+<text x="400" y="285" text-anchor="middle" font-size="15" fill="#3d566e">عبور از خط</text>
+<rect x="120" y="100" width="120" height="140" rx="6" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="180" y="90" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">هدف ۲۵٪</text>
+<text x="180" y="285" text-anchor="middle" font-size="15" fill="#3d566e">در مقیاس بزرگ</text>
+<text x="400" y="390" text-anchor="middle" font-size="15" fill="#3d566e">اعداد مثال هستند؛ نسبت‌ها از صنعتی به صنعت دیگر فرق می‌کنند</text>
+</svg>

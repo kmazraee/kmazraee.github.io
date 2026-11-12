@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مراحل ساخت مدل برنامه بلندمدت">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="84" text-anchor="middle" font-size="30" font-weight="700" fill="#16324f">پنج گام ساخت مدل LRP</text>
+<line x1="260" y1="104" x2="540" y2="104" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="636" y="150" width="134" height="170" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/><text x="703.0" y="229" text-anchor="middle" font-size="17" font-weight="700" fill="#16324f">فرض‌ها</text><text x="703.0" y="259" text-anchor="middle" font-size="13" fill="#3d566e">دفتر فرض‌ها</text><circle cx="703.0" cy="150" r="18" fill="#2b6cb0"/><text x="703.0" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">1</text>
+<text x="626.0" y="242" text-anchor="middle" font-size="16" fill="#718096">◂</text>
+<rect x="482" y="150" width="134" height="170" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/><text x="549.0" y="229" text-anchor="middle" font-size="17" font-weight="700" fill="#16324f">ظرفیت فروش</text><text x="549.0" y="259" text-anchor="middle" font-size="13" fill="#3d566e">هزینه، رمپ، پشتیبان</text><circle cx="549.0" cy="150" r="18" fill="#2f855a"/><text x="549.0" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">2</text>
+<text x="472.0" y="242" text-anchor="middle" font-size="16" fill="#718096">◂</text>
+<rect x="328" y="150" width="134" height="170" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/><text x="395.0" y="229" text-anchor="middle" font-size="17" font-weight="700" fill="#16324f">هزینه نیرو</text><text x="395.0" y="259" text-anchor="middle" font-size="13" fill="#3d566e">جدول نفرات</text><circle cx="395.0" cy="150" r="18" fill="#c27803"/><text x="395.0" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">3</text>
+<text x="318.0" y="242" text-anchor="middle" font-size="16" fill="#718096">◂</text>
+<rect x="174" y="150" width="134" height="170" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/><text x="241.0" y="229" text-anchor="middle" font-size="17" font-weight="700" fill="#16324f">سایر هزینه‌ها</text><text x="241.0" y="259" text-anchor="middle" font-size="13" fill="#3d566e">به ازای هر نفر</text><circle cx="241.0" cy="150" r="18" fill="#c53030"/><text x="241.0" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">4</text>
+<text x="164.0" y="242" text-anchor="middle" font-size="16" fill="#718096">◂</text>
+<rect x="20" y="150" width="134" height="170" rx="14" fill="#f1ebfa" stroke="#6b46c1" stroke-width="2"/><text x="87.0" y="229" text-anchor="middle" font-size="17" font-weight="700" fill="#16324f">جریان نقد</text><text x="87.0" y="259" text-anchor="middle" font-size="13" fill="#3d566e">حاشیه و سرمایه</text><circle cx="87.0" cy="150" r="18" fill="#6b46c1"/><text x="87.0" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">5</text>
+<text x="400" y="370" text-anchor="middle" font-size="15" fill="#3d566e">دقت بیشتر روی نیرو و ظرفیت فروش، سادگی در بقیه</text>
+</svg>

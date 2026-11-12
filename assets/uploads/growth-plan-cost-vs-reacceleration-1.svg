@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مقایسه نرخ رشد برنامه خوش‌بینانه و مسیر محتاطانه">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">نرخ رشد سالانه؛ پرش در برنامه چه شکلی است؟</text>
+<line x1="260" y1="60" x2="540" y2="60" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<line x1="80" y1="350" x2="720" y2="350" stroke="#718096" stroke-width="2"/>
+<g font-size="14" fill="#3d566e" text-anchor="middle"><text x="140" y="375">سال ۱</text><text x="260" y="375">سال ۲</text><text x="380" y="375">سال ۳</text><text x="500" y="375">سال ۴</text><text x="620" y="375">سال ۵</text></g>
+<polyline points="140,168 260,126 380,134 500,142 620,150" fill="none" stroke="#c53030" stroke-width="3"/>
+<polyline points="140,168 260,188 380,202 500,217 620,228" fill="none" stroke="#2f855a" stroke-width="3"/>
+<g fill="#c53030"><circle cx="140" cy="168" r="5"/><circle cx="260" cy="126" r="5"/><circle cx="380" cy="134" r="5"/><circle cx="500" cy="142" r="5"/><circle cx="620" cy="150" r="5"/></g>
+<g fill="#2f855a"><circle cx="260" cy="188" r="5"/><circle cx="380" cy="202" r="5"/><circle cx="500" cy="217" r="5"/><circle cx="620" cy="228" r="5"/></g>
+<g font-size="14" text-anchor="middle" font-weight="700"><text x="140" y="152" fill="#16324f">۵۰٪</text><text x="260" y="112" fill="#c53030">۶۵٪</text><text x="620" y="136" fill="#c53030">۵۰٪</text><text x="260" y="212" fill="#2f855a">۴۵٪</text><text x="620" y="252" fill="#2f855a">۳۴٪</text></g>
+<circle cx="700" cy="296" r="6" fill="#c53030"/><text x="610" y="301" text-anchor="middle" font-size="14" fill="#16324f">برنامه با شتاب ناگهانی</text>
+<circle cx="700" cy="320" r="6" fill="#2f855a"/><text x="610" y="325" text-anchor="middle" font-size="14" fill="#16324f">مسیر محتاطانه</text>
+</svg>

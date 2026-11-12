@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مقایسه درآمد تکرارشونده و دوباره‌رخ‌دهنده و سه پرسش کیفیت درآمد">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#16324f">کیفیت درآمد؛ پیش از ضرب‌کردن در ضریب</text>
+<line x1="250" y1="80" x2="550" y2="80" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="420" y="108" width="340" height="120" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="590" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">درآمد تکرارشونده</text>
+<text x="590" y="178" text-anchor="middle" font-size="15" fill="#3d566e">زمان و مبلغ ثابت</text>
+<text x="590" y="204" text-anchor="middle" font-size="15" fill="#3d566e">مثل اشتراک ماهانه</text>
+<rect x="40" y="108" width="340" height="120" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/>
+<text x="210" y="146" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">درآمد دوباره‌رخ‌دهنده</text>
+<text x="210" y="178" text-anchor="middle" font-size="15" fill="#3d566e">زمان و مبلغ نامنظم</text>
+<text x="210" y="204" text-anchor="middle" font-size="15" fill="#3d566e">مثل کارمزد یا مبتنی بر نتیجه</text>
+<rect x="540" y="262" width="220" height="110" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="650" y="308" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">حاشیه سود ناخالص</text>
+<text x="650" y="338" text-anchor="middle" font-size="14" fill="#3d566e">هزینه خدمت‌دهی چقدر است؟</text>
+<rect x="290" y="262" width="220" height="110" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="400" y="308" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">پیش‌بینی‌پذیری</text>
+<text x="400" y="338" text-anchor="middle" font-size="14" fill="#3d566e">چقدر نوسان دارد؟</text>
+<rect x="40" y="262" width="220" height="110" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="150" y="308" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">ماندگاری مشتری</text>
+<text x="150" y="338" text-anchor="middle" font-size="14" fill="#3d566e">چقدر می‌ماند؟</text>
+</svg>
