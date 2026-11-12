@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="سه گروه کاربر فعال و نرخ نگهداشت هر گروه">
+<rect width="800" height="380" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="364" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="56" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">کاربر فعال؛ سه گروه با سه نرخ نگهداشت</text>
+<rect x="520" y="90" width="240" height="150" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="640" y="128" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">جدید</text>
+<text x="640" y="160" text-anchor="middle" font-size="15" fill="#3d566e">۱۰٬۰۰۰ نفر</text>
+<text x="640" y="188" text-anchor="middle" font-size="15" fill="#3d566e">نگهداشت ۶۰ درصد</text>
+<text x="640" y="216" text-anchor="middle" font-size="15" fill="#3d566e">ماندگار ۶٬۰۰۰</text>
+<rect x="280" y="90" width="230" height="150" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="395" y="128" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">فعلی</text>
+<text x="395" y="160" text-anchor="middle" font-size="15" fill="#3d566e">۴٬۰۰۰ نفر</text>
+<text x="395" y="188" text-anchor="middle" font-size="15" fill="#3d566e">نگهداشت ۹۰ درصد</text>
+<text x="395" y="216" text-anchor="middle" font-size="15" fill="#3d566e">ماندگار ۳٬۶۰۰</text>
+<rect x="40" y="90" width="230" height="150" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/>
+<text x="155" y="128" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">بازگشتی</text>
+<text x="155" y="160" text-anchor="middle" font-size="15" fill="#3d566e">۵۰۰ نفر</text>
+<text x="155" y="188" text-anchor="middle" font-size="15" fill="#3d566e">نگهداشت ۴۰ درصد</text>
+<text x="155" y="216" text-anchor="middle" font-size="15" fill="#3d566e">ماندگار ۲۰۰</text>
+<rect x="40" y="274" width="720" height="68" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="400" y="316" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">کاربران فعال ماه بعد: ۹٬۸۰۰ نفر + ورودی‌های تازه</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="ده اصل OKR و نقش تیم مالی">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="58" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">ده اصل OKR و نقش تیم مالی</text>
+<line x1="250" y1="76" x2="550" y2="76" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="40" y="110" width="220" height="90" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/><text x="150" y="148" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">محدود و دقیق</text><text x="150" y="178" text-anchor="middle" font-size="15" fill="#3d566e">اصل ۱ تا ۳</text>
+<rect x="290" y="110" width="220" height="90" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/><text x="400" y="148" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">مرتبط و هماهنگ</text><text x="400" y="178" text-anchor="middle" font-size="15" fill="#3d566e">اصل ۴ تا ۶</text>
+<rect x="540" y="110" width="220" height="90" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/><text x="650" y="148" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">ریتم و پاسخ‌گویی</text><text x="650" y="178" text-anchor="middle" font-size="15" fill="#3d566e">اصل ۷ تا ۱۰</text>
+<rect x="40" y="250" width="720" height="110" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/><text x="400" y="288" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">تیم مالی؛ پل میان راهبرد و اجرا</text><text x="400" y="318" text-anchor="middle" font-size="15" fill="#3d566e">اتصال هر نتیجه‌ی کلیدی به بودجه و گزارش ماهانه</text>
+</svg>

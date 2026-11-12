@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مقایسه رشد و نرخ بازگشت درآمد خالص بر اساس اندازه قرارداد و نوع SaaS">
+<rect width="800" height="440" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="424" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="54" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">بنچمارک رشد SaaS؛ اندازه قرارداد و نوع محصول</text>
+<line x1="250" y1="70" x2="550" y2="70" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<text x="760" y="108" text-anchor="start" font-size="18" font-weight="700" fill="#16324f">رشد سالانه به تفکیک ارزش سالانه قرارداد</text>
+<text x="760" y="151" text-anchor="start" font-size="15" fill="#3d566e">۵ تا ۱۰ هزار دلار</text>
+<rect x="390" y="134" width="170" height="22" rx="5" fill="#c27803"/>
+<text x="382" y="151" text-anchor="start" font-size="15" font-weight="700" fill="#16324f">۳۴٪</text>
+<text x="760" y="190" text-anchor="start" font-size="15" fill="#3d566e">۱۰۰ تا ۲۵۰ هزار دلار</text>
+<rect x="335" y="174" width="225" height="22" rx="5" fill="#2f855a"/>
+<text x="327" y="191" text-anchor="start" font-size="15" font-weight="700" fill="#16324f">۴۵٪</text>
+<text x="760" y="248" text-anchor="start" font-size="18" font-weight="700" fill="#16324f">رشد میانه؛ عمودی در برابر افقی</text>
+<text x="760" y="290" text-anchor="start" font-size="15" fill="#3d566e">SaaS افقی</text>
+<rect x="420" y="274" width="140" height="22" rx="5" fill="#c27803"/>
+<text x="412" y="291" text-anchor="start" font-size="15" font-weight="700" fill="#16324f">۲۸٪</text>
+<text x="760" y="330" text-anchor="start" font-size="15" fill="#3d566e">SaaS عمودی</text>
+<rect x="335" y="314" width="225" height="22" rx="5" fill="#2f855a"/>
+<text x="327" y="331" text-anchor="start" font-size="15" font-weight="700" fill="#16324f">۴۵٪</text>
+<rect x="40" y="108" width="220" height="110" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="150" y="146" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">نرخ بازگشت درآمد خالص</text>
+<text x="150" y="178" text-anchor="middle" font-size="15" fill="#3d566e">قرارداد کوچک: ۱۰۰٪</text>
+<text x="150" y="202" text-anchor="middle" font-size="15" fill="#3d566e">قرارداد بزرگ: ۱۱۳٪</text>
+<rect x="40" y="250" width="220" height="110" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="150" y="288" text-anchor="middle" font-size="16" font-weight="700" fill="#16324f">بالای ۵۰ میلیون ARR</text>
+<text x="150" y="318" text-anchor="middle" font-size="15" fill="#3d566e">میانه: ۱۵٪ رشد</text>
+<text x="150" y="342" text-anchor="middle" font-size="15" fill="#3d566e">چارک بالا: ۲۵٪ رشد</text>
+<text x="400" y="404" text-anchor="middle" font-size="13" fill="#6b7f92">اعداد نمونه‌ی یک گزارش بنچمارک ۲۰۲۴ است؛ برای مقایسه، تعریف‌ها را بررسی کنید.</text>
+</svg>

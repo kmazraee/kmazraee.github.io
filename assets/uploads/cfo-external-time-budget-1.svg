@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="چهار گام ساخت فهرست کوتاه روابط بیرونی مدیر مالی">
+<rect width="800" height="400" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="384" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="60" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">از سیل دعوت‌ها تا فهرست کوتاه</text>
+<line x1="250" y1="76" x2="550" y2="76" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="580" y="105" width="190" height="130" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="675" y="140" text-anchor="middle" font-size="18" font-weight="700" fill="#16324f">۱. شرکت‌های مشابه</text>
+<text x="675" y="172" text-anchor="middle" font-size="14" fill="#3d566e">فهرست رقبا و</text>
+<text x="675" y="194" text-anchor="middle" font-size="14" fill="#3d566e">الگوهای بورسی</text>
+<rect x="390" y="105" width="170" height="130" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="475" y="140" text-anchor="middle" font-size="18" font-weight="700" fill="#16324f">۲. پوشش تحلیلگر</text>
+<text x="475" y="172" text-anchor="middle" font-size="14" fill="#3d566e">کدام بانک‌ها</text>
+<text x="475" y="194" text-anchor="middle" font-size="14" fill="#3d566e">تحلیلگر دارند؟</text>
+<rect x="210" y="105" width="160" height="130" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="290" y="140" text-anchor="middle" font-size="18" font-weight="700" fill="#16324f">۳. عرضه‌ی اولیه</text>
+<text x="290" y="172" text-anchor="middle" font-size="14" fill="#3d566e">چه بانکی</text>
+<text x="290" y="194" text-anchor="middle" font-size="14" fill="#3d566e">عرضه را هدایت کرد؟</text>
+<rect x="30" y="105" width="160" height="130" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="110" y="140" text-anchor="middle" font-size="18" font-weight="700" fill="#16324f">۴. افراد کلیدی</text>
+<text x="110" y="172" text-anchor="middle" font-size="14" fill="#3d566e">رابطه با آدم‌ها،</text>
+<text x="110" y="194" text-anchor="middle" font-size="14" fill="#3d566e">نه با آرم</text>
+<path d="M400 250 L400 285" stroke="#2f855a" stroke-width="3"/>
+<rect x="190" y="290" width="420" height="70" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="400" y="320" text-anchor="middle" font-size="19" font-weight="700" fill="#16324f">فهرست کوتاه + دو تا سه روز در فصل</text>
+<text x="400" y="344" text-anchor="middle" font-size="14" fill="#3d566e">رابطه‌های عمیق به‌جای دعوت‌های پراکنده</text>
+</svg>

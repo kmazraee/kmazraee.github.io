@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مقایسه تغییر تعریف شاخص با ریشه‌یابی واقعی">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="60" text-anchor="middle" font-size="28" font-weight="700" fill="#16324f">عدد بد؛ دو واکنش ممکن</text>
+<line x1="250" y1="78" x2="550" y2="78" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="420" y="105" width="340" height="270" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="590" y="145" text-anchor="middle" font-size="21" font-weight="700" fill="#16324f">تغییر تعریف شاخص</text>
+<text x="590" y="190" text-anchor="middle" font-size="16" fill="#3d566e">حذف مشتریان کم‌خرج</text>
+<text x="590" y="225" text-anchor="middle" font-size="16" fill="#3d566e">ریزش ۱۰٪ ← ۸٪</text>
+<text x="590" y="260" text-anchor="middle" font-size="16" fill="#3d566e">مشتری‌ها همچنان می‌روند</text>
+<text x="590" y="320" text-anchor="middle" font-size="17" font-weight="700" fill="#c53030">مشکل پنهان می‌ماند</text>
+<rect x="40" y="105" width="340" height="270" rx="14" fill="#e9f7ef" stroke="#2f855a" stroke-width="2"/>
+<text x="210" y="145" text-anchor="middle" font-size="21" font-weight="700" fill="#16324f">ریشه‌یابی واقعی</text>
+<text x="210" y="190" text-anchor="middle" font-size="16" fill="#3d566e">۱. بخش‌بندی داده</text>
+<text x="210" y="225" text-anchor="middle" font-size="16" fill="#3d566e">۲. بررسی مسیر مشتری</text>
+<text x="210" y="260" text-anchor="middle" font-size="16" fill="#3d566e">۳. محک متناسب با مدل</text>
+<text x="210" y="320" text-anchor="middle" font-size="17" font-weight="700" fill="#2f855a">علت اصلاح می‌شود</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="مثال عددی: میانگین درآمد هر مشتری با ورود یک مشتری بزرگ سه برابر می‌شود در حالی که مشتریان قبلی تغییری نکرده‌اند">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="56" text-anchor="middle" font-size="26" font-weight="700" fill="#16324f">وقتی میانگین گمراه می‌کند (ARPU)</text>
+<line x1="250" y1="74" x2="550" y2="74" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="420" y="100" width="340" height="170" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="590" y="136" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">ژانویه</text>
+<text x="590" y="170" text-anchor="middle" font-size="15" fill="#3d566e">۱۰ مشتری، هرکدام ۲۳۰ دلار</text>
+<text x="590" y="198" text-anchor="middle" font-size="15" fill="#3d566e">درآمد کل: ۲٬۳۰۰ دلار</text>
+<text x="590" y="238" text-anchor="middle" font-size="22" font-weight="700" fill="#2b6cb0">ARPU = ۲۳۰</text>
+<rect x="40" y="100" width="340" height="170" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/>
+<text x="210" y="136" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">فوریه</text>
+<text x="210" y="170" text-anchor="middle" font-size="15" fill="#3d566e">همان ۱۰ مشتری + یک مشتری ۴٬۰۰۰ دلاری</text>
+<text x="210" y="198" text-anchor="middle" font-size="15" fill="#3d566e">درآمد کل: ۶٬۳۰۰ دلار (۱۱ مشتری)</text>
+<text x="210" y="238" text-anchor="middle" font-size="22" font-weight="700" fill="#c27803">ARPU ≈ ۵۷۳</text>
+<rect x="40" y="298" width="720" height="82" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="400" y="334" text-anchor="middle" font-size="18" font-weight="700" fill="#16324f">ARPU بیش از دو برابر شد، اما ده مشتری قبلی هیچ تغییری نکرده‌اند</text>
+<text x="400" y="362" text-anchor="middle" font-size="15" fill="#3d566e">میانگین، تمرکز درآمد روی یک مشتری را پنهان می‌کند</text>
+</svg>

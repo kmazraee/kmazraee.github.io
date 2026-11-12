@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" direction="rtl" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" role="img" aria-label="سه الگوی افت قیمت پس از عرضه اولیه">
+<rect width="800" height="420" rx="18" fill="#ffffff"/>
+<rect x="8" y="8" width="784" height="404" rx="14" fill="none" stroke="#d5dee8" stroke-width="2"/>
+<text x="400" y="60" text-anchor="middle" font-size="28" font-weight="700" fill="#16324f">سه الگوی افت پس از عرضه اولیه</text>
+<line x1="250" y1="78" x2="550" y2="78" stroke="#2b6cb0" stroke-width="3" stroke-linecap="round"/>
+<rect x="540" y="110" width="220" height="250" rx="14" fill="#fdecef" stroke="#c53030" stroke-width="2"/>
+<text x="650" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">سوخت سنگین</text>
+<text x="650" y="195" text-anchor="middle" font-size="15" fill="#3d566e">هزینه جذب برابر درآمد</text>
+<text x="650" y="225" text-anchor="middle" font-size="15" fill="#3d566e">بازار شلوغ، ریزش زیاد</text>
+<text x="650" y="310" text-anchor="middle" font-size="15" font-weight="700" fill="#c53030">مسیر سود را نشان دهید</text>
+<rect x="290" y="110" width="220" height="250" rx="14" fill="#fff4e0" stroke="#c27803" stroke-width="2"/>
+<text x="400" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">تمرکز مشتری</text>
+<text x="400" y="195" text-anchor="middle" font-size="15" fill="#3d566e">چند مشتری بزرگ</text>
+<text x="400" y="225" text-anchor="middle" font-size="15" fill="#3d566e">کاهش مصرف یکی = شوک</text>
+<text x="400" y="310" text-anchor="middle" font-size="15" font-weight="700" fill="#c27803">درآمد را متنوع کنید</text>
+<rect x="40" y="110" width="220" height="250" rx="14" fill="#e8f1fb" stroke="#2b6cb0" stroke-width="2"/>
+<text x="150" y="150" text-anchor="middle" font-size="20" font-weight="700" fill="#16324f">رقابت با غول‌ها</text>
+<text x="150" y="195" text-anchor="middle" font-size="15" fill="#3d566e">رقیب بزرگ بسته‌بندی می‌کند</text>
+<text x="150" y="225" text-anchor="middle" font-size="15" fill="#3d566e">قیمت پایین‌تر</text>
+<text x="150" y="310" text-anchor="middle" font-size="15" font-weight="700" fill="#2b6cb0">مزیت منحصربه‌فرد بسازید</text>
+</svg>
