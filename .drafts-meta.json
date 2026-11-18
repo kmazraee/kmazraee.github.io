@@ -1,58 +1,62 @@
-{
- "posts": [
-  {
-   "file": "_posts/2028-05-30-core-vs-headline-inflation-fed.md",
-   "threadId": "18abd0db82cf0c89",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "تورم هسته"
-  },
-  {
-   "file": "_posts/2028-06-01-government-shutdown-stock-market-impact.md",
-   "threadId": "18ad76be7824b16c",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "تعطیلی دولت"
-  },
-  {
-   "file": "_posts/2028-06-03-inflation-savings-erosion-budget-cuts.md",
-   "threadId": "18b1eb44d3b7e641",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "هزینه‌های خانوار و تورم"
-  },
-  {
-   "file": "_posts/2028-06-05-market-crash-action-plan-investors.md",
-   "threadId": "196357e3fbd8af1f",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "سقوط بازار سهام"
-  },
-  {
-   "file": "_posts/2028-06-07-net-worth-milestones-financial-freedom.md",
-   "threadId": "196a162f0835ea89",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "مراحل ثروت"
-  },
-  {
-   "file": "_posts/2028-06-09-market-expectations-forward-guidance-risk.md",
-   "threadId": "195c848c5f9b12e5",
-   "sourceLabel": "Graham Stephan",
-   "keyword": "انتظارات بازار"
-  },
-  {
-   "file": "_posts/2028-06-11-cost-basis-method-taxable-account.md",
-   "threadId": "1989dc8d64975d51",
-   "sourceLabel": "ChooseFI",
-   "keyword": "روش مبنای هزینه سهام"
-  },
-  {
-   "file": "_posts/2028-06-13-rental-one-percent-fifty-percent-rule.md",
-   "threadId": "198e5e176313a36a",
-   "sourceLabel": "ChooseFI",
-   "keyword": "قاعده یک درصد ملک اجاره‌ای"
-  },
-  {
-   "file": "_posts/2028-06-15-half-fi-seventy-five-percent-time.md",
-   "threadId": "19855aec69ee7fc6",
-   "sourceLabel": "ChooseFI",
-   "keyword": "نیمه‌راه استقلال مالی"
-  }
- ]
-}
+[
+ {
+  "file": "2028-06-17-legal-ways-to-reduce-your-taxes.md",
+  "thread": "18d4218c516ebf1e",
+  "label": "",
+  "keyword": "کاهش قانونی مالیات"
+ },
+ {
+  "file": "2028-06-19-how-much-house-can-you-afford.md",
+  "thread": "194840778cf1389b",
+  "label": "",
+  "keyword": ""
+ },
+ {
+  "file": "2028-06-21-car-loan-20-40-10-rule.md",
+  "thread": "197c11250c158e64",
+  "label": "",
+  "keyword": "خرید خودرو با وام"
+ },
+ {
+  "file": "2028-06-23-rental-property-one-percent-rule.md",
+  "thread": "198e5e176313a36a",
+  "label": "",
+  "keyword": "قاعده ۱ درصد ملک اجاره‌ای"
+ },
+ {
+  "file": "2028-06-25-save-ten-thousand-dollars-plan.md",
+  "thread": "1989ac26431c3c28",
+  "label": "",
+  "keyword": "برنامه پس‌انداز"
+ },
+ {
+  "file": "2028-06-27-home-ownership-true-cost-rent-vs-buy.md",
+  "thread": "19905976b7a3368e",
+  "label": "",
+  "keyword": "هزینه واقعی خرید خانه"
+ },
+ {
+  "file": "2028-06-29-taxable-account-vs-tax-deduction-flexibility.md",
+  "thread": "1992dfad1b7a20e9",
+  "label": "",
+  "keyword": "حساب مشمول مالیات"
+ },
+ {
+  "file": "2028-07-01-fifty-year-mortgage-payment-home-price.md",
+  "thread": "19ababae011ee3c8",
+  "label": "",
+  "keyword": "وام مسکن ۵۰ ساله"
+ },
+ {
+  "file": "2028-07-03-get-rich-with-index-funds.md",
+  "thread": "19ba3704587eea26",
+  "label": "",
+  "keyword": "ثروتمند شدن با صندوق شاخصی"
+ },
+ {
+  "file": "2028-07-05-roth-vs-traditional-retirement-account.md",
+  "thread": "19bff2b778b0cb80",
+  "label": "",
+  "keyword": "حساب بازنشستگی روث و سنتی"
+ }
+]
