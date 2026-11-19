@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" direction="rtl" font-family="Tahoma, Vazirmatn, sans-serif">
+<rect width="800" height="360" fill="#f8fafc"/>
+<text x="400" y="38" font-size="20" font-weight="bold" text-anchor="middle" fill="#0f172a">سه سطح استفاده از هوش مصنوعی در کار مالی</text>
+<g>
+<rect x="540" y="70" width="220" height="250" rx="12" fill="#e0f2fe" stroke="#0284c7"/>
+<text x="650" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#075985">سطح ۱: کپی و پرسش</text>
+<text x="650" y="140" font-size="14" text-anchor="middle" fill="#0f172a">داده را خودتان کپی می‌کنید</text>
+<text x="650" y="170" font-size="14" text-anchor="middle" fill="#0f172a">پاسخ را خودتان برمی‌گردانید</text>
+<text x="650" y="215" font-size="14" text-anchor="middle" fill="#475569">انسان = پیک داده</text>
+</g>
+<g>
+<rect x="290" y="70" width="220" height="250" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+<text x="400" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#166534">سطح ۲: یک ابزار متصل</text>
+<text x="400" y="140" font-size="14" text-anchor="middle" fill="#0f172a">دستیار مستقیم از یک نرم‌افزار</text>
+<text x="400" y="170" font-size="14" text-anchor="middle" fill="#0f172a">اطلاعات را می‌خواند</text>
+<text x="400" y="215" font-size="14" text-anchor="middle" fill="#475569">بدون خروجی‌گرفتن دستی</text>
+</g>
+<g>
+<rect x="40" y="70" width="220" height="250" rx="12" fill="#fef3c7" stroke="#d97706"/>
+<text x="150" y="100" font-size="16" font-weight="bold" text-anchor="middle" fill="#92400e">سطح ۳: چند ابزار با هم</text>
+<text x="150" y="140" font-size="14" text-anchor="middle" fill="#0f172a">ایمیل، فایل، حسابداری</text>
+<text x="150" y="170" font-size="14" text-anchor="middle" fill="#0f172a">و پرداخت در یک جریان</text>
+<text x="150" y="215" font-size="14" text-anchor="middle" fill="#475569">پیش‌نویس‌کردن و در صورت</text>
+<text x="150" y="240" font-size="14" text-anchor="middle" fill="#475569">تأیید، اقدام</text>
+</g>
+</svg>
