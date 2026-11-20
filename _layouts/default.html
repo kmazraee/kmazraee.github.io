@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{%- comment -%}Security: the CSP below allows only this site's own files plus Cloudflare analytics and the newsletter form. If you edit the inline theme script, update its sha256 hash here too.{%- endcomment -%}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-QTKUewccu4vymS6kCMDNSDtay0EPB0g5P4r34XDZfdQ=' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://cloudflareinsights.com https://docs.google.com https://app.kit.com; form-action 'self' https://docs.google.com https://app.kit.com; base-uri 'self'; object-src 'none'; frame-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 {%- assign seo_url = page.url | replace: 'index.html', '' | absolute_url -%}
 {%- capture seo_desc -%}{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}{%- endcapture -%}
 {%- assign seo_article = false -%}
