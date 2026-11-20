@@ -1,6 +1,8 @@
 (function () {
   var form = document.querySelector('.tool-form');
   if (!form) return;
+  // Calculators update live; never let Enter submit and reload the page.
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
   var $ = function (id) { return document.getElementById(id); };
 
   // Accept Persian/Arabic digits, thousands separators and the Persian decimal mark.
