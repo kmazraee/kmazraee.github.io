@@ -12,6 +12,9 @@ kit_form_id: ""
 # Newsletter form endpoint (empty: the box opens a ready email to site.email; hidden when both are empty)
 newsletter_action: ""
 newsletter_field: "email"
+# Site assistant (Google Gemini through the Cloudflare Worker in worker/). Empty: the assistant is hidden.
+# "/api/ask" when the Worker runs on this domain, or the full https address of the Worker.
+ai_endpoint: ""
 email: ""
 phone: ""
 linkedin: ""
@@ -24,7 +27,7 @@ plugins:
 permalink: /posts/:year/:month/:day/:title/
 words_per_minute: 200
 markdown: kramdown
-exclude: [README.md, .pages.yml, Gemfile, Gemfile.lock, vendor]
+exclude: [README.md, .pages.yml, Gemfile, Gemfile.lock, vendor, worker]
 defaults:
   - scope: { path: "", type: posts }
     values: { layout: post }

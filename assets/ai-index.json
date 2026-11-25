@@ -1,0 +1,24 @@
+---
+layout: null
+sitemap: false
+---
+{%- comment -%}
+Search index for the site assistant. The browser downloads it only when a visitor opens the assistant,
+finds the pages that best match the question, and sends their addresses to the assistant service,
+which reads those pages from this site itself. u: address, t: title, d: description, k: category and tags.
+{%- endcomment -%}
+[
+{%- for p in site.posts -%}
+{"u":{{ p.url | jsonify }},"t":{{ p.title | jsonify }},"d":{{ p.description | default: p.excerpt | strip_html | strip_newlines | truncate: 220 | jsonify }},"k":{{ p.tags | unshift: p.category | join: " " | jsonify }}},
+{%- endfor -%}
+{%- assign tools = site.pages | where: "layout", "tool" -%}
+{%- for p in tools -%}
+{"u":{{ p.url | jsonify }},"t":{{ p.title | prepend: "ابزار: " | jsonify }},"d":{{ p.description | jsonify }},"k":{{ p.group | append: " ابزار محاسبه ماشین حساب" | jsonify }}},
+{%- endfor -%}
+{%- for g in site.data.glossary -%}
+{"u":{{ g.id | prepend: "/glossary/#" | jsonify }},"t":{{ g.fa | append: " (" | append: g.en | append: ")" | prepend: "واژه‌نامه: " | jsonify }},"d":{{ g.def | jsonify }},"k":"واژه تعریف معنی"},
+{%- endfor -%}
+{%- for path in site.data.paths -%}
+{"u":{{ path.id | prepend: "/paths/#" | jsonify }},"t":{{ path.title | prepend: "مسیر خواندن: " | jsonify }},"d":{{ path.intro | jsonify }},"k":"مسیر شروع یادگیری"}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]
