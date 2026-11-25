@@ -1,0 +1,38 @@
+# Deploys the site assistant (worker/) to Cloudflare and checks that it answers.
+# Needs two repository secrets (Settings > Secrets and variables > Actions):
+#   CLOUDFLARE_API_TOKEN  a Cloudflare API token from the "Edit Cloudflare Workers" template
+#   GEMINI_API_KEY        the key from Google AI Studio
+# Optional secret CLOUDFLARE_ACCOUNT_ID, only if the token can see more than one account.
+name: Deploy site assistant
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["worker/**"]
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy the Worker and store the Gemini key as its secret
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: worker
+          secrets: |
+            GEMINI_API_KEY
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: Ask the assistant one test question
+        run: |
+          sleep 20
+          curl -sS -m 60 -X POST https://kmazraee.ir/api/ask \
+            -H 'Origin: https://kmazraee.ir' -H 'Content-Type: application/json' \
+            -d '{"q":"WACC چیست؟ در دو جمله بگو.","refs":["/tools/wacc/"]}' -w '\nHTTP %{http_code}\n' | tee answer.txt
+          grep -q 'HTTP 200' answer.txt
