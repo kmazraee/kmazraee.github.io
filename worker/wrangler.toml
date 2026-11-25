@@ -1,0 +1,20 @@
+# Only needed if you deploy from the command line (npx wrangler deploy).
+# Deploying by pasting worker.js into the Cloudflare dashboard needs none of this.
+name = "site-assistant"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+# Serve the assistant on the site's own domain, so the browser talks only to kmazraee.ir
+routes = [{ pattern = "kmazraee.ir/api/*", zone_name = "kmazraee.ir" }]
+
+[vars]
+SITE_ORIGIN = "https://kmazraee.ir"
+GEMINI_MODEL = "gemini-flash-latest"
+
+# At most 8 questions per minute from one visitor
+[[ratelimits]]
+name = "RATE_LIMITER"
+namespace_id = "1001"
+simple = { limit = 8, period = 60 }
+
+# The key is set as a secret, never here:  npx wrangler secret put GEMINI_API_KEY
