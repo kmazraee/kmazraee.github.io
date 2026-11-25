@@ -14,7 +14,7 @@ newsletter_action: ""
 newsletter_field: "email"
 # Site assistant (Google Gemini through the Cloudflare Worker in worker/). Empty: the assistant is hidden.
 # "/api/ask" when the Worker runs on this domain, or the full https address of the Worker.
-ai_endpoint: ""
+ai_endpoint: "/api/ask"
 email: ""
 phone: ""
 linkedin: ""
