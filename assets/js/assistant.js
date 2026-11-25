@@ -91,9 +91,20 @@
       .replace(/\*\*([^*]+)\*\*/g, '<b>$1</b>')
       .replace(/`([^`]+)`/g, '<code>$1</code>');
   }
+  // the model sometimes writes LaTeX formulas; turn the common parts into plain text
+  function plainMath(t) {
+    for (var i = 0; i < 3; i++) t = t.replace(/\\(?:d?frac)\s*\{([^{}]*)\}\s*\{([^{}]*)\}/g, '($1) ÷ ($2)');
+    return t
+      .replace(/\\(?:text|textbf|mathrm|mathbf|operatorname)\s*\{([^{}]*)\}/g, '$1')
+      .replace(/\\times/g, '×').replace(/\\cdot/g, '·').replace(/\\div/g, '÷').replace(/\\pm/g, '±')
+      .replace(/\\(?:leq|le)\b/g, '≤').replace(/\\(?:geq|ge)\b/g, '≥').replace(/\\neq/g, '≠').replace(/\\approx/g, '≈')
+      .replace(/\\sum/g, 'Σ').replace(/\\(?:left|right|displaystyle)/g, '').replace(/\\[,;! ]/g, ' ')
+      .replace(/\\[\[\]()]/g, '').replace(/\$\$?/g, '').replace(/\\%/g, '%')
+      .replace(/([_^])\{([^{}]*)\}/g, '$1$2');
+  }
   function md(text) {
     var html = '', list = null;
-    esc(text).split('\n').forEach(function (line) {
+    esc(plainMath(text)).split('\n').forEach(function (line) {
       var m = line.match(/^\s*(?:[-*•]|(\d+|[۰-۹]+)[.)])\s+(.*)$/);
       if (m) {
         var tag = m[1] ? 'ol' : 'ul';
