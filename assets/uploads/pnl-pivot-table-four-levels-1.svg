@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" direction="rtl" font-family="Tahoma, Vazirmatn, sans-serif">
+<rect width="800" height="420" fill="#fafafa"/>
+<text x="780" y="36" text-anchor="start" font-size="20" font-weight="bold" fill="#222">چهار سطح گزارش سود و زیان با جدول محوری</text>
+<g font-size="15" fill="#222">
+<rect x="60" y="300" width="720" height="70" rx="8" fill="#e3f2fd" stroke="#1e88e5"/>
+<text x="765" y="328" text-anchor="start" font-weight="bold">سطح ۱ · کاوش در دفتر کل</text>
+<text x="765" y="352" text-anchor="start">حساب در سطر، ماه در ستون، دوبار کلیک روی عدد برای دیدن تراکنش‌ها</text>
+<rect x="60" y="220" width="720" height="70" rx="8" fill="#e8f5e9" stroke="#43a047"/>
+<text x="765" y="248" text-anchor="start" font-weight="bold">سطح ۲ · شکل گزارش واقعی</text>
+<text x="765" y="272" text-anchor="start">بخش، گروه خلاصه و حساب + برش‌دهنده‌ی دپارتمان و خط زمان</text>
+<rect x="60" y="140" width="720" height="70" rx="8" fill="#fff8e1" stroke="#f9a825"/>
+<text x="765" y="168" text-anchor="start" font-weight="bold">سطح ۳ · جمع‌های میانی و مقایسه</text>
+<text x="765" y="192" text-anchor="start">سود ناخالص و سود خالص به‌صورت ردیف در داده‌ی مبدأ + تغییر نسبت به ماه قبل</text>
+<rect x="60" y="60" width="720" height="70" rx="8" fill="#f3e5f5" stroke="#8e24aa"/>
+<text x="765" y="88" text-anchor="start" font-weight="bold">سطح ۴ · مدل داده و اندازه‌گیری</text>
+<text x="765" y="112" text-anchor="start">واقعی، بودجه و نگاشت حساب‌ها با رابطه؛ سود و حاشیه با DAX</text>
+</g>
+<text x="780" y="400" text-anchor="start" font-size="13" fill="#666">هر سطح مشکلی را حل می‌کند که سطح پایین‌تر نمی‌تواند</text>
+</svg>
